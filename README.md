@@ -9,4 +9,4 @@
 
 ## Support 
 
-[https://discord.gg/xCESP5p53](https://discord.gg/xCESP5p53)
+[community](https://discord.gg/xCESP5p53)
