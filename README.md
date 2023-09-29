@@ -7,7 +7,7 @@
 | 25.2.5.13   | ![Updated](https://via.placeholder.com/10/228B22?text=+) Updated | 13.09      |
 | 25.2.5.1    | ![Updated](https://via.placeholder.com/10/228B22?text=+) Updated | 6.09       |
 
-## Offsets
+## Offsets 
 
 | Name      | Value                                    |
 | --------- | ---------------------------------------- |
@@ -16,6 +16,8 @@
 | Uworld    |  0x9af0af8 |
 | Gobject   |  0x9aaf7f0 |
 | Decrypt   |  0x840bc28 |
+
+Offsets folder SDK_Dump-class
 
 ## Support
 
