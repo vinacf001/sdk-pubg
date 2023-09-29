@@ -1,0 +1,123 @@
+uint64_t GWorld2 = 0x968fa78;
+uint64_t Decrypt = 0x7faa128;
+uint64_t GNames = 0x98807d0;
+uint32_t ElementsPerChunk = 0x41fc;
+uint64_t GObjects = 0x964e770;
+uint64_t Bucksack status = 0x96a3730;
+uint64_t Bucksack status = 0x98b5ba3;
+uint64_t Judgment Hall = 0x9492578;
+uint64_t LocalPlayersPTR = 0x97d1420;
+uint64_t LineTraceSingle = 0x615e76c;
+
+ // Decrypt  
+
+uint32_t ObjID = 0x20;
+uint64_t NameIndexXor1 = 0xe9950fb3;
+uint32_t NameIndexOne = 0xd;
+uint32_t NameIndexTwo = 0x10;
+uint64_t NameIndexXor2 = 0x26e6ac47;
+uint32_t NameIsROR = 0x1;
+
+ // Actors  
+
+uint32_t BoneArry1 = 0x2d0;
+uint32_t CurrentLevel = 0x8e0;
+uint32_t GameInstance = 0x760;
+uint32_t LocalPlayers = 0xc0;
+uint32_t Actors = 0x60;
+uint32_t ActorsForGC = 0x178;
+uint32_t SurvivalLevel = 0xcfc;
+uint32_t PlayerController = 0x30;
+uint32_t AcknowledgedPawn = 0x488;
+uint32_t PlayerCameraManager = 0x4a8;
+uint32_t RootComponent = 0x2c0;
+uint32_t PlayerState = 0x420;
+
+ // Camera 
+
+uint32_t StaticMesh = 0xb00;
+uint32_t WorldToMap = 0x9d8;
+uint32_t Component Location Position = 0x2e0;
+uint32_t Component Velocity Position = 0x244;
+uint32_t DefaultFOV = 0xc4c;
+uint32_t CameraCache = 0x1710;
+uint32_t CameraFov = 0x173c;
+uint32_t CameraRot = 0x1724;
+uint32_t CameraPos = 0x1730;
+
+ // Character 
+
+uint32_t Mesh = 0x4b0;
+uint32_t Health = 0x878;
+uint32_t HealthMax = 0x87c;
+uint32_t LastTeamNum = 0x1ca0;
+uint32_t CharacterName = 0xf00;
+
+ // Items 
+
+uint32_t ItemID = 0x248;
+uint32_t ItemTable = 0xa8;
+uint32_t DroppedItem = 0x438;
+uint32_t DroppedItemGroup_UItem = 0x768;
+uint32_t ItemPackage_Items = 0x570;
+
+ // Weapon 
+
+uint32_t WeaponProcessor = 0x890;
+uint32_t CurrentWeaponIndex = 0x301;
+uint32_t WeaponTrajectoryData = 0x1088;
+uint32_t TrajectoryGravityZ = 0x100c;
+uint32_t TrajectoryConfig = 0x100;
+uint32_t BallisticCurve = 0x118;
+uint32_t Veloctity(LastUpdateVelocity) = 0x3c0;
+uint32_t IsScope = 0x0;
+uint32_t ScopeCamera = 0xbd0;
+uint32_t ScopeCamera_Breath = 0x330;
+uint32_t LastRenderTime = 0x78c;
+uint32_t LastRenderTimeOnScreen = 0x790;
+uint32_t AnimScriptInstance = 0xca0;
+uint32_t ControlRotation_CP = 0x76c;
+uint32_t RecoilADSRotation_CP = 0x9cc;
+uint32_t LeanLeftAlpha_CP = 0xde4;
+uint32_t LeanRightAlpha_CP = 0xde8;
+uint32_t EquippedWeapons = 0x1f8;
+
+ // Others 
+
+uint32_t MyHUD = 0x4a0;
+uint32_t Mesh3P = 0x7b0;
+uint32_t BlockInputWidgetList  = 0x568;
+uint32_t ZoomLevel = 0xbdc;
+uint32_t InputYawScale = 0x624;
+uint32_t bShowMouseCursor = 0x630;
+uint32_t WidgetStateMap  = 0x500;
+uint32_t TimeTillExplosion = 0x72c;
+uint32_t TrainingMapGrid = 0x0;
+uint32_t Visibility = 0xa1;
+uint32_t Slot = 0x30;
+uint32_t LayoutData = 0x38;
+uint32_t Offsets = 0x0;
+uint32_t SelectMinimapSizeIndex = 0x5b8;
+uint32_t AimOffsets = 0x16d0;
+uint32_t ThirdPersonCamera = 0xbd0;
+uint32_t NumAlivePlayers = 0x680;
+uint32_t NumAliveTeams = 0x72c;
+uint32_t bIsInAircraft = 0xad8;
+uint32_t bWasKicked = 0xad9;
+uint32_t PlayerStatistics = 0x7f8;
+uint32_t DamageDealtOnEnemy = 0xa84;
+uint32_t PartnerLevel = 0x84e;
+uint32_t bExitToDesktop = 0xde8;
+uint32_t SpectatedCount = 0x1b98;
+uint32_t MouseDownPosition = 0x43c;
+uint32_t ReplicatedMovement = 0x78;
+
+ // Vehicle 
+
+uint32_t VehicleCommonComponent = 0x4c8;
+uint32_t VehicleCommonComponent = 0xbe8;
+uint32_t VehicleSeatComponent = 0xbf0;
+uint32_t VehicleSeatComponent = 0x4d0;
+uint32_t VehicleRiderComponent = 0x1d30;
+uint32_t SeatIndex = 0x220;
+uint32_t LastVehiclePawn = 0x260;
