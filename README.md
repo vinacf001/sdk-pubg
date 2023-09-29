@@ -1,12 +1,22 @@
-## sdk pubg 
+# sdk pubg 
 
-| Version             | Status                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| 25.2.6.9| ![#228B22](https://via.placeholder.com/10/228B22?text=+) Updated |
-| 25.2.6.5| ![#228B22](https://via.placeholder.com/10/228B22?text=+) Updated |
-| 25.2.5.13 | ![#228B22](https://via.placeholder.com/10/228B22?text=+) Updated |
-| 25.2.5.1 | ![#228B22](https://via.placeholder.com/10/228B22?text=+) Updated |
+| Version   | Status                                           | Date       |
+| --------- | ------------------------------------------------ | ---------- |
+| 25.2.6.9    | ![Updated](https://via.placeholder.com/10/228B22?text=+) Updated | 27.09      |
+| 25.2.6.5    | ![Updated](https://via.placeholder.com/10/228B22?text=+) Updated | 20.09      |
+| 25.2.5.13   | ![Updated](https://via.placeholder.com/10/228B22?text=+) Updated | 13.09      |
+| 25.2.5.1    | ![Updated](https://via.placeholder.com/10/228B22?text=+) Updated | 6.09       |
 
-## Support 
+## Offsets
 
-[community](https://discord.gg/xCESP5p53)
+| Name      | Value                                    |
+| --------- | ---------------------------------------- |
+| Gname     |  0x9ce1730 |
+| Chunk     |  0x4084    |
+| Uworld    |  0x9af0af8 |
+| Gobject   |  0x9aaf7f0 |
+| Decrypt   |  0x840bc28 |
+
+## Support
+
+[Community](https://discord.gg/xCESP5p53)
