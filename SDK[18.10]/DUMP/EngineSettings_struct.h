@@ -1,11 +1,16 @@
 // Enum EngineSettings.*5cfaeea139
 enum class *5cfaeea139 : uint8 {
-	None,
+	*0348eb3bd3,
+	*79c371f946,
+	*0186a37376,
+	*5cfaeea139_MAX,
 };
 
 // Enum EngineSettings.ETwoPlayerSplitScreenType
 enum class ETwoPlayerSplitScreenType : uint8 {
-	None,
+	Horizontal,
+	Vertical,
+	ETwoPlayerSplitScreenType_MAX,
 };
 
 // ScriptStruct EngineSettings.*d52791d8ba

@@ -1,3 +1,14 @@
+// Enum MovieSceneCapture.*b5928f804b
+enum class *b5928f804b : uint8 {
+	*f1f604582b,
+	*f4e41e73ae,
+	*3168fda1ba,
+	*c965b74b9e,
+	*c1ac365a29,
+	*3dd3ec4c4b,
+	*b5928f804b_MAX,
+};
+
 // ScriptStruct MovieSceneCapture.*c0bc2fcc78
 // Size: 0x50 (Inherited: 0x00)
 struct F*c0bc2fcc78 {

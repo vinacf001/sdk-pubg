@@ -1,81 +1,132 @@
 // Enum UMG.ESlateVisibility
 enum class ESlateVisibility : uint8 {
-	None,
-	None,
+	Visible,
+	Collapsed,
+	Hidden,
+	HitTestInvisible,
+	SelfHitTestInvisible,
+	ESlateVisibility_MAX,
 };
 
 // Enum UMG.EVirtualKeyboardType
 enum class EVirtualKeyboardType : uint8 {
-	None,
+	Default,
+	Number,
+	Web,
+	Email,
+	Password,
+	AlphaNumeric,
+	EVirtualKeyboardType_MAX,
 };
 
 // Enum UMG.EUMGSequencePlayMode
 enum class EUMGSequencePlayMode : uint8 {
-	None,
+	Forward,
+	Reverse,
+	PingPong,
+	EUMGSequencePlayMode_MAX,
 };
 
 // Enum UMG.EDragPivot
 enum class EDragPivot : uint8 {
-	None,
-	None,
+	MouseDown,
+	TopLeft,
+	TopCenter,
+	TopRight,
+	CenterLeft,
+	CenterCenter,
+	CenterRight,
+	BottomLeft,
+	BottomCenter,
+	BottomRight,
+	EDragPivot_MAX,
 };
 
 // Enum UMG.ESlateSizeRule
 enum class ESlateSizeRule : uint8 {
-	None,
+	Automatic,
+	Fill,
+	ESlateSizeRule_MAX,
 };
 
 // Enum UMG.EWidgetDesignFlags
 enum class EWidgetDesignFlags : uint8 {
 	None,
+	Designing,
+	ShowOutline,
+	ExecutePreConstruct,
+	EWidgetDesignFlags_MAX,
 };
 
 // Enum UMG.EBindingKind
 enum class EBindingKind : uint8 {
-	None,
-	None,
+	Function,
+	Property,
+	EBindingKind_MAX,
 };
 
 // Enum UMG.EDesignPreviewSizeMode
 enum class EDesignPreviewSizeMode : uint8 {
-	None,
-	None,
+	FillScreen,
+	Custom,
+	CustomOnScreen,
+	Desired,
+	DesiredOnScreen,
+	EDesignPreviewSizeMode_MAX,
 };
 
 // Enum UMG.EWidgetForcedLOD
 enum class EWidgetForcedLOD : uint8 {
 	None,
-	None,
+	Inactive,
+	LOD0,
+	LOD1,
+	LOD2,
+	LOD3,
+	LOD4,
+	LOD5,
+	LOD6,
+	LOD7,
+	EWidgetForcedLOD_MAX,
 };
 
 // Enum UMG.EWidgetGeometryMode
 enum class EWidgetGeometryMode : uint8 {
-	None,
-	None,
+	Plane,
+	Cylinder,
+	Sphere,
+	EWidgetGeometryMode_MAX,
 };
 
 // Enum UMG.EWidgetBlendMode
 enum class EWidgetBlendMode : uint8 {
-	None,
-	None,
+	Opaque,
+	Masked,
+	Transparent,
+	EWidgetBlendMode_MAX,
 };
 
 // Enum UMG.EWidgetTimingPolicy
 enum class EWidgetTimingPolicy : uint8 {
-	None,
-	None,
+	RealTime,
+	GameTime,
+	EWidgetTimingPolicy_MAX,
 };
 
 // Enum UMG.EWidgetSpace
 enum class EWidgetSpace : uint8 {
-	None,
-	None,
+	World,
+	Screen,
+	EWidgetSpace_MAX,
 };
 
 // Enum UMG.EWidgetInteractionSource
 enum class EWidgetInteractionSource : uint8 {
-	None,
-	None,
+	World,
+	Mouse,
+	CenterScreen,
+	Custom,
+	EWidgetInteractionSource_MAX,
 };
 
 // ScriptStruct UMG.EventReply

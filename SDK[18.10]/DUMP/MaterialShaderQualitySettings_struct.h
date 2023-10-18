@@ -1,7 +1,10 @@
 // Enum MaterialShaderQualitySettings.*f5b3082d33
 enum class *f5b3082d33 : uint8 {
-	None,
-	None,
+	*17f77f0c85,
+	*132496dd0a,
+	*91159be11c,
+	*2263160153,
+	*f5b3082d33_MAX,
 };
 
 // ScriptStruct MaterialShaderQualitySettings.*0ce2c8c7ca

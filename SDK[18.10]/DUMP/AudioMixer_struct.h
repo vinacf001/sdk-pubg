@@ -1,13 +1,20 @@
 // Enum AudioMixer.ESubmixEffectDynamicsPeakMode
 enum class ESubmixEffectDynamicsPeakMode : uint8 {
-	None,
-	None,
+	MeanSquared,
+	RootMeanSquared,
+	Peak,
+	Count,
+	ESubmixEffectDynamicsPeakMode_MAX,
 };
 
 // Enum AudioMixer.ESubmixEffectDynamicsProcessorType
 enum class ESubmixEffectDynamicsProcessorType : uint8 {
-	None,
-	None,
+	Compressor,
+	Limiter,
+	Expander,
+	Gate,
+	Count,
+	ESubmixEffectDynamicsProcessorType_MAX,
 };
 
 // ScriptStruct AudioMixer.*a8e749b2bc

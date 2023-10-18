@@ -1,37 +1,49 @@
 // Enum MovieScene.ESpawnOwnership
 enum class ESpawnOwnership : uint8 {
-	None,
-	None,
+	InnerSequence,
+	MasterSequence,
+	External,
+	ESpawnOwnership_MAX,
 };
 
 // Enum MovieScene.EMovieSceneObjectBindingSpace
 enum class EMovieSceneObjectBindingSpace : uint8 {
-	None,
-	None,
+	Local,
+	Root,
+	EMovieSceneObjectBindingSpace_MAX,
 };
 
 // Enum MovieScene.EMovieSceneKeyInterpolation
 enum class EMovieSceneKeyInterpolation : uint8 {
-	None,
-	None,
+	Auto,
+	User,
+	Break,
+	Linear,
+	Constant,
+	EMovieSceneKeyInterpolation_MAX,
 };
 
 // Enum MovieScene.*8ae17a7bb4
 enum class *8ae17a7bb4 : uint8 {
-	None,
-	None,
+	*3c81c350c6,
+	*ccbd1444e4,
+	*c54e4b347b,
+	*8ae17a7bb4_MAX,
 };
 
 // Enum MovieScene.ESectionEvaluationFlags
 enum class ESectionEvaluationFlags : uint8 {
 	None,
-	None,
+	PreRoll,
+	PostRoll,
+	ESectionEvaluationFlags_MAX,
 };
 
 // Enum MovieScene.EEvaluationMethod
 enum class EEvaluationMethod : uint8 {
-	None,
-	None,
+	Static,
+	Swept,
+	EEvaluationMethod_MAX,
 };
 
 // ScriptStruct MovieScene.MovieSceneSpawnable

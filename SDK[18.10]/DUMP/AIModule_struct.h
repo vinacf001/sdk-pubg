@@ -1,260 +1,442 @@
 // Enum AIModule.EPathFollowingResult
 enum class EPathFollowingResult : uint8 {
-	None,
+	Success,
+	Blocked,
+	OffPath,
+	Aborted,
+	Skipped_DEPRECATED,
+	Invalid,
+	EPathFollowingResult_MAX,
 };
 
 // Enum AIModule.EEnvQueryStatus
 enum class EEnvQueryStatus : uint8 {
-	None,
+	Processing,
+	Success,
+	Failed,
+	Aborted,
+	OwnerLost,
+	MissingParam,
+	EEnvQueryStatus_MAX,
 };
 
 // Enum AIModule.EAILockSource
 enum class EAILockSource : uint8 {
-	None,
+	Animation,
+	Logic,
+	Script,
+	Gameplay,
+	MAX,
+	EAILockSource_MAX,
 };
 
 // Enum AIModule.EAIRequestPriority
 enum class EAIRequestPriority : uint8 {
-	None,
+	SoftScript,
+	Logic,
+	HardScript,
+	Reaction,
+	Ultimate,
+	MAX,
+	EAIRequestPriority_MAX,
 };
 
 // Enum AIModule.EPawnActionEventType
 enum class EPawnActionEventType : uint8 {
-	None,
+	Invalid,
+	FailedToStart,
+	InstantAbort,
+	FinishedAborting,
+	FinishedExecution,
+	Push,
+	EPawnActionEventType_MAX,
 };
 
 // Enum AIModule.EPawnActionResult
 enum class EPawnActionResult : uint8 {
-	None,
+	NotStarted,
+	InProgress,
+	Success,
+	Failed,
+	Aborted,
+	EPawnActionResult_MAX,
 };
 
 // Enum AIModule.EPawnActionAbortState
 enum class EPawnActionAbortState : uint8 {
-	None,
+	NeverStarted,
+	NotBeingAborted,
+	MarkPendingAbort,
+	LatentAbortInProgress,
+	AbortDone,
+	MAX,
+	EPawnActionAbortState_MAX,
 };
 
 // Enum AIModule.FAIDistanceType
 enum class FAIDistanceType : uint8 {
-	None,
-	None,
+	Distance3D,
+	Distance2D,
+	DistanceZ,
+	MAX,
+	FAIDistanceType_MAX,
 };
 
 // Enum AIModule.EAIOptionFlag
 enum class EAIOptionFlag : uint8 {
-	None,
+	Default,
+	Enable,
+	Disable,
+	MAX,
+	EAIOptionFlag_MAX,
 };
 
 // Enum AIModule.EPathFollowingRequestResult
 enum class EPathFollowingRequestResult : uint8 {
-	None,
+	Failed,
+	AlreadyAtGoal,
+	RequestSuccessful,
+	EPathFollowingRequestResult_MAX,
 };
 
 // Enum AIModule.EPathFollowingAction
 enum class EPathFollowingAction : uint8 {
-	None,
+	Error,
+	NoMove,
+	DirectMove,
+	PartialPath,
+	PathToGoal,
+	EPathFollowingAction_MAX,
 };
 
 // Enum AIModule.EPathFollowingStatus
 enum class EPathFollowingStatus : uint8 {
-	None,
+	Idle,
+	Waiting,
+	Paused,
+	Moving,
+	EPathFollowingStatus_MAX,
 };
 
 // Enum AIModule.ETeamAttitude
 enum class ETeamAttitude : uint8 {
-	None,
+	Friendly,
+	Neutral,
+	Hostile,
+	ETeamAttitude_MAX,
 };
 
 // Enum AIModule.*40786627d2
 enum class *40786627d2 : uint8 {
-	None,
-	None,
+	*68c9c1ebc0,
+	*6889ba45f9,
+	*708c582f67,
+	*40786627d2_MAX,
 };
 
 // Enum AIModule.EAITaskPriority
 enum class EAITaskPriority : uint8 {
-	None,
-	None,
+	Lowest,
+	Low,
+	AutonomousAI,
+	High,
+	Ultimate,
+	EAITaskPriority_MAX,
 };
 
 // Enum AIModule.EBTFlowAbortMode
 enum class EBTFlowAbortMode : uint8 {
 	None,
+	LowerPriority,
+	Self,
+	Both,
+	EBTFlowAbortMode_MAX,
 };
 
 // Enum AIModule.EBTNodeResult
 enum class EBTNodeResult : uint8 {
-	None,
+	Succeeded,
+	Failed,
+	Aborted,
+	InProgress,
+	EBTNodeResult_MAX,
 };
 
 // Enum AIModule.EEnvQueryTestClamping
 enum class EEnvQueryTestClamping : uint8 {
 	None,
+	SpecifiedValue,
+	FilterThreshold,
+	EEnvQueryTestClamping_MAX,
 };
 
 // Enum AIModule.EEnvDirection
 enum class EEnvDirection : uint8 {
-	None,
+	TwoPoints,
+	Rotation,
+	EEnvDirection_MAX,
 };
 
 // Enum AIModule.EEnvOverlapShape
 enum class EEnvOverlapShape : uint8 {
-	None,
+	Box,
+	Sphere,
+	Capsule,
+	EEnvOverlapShape_MAX,
 };
 
 // Enum AIModule.EEnvTraceShape
 enum class EEnvTraceShape : uint8 {
-	None,
+	Line,
+	Box,
+	Sphere,
+	Capsule,
+	EEnvTraceShape_MAX,
 };
 
 // Enum AIModule.EEnvQueryTrace
 enum class EEnvQueryTrace : uint8 {
 	None,
+	Navigation,
+	Geometry,
+	NavigationOverLedges,
+	EEnvQueryTrace_MAX,
 };
 
 // Enum AIModule.EAIParamType
 enum class EAIParamType : uint8 {
-	None,
-	None,
+	Float,
+	Int,
+	Bool,
+	EAIParamType_MAX,
 };
 
 // Enum AIModule.EEnvQueryParam
 enum class EEnvQueryParam : uint8 {
-	None,
+	Float,
+	Int,
+	Bool,
+	EEnvQueryParam_MAX,
 };
 
 // Enum AIModule.EEnvQueryRunMode
 enum class EEnvQueryRunMode : uint8 {
-	None,
+	SingleResult,
+	RandomBest5Pct,
+	RandomBest25Pct,
+	AllMatching,
+	EEnvQueryRunMode_MAX,
 };
 
 // Enum AIModule.*2a5434f0e1
 enum class *2a5434f0e1 : uint8 {
-	None,
+	*44fe0cf891,
+	*fbe80301f5,
+	*5fcfc8c297,
+	*93b96b285b,
+	*2a5434f0e1_MAX,
 };
 
 // Enum AIModule.*850b7bac8a
 enum class *850b7bac8a : uint8 {
-	None,
+	*b1267274c3,
+	*d5f55a5455,
+	*8edd51d4b4,
+	*850b7bac8a_MAX,
 };
 
 // Enum AIModule.EEnvTestCost
 enum class EEnvTestCost : uint8 {
-	None,
+	Low,
+	Medium,
+	High,
+	EEnvTestCost_MAX,
 };
 
 // Enum AIModule.EEnvTestWeight
 enum class EEnvTestWeight : uint8 {
 	None,
+	Square,
+	Inverse,
+	Unused,
+	Constant,
+	Skip,
+	EEnvTestWeight_MAX,
 };
 
 // Enum AIModule.EEnvTestScoreEquation
 enum class EEnvTestScoreEquation : uint8 {
-	None,
+	Linear,
+	Square,
+	InverseLinear,
+	SquareRoot,
+	Constant,
+	EEnvTestScoreEquation_MAX,
 };
 
 // Enum AIModule.EEnvTestFilterType
 enum class EEnvTestFilterType : uint8 {
-	None,
+	Minimum,
+	Maximum,
+	Range,
+	Match,
+	EEnvTestFilterType_MAX,
 };
 
 // Enum AIModule.EEnvTestPurpose
 enum class EEnvTestPurpose : uint8 {
-	None,
+	Filter,
+	Score,
+	FilterAndScore,
+	EEnvTestPurpose_MAX,
 };
 
 // Enum AIModule.EBTDecoratorLogic
 enum class EBTDecoratorLogic : uint8 {
-	None,
+	Invalid,
+	Test,
+	And,
+	Or,
+	Not,
+	EBTDecoratorLogic_MAX,
 };
 
 // Enum AIModule.*2b30ba2ec5
 enum class *2b30ba2ec5 : uint8 {
-	None,
-	None,
+	*1641c07c6e,
+	*99ffdaad74,
+	*6892aaf885,
+	*2b30ba2ec5_MAX,
 };
 
 // Enum AIModule.ETextKeyOperation
 enum class ETextKeyOperation : uint8 {
-	None,
+	Equal,
+	NotEqual,
+	Contain,
+	NotContain,
+	ETextKeyOperation_MAX,
 };
 
 // Enum AIModule.EArithmeticKeyOperation
 enum class EArithmeticKeyOperation : uint8 {
-	None,
+	Equal,
+	NotEqual,
+	Less,
+	LessOrEqual,
+	Greater,
+	GreaterOrEqual,
+	EArithmeticKeyOperation_MAX,
 };
 
 // Enum AIModule.EBasicKeyOperation
 enum class EBasicKeyOperation : uint8 {
-	None,
+	Set,
+	NotSet,
+	EBasicKeyOperation_MAX,
 };
 
 // Enum AIModule.*fc84c4adaf
 enum class *fc84c4adaf : uint8 {
-	None,
+	*38c2c28324,
+	*4d1d12e24d,
+	*8fc19e154f,
+	*fc84c4adaf_MAX,
 };
 
 // Enum AIModule.EBlackBoardEntryComparison
 enum class EBlackBoardEntryComparison : uint8 {
-	None,
+	Equal,
+	NotEqual,
+	EBlackBoardEntryComparison_MAX,
 };
 
 // Enum AIModule.EPathExistanceQueryType
 enum class EPathExistanceQueryType : uint8 {
-	None,
+	NavmeshRaycast2D,
+	HierarchicalQuery,
+	RegularPathFinding,
+	EPathExistanceQueryType_MAX,
 };
 
 // Enum AIModule.EBTParallelMode
 enum class EBTParallelMode : uint8 {
-	None,
+	AbortBackground,
+	WaitForBackground,
+	EBTParallelMode_MAX,
 };
 
 // Enum AIModule.*d45e0e9b45
 enum class *d45e0e9b45 : uint8 {
-	None,
-	None,
+	*3bbaa72ebb,
+	*a5a4fcf1b8,
+	*068fa25743,
+	*d45e0e9b45_MAX,
 };
 
 // Enum AIModule.EEQSNormalizationType
 enum class EEQSNormalizationType : uint8 {
-	None,
-	None,
+	Absolute,
+	RelativeToScores,
+	EEQSNormalizationType_MAX,
 };
 
 // Enum AIModule.*e62db4fc12
 enum class *e62db4fc12 : uint8 {
-	None,
+	*5fb26450b4,
+	*90dcc11714,
+	*7adf3eee90,
+	*bf24a80a7d,
+	*9cafd48a34,
+	*e62db4fc12_MAX,
 };
 
 // Enum AIModule.*278f23a119
 enum class *278f23a119 : uint8 {
-	None,
-	None,
+	*24bd0835ac,
+	*b728a740a2,
+	*96ce66a6b5,
+	*278f23a119_MAX,
 };
 
 // Enum AIModule.EEnvTestPathfinding
 enum class EEnvTestPathfinding : uint8 {
-	None,
+	PathExist,
+	PathCost,
+	PathLength,
+	EEnvTestPathfinding_MAX,
 };
 
 // Enum AIModule.EEnvQueryHightlightMode
 enum class EEnvQueryHightlightMode : uint8 {
-	None,
-	None,
+	All,
+	Best5Pct,
+	Best25Pct,
+	EEnvQueryHightlightMode_MAX,
 };
 
 // Enum AIModule.*2b7808e2f3
 enum class *2b7808e2f3 : uint8 {
-	None,
+	*184eea18c4,
+	*2c1c52e124,
+	*15451e97c5,
+	*2b7808e2f3_MAX,
 };
 
 // Enum AIModule.*61a4cb884c
 enum class *61a4cb884c : uint8 {
-	None,
+	*8a0c9a75a0,
+	*be6f4f99c3,
+	*a22465f0e3,
+	*61a4cb884c_MAX,
 };
 
 // Enum AIModule.*79f23e3afc
 enum class *79f23e3afc : uint8 {
-	None,
+	*c2f57a1b78,
+	*71f5a7167f,
+	*ef18af0c73,
+	*79f23e3afc_MAX,
 };
 
 // ScriptStruct AIModule.*049a31edee

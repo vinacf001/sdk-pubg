@@ -1,7 +1,9 @@
 // Enum ActorSequence.EActorSequenceObjectReferenceType
 enum class EActorSequenceObjectReferenceType : uint8 {
-	None,
-	None,
+	ContextActor,
+	ExternalActor,
+	Component,
+	EActorSequenceObjectReferenceType_MAX,
 };
 
 // ScriptStruct ActorSequence.*476b0d3797

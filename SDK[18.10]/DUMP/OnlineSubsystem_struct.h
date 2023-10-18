@@ -1,11 +1,29 @@
 // Enum OnlineSubsystem.EInAppPurchaseState
 enum class EInAppPurchaseState : uint8 {
-	None,
+	Unknown,
+	Success,
+	Failed,
+	Cancelled,
+	Invalid,
+	NotAllowed,
+	Restored,
+	AlreadyOwned,
+	EInAppPurchaseState_MAX,
 };
 
 // Enum OnlineSubsystem.EMPMatchOutcome
 enum class EMPMatchOutcome : uint8 {
 	None,
+	Quit,
+	Won,
+	Lost,
+	Tied,
+	TimeExpired,
+	First,
+	Second,
+	Third,
+	Fourth,
+	EMPMatchOutcome_MAX,
 };
 
 // ScriptStruct OnlineSubsystem.*a9a6e8dd0b

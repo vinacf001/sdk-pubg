@@ -1,25 +1,43 @@
 // Enum AkAudio.*6c7cacc3b3
 enum class *6c7cacc3b3 : uint8 {
-	None,
-	None,
+	*e81f8ef1a7,
+	*f7e801deb6,
+	*be25b8ae20,
+	*6c7cacc3b3_MAX,
 };
 
 // Enum AkAudio.*e1ea2547b8
 enum class *e1ea2547b8 : uint8 {
-	None,
-	None,
+	*b924bdca42,
+	*ba5671ec84,
+	*3a49b9411f,
+	*705446f4a9,
+	*00e60f8573,
+	*e1ea2547b8_MAX,
 };
 
 // Enum AkAudio.ESoundVolumeShape
 enum class ESoundVolumeShape : uint8 {
-	None,
-	None,
+	Box,
+	Sphere,
+	Capsule,
+	ESoundVolumeShape_MAX,
 };
 
 // Enum AkAudio.EAkIgnoreRolloffDirection
 enum class EAkIgnoreRolloffDirection : uint8 {
 	None,
-	None,
+	Left,
+	Right,
+	Front,
+	Back,
+	LeftAndRight,
+	LeftAndFront,
+	LeftAndBack,
+	RightAndFront,
+	RightAndBack,
+	BackAndFront,
+	EAkIgnoreRolloffDirection_MAX,
 };
 
 // ScriptStruct AkAudio.*54ef9cb877

@@ -1,6 +1,8 @@
 // Enum HeadMountedDisplay.ETrackingStatus
 enum class ETrackingStatus : uint8 {
-	None,
-	None,
+	NotTracked,
+	InertialOnly,
+	Tracked,
+	ETrackingStatus_MAX,
 };
 

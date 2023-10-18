@@ -1,7 +1,13 @@
 // Enum MediaAssets.EMediaPlayerTrack
 enum class EMediaPlayerTrack : uint8 {
-	None,
-	None,
+	Audio,
+	Binary,
+	Caption,
+	Script,
+	Subtitle,
+	Text,
+	Video,
+	EMediaPlayerTrack_MAX,
 };
 
 // ScriptStruct MediaAssets.*2f842ff0f7

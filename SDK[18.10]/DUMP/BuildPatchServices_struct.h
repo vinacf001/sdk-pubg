@@ -1,6 +1,9 @@
 // Enum BuildPatchServices.*3ee82e8582
 enum class *3ee82e8582 : uint8 {
-	None,
+	*673d1a22c6,
+	*371e4c4dab,
+	*d5cf8211bd,
+	*3ee82e8582_MAX,
 };
 
 // ScriptStruct BuildPatchServices.*abdc0cdd70

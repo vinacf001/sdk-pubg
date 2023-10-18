@@ -1,23 +1,37 @@
 // Enum GameplayTags.EGameplayTagQueryExprType
 enum class EGameplayTagQueryExprType : uint8 {
-	None,
+	Undefined,
+	AnyTagsMatch,
+	AllTagsMatch,
+	NoTagsMatch,
+	AnyExprMatch,
+	AllExprMatch,
+	NoExprMatch,
+	EGameplayTagQueryExprType_MAX,
 };
 
 // Enum GameplayTags.EGameplayContainerMatchType
 enum class EGameplayContainerMatchType : uint8 {
-	None,
-	None,
+	Any,
+	All,
+	EGameplayContainerMatchType_MAX,
 };
 
 // Enum GameplayTags.EGameplayTagMatchType
 enum class EGameplayTagMatchType : uint8 {
-	None,
+	Explicit,
+	IncludeParentTags,
+	EGameplayTagMatchType_MAX,
 };
 
 // Enum GameplayTags.EGameplayTagSourceType
 enum class EGameplayTagSourceType : uint8 {
-	None,
-	None,
+	Native,
+	DefaultTagList,
+	TagList,
+	DataTable,
+	Invalid,
+	EGameplayTagSourceType_MAX,
 };
 
 // ScriptStruct GameplayTags.GameplayTagContainer

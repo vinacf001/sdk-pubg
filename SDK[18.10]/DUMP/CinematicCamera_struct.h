@@ -1,7 +1,9 @@
 // Enum CinematicCamera.ECameraFocusMethod
 enum class ECameraFocusMethod : uint8 {
 	None,
-	None,
+	Manual,
+	Tracking,
+	ECameraFocusMethod_MAX,
 };
 
 // ScriptStruct CinematicCamera.*d37e1b179c

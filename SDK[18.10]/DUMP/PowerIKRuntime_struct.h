@@ -1,3 +1,22 @@
+// Enum PowerIKRuntime.*fc15552160
+enum class *fc15552160 : uint8 {
+	*11190bfceb,
+	*ffc7fc2077,
+	*2a7f366abf,
+	*519f2e5419,
+	*fc15552160_MAX,
+};
+
+// Enum PowerIKRuntime.*635f9e2429
+enum class *635f9e2429 : uint8 {
+	*354a31aebe,
+	*a387ba7a06,
+	*5488d45050,
+	*20e27a3418,
+	*2417361454,
+	*635f9e2429_MAX,
+};
+
 // ScriptStruct PowerIKRuntime.*217f27fc9a
 // Size: 0xa8 (Inherited: 0x00)
 struct F*217f27fc9a {

@@ -1,106 +1,171 @@
 // Enum AnimGraphRuntime.EModifyCurveApplyMode
 enum class EModifyCurveApplyMode : uint8 {
-	None,
-	None,
+	Add,
+	Scale,
+	Blend,
+	EModifyCurveApplyMode_MAX,
 };
 
 // Enum AnimGraphRuntime.ERBFDistanceMethod
 enum class ERBFDistanceMethod : uint8 {
-	None,
-	None,
+	Euclidean,
+	Quaternion,
+	SwingAngle,
+	ERBFDistanceMethod_MAX,
 };
 
 // Enum AnimGraphRuntime.ERBFFunctionType
 enum class ERBFFunctionType : uint8 {
-	None,
-	None,
+	Gaussian,
+	Exponential,
+	Linear,
+	Cubic,
+	Quintic,
+	ERBFFunctionType_MAX,
 };
 
 // Enum AnimGraphRuntime.EPoseDriverOutput
 enum class EPoseDriverOutput : uint8 {
-	None,
-	None,
+	DrivePoses,
+	DriveCurves,
+	EPoseDriverOutput_MAX,
 };
 
 // Enum AnimGraphRuntime.EPoseDriverSource
 enum class EPoseDriverSource : uint8 {
-	None,
-	None,
+	Rotation,
+	Translation,
+	EPoseDriverSource_MAX,
 };
 
 // Enum AnimGraphRuntime.EPoseDriverType
 enum class EPoseDriverType : uint8 {
-	None,
-	None,
+	SwingAndTwist,
+	SwingOnly,
+	Translation,
+	EPoseDriverType_MAX,
 };
 
 // Enum AnimGraphRuntime.ESnapshotSourceMode
 enum class ESnapshotSourceMode : uint8 {
-	None,
-	None,
+	NamedSnapshot,
+	SnapshotPin,
+	ESnapshotSourceMode_MAX,
+};
+
+// Enum AnimGraphRuntime.*39c4f78a41
+enum class *39c4f78a41 : uint8 {
+	*25acfc5d65,
+	*78c2432219,
+	*ac8074c3c4,
+	*39c4f78a41_MAX,
 };
 
 // Enum AnimGraphRuntime.ESequenceEvalReinit
 enum class ESequenceEvalReinit : uint8 {
-	None,
+	NoReset,
+	StartPosition,
+	ExplicitTime,
+	ESequenceEvalReinit_MAX,
 };
 
 // Enum AnimGraphRuntime.ESphericalLimitType
 enum class ESphericalLimitType : uint8 {
-	None,
-	None,
+	Inner,
+	Outer,
+	ESphericalLimitType_MAX,
 };
 
 // Enum AnimGraphRuntime.AnimPhysSimSpaceType
 enum class AnimPhysSimSpaceType : uint8 {
-	None,
-	None,
+	Component,
+	Actor,
+	World,
+	RootRelative,
+	BoneRelative,
+	AnimPhysSimSpaceType_MAX,
 };
 
 // Enum AnimGraphRuntime.AnimPhysLinearConstraintType
 enum class AnimPhysLinearConstraintType : uint8 {
-	None,
-	None,
+	Free,
+	Limited,
+	AnimPhysLinearConstraintType_MAX,
 };
 
 // Enum AnimGraphRuntime.AnimPhysAngularConstraintType
 enum class AnimPhysAngularConstraintType : uint8 {
-	None,
-	None,
+	Angular,
+	Cone,
+	AnimPhysAngularConstraintType_MAX,
 };
 
 // Enum AnimGraphRuntime.EDrivenDestinationMode
 enum class EDrivenDestinationMode : uint8 {
-	None,
-	None,
+	Bone,
+	MorphTarget,
+	MaterialParameter,
+	EDrivenDestinationMode_MAX,
 };
 
 // Enum AnimGraphRuntime.EDrivenBoneModificationMode
 enum class EDrivenBoneModificationMode : uint8 {
-	None,
-	None,
+	AddToInput,
+	ReplaceComponent,
+	AddToRefPose,
+	EDrivenBoneModificationMode_MAX,
 };
 
 // Enum AnimGraphRuntime.EComponentType
 enum class EComponentType : uint8 {
 	None,
+	TranslationX,
+	TranslationY,
+	TranslationZ,
+	RotationX,
+	RotationY,
+	RotationZ,
+	Scale,
+	ScaleX,
+	ScaleY,
+	ScaleZ,
+	EComponentType_MAX,
 };
 
 // Enum AnimGraphRuntime.CopyBoneDeltaMode
 enum class CopyBoneDeltaMode : uint8 {
-	None,
-	None,
+	Accumulate,
+	Copy,
+	CopyBoneDeltaMode_MAX,
 };
 
 // Enum AnimGraphRuntime.EInterpolationBlend
 enum class EInterpolationBlend : uint8 {
-	None,
+	Linear,
+	Cubic,
+	Sinusoidal,
+	EaseInOutExponent2,
+	EaseInOutExponent3,
+	EaseInOutExponent4,
+	EaseInOutExponent5,
+	MAX,
+	EInterpolationBlend_MAX,
+};
+
+// Enum AnimGraphRuntime.EBoneModificationMode
+enum class EBoneModificationMode : uint8 {
+	BMM_Ignore,
+	BMM_Replace,
+	BMM_Additive,
+	BMM_MAX,
 };
 
 // Enum AnimGraphRuntime.ESplineBoneAxis
 enum class ESplineBoneAxis : uint8 {
-	None,
-	None,
+	X,
+	Y,
+	Z,
+	ESplineBoneAxis_MAX,
 };
 
 // ScriptStruct AnimGraphRuntime.AnimNode_BlendListBase

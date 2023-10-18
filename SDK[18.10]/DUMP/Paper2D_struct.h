@@ -1,38 +1,67 @@
 // Enum Paper2D.EFlipbookCollisionMode
 enum class EFlipbookCollisionMode : uint8 {
-	None,
+	NoCollision,
+	FirstFrameCollision,
+	EachFrameCollision,
+	EFlipbookCollisionMode_MAX,
 };
 
 // Enum Paper2D.ESpritePivotMode
 enum class ESpritePivotMode : uint8 {
-	None,
+	Top_Left,
+	Top_Center,
+	Top_Right,
+	Center_Left,
+	Center_Center,
+	Center_Right,
+	Bottom_Left,
+	Bottom_Center,
+	Bottom_Right,
+	Custom,
+	ESpritePivotMode_MAX,
 };
 
 // Enum Paper2D.ESpritePolygonMode
 enum class ESpritePolygonMode : uint8 {
-	None,
+	SourceBoundingBox,
+	TightBoundingBox,
+	ShrinkWrapped,
+	FullyCustom,
+	Diced,
+	ESpritePolygonMode_MAX,
 };
 
 // Enum Paper2D.ESpriteShapeType
 enum class ESpriteShapeType : uint8 {
-	None,
-	None,
+	Box,
+	Circle,
+	Polygon,
+	ESpriteShapeType_MAX,
 };
 
 // Enum Paper2D.ESpriteCollisionMode
 enum class ESpriteCollisionMode : uint8 {
 	None,
+	Use2DPhysics,
+	Use3DPhysics,
+	ESpriteCollisionMode_MAX,
 };
 
 // Enum Paper2D.*6106a99cb3
 enum class *6106a99cb3 : uint8 {
-	None,
-	None,
+	*0d8ac61850,
+	*65de287a2e,
+	*c46f2a4966,
+	*6106a99cb3_MAX,
 };
 
 // Enum Paper2D.ETileMapProjectionMode
 enum class ETileMapProjectionMode : uint8 {
-	None,
+	Orthogonal,
+	IsometricDiamond,
+	IsometricStaggered,
+	HexagonalStaggered,
+	ETileMapProjectionMode_MAX,
 };
 
 // ScriptStruct Paper2D.*489eb0edd9

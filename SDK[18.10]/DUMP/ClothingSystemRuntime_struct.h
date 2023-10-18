@@ -1,13 +1,17 @@
 // Enum ClothingSystemRuntime.EClothingWindMethod
 enum class EClothingWindMethod : uint8 {
-	None,
-	None,
+	Legacy,
+	Accurate,
+	EClothingWindMethod_MAX,
 };
 
 // Enum ClothingSystemRuntime.MaskTarget_PhysMesh
 enum class MaskTarget_PhysMesh : uint8 {
 	None,
-	None,
+	MaxDistance,
+	BackstopDistance,
+	BackstopRadius,
+	MaskTarget_MAX,
 };
 
 // ScriptStruct ClothingSystemRuntime.*3b13593114
