@@ -57,7 +57,7 @@ uint32_t Mesh = 0x540;
 uint32_t StaticMesh = 0xb20;
 
  // Camera 
-uint32_t WorldToMap = 0x48;
+uint32_t WorldToMap = 0x794; // ??
 uint32_t ComponentToWorld = 0x360;
 uint32_t ComponentLocation = 0x370;
 uint32_t ComponentVelocity = 0x3a4;
