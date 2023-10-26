@@ -1,3 +1,12 @@
+ // Struct
+uint32_t UField_Next = 0x30;
+uint32_t UStruct_SuperStruct = 0xd8;
+uint32_t UStruct_Children = 0x60;
+uint32_t UStruct_PropertiesSize = 0x78;
+uint32_t UEnum_Names = 0x48;
+uint32_t UFunction_FunctionFlags = 0x130;
+uint32_t UFunction_Func = 0xe8;
+
  // Main
 uint64_t UWorld = 0x9df1df8;
 uint64_t Decrypt = 0x86b3028;
@@ -21,6 +30,14 @@ uint64_t NameNumberXor1 = 0xd493eecc;
 uint32_t NameNumberOne = 0xd;
 uint32_t NameNumberTwo = 0x10;
 uint64_t NameNumberXor2 = 0x5f3a4896;
+uint32_t NameIsROR = 0x1;
+
+ // Decrypt IndexNumber
+uint32_t Offset = 0x08;
+uint64_t NameIndexNumberXor1 = 0x649bb46f;
+uint32_t NameIndexNumberOne = 0x4;
+uint32_t NameIndexNumberTwo = 0x10;
+uint64_t NameIndexNumberXor2 = 0x653909cb;
 uint32_t NameIsROR = 0x1;
 
  // Decrypt Class
@@ -86,6 +103,7 @@ uint32_t LastRenderTimeOnScreen = 0x7b0;
 uint32_t ItemID = 0x248;
 uint32_t ItemTable = 0xb0;
 uint32_t DroppedItem = 0x438;
+uint32_t DroppedItemGroup = 0x1e8;
 uint32_t DroppedItemGroup_UItem = 0x788;
 uint32_t ItemPackage_Items = 0x570;
 
