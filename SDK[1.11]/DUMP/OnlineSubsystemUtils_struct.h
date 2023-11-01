@@ -1,3 +1,42 @@
+// Enum OnlineSubsystemUtils.EBeaconConnectionState
+enum class EBeaconConnectionState : uint8 {
+	Invalid,
+	Closed,
+	Pending,
+	Open,
+	EBeaconConnectionState_MAX,
+};
+
+// Enum OnlineSubsystemUtils.EPartyReservationResult
+enum class EPartyReservationResult : uint8 {
+	NoResult,
+	RequestPending,
+	GeneralError,
+	PartyLimitReached,
+	IncorrectPlayerCount,
+	RequestTimedOut,
+	ReservationDuplicate,
+	ReservationNotFound,
+	ReservationAccepted,
+	ReservationDenied,
+	ReservationDenied_Banned,
+	ReservationRequestCanceled,
+	ReservationInvalid,
+	BadSessionId,
+	EPartyReservationResult_MAX,
+};
+
+// Enum OnlineSubsystemUtils.EClientRequestType
+enum class EClientRequestType : uint8 {
+	NonePending,
+	ExistingSessionReservation,
+	ReservationUpdate,
+	EmptyServerReservation,
+	Reconnect,
+	Abandon,
+	EClientRequestType_MAX,
+};
+
 // ScriptStruct OnlineSubsystemUtils.*1efd0c747b
 // Size: 0x108 (Inherited: 0x00)
 struct F*1efd0c747b {

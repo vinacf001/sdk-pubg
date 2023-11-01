@@ -1,3 +1,11 @@
+// Enum PrefabAsset.*9ed1ecb689
+enum class *9ed1ecb689 : uint8 {
+	*5a6fc745a5,
+	*4dfec12c8e,
+	*b668d6ebf2,
+	*9ed1ecb689_MAX,
+};
+
 // ScriptStruct PrefabAsset.*d0c99cb1dc
 // Size: 0x28 (Inherited: 0x00)
 struct F*d0c99cb1dc {

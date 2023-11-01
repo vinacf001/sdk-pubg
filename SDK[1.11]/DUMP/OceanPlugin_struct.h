@@ -1,3 +1,12 @@
+// Enum OceanPlugin.EFollowMethod
+enum class EFollowMethod : uint8 {
+	LookAtLocation,
+	FollowCamera,
+	FollowPawn,
+	Stationary,
+	EFollowMethod_MAX,
+};
+
 // ScriptStruct OceanPlugin.*6f9a383ca9
 // Size: 0xa0 (Inherited: 0x00)
 struct F*6f9a383ca9 {

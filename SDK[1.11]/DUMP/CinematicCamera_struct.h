@@ -1,3 +1,11 @@
+// Enum CinematicCamera.ECameraFocusMethod
+enum class ECameraFocusMethod : uint8 {
+	None,
+	Manual,
+	Tracking,
+	ECameraFocusMethod_MAX,
+};
+
 // ScriptStruct CinematicCamera.*d37e1b179c
 // Size: 0x30 (Inherited: 0x00)
 struct F*d37e1b179c {

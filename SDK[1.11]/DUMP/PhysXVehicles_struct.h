@@ -1,3 +1,15 @@
+// Enum PhysXVehicles.*24e9ac34cf
+enum class *24e9ac34cf : uint8 {
+	*5bcd5b02ef,
+	*f427595f39,
+	*a011ebe22e,
+	*a85f630a28,
+	*e3f083b6a9,
+	*a0e869b4e2,
+	*75c57c0034,
+	*24e9ac34cf_MAX,
+};
+
 // ScriptStruct PhysXVehicles.*4bbb30343f
 // Size: 0x30 (Inherited: 0x00)
 struct F*4bbb30343f {

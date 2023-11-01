@@ -1,3 +1,50 @@
+// Enum Foliage.EFoliageScaling
+enum class EFoliageScaling : uint8 {
+	Uniform,
+	Free,
+	LockXY,
+	LockXZ,
+	LockYZ,
+	EFoliageScaling_MAX,
+};
+
+// Enum Foliage.EVertexColorMaskChannel
+enum class EVertexColorMaskChannel : uint8 {
+	Red,
+	Green,
+	Blue,
+	Alpha,
+	MAX_None,
+	EVertexColorMaskChannel_MAX,
+};
+
+// Enum Foliage.FoliageVertexColorMask
+enum class FoliageVertexColorMask : uint8 {
+	FOLIAGEVERTEXCOLORMASK_Disabled,
+	FOLIAGEVERTEXCOLORMASK_Red,
+	FOLIAGEVERTEXCOLORMASK_Green,
+	FOLIAGEVERTEXCOLORMASK_Blue,
+	FOLIAGEVERTEXCOLORMASK_Alpha,
+	FOLIAGEVERTEXCOLORMASK_MAX,
+};
+
+// Enum Foliage.*9d35f4b3d7
+enum class *9d35f4b3d7 : uint8 {
+	*919c70e325,
+	*ef5bd9c820,
+	*4d154532f3,
+	*f75622ba0a,
+	*9d35f4b3d7_MAX,
+};
+
+// Enum Foliage.ESimulationOverlap
+enum class ESimulationOverlap : uint8 {
+	CollisionOverlap,
+	ShadeOverlap,
+	None,
+	ESimulationOverlap_MAX,
+};
+
 // ScriptStruct Foliage.*8088cd7e9b
 // Size: 0x0c (Inherited: 0x00)
 struct F*8088cd7e9b {

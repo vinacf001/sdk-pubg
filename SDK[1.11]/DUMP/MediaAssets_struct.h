@@ -1,3 +1,15 @@
+// Enum MediaAssets.EMediaPlayerTrack
+enum class EMediaPlayerTrack : uint8 {
+	Audio,
+	Binary,
+	Caption,
+	Script,
+	Subtitle,
+	Text,
+	Video,
+	EMediaPlayerTrack_MAX,
+};
+
 // ScriptStruct MediaAssets.*2f842ff0f7
 // Size: 0x28 (Inherited: 0x00)
 struct F*2f842ff0f7 {

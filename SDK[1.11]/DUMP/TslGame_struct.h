@@ -1,3 +1,7130 @@
+// Enum TslGame.*ca55b910bf
+enum class *ca55b910bf : uint8 {
+	*0e67048f21,
+	*ab8aa865e3,
+	*46620630d0,
+	*ca55b910bf_MAX,
+};
+
+// Enum TslGame.ECastCancelReason
+enum class ECastCancelReason : uint8 {
+	Invalid,
+	CasterAiming,
+	CasterArming,
+	CasterApnea,
+	CasterSprinting,
+	CasterJumping,
+	CasterFallingLong,
+	CasterFiring,
+	CasterGroggy,
+	CasterGroggyOnZeroTimeCast,
+	CasterHipped,
+	CasterInvalid,
+	CasterNotAlive,
+	CasterPickedUpDroppedItem,
+	CasterPickedUpItemFromPackage,
+	CasterReloading,
+	CasterRolling,
+	CasterTargeting,
+	CasterUnarmAttacking,
+	CasterVault,
+	CasterStanceInvalid,
+	CasterFreefalling,
+	CastObjectInvalid,
+	CastObjectNotExecutable,
+	FailedCasterMovementDistCheckOnClient,
+	FailedCasterMovementDistCheckOnServer,
+	FailedCasterAndCastObjDistCheckOnClient,
+	FailedCasterAndCastObjDistCheckOnServer,
+	CharacterBeingRevivedDead,
+	ManualCancel,
+	NewCastOnClient,
+	NewCastOnServer,
+	VehicleLanding,
+	VehicleSeatChanged,
+	VehicleMoving,
+	VehicleUpsideDown,
+	StuntEmoteOnVehicle,
+	VehicleJumping,
+	EmergencyPickupAircraft,
+	CasterAttackByZombieAI,
+	BodyCarry,
+	CasterStunned,
+	VehicleFuelFull,
+	CharacterBehaviorNotFound,
+	TeamsPlantedBomb,
+	ECastCancelReason_MAX,
+};
+
+// Enum TslGame.ETargetingType
+enum class ETargetingType : uint8 {
+	Targeting_None,
+	Targeting_Aiming,
+	Targeting_Scoping,
+	Targeting_MAX,
+};
+
+// Enum TslGame.EWeaponAttachmentSlotID
+enum class EWeaponAttachmentSlotID : uint8 {
+	None,
+	Muzzle,
+	LowerRail,
+	UpperRail,
+	Magazine,
+	Stock,
+	Angled,
+	TacPack1,
+	TacPack2,
+	TacPack3,
+	TacPack4,
+	DronePackage,
+	EWeaponAttachmentSlotID_MAX,
+};
+
+// Enum TslGame.ESystemMessageType
+enum class ESystemMessageType : uint8 {
+	Debug,
+	Notify,
+	Warning,
+	Error,
+	Important,
+	NotifyCommand,
+	ESystemMessageType_MAX,
+};
+
+// Enum TslGame.EOutGamePlatformProvider
+enum class EOutGamePlatformProvider : uint8 {
+	Unknown,
+	Bro,
+	PcSteam,
+	PcDmm,
+	PcMailRu,
+	PcKakao,
+	PcTencent,
+	ConsoleXbox,
+	ConsolePsn,
+	PcLiteGarena,
+	PcLiteGlobalAccount,
+	PcLiteGlobalAccountJp,
+	ConsoleStadia,
+	PcEpic,
+	AI,
+	Max,
+	EOutGamePlatformProvider_MAX,
+};
+
+// Enum TslGame.EDamageReason
+enum class EDamageReason : uint8 {
+	None,
+	HeadShot,
+	TorsoShot,
+	PelvisShot,
+	ArmShot,
+	LegShot,
+	NonSpecific,
+	Blocked,
+	EDamageReason_MAX,
+};
+
+// Enum TslGame.EDamageTypeCategory
+enum class EDamageTypeCategory : uint8 {
+	Damage_None,
+	Damage_Instant,
+	Damage_Gun,
+	Damage_Melee,
+	Damage_Punch,
+	Damage_ZombiePunch,
+	Damage_Groggy,
+	Damage_BlueZone,
+	Damage_VehicleHit,
+	Damage_VehicleCrashHit,
+	Damage_Molotov,
+	Damage_Explosion,
+	Damage_Explosion_Grenade,
+	Damage_Explosion_RedZone,
+	Damage_Explosion_Vehicle,
+	Damage_Explosion_PlantedTimeBomb,
+	Damage_Instant_Fall,
+	Damage_Drown,
+	Damage_BleedOut,
+	Damage_Explosion_JerryCan,
+	Damage_ZombieBuff,
+	Damage_CPPWinExit,
+	Damage_MeleeThrow,
+	Damage_Explosion_C4,
+	Damage_Explosion_StickyBomb,
+	Damage_Explosion_Breach,
+	Damage_Explosion_PanzerFaustWarhead,
+	Damage_Explosion_PanzerFaustWarheadVehicleArmorPenetration,
+	Damage_Explosion_PanzerFaustBackBlast,
+	Damage_Explosion_Mortar,
+	Damage_Explosion_BlackZone,
+	Damage_Explosion_Meteor,
+	Damage_TrainHit,
+	Damage_Explosion_PropaneTank,
+	Damage_LootTruckHit,
+	Damage_Explosion_LootTruck,
+	Damage_ShipHit,
+	Damage_Lava,
+	Damage_KillTruckHit,
+	Damage_KillTruckTurret,
+	Damage_HelicopterHit,
+	Damage_Explosion_Aircraft,
+	Damage_BlueZoneGrenade,
+	Damage_FBRMolotov,
+	Damage_DronePackage,
+	Damage_Monster,
+	Damage_Ability,
+	Damage_Ability_ChickAttack,
+	Damage_Ability_ChickAttack_Wave,
+	Damage_Ability_Jump_Wave,
+	Damage_Ability_FireBreath,
+	Damage_Ability_FeathZone,
+	Damage_Rotor,
+	Damage_MotorGlider,
+	Damage_Gun_Penetrate_BRDM,
+	Damage_Explosion_GasPump,
+	Damage_Blizzard,
+	Damage_SandStorm,
+	Damage_CableCarHit,
+	Damage_Poision,
+	Damage_ZombieDash,
+	Damage_MAX,
+};
+
+// Enum TslGame.*9b872cf696
+enum class *9b872cf696 : uint8 {
+	*63c19b7233,
+	*2a158ade2d,
+	*b9ab3a4bed,
+	*9b872cf696_MAX,
+};
+
+// Enum TslGame.ESkydiveState
+enum class ESkydiveState : uint8 {
+	Skydive_None,
+	Skydive_Freefall,
+	Skydive_ParachuteDeploying,
+	Skydive_ParachuteDeployed,
+	Skydive_ParachuteCollapsing,
+	Skydive_MAX,
+};
+
+// Enum TslGame.EMarkerType
+enum class EMarkerType : uint8 {
+	Normal,
+	Attack,
+	Danger,
+	Defend,
+	Loot,
+	Regroup,
+	Vehicle,
+	EMarkerType_MAX,
+};
+
+// Enum TslGame.EPlatoonSupportRequestEventType
+enum class EPlatoonSupportRequestEventType : uint8 {
+	Start,
+	Interactible,
+	Finish,
+	EPlatoonSupportRequestEventType_MAX,
+};
+
+// Enum TslGame.EPlatoonCarePackageType
+enum class EPlatoonCarePackageType : uint8 {
+	NotDesignated,
+	WeaponPackage,
+	HealingPackage,
+	EPlatoonCarePackageType_MAX,
+};
+
+// Enum TslGame.EOPUIMonsterType
+enum class EOPUIMonsterType : uint8 {
+	None,
+	Chicken,
+	ZombieTanker,
+	ZombieC4,
+	MAX,
+	EOPUIMonsterType_MAX,
+};
+
+// Enum TslGame.EEquipSlotID
+enum class EEquipSlotID : uint8 {
+	Head,
+	Hat,
+	Eyes,
+	Mask,
+	Torso,
+	TorsoArmor,
+	Outer,
+	Backpack,
+	Hands,
+	Legs,
+	Feet,
+	Belt,
+	Special01,
+	Special02,
+	WeaponPrimary,
+	WeaponSecondary,
+	WeaponMelee,
+	WeaponThrowable,
+	WeaponTacticalGear,
+	Bluechip,
+	MaxOrNone,
+	EEquipSlotID_MAX,
+};
+
+// Enum TslGame.EBreathType
+enum class EBreathType : uint8 {
+	Apnea,
+	ADS,
+	EBreathType_MAX,
+};
+
+// Enum TslGame.ERequestPartyState
+enum class ERequestPartyState : uint8 {
+	Wait,
+	Accept,
+	Decline,
+	ERequestPartyState_MAX,
+};
+
+// Enum TslGame.EBlueBlockerState
+enum class EBlueBlockerState : uint8 {
+	Show,
+	Looping,
+	Hide,
+	Hidden,
+	EBlueBlockerState_MAX,
+};
+
+// Enum TslGame.EThrownWeaponType
+enum class EThrownWeaponType : uint8 {
+	Thrown_Grenade,
+	Thrown_Molotov,
+	Thrown_Melee,
+	Thrown_Trap,
+	Thrown_StickyBomb,
+	Thrown_C4,
+	Thrown_JerryCan,
+	Thrown_BZ_Grenade,
+	Thrown_TacPack,
+	Thrown_TraumaBag,
+	Thrown_SpotterScope,
+	Thrown_Drone,
+	Thrown_BlueChipDetector,
+	Thrown_Toolbox,
+	Thrown_CanBomb,
+	Thrown_SpareTire,
+	Thrown_IntegratedRepairKit,
+	Thrown_PlantedBombKit,
+	Thrown_DefusingBombKit,
+	Thrown_Other,
+	Thrown_MAX,
+};
+
+// Enum TslGame.EPickupAnimType
+enum class EPickupAnimType : uint8 {
+	None,
+	EPickupAnimType_MAX,
+};
+
+// Enum TslGame.EHitDirection
+enum class EHitDirection : uint8 {
+	Hit_Front,
+	Hit_Back,
+	Hit_Left,
+	Hit_Right,
+	Hit_MAX,
+};
+
+// Enum TslGame.*a7a7ff79a1
+enum class *a7a7ff79a1 : uint8 {
+	*4aede46200,
+	*c45f41113e,
+	*59e589ac53,
+	*151778984b,
+	*3fc37ea075,
+	*49aad83373,
+	*ef2aafbade,
+	*32bfc7ba87,
+	*a7a7ff79a1_MAX,
+};
+
+// Enum TslGame.ECastAnim
+enum class ECastAnim : uint8 {
+	None,
+	Bandage,
+	FirstAid,
+	Medkit,
+	EnergyDrink,
+	Painkiller,
+	Adrenaline,
+	Door,
+	Battery,
+	Crafting,
+	SuperDrink,
+	Key,
+	EmergencyPickup,
+	SelfRevive,
+	MortarInstall,
+	BicycleDeploy,
+	BulletproofShield,
+	VehicleSkin,
+	UnlockDoor,
+	Custom,
+	VehicleRepair,
+	ArmorRepair,
+	BlueChipTower,
+	RevivalTransmitter,
+	OpenBox,
+	PlantedBomb,
+	DefusingBomb,
+	ECastAnim_MAX,
+};
+
+// Enum TslGame.ECharacterNegativeEffects
+enum class ECharacterNegativeEffects : uint8 {
+	Blind,
+	Burning,
+	Stun,
+	Total,
+	ECharacterNegativeEffects_MAX,
+};
+
+// Enum TslGame.ETirePunctureReason
+enum class ETirePunctureReason : uint8 {
+	Shot,
+	Environment,
+	Explosion,
+	PanzerFaustExplosion,
+	SkipFX,
+	ManualRemoval,
+	Other,
+	ETirePunctureReason_MAX,
+};
+
+// Enum TslGame.ETslSLBStageDifficulty
+enum class ETslSLBStageDifficulty : uint8 {
+	Easy,
+	Normal,
+	Hard,
+	Max,
+	ETslSLBStageDifficulty_MAX,
+};
+
+// Enum TslGame.ETslSLBStage
+enum class ETslSLBStage : uint8 {
+	Stage1,
+	Stage2,
+	Stage3,
+	Stage4,
+	Stage5,
+	Stage6,
+	Max,
+	ETslSLBStage_MAX,
+};
+
+// Enum TslGame.ETslTrainingType
+enum class ETslTrainingType : uint8 {
+	Aim_Sound_Lab,
+	Grenades,
+	FiringRange,
+	VehicleSpot,
+	GunItemSpot,
+	CarShootingRange,
+	JumpSchool,
+	PracticeRange,
+	OneOnOneArena,
+	NONE,
+	ETslTrainingType_MAX,
+};
+
+// Enum TslGame.EVoiceInputMode
+enum class EVoiceInputMode : uint8 {
+	OpenMic,
+	PushToTalk,
+	Toggle,
+	Disable,
+	MAX,
+	EVoiceInputMode_MAX,
+};
+
+// Enum TslGame.*9109d05dba
+enum class *9109d05dba : uint8 {
+	*614eb9550e,
+	*f42c055a9b,
+	*a08bd3a655,
+	*2a81ffb43b,
+	*9d82964998,
+	*d9236c559f,
+	*097c6944f7,
+	*8ca9fd06e7,
+	*9109d05dba_MAX,
+};
+
+// Enum TslGame.EServerStatType
+enum class EServerStatType : uint8 {
+	UE,
+	NET,
+	FRAMEPRO,
+	EServerStatType_MAX,
+};
+
+// Enum TslGame.ETslOvercastAction
+enum class ETslOvercastAction : uint8 {
+	Initialized,
+	Prolonged,
+	CreateThunder,
+	ETslOvercastAction_MAX,
+};
+
+// Enum TslGame.EBeginningState
+enum class EBeginningState : uint8 {
+	Invalid,
+	Normal,
+	StartIsland,
+	Airplane,
+	Skydiving,
+	Parachuting,
+	EBeginningState_MAX,
+};
+
+// Enum TslGame.EPartnerLevel
+enum class EPartnerLevel : uint8 {
+	None,
+	Normal,
+	Lead,
+	EPartnerLevel_MAX,
+};
+
+// Enum TslGame.EQualityType
+enum class EQualityType : uint8 {
+	EMainQuality,
+	EViewDistanceQuality,
+	EShadowQuality,
+	EAntiAliasingQuality,
+	ETextureQuality,
+	EVisualEffectQuality,
+	EPostProcessingQuality,
+	EFoliageQuality,
+	EQualityType_MAX,
+};
+
+// Enum TslGame.EReadyToPlayState
+enum class EReadyToPlayState : uint8 {
+	AllFinished,
+	OnPreLoadMap,
+	OnPostLoadMap,
+	CheckMapLoadFinished,
+	NotMapFullyLoaded,
+	CheckPreloadingMap,
+	LoadMapRequested,
+	EReadyToPlayState_MAX,
+};
+
+// Enum TslGame.EDistanceBasedEvent
+enum class EDistanceBasedEvent : uint8 {
+	Undefined,
+	Bullet_Hitted_LivingThings,
+	Bullet_Hitted_Others,
+	Weapon_Gun_Firing,
+	Weapon_Grenade_Bounce,
+	Weapon_Grenade_Explosion,
+	Weapon_Grenade_ExplosionSound,
+	Vehicle_Exhausting,
+	Vehicle_Crash,
+	Character_FootStep,
+	Character_Landing,
+	MAX,
+	EDistanceBasedEvent_MAX,
+};
+
+// Enum TslGame.*537ed39fbd
+enum class *537ed39fbd : uint8 {
+	*7daf795b87,
+	*25d804eabc,
+	*b8de5feb76,
+	*12d5c08c77,
+	*e13903aa04,
+	*8d3872d2c7,
+	*7291ae3ac7,
+	*537ed39fbd_MAX,
+};
+
+// Enum TslGame.EArenaState
+enum class EArenaState : uint8 {
+	Idle,
+	Active,
+	Finished,
+	EArenaState_MAX,
+};
+
+// Enum TslGame.ERevivalMethod
+enum class ERevivalMethod : uint8 {
+	None,
+	BluechipTower,
+	RevivalTransmitter,
+	Cheat,
+	ERevivalMethod_MAX,
+};
+
+// Enum TslGame.ERankType
+enum class ERankType : uint8 {
+	None,
+	InvalidSMS,
+	Penalty,
+	Restricted,
+	Unranked,
+	Bronze,
+	Silver,
+	Gold,
+	Platinum,
+	Diamond,
+	Master,
+	ERankType_MAX,
+};
+
+// Enum TslGame.ETslAIPlayerType
+enum class ETslAIPlayerType : uint8 {
+	HumanPlayer,
+	AITypeNone,
+	CommonAI,
+	PillarAI,
+	DummyAI,
+	ZombieAI,
+	MonsterAI,
+	UltronAI,
+	ETslAIPlayerType_MAX,
+};
+
+// Enum TslGame.ESubjectToReport
+enum class ESubjectToReport : uint8 {
+	None,
+	Killer,
+	Spectating_Player,
+	Replay_Player,
+	Team_Member,
+	OtherTeam_Members,
+	Assistant,
+	GroggyCauser,
+	ESubjectToReport_MAX,
+};
+
+// Enum TslGame.*e9c4031997
+enum class *e9c4031997 : uint8 {
+	*06c99c97bb,
+	*25eaea5aec,
+	*51ee3b98f0,
+	*480e146d08,
+	*e9c4031997_MAX,
+};
+
+// Enum TslGame.EAliveNumChangeType
+enum class EAliveNumChangeType : uint8 {
+	None,
+	Die,
+	ReviveOrRespawn,
+	EAliveNumChangeType_MAX,
+};
+
+// Enum TslGame.ETslMapName
+enum class ETslMapName : uint8 {
+	Other,
+	Baltic,
+	Desert,
+	Sanhok,
+	DihorOtok,
+	Summerland,
+	Paramo,
+	Tiger,
+	Chimera,
+	Heaven,
+	Kiki,
+	ETslMapName_MAX,
+};
+
+// Enum TslGame.FTslHASModeAuraType
+enum class FTslHASModeAuraType : uint8 {
+	None,
+	Prop,
+	Generator,
+	Character,
+	FTslHASModeAuraType_MAX,
+};
+
+// Enum TslGame.EAscenderSettlePoint
+enum class EAscenderSettlePoint : uint8 {
+	INVALID,
+	RopeAttachPoint_LOWER,
+	RopeAttachPoint_UPPER,
+	RopeAttachPoint_START,
+	EAscenderSettlePoint_MAX,
+};
+
+// Enum TslGame.EAuxilaryIconRequestor
+enum class EAuxilaryIconRequestor : uint8 {
+	None,
+	Minimap,
+	OwningWidget,
+	EAuxilaryIconRequestor_MAX,
+};
+
+// Enum TslGame.EAuxilaryIconType
+enum class EAuxilaryIconType : uint8 {
+	Invalid,
+	Drone,
+	Drone_Destroyed,
+	Detected_Player,
+	Detected_Player_Above,
+	Detected_Player_Below,
+	EAuxilaryIconType_MAX,
+};
+
+// Enum TslGame.EScopeType
+enum class EScopeType : uint8 {
+	Main,
+	Right,
+	Total,
+	None,
+	EScopeType_MAX,
+};
+
+// Enum TslGame.*3f24a6f342
+enum class *3f24a6f342 : uint8 {
+	*3ae3127709,
+	*717a6b76a1,
+	*3eaae1e21c,
+	*bf2249ca42,
+	*3f24a6f342_MAX,
+};
+
+// Enum TslGame.*a3a9346eab
+enum class *a3a9346eab : uint8 {
+	*5b4b18cab9,
+	*046f08ac8b,
+	*2e958e19e1,
+	*8924a5bd3e,
+	*555466676c,
+	*f21da331c2,
+	*ab45d6374e,
+	*ed13763678,
+	*3ea7c2a586,
+	*ce235929b9,
+	*1571fb3dce,
+	*c17b198dd5,
+	*a3a9346eab_MAX,
+};
+
+// Enum TslGame.ECharacterActionEventType
+enum class ECharacterActionEventType : uint8 {
+	None,
+	WeaponChange,
+	ItemUseCast,
+	TakeDamage,
+	PostDealDamage,
+	TryToUnarmedAttack,
+	TryToMeleeAttack,
+	ECharacterActionEventType_MAX,
+};
+
+// Enum TslGame.*e23e49f0e3
+enum class *e23e49f0e3 : uint8 {
+	*e6dfa726a9,
+	*59f81f5e6c,
+	*6f549f15f1,
+	*1e55bfe122,
+	*20e8cbb119,
+	*e23e49f0e3_MAX,
+};
+
+// Enum TslGame.EInteractInputType
+enum class EInteractInputType : uint8 {
+	None,
+	MainInteract,
+	SecondaryInteract,
+	EInteractInputType_MAX,
+};
+
+// Enum TslGame.EKickProcess
+enum class EKickProcess : uint8 {
+	Disconnect,
+	Shutdown,
+	ShutdownIn10Sec,
+	DuplicatedLogin,
+	EKickProcess_MAX,
+};
+
+// Enum TslGame.EDirectMessageType
+enum class EDirectMessageType : uint8 {
+	Radio,
+	Direct,
+	DirectReply,
+	Warning,
+	System,
+	EDirectMessageType_MAX,
+};
+
+// Enum TslGame.EDirectMessageOutGameType
+enum class EDirectMessageOutGameType : uint8 {
+	Normal,
+	Preset,
+	System,
+	ClanNormal,
+	ClanSystem,
+	EDirectMessageOutGameType_MAX,
+};
+
+// Enum TslGame.EFutsalGamePhase
+enum class EFutsalGamePhase : uint8 {
+	Waiting,
+	FirstHalf,
+	SecondHalf,
+	AddedTime,
+	End,
+	EFutsalGamePhase_MAX,
+};
+
+// Enum TslGame.EUnarmedAnimType
+enum class EUnarmedAnimType : uint8 {
+	Default,
+	Spray,
+	EUnarmedAnimType_MAX,
+};
+
+// Enum TslGame.EInventorySlotStatePad
+enum class EInventorySlotStatePad : uint8 {
+	Normal,
+	Focus,
+	Link,
+	Selfput,
+	Disabled,
+	EInventorySlotStatePad_MAX,
+};
+
+// Enum TslGame.EDualMatchingState
+enum class EDualMatchingState : uint8 {
+	NotMatchingState,
+	Matching,
+	GamePrepared,
+	EDualMatchingState_MAX,
+};
+
+// Enum TslGame.ELastTeamIconState
+enum class ELastTeamIconState : uint8 {
+	Normal,
+	Groggy,
+	Die,
+	ELastTeamIconState_MAX,
+};
+
+// Enum TslGame.ESeatState
+enum class ESeatState : uint8 {
+	Empty,
+	Player,
+	Teammate,
+	Enemy,
+	ESeatState_MAX,
+};
+
+// Enum TslGame.ETslInputDeviceTypeBranch_BPOnly
+enum class ETslInputDeviceTypeBranch_BPOnly : uint8 {
+	KeyboardMouse,
+	XboxGamepad,
+	PS4Gamepad,
+	SwitchGamepad,
+	QuailGamepad,
+	ETslInputDeviceTypeBranch_MAX,
+};
+
+// Enum TslGame.ETslInputDeviceGroupBranch_BPOnly
+enum class ETslInputDeviceGroupBranch_BPOnly : uint8 {
+	KeyboardMouse,
+	Gamepad,
+	ETslInputDeviceGroupBranch_MAX,
+};
+
+// Enum TslGame.ETslPlatformTypeBranch_BPOnly
+enum class ETslPlatformTypeBranch_BPOnly : uint8 {
+	PC,
+	Xbox,
+	PS4,
+	Quail,
+	Invalid,
+	ETslPlatformTypeBranch_MAX,
+};
+
+// Enum TslGame.ETslPlatformGroupBranch_BPOnly
+enum class ETslPlatformGroupBranch_BPOnly : uint8 {
+	PC,
+	Console,
+	ETslPlatformGroupBranch_MAX,
+};
+
+// Enum TslGame.EBuffPropertyType
+enum class EBuffPropertyType : uint8 {
+	CoolTime,
+	MeleeDamageRatio,
+	OtherDamageRatio,
+	AllDamageRatio,
+	MeleeAttackDamageRatio,
+	OtherAttackDamageRatio,
+	MeleeBehindAttackDamageRatio,
+	LandingDamageRatio,
+	GetBoostOnDeal,
+	MovementSpeedModifier,
+	OnFootSpeedAccelModifier,
+	JumpVelocityModifier,
+	MaxHpModifier,
+	DecreaseRevivalCastTime,
+	ReloadingSpeedModifier,
+	MultiProperty,
+	RecoilModifier,
+	PlayerAttackDamageModifier,
+	MonsterAttackDamageModifier,
+	ReduceGaugeRatio,
+	DebuffResistance,
+	EBuffPropertyType_MAX,
+};
+
+// Enum TslGame.EAutoSpectatePriority
+enum class EAutoSpectatePriority : uint8 {
+	None,
+	Vehicle,
+	Distance,
+	Combat,
+	EAutoSpectatePriority_MAX,
+};
+
+// Enum TslGame.EFBRClass
+enum class EFBRClass : uint8 {
+	WARRIOR,
+	RANGER,
+	WIZARD,
+	PALADIN,
+	EFBRClass_MAX,
+};
+
+// Enum TslGame.ELeagueMatchStatistic
+enum class ELeagueMatchStatistic : uint8 {
+	Kill,
+	Damage,
+	Assist,
+	ELeagueMatchStatistic_MAX,
+};
+
+// Enum TslGame.ELeagueMatchResultState
+enum class ELeagueMatchResultState : uint8 {
+	None,
+	WinnerWinnerChickenDinner,
+	Statistic,
+	Ranking,
+	ELeagueMatchResultState_MAX,
+};
+
+// Enum TslGame.EObserverHudAnimType
+enum class EObserverHudAnimType : uint8 {
+	TeamWipeOutAnim,
+	PersonalKillingSpreeAnim,
+	TeamTotalKillingSpreeAnim,
+	EObserverHudAnimType_MAX,
+};
+
+// Enum TslGame.EPreviewPlatformIconType
+enum class EPreviewPlatformIconType : uint8 {
+	XboxOne,
+	PS4,
+	Switch,
+	Quail,
+	None,
+	EPreviewPlatformIconType_MAX,
+};
+
+// Enum TslGame.EMovementBaseType
+enum class EMovementBaseType : uint8 {
+	None,
+	Train,
+	Ship,
+	CableCar,
+	COUNT,
+	EMovementBaseType_MAX,
+};
+
+// Enum TslGame.*19e741067e
+enum class *19e741067e : uint8 {
+	*0e1a063c74,
+	*e0b59a3bd9,
+	*51807334b4,
+	*19e741067e_MAX,
+};
+
+// Enum TslGame.EBlueZoneShape
+enum class EBlueZoneShape : uint8 {
+	None,
+	Circle,
+	Rectangle,
+	EBlueZoneShape_MAX,
+};
+
+// Enum TslGame.EGameZoneType
+enum class EGameZoneType : uint8 {
+	SafeZone,
+	PlayZone,
+	BlueZone,
+	RedZone,
+	BlackZone,
+	EGameZoneType_MAX,
+};
+
+// Enum TslGame.ERespawnType
+enum class ERespawnType : uint8 {
+	Airborne,
+	DeadPoint,
+	StartPoint,
+	Selectable,
+	RandomPoint,
+	CheckPoint,
+	ERespawnType_MAX,
+};
+
+// Enum TslGame.EPlatoonTeam
+enum class EPlatoonTeam : uint8 {
+	None,
+	Blue,
+	Red,
+	EPlatoonTeam_MAX,
+};
+
+// Enum TslGame.EAutoRecoveryType
+enum class EAutoRecoveryType : uint8 {
+	None,
+	Human,
+	Zombie,
+	HumanAndZombie,
+	EAutoRecoveryType_MAX,
+};
+
+// Enum TslGame.EZombieVirusType
+enum class EZombieVirusType : uint8 {
+	None,
+	Attacked,
+	All,
+	EZombieVirusType_MAX,
+};
+
+// Enum TslGame.EPrivateTrainingRoomType
+enum class EPrivateTrainingRoomType : uint8 {
+	IndoorRange,
+	PracticalTrainingRoom,
+	None,
+	EPrivateTrainingRoomType_MAX,
+};
+
+// Enum TslGame.ETeamMateEmoteErrorType
+enum class ETeamMateEmoteErrorType : uint8 {
+	Normal,
+	ExcessFollower,
+	ExcessLimitDistance,
+	ETeamMateEmoteErrorType_MAX,
+};
+
+// Enum TslGame.EInventoryRadioMessageType
+enum class EInventoryRadioMessageType : uint8 {
+	Vicinity,
+	Inventory,
+	Equipment,
+	Weapon,
+	Attachment,
+	TacticalGear,
+	Empty_Head,
+	Empty_TorsoArmor,
+	Empty_Backpack,
+	Empty_PrimaryWeapon,
+	Empty_SecondaryWeapon,
+	Empty_WeaponMelee,
+	Empty_WeaponThrowable,
+	Empty_LowMagScope,
+	Empty_HighMagScope,
+	Empty_Muzzle,
+	Empty_LowerRail,
+	Empty_Magazine,
+	Empty_Stock,
+	Empty_Canted,
+	None,
+	EInventoryRadioMessageType_MAX,
+};
+
+// Enum TslGame.ERadioMessageInteractionType
+enum class ERadioMessageInteractionType : uint8 {
+	DroppedItem,
+	Vehicle,
+	CarepackageOrDeadbox,
+	VendingMachine,
+	RevivalTower,
+	Normal,
+	None,
+	ERadioMessageInteractionType_MAX,
+};
+
+// Enum TslGame.ERadioMessageAlarmSoundCategory
+enum class ERadioMessageAlarmSoundCategory : uint8 {
+	Normal,
+	Notify,
+	Warning,
+	Important,
+	Invalid,
+	ERadioMessageAlarmSoundCategory_MAX,
+};
+
+// Enum TslGame.ERadioMessageCategory
+enum class ERadioMessageCategory : uint8 {
+	Affirmative,
+	ThankYou,
+	NeedMed,
+	Negative,
+	Sorry,
+	NeedAmmo,
+	EnemySpotted,
+	EnemyAreaSpotted,
+	ItemSpotted,
+	Ping,
+	AreaPing,
+	HelpMe,
+	AreaNeedHelp,
+	AreaBackup,
+	WayPoint,
+	EmergencyPickup,
+	TeamMateEmote,
+	Inventory,
+	PlantingBomb,
+	DefusingBomb,
+	MovePlantedBombSite,
+	BombCoin,
+	Rush,
+	Max,
+	Invalid,
+	ERadioMessageCategory_MAX,
+};
+
+// Enum TslGame.ERadioMessageHighlightType
+enum class ERadioMessageHighlightType : uint8 {
+	None,
+	EnemySpotted,
+	WorldMapPing,
+	ERadioMessageHighlightType_MAX,
+};
+
+// Enum TslGame.EEquippedWeaponRTPC
+enum class EEquippedWeaponRTPC : uint8 {
+	None,
+	HandBomb_Bottle,
+	HandBomb_Metal,
+	Melee,
+	Pistol,
+	SMG,
+	AR,
+	SR,
+	Max,
+	EEquippedWeaponRTPC_MAX,
+};
+
+// Enum TslGame.*b5ba21fd81
+enum class *b5ba21fd81 : uint8 {
+	*4a072b6982,
+	*110e5d3c76,
+	*10ae03b5c6,
+	*b5ba21fd81_MAX,
+};
+
+// Enum TslGame.EViewModeActorCenterPosition
+enum class EViewModeActorCenterPosition : uint8 {
+	None,
+	Center,
+	Bottom,
+	EViewModeActorCenterPosition_MAX,
+};
+
+// Enum TslGame.EViewModeCategory
+enum class EViewModeCategory : uint8 {
+	None,
+	Weapon,
+	Parachute,
+	Character,
+	Vehicle,
+	FloatingVehicle,
+	LootCrate,
+	EViewModeCategory_MAX,
+};
+
+// Enum TslGame.ESystemMenuButtonType
+enum class ESystemMenuButtonType : uint8 {
+	RESUME,
+	SETTINGS,
+	TEAM_MANAGEMENT,
+	KEY_GUIDE,
+	RESTART_LOBBY,
+	LEAVE_MATCH,
+	RETURN_TO_GAME,
+	EXIT_TO_DESKTOP,
+	GM_COMMAND_INGAME_HELPER,
+	MATCH_LOG,
+	ESystemMenuButtonType_MAX,
+};
+
+// Enum TslGame.*9b9eb639a2
+enum class *9b9eb639a2 : uint8 {
+	*25c67a7ac6,
+	*16a8ae55f8,
+	*a690b49aba,
+	*9b9eb639a2_MAX,
+};
+
+// Enum TslGame.*8223a7f1c0
+enum class *8223a7f1c0 : uint8 {
+	*51c7129f82,
+	*f4740cc376,
+	*59ac06681a,
+	*633ac03d7f,
+	*16f1f3a8c3,
+	*8223a7f1c0_MAX,
+};
+
+// Enum TslGame.*cd0c1e1003
+enum class *cd0c1e1003 : uint8 {
+	*a31129b040,
+	*2b8bd4eb5e,
+	*743952f897,
+	*e70f2f935d,
+	*886762e3a3,
+	*e628ed7061,
+	*9ae830471b,
+	*cd0c1e1003_MAX,
+};
+
+// Enum TslGame.EReticleType
+enum class EReticleType : uint8 {
+	RedDot,
+	HoloSight,
+	Scope2x,
+	Scope3x,
+	Scope4x,
+	Scope6x,
+	Scope8x,
+	EReticleType_MAX,
+};
+
+// Enum TslGame.EKeyHintType
+enum class EKeyHintType : uint8 {
+	Menu,
+	Parachuting,
+	Character,
+	Driver,
+	Rider,
+	WeaponUse,
+	WeaponChange,
+	ADS,
+	Aim,
+	ADS_8x15x,
+	ADS_6x,
+	ADS_1x2x3x,
+	ADS_CantedSight,
+	ADS_IronSight,
+	Throwing,
+	Heal,
+	Swimming,
+	TeamSpectating,
+	KillerSpectating,
+	WorldMap,
+	None,
+	FreefallNew,
+	ParachuteNew,
+	SpikeTrap,
+	MotorGlider,
+	JerryCan,
+	Melee,
+	MeleeThrowing,
+	ArenaModeHelpBox,
+	Other,
+	EKeyHintType_MAX,
+};
+
+// Enum TslGame.*97de65b508
+enum class *97de65b508 : uint8 {
+	*5d1d1107d3,
+	*d9a91cea43,
+	*db5ddefd7b,
+	*760cdfeebf,
+	*68e072f40f,
+	*81bca9fc2e,
+	*b99048ad36,
+	*7f0095151d,
+	*f81c5f6893,
+	*97de65b508_MAX,
+};
+
+// Enum TslGame.EWeatherChange
+enum class EWeatherChange : uint8 {
+	NoChange,
+	Rainy,
+	Foggy,
+	EWeatherChange_MAX,
+};
+
+// Enum TslGame.*9658063126
+enum class *9658063126 : uint8 {
+	*82be6a45d2,
+	*e2f731e1a7,
+	*0794d1c1a2,
+	*8855fb2735,
+	*a81b608c3c,
+	*d16c3b0747,
+	*9658063126_MAX,
+};
+
+// Enum TslGame.EMinimapColorType
+enum class EMinimapColorType : uint8 {
+	DESATURATED,
+	SATURATED,
+	EMinimapColorType_MAX,
+};
+
+// Enum TslGame.EDamageZoneType
+enum class EDamageZoneType : uint8 {
+	Head,
+	Torso,
+	Arm,
+	Pelvis,
+	Leg,
+	EDamageZoneType_MAX,
+};
+
+// Enum TslGame.ETslWidgetCreationMethod
+enum class ETslWidgetCreationMethod : uint8 {
+	CreateOnInit,
+	OnDemand,
+	OnDemandOnOnlyPC,
+	OnDemandOnOnlyConsole,
+	ETslWidgetCreationMethod_MAX,
+};
+
+// Enum TslGame.ERedZoneGenerateType
+enum class ERedZoneGenerateType : uint8 {
+	None,
+	Uniform_Distribution,
+	Ringtaw,
+	Outsider,
+	RingtawOrOutsider,
+	ERedZoneGenerateType_MAX,
+};
+
+// Enum TslGame.ETslHudType
+enum class ETslHudType : uint8 {
+	None,
+	CharacterHud,
+	SpectatorHud,
+	ObserverHud,
+	ReplayHud,
+	LeagueReplayHud,
+	ETslHudType_MAX,
+};
+
+// Enum TslGame.ETargetAnimDynamicsType
+enum class ETargetAnimDynamicsType : uint8 {
+	None,
+	Hair,
+	Coat,
+	ETargetAnimDynamicsType_MAX,
+};
+
+// Enum TslGame.EAnimatableCustomizableTypes
+enum class EAnimatableCustomizableTypes : uint8 {
+	Hair,
+	Outer,
+	Legs,
+	Torso,
+	Head,
+	Mask,
+	Backpack,
+	Eyes,
+	TorsoArmor,
+	Hands,
+	Feet,
+	Belt,
+	Face,
+	EAnimatableCustomizableTypes_MAX,
+};
+
+// Enum TslGame.EGameEndState
+enum class EGameEndState : uint8 {
+	None,
+	CereMony,
+	Cinematic,
+	MatchFinish,
+	EGameEndState_MAX,
+};
+
+// Enum TslGame.*8bc69dbd53
+enum class *8bc69dbd53 : uint8 {
+	*00dadd5b9c,
+	*1d97b882d8,
+	*fbf6f1375d,
+	*8bc69dbd53_MAX,
+};
+
+// Enum TslGame.ELobbyCameraStates
+enum class ELobbyCameraStates : uint8 {
+	XBox_Home,
+	Main_1,
+	Main_2,
+	Menu_1,
+	Custom_1,
+	Custom_2,
+	EventPass_Milestone_1,
+	EventPass_Milestone_2,
+	EventPass_Missions,
+	ViewMode_Character,
+	ViewMode_Weapon,
+	ViewMode_Parachute,
+	EventPass_Milestone_0_Particle,
+	None,
+	ELobbyCameraStates_MAX,
+};
+
+// Enum TslGame.EUiShowType
+enum class EUiShowType : uint8 {
+	AlwaysShow,
+	TpsOnlyShow,
+	FpsOnlyShow,
+	AlwaysHide,
+	EUiShowType_MAX,
+};
+
+// Enum TslGame.EMatchLogTab
+enum class EMatchLogTab : uint8 {
+	All,
+	Squad,
+	You,
+	EMatchLogTab_MAX,
+};
+
+// Enum TslGame.EMatchLogRelative
+enum class EMatchLogRelative : uint8 {
+	None,
+	You,
+	Squad,
+	Other,
+	EMatchLogRelative_MAX,
+};
+
+// Enum TslGame.EMatchLogType
+enum class EMatchLogType : uint8 {
+	None,
+	KillMessage,
+	SystemMessage,
+	EMatchLogType_MAX,
+};
+
+// Enum TslGame.ETslApRewardLogicType
+enum class ETslApRewardLogicType : uint8 {
+	None,
+	Public,
+	ETslApRewardLogicType_MAX,
+};
+
+// Enum TslGame.ETslXpRewardLogicType
+enum class ETslXpRewardLogicType : uint8 {
+	None,
+	Public,
+	ETslXpRewardLogicType_MAX,
+};
+
+// Enum TslGame.ETslBpRewardLogicType
+enum class ETslBpRewardLogicType : uint8 {
+	None,
+	Public,
+	ScoreBased,
+	ETslBpRewardLogicType_MAX,
+};
+
+// Enum TslGame.ELobbyItemStateFlags
+enum class ELobbyItemStateFlags : uint8 {
+	Default,
+	Vehicle_DoorOpened,
+	ELobbyItemStateFlags_MAX,
+};
+
+// Enum TslGame.ELobbyCustomizingSlotType
+enum class ELobbyCustomizingSlotType : uint8 {
+	None,
+	VehicleSlot,
+	WeaponSlot,
+	ELobbyCustomizingSlotType_MAX,
+};
+
+// Enum TslGame.EGamepadInputResponseForTapIconWidget
+enum class EGamepadInputResponseForTapIconWidget : uint8 {
+	None,
+	Hold,
+	DoubleTap,
+	EGamepadInputResponseForTapIconWidget_MAX,
+};
+
+// Enum TslGame.EActionType
+enum class EActionType : uint8 {
+	Action,
+	Axis,
+	Action_Combo,
+	EActionType_MAX,
+};
+
+// Enum TslGame.EEmergencyPickupState
+enum class EEmergencyPickupState : uint8 {
+	None,
+	Prepare,
+	Aircraft,
+	EEmergencyPickupState_MAX,
+};
+
+// Enum TslGame.*d3a151ccaf
+enum class *d3a151ccaf : uint8 {
+	*bce0a4dbf2,
+	*ecba41f16c,
+	*d178e9ef88,
+	*b191340b87,
+	*ff5118415c,
+	*d3a151ccaf_MAX,
+};
+
+// Enum TslGame.EGamepadInputResponseTypes
+enum class EGamepadInputResponseTypes : uint8 {
+	Pressed,
+	Released,
+	Tap,
+	Hold,
+	DoubleTap,
+	EGamepadInputResponseTypes_MAX,
+};
+
+// Enum TslGame.ERadioMessagePresets
+enum class ERadioMessagePresets : uint8 {
+	Preset1,
+	Preset2,
+	ERadioMessagePresets_MAX,
+};
+
+// Enum TslGame.EGamepadPresets
+enum class EGamepadPresets : uint8 {
+	ControllerTypeA,
+	ControllerTypeB,
+	ControllerTypeC,
+	CustomType,
+	Max,
+	EGamepadPresets_MAX,
+};
+
+// Enum TslGame.EKeyGuideShowCases
+enum class EKeyGuideShowCases : uint8 {
+	Reload,
+	ExitVehicle,
+	EKeyGuideShowCases_MAX,
+};
+
+// Enum TslGame.ETslInputModes
+enum class ETslInputModes : uint8 {
+	Toggle,
+	Hold,
+	DoubleTap,
+	ETslInputModes_MAX,
+};
+
+// Enum TslGame.EGameplayClientReplay
+enum class EGameplayClientReplay : uint8 {
+	Replay,
+	Killcam,
+	KeyGuide,
+	EGameplayClientReplay_MAX,
+};
+
+// Enum TslGame.*95fbaf8690
+enum class *95fbaf8690 : uint8 {
+	*3531d2fd00,
+	*241c169849,
+	*95fbaf8690_MAX,
+};
+
+// Enum TslGame.EInputModeSettingActions
+enum class EInputModeSettingActions : uint8 {
+	Crouch,
+	Prone,
+	Walk,
+	Sprint,
+	HoldRotation,
+	HoldBreath,
+	Peek,
+	Map,
+	ADS,
+	Aim,
+	HoldAngled,
+	EInputModeSettingActions_MAX,
+};
+
+// Enum TslGame.*ebe541fc72
+enum class *ebe541fc72 : uint8 {
+	*46f1a67c97,
+	*c3d43dc06d,
+	*47d7d8e40f,
+	*ebe541fc72_MAX,
+};
+
+// Enum TslGame.EReportDetailCauseType
+enum class EReportDetailCauseType : uint8 {
+	None,
+	AutoAim,
+	NoRecoil,
+	EspOrPenetration,
+	Speedhack,
+	WallPenetration,
+	FlyingCar,
+	Other,
+	EReportDetailCauseType_MAX,
+};
+
+// Enum TslGame.EReportedSessionType
+enum class EReportedSessionType : uint8 {
+	PublicOrCustomGame,
+	Killcam,
+	Replay,
+	EReportedSessionType_MAX,
+};
+
+// Enum TslGame.EReportCause
+enum class EReportCause : uint8 {
+	Default,
+	Cheat,
+	TeamKill,
+	Teaming,
+	InappropriateID,
+	VerbalHarassment,
+	Griefing,
+	StreamSniping,
+	InappropriateClanTag,
+	Abusing,
+	MarketingSpamming,
+	EReportCause_MAX,
+};
+
+// Enum TslGame.ItemPackageType
+enum class ItemPackageType : uint8 {
+	RootBox,
+	CarePackage,
+	DroppedEventPackage,
+	VehicleTrunk,
+	ItemPackageType_MAX,
+};
+
+// Enum TslGame.ECarePackageIconType
+enum class ECarePackageIconType : uint8 {
+	Normal,
+	Flying,
+	Opened,
+	ECarePackageIconType_MAX,
+};
+
+// Enum TslGame.EVehicleRideType
+enum class EVehicleRideType : uint8 {
+	None,
+	Normal,
+	Aircraft,
+	Mortar,
+	EVehicleRideType_MAX,
+};
+
+// Enum TslGame.ECharacterIconType
+enum class ECharacterIconType : uint8 {
+	Normal,
+	Vehicle,
+	Parachute,
+	Die,
+	Groggy,
+	Quitter,
+	Observer,
+	Aircraft,
+	EmergencyPickup,
+	ECharacterIconType_MAX,
+};
+
+// Enum TslGame.EReportUiType
+enum class EReportUiType : uint8 {
+	Normal,
+	Respawn,
+	EReportUiType_MAX,
+};
+
+// Enum TslGame.EZombieRuleType
+enum class EZombieRuleType : uint8 {
+	None,
+	BattleRoyale,
+	Survival,
+	Elimination,
+	EZombieRuleType_MAX,
+};
+
+// Enum TslGame.EZombieModePlayerState
+enum class EZombieModePlayerState : uint8 {
+	None,
+	Human,
+	ReadyToRevive,
+	Zombie,
+	EZombieModePlayerState_MAX,
+};
+
+// Enum TslGame.EFiremode
+enum class EFiremode : uint8 {
+	FullAuto,
+	ThreeRoundBurst,
+	TwoRoundBurst,
+	SemiAuto,
+	Single,
+	FullAutoFast,
+	FullAuto_SG,
+	ThreeRoundBurst_SG,
+	SemiAuto_SG,
+	EFiremode_MAX,
+};
+
+// Enum TslGame.ETraumaBagHealMode
+enum class ETraumaBagHealMode : uint8 {
+	NoHealItem,
+	Bandage,
+	FirstAidKit,
+	Medkit,
+	MaxAndNone,
+	ETraumaBagHealMode_MAX,
+};
+
+// Enum TslGame.EHeatState
+enum class EHeatState : uint8 {
+	Stable,
+	IncreaseHeat,
+	DecreaseHeat,
+	OverHeated,
+	CoolingDown,
+	EHeatState_MAX,
+};
+
+// Enum TslGame.EKeyboardKeyIconDisplayType
+enum class EKeyboardKeyIconDisplayType : uint8 {
+	Tap,
+	DoubleTap,
+	Hold,
+	EKeyboardKeyIconDisplayType_MAX,
+};
+
+// Enum TslGame.ETslHASInteractionState
+enum class ETslHASInteractionState : uint8 {
+	Normal,
+	Buffed,
+	Debuffed,
+	Multiple,
+	ETslHASInteractionState_MAX,
+};
+
+// Enum TslGame.ETslHASInteractionType
+enum class ETslHASInteractionType : uint8 {
+	None,
+	Generator,
+	Exit,
+	Healing,
+	BeingHealed,
+	Chest,
+	SelfHeal,
+	Wiggle,
+	Scoping,
+	CabinetKnock,
+	ETslHASInteractionType_MAX,
+};
+
+// Enum TslGame.ETslHASInteractionMethod
+enum class ETslHASInteractionMethod : uint8 {
+	None,
+	Hand,
+	Medkit,
+	Toolbox,
+	Win94,
+	ETslHASInteractionMethod_MAX,
+};
+
+// Enum TslGame.EHASEndGamePhase
+enum class EHASEndGamePhase : uint8 {
+	NotStarted,
+	Lv0,
+	Lv1,
+	Lv2,
+	Lv3,
+	Lv4,
+	EHASEndGamePhase_MAX,
+};
+
+// Enum TslGame.*cdbae7697e
+enum class *cdbae7697e : uint8 {
+	*4e0e4b7313,
+	*3fc9fb5efe,
+	*d64f166f3f,
+	*d72efe23b5,
+	*cdbae7697e_MAX,
+};
+
+// Enum TslGame.EHASSeekerWeapon
+enum class EHASSeekerWeapon : uint8 {
+	None,
+	Win94,
+	Machete,
+	StickyBomb,
+	EHASSeekerWeapon_MAX,
+};
+
+// Enum TslGame.EConsoleHitDirections
+enum class EConsoleHitDirections : uint8 {
+	None,
+	Front_Right,
+	Front_Left,
+	Rear,
+	EConsoleHitDirections_MAX,
+};
+
+// Enum TslGame.EPresetNumSlotState
+enum class EPresetNumSlotState : uint8 {
+	Normal,
+	Focus,
+	Select,
+	Lock,
+	Disable,
+	FocusConsole,
+	SelectFocus,
+	SelectFocusConsole,
+	EPresetNumSlotState_MAX,
+};
+
+// Enum TslGame.ETslMapMarkerTowerState
+enum class ETslMapMarkerTowerState : uint8 {
+	Init,
+	Enable,
+	Active,
+	Disable,
+	ETslMapMarkerTowerState_MAX,
+};
+
+// Enum TslGame.ETslNotificationMessageAnimationType
+enum class ETslNotificationMessageAnimationType : uint8 {
+	None,
+	Appear,
+	Loop,
+	ETslNotificationMessageAnimationType_MAX,
+};
+
+// Enum TslGame.ETslNotificationMessageColorType
+enum class ETslNotificationMessageColorType : uint8 {
+	RichText,
+	Default,
+	Blue,
+	Red,
+	Yellow,
+	ETslNotificationMessageColorType_MAX,
+};
+
+// Enum TslGame.ESoundType
+enum class ESoundType : uint8 {
+	Count,
+	Start,
+	ESoundType_MAX,
+};
+
+// Enum TslGame.ERoundEndPointType
+enum class ERoundEndPointType : uint8 {
+	Empty,
+	Lost,
+	Won,
+	Draw,
+	ERoundEndPointType_MAX,
+};
+
+// Enum TslGame.ETrainingInfoType
+enum class ETrainingInfoType : uint8 {
+	Latest,
+	Best,
+	ETrainingInfoType_MAX,
+};
+
+// Enum TslGame.ETrainingInfoSwitcherIndex
+enum class ETrainingInfoSwitcherIndex : uint8 {
+	Aim,
+	Sound,
+	ETrainingInfoSwitcherIndex_MAX,
+};
+
+// Enum TslGame.ELeaningState
+enum class ELeaningState : uint8 {
+	Normal,
+	LeanLeft,
+	LeanRight,
+	ELeaningState_MAX,
+};
+
+// Enum TslGame.EEventBoostState
+enum class EEventBoostState : uint8 {
+	Normal,
+	UsingBoost,
+	CantUse,
+	EEventBoostState_MAX,
+};
+
+// Enum TslGame.EVehicleAIAvoidanceMode
+enum class EVehicleAIAvoidanceMode : uint8 {
+	Off,
+	SingleTrace,
+	MultiTrace,
+	EVehicleAIAvoidanceMode_MAX,
+};
+
+// Enum TslGame.ESpawnType
+enum class ESpawnType : uint8 {
+	Single,
+	ContinuousOnTimer,
+	ContinuousOnDeath,
+	ESpawnType_MAX,
+};
+
+// Enum TslGame.*26e2bc2655
+enum class *26e2bc2655 : uint8 {
+	*75323cf63a,
+	*b8513d4f6e,
+	*0f07a0ea42,
+	*f4c58a3c50,
+	*11d58caa39,
+	*721941d8e3,
+	*497c320115,
+	*c1bd5bb935,
+	*d4c80c5486,
+	*1999718a4f,
+	*26e2bc2655_MAX,
+};
+
+// Enum TslGame.*591f4e1ae1
+enum class *591f4e1ae1 : uint8 {
+	*f85bcfac5b,
+	*6f53c0fb5e,
+	*8979631c7e,
+	*6ef39fba19,
+	*591f4e1ae1_MAX,
+};
+
+// Enum TslGame.ESurfaceEffect
+enum class ESurfaceEffect : uint8 {
+	S_None,
+	S_Concrete_Roll,
+	S_Concrete_Skid,
+	S_Concrete_Spin,
+	S_Dirt_Roll,
+	S_Dirt_Skid,
+	S_Dirt_Spin,
+	S_Water_Roll,
+	S_Water_Skid,
+	S_Water_Spin,
+	S_Metal_Roll,
+	S_Metal_Skid,
+	S_Metal_Spin,
+	S_Wood_Roll,
+	S_Wood_Skid,
+	S_Wood_Spin,
+	S_Rock_Roll,
+	S_Rock_Skid,
+	S_Rock_Spin,
+	S_Grass_Roll,
+	S_Grass_Skid,
+	S_Grass_Spin,
+	S_Sand_Roll,
+	S_Sand_Skid,
+	S_Sand_Spin,
+	S_Concrete_Brake,
+	S_Dirt_Brake,
+	S_Water_Brake,
+	S_Metal_Brake,
+	S_Wood_Brake,
+	S_Rock_Brake,
+	S_Grass_Brake,
+	S_Sand_Brake,
+	S_Snow_Brake,
+	S_SnowRock_Brake,
+	S_Ice_Brake,
+	S_Common_BrakeDisc,
+	S_Concrete_Punctured_Roll,
+	S_Concrete_Punctured_Skid,
+	S_Concrete_Punctured_Spin,
+	S_Concrete_Punctured_Brake,
+	S_Snow_Roll,
+	S_Snow_Skid,
+	S_Snow_Spin,
+	S_SnowRock_Roll,
+	S_SnowRock_Skid,
+	S_SnowRock_Spin,
+	S_Ice_Roll,
+	S_Ice_Skid,
+	S_Ice_Spin,
+	S_Mud_Roll,
+	S_Mud_Skid,
+	S_Mud_Spin,
+	S_Mud_Brake,
+	S_Common_Neutral,
+	S_MAX,
+};
+
+// Enum TslGame.EMortarWeaponInstallState
+enum class EMortarWeaponInstallState : uint8 {
+	None,
+	InstallInprogress,
+	InstallComplete,
+	Installed,
+	EMortarWeaponInstallState_MAX,
+};
+
+// Enum TslGame.EDeployState
+enum class EDeployState : uint8 {
+	INVALID,
+	UNDEPLOYED,
+	DEPLOYING,
+	DEPLOYED,
+	EDeployState_MAX,
+};
+
+// Enum TslGame.ERepairKitMode
+enum class ERepairKitMode : uint8 {
+	Helmet,
+	Vest,
+	None,
+	ERepairKitMode_MAX,
+};
+
+// Enum TslGame.*adc565b18f
+enum class *adc565b18f : uint8 {
+	*ea252fa0bc,
+	*e0e61c834a,
+	*95443351ee,
+	*adc565b18f_MAX,
+};
+
+// Enum TslGame.EInfoPointType
+enum class EInfoPointType : uint8 {
+	InfoPoint,
+	ObjectPoint,
+	SafePoint,
+	BeachPoint,
+	EInfoPointType_MAX,
+};
+
+// Enum TslGame.EBlendSequenceByBoolStartType
+enum class EBlendSequenceByBoolStartType : uint8 {
+	Restart,
+	SameTime,
+	EBlendSequenceByBoolStartType_MAX,
+};
+
+// Enum TslGame.EJumpStartAnimationType
+enum class EJumpStartAnimationType : uint8 {
+	Stationary,
+	Forward,
+	Backward,
+	EJumpStartAnimationType_MAX,
+};
+
+// Enum TslGame.ERotateBoneInputType
+enum class ERotateBoneInputType : uint8 {
+	Rotator,
+	AngleAxis,
+	ERotateBoneInputType_MAX,
+};
+
+// Enum TslGame.ERotateBoneSpace
+enum class ERotateBoneSpace : uint8 {
+	BoneSpace,
+	LocalSpace,
+	WorldSpace,
+	ERotateBoneSpace_MAX,
+};
+
+// Enum TslGame.ETslLocomotionNodeState
+enum class ETslLocomotionNodeState : uint8 {
+	Idle,
+	Locomotion,
+	Start,
+	Stop_Left,
+	Stop_Right,
+	Pivot_Left,
+	Pivot_Right,
+	FastTurn_Pivot,
+	ETslLocomotionNodeState_MAX,
+};
+
+// Enum TslGame.EGameStartupTimeRecordType
+enum class EGameStartupTimeRecordType : uint8 {
+	ExecPubgBegin,
+	ClientBegin,
+	MoviePlaying,
+	MovieEnded,
+	WelcomeScreenLoadStarted,
+	WelcomeScreenLoadEnded,
+	LobbyLoadStarted,
+	LobbyLoadEnded,
+	StartMoviePlaying,
+	StartMovieEnded,
+	Count,
+	SkipPrevRecord,
+	EGameStartupTimeRecordType_MAX,
+};
+
+// Enum TslGame.*a4c5e6b1e8
+enum class *a4c5e6b1e8 : uint8 {
+	*abe5cdcd58,
+	*d05239030b,
+	*cc9c14979b,
+	*16b976b4ee,
+	*a4c5e6b1e8_MAX,
+};
+
+// Enum TslGame.ETeamChangeZombieMode
+enum class ETeamChangeZombieMode : uint8 {
+	None,
+	LeaveTeam,
+	JoinTeam,
+	ETeamChangeZombieMode_MAX,
+};
+
+// Enum TslGame.*6822211ca7
+enum class *6822211ca7 : uint8 {
+	*06f8086133,
+	*901fd5dc5f,
+	*e61ad72e7f,
+	*427b4db466,
+	*79161c3cd8,
+	*0cb3a52b5c,
+	*6822211ca7_MAX,
+};
+
+// Enum TslGame.EObserverCameraMode
+enum class EObserverCameraMode : uint8 {
+	FixedCamera,
+	FreeCamera,
+	PlayerCamera,
+	FollowCamera,
+	EObserverCameraMode_MAX,
+};
+
+// Enum TslGame.EObserverAuthorityType
+enum class EObserverAuthorityType : uint8 {
+	None,
+	FromBeginning,
+	AfterDeath,
+	AfterExtermination,
+	ArenaModeEagleEye,
+	EagleEye,
+	EObserverAuthorityType_MAX,
+};
+
+// Enum TslGame.*f476693d85
+enum class *f476693d85 : uint8 {
+	*3b8a0c7afd,
+	*42107ec511,
+	*6559e98f39,
+	*f476693d85_MAX,
+};
+
+// Enum TslGame.EGameModeType
+enum class EGameModeType : uint8 {
+	BattleRoyale,
+	War,
+	TDM,
+	Zombie,
+	ZombieDefense,
+	Conquest,
+	Training,
+	ESports,
+	Arena,
+	Challenger,
+	ZoneTag,
+	OneShot,
+	Racing,
+	Futsal,
+	AtoZTutorial,
+	ChickenRoyale,
+	HAS,
+	IntenseBattleRoyale,
+	OverPower,
+	Bomb,
+	SLB,
+	None,
+	EGameModeType_MAX,
+};
+
+// Enum TslGame.EValueType
+enum class EValueType : uint8 {
+	Float,
+	Int,
+	String,
+	Bool,
+	EValueType_MAX,
+};
+
+// Enum TslGame.*e35b7a0b41
+enum class *e35b7a0b41 : uint8 {
+	*9f6ad58eb3,
+	*0183175b2f,
+	*84fac9963d,
+	*944c5e71e7,
+	*06dd43c1e8,
+	*e35b7a0b41_MAX,
+};
+
+// Enum TslGame.*5704eb4c57
+enum class *5704eb4c57 : uint8 {
+	*be84bbc4e0,
+	*e4d911a7b2,
+	*58c821f519,
+	*5704eb4c57_MAX,
+};
+
+// Enum TslGame.ENearClippingLevel
+enum class ENearClippingLevel : uint8 {
+	Default,
+	Low,
+	Middle,
+	High,
+	ENearClippingLevel_MAX,
+};
+
+// Enum TslGame.EThingSpotGroupType
+enum class EThingSpotGroupType : uint8 {
+	GroupA,
+	GroupB,
+	GroupC,
+	GroupD,
+	GroupE,
+	GroupF,
+	GroupG,
+	GroupH,
+	GroupI,
+	GroupJ,
+	GroupK,
+	GroupL,
+	GroupM,
+	GroupN,
+	GroupO,
+	GroupP,
+	GroupQ,
+	GroupR,
+	GroupS,
+	GroupT,
+	GroupU,
+	GroupV,
+	GroupW,
+	GroupX,
+	GroupY,
+	GroupZ,
+	MAX,
+	EThingSpotGroupType_MAX,
+};
+
+// Enum TslGame.EPhysMaterialType
+enum class EPhysMaterialType : uint8 {
+	Unknown,
+	Asphalt,
+	Dirt,
+	Water,
+	Wood,
+	Stone,
+	Metal,
+	EPhysMaterialType_MAX,
+};
+
+// Enum TslGame.EUIAkEvent
+enum class EUIAkEvent : uint8 {
+	None,
+	HoverWeak,
+	HoverMedium,
+	SettingSlider,
+	Confirm,
+	Cancel,
+	PopupModal,
+	SystemMessage,
+	EUIAkEvent_MAX,
+};
+
+// Enum TslGame.EEquipableItemSoundType
+enum class EEquipableItemSoundType : uint8 {
+	None,
+	Vest,
+	LongCoat,
+	HipSack,
+	Cloth,
+	BackPack,
+	MilitaryShoes,
+	Sneakers,
+	EEquipableItemSoundType_MAX,
+};
+
+// Enum TslGame.EEquipableItemSoundGroup
+enum class EEquipableItemSoundGroup : uint8 {
+	Default,
+	Shoes,
+	EEquipableItemSoundGroup_MAX,
+};
+
+// Enum TslGame.EColorBlindType
+enum class EColorBlindType : uint8 {
+	Normal,
+	Deuteranopia,
+	Protanopia,
+	Tritanopia,
+	EColorBlindType_MAX,
+};
+
+// Enum TslGame.EFrameRateLimitType
+enum class EFrameRateLimitType : uint8 {
+	Unlimited,
+	Fixed_31,
+	Fixed_61,
+	Customizable,
+	DisplayBased,
+	EFrameRateLimitType_MAX,
+};
+
+// Enum TslGame.ETslOutGameCloudRequestErrorType
+enum class ETslOutGameCloudRequestErrorType : uint8 {
+	Unknown,
+	InternalError,
+	ServerError,
+	RequestTimedOut,
+	DataCorrupted,
+	CompressionFailed,
+	DecompressionFailed,
+	ETslOutGameCloudRequestErrorType_MAX,
+};
+
+// Enum TslGame.ETslOutGameCloudRequestType
+enum class ETslOutGameCloudRequestType : uint8 {
+	Invalid,
+	SaveToCloud,
+	LoadFromCloud,
+	ETslOutGameCloudRequestType_MAX,
+};
+
+// Enum TslGame.ETslPhysMaterialType
+enum class ETslPhysMaterialType : uint8 {
+	Unknown,
+	Concrete,
+	Dirt,
+	Water,
+	Metal,
+	Wood,
+	Grass,
+	Glass,
+	Flesh,
+	ETslPhysMaterialType_MAX,
+};
+
+// Enum TslGame.ETppAimCameraPosition
+enum class ETppAimCameraPosition : uint8 {
+	LatestAimPosition,
+	LastPeekingPosition,
+	ResetToRightShoulderPosition,
+	ResetToLeftShoulderPosition,
+	ETppAimCameraPosition_MAX,
+};
+
+// Enum TslGame.EAccessorySlot
+enum class EAccessorySlot : uint8 {
+	Slot_Primary,
+	Slot_Secondary,
+	Slot_SideArm,
+	Slot_Melee,
+	Slot_Thrown,
+	Slot_Belt,
+	Slot_None,
+	Slot_MAX,
+};
+
+// Enum TslGame.EInventoryListPackageType
+enum class EInventoryListPackageType : uint8 {
+	CarePackage,
+	InventoryOrDeathDropPackage,
+	TrunkPackage,
+	ItemPackage,
+	Ground,
+	TacPack,
+	Max,
+	EInventoryListPackageType_MAX,
+};
+
+// Enum TslGame.EInventorySlotType
+enum class EInventorySlotType : uint8 {
+	Vicinity,
+	Inventory,
+	Crafting,
+	Equipment,
+	Weapon,
+	Max,
+	EInventorySlotType_MAX,
+};
+
+// Enum TslGame.ELobbyCharacterCameraType
+enum class ELobbyCharacterCameraType : uint8 {
+	None,
+	WholeBodyCamera,
+	TopCamera,
+	HeadCamera,
+	BodyCamera,
+	LegCamera,
+	FootCamera,
+	Max,
+	ELobbyCharacterCameraType_MAX,
+};
+
+// Enum TslGame.EAnimWeaponSpecificClass
+enum class EAnimWeaponSpecificClass : uint8 {
+	None,
+	EAnimWeaponSpecificClass_MAX,
+};
+
+// Enum TslGame.EContinuousHealItem
+enum class EContinuousHealItem : uint8 {
+	Continuous_On,
+	Bandaged_Only,
+	Continuous_Off,
+	EContinuousHealItem_MAX,
+};
+
+// Enum TslGame.EWeaponDisplayTypes
+enum class EWeaponDisplayTypes : uint8 {
+	None,
+	Handgun,
+	SMG,
+	AR,
+	Shotgun,
+	SR,
+	DMR,
+	LMG,
+	AMR,
+	Melee,
+	Throwable,
+	Shield,
+	Crossbow,
+	Launcher,
+	GrenadeLauncher,
+	Mortar,
+	TacticalGear,
+	FlareGun,
+	Special,
+	EWeaponDisplayTypes_MAX,
+};
+
+// Enum TslGame.EWeaponClass
+enum class EWeaponClass : uint8 {
+	Class_None,
+	Class_Pistol,
+	Class_SMG,
+	Class_Rifle,
+	Class_Carbine,
+	Class_Shotgun,
+	Class_Sniper,
+	Class_DMR,
+	Class_LMG,
+	Class_Melee,
+	Class_Throwable,
+	Class_Shield,
+	Class_Crossbow,
+	Class_Launcher,
+	Class_GrenadeLauncher,
+	Class_Mortar,
+	EWeaponClass_MAX,
+};
+
+// Enum TslGame.EAllowedThrowMode
+enum class EAllowedThrowMode : uint8 {
+	Any,
+	ThrowHigh,
+	ThrowLow,
+	EAllowedThrowMode_MAX,
+};
+
+// Enum TslGame.*70f8e97927
+enum class *70f8e97927 : uint8 {
+	*ab7030cce9,
+	*640ce0c724,
+	*77f9214f1c,
+	*70f8e97927_MAX,
+};
+
+// Enum TslGame.EAttachmentCalculateType
+enum class EAttachmentCalculateType : uint8 {
+	Addition,
+	Multiply,
+	EAttachmentCalculateType_MAX,
+};
+
+// Enum TslGame.EAutoEquipAttachmentForScopeMode
+enum class EAutoEquipAttachmentForScopeMode : uint8 {
+	Off,
+	Sight_Only,
+	ALL,
+	EAutoEquipAttachmentForScopeMode_MAX,
+};
+
+// Enum TslGame.ECustomPartType
+enum class ECustomPartType : uint8 {
+	Vehicle,
+	ECustomPartType_MAX,
+};
+
+// Enum TslGame.EItemCategory
+enum class EItemCategory : uint8 {
+	None,
+	Equipment,
+	Weapon,
+	Attachment,
+	Ammunition,
+	Use,
+	Skin,
+	Event,
+	Part,
+	EItemCategory_MAX,
+};
+
+// Enum TslGame.EFiringMode
+enum class EFiringMode : uint8 {
+	Normal,
+	Burst,
+	FullAuto,
+	FullAutoFast,
+	EFiringMode_MAX,
+};
+
+// Enum TslGame.ECharacterGait
+enum class ECharacterGait : uint8 {
+	Walk,
+	Run,
+	Sprint,
+	ECharacterGait_MAX,
+};
+
+// Enum TslGame.EWeaponHand
+enum class EWeaponHand : uint8 {
+	Left,
+	Right,
+	Total,
+	EWeaponHand_MAX,
+};
+
+// Enum TslGame.EWeaponArmState
+enum class EWeaponArmState : uint8 {
+	None,
+	NotArmed,
+	Arming,
+	Armed,
+	UnArming,
+	EWeaponArmState_MAX,
+};
+
+// Enum TslGame.*1ea381afc8
+enum class *1ea381afc8 : uint8 {
+	*4d5ad801fa,
+	*f48d347604,
+	*db8890b174,
+	*1ea381afc8_MAX,
+};
+
+// Enum TslGame.EAnimVehicleSeatType
+enum class EAnimVehicleSeatType : uint8 {
+	Rider,
+	Pillion,
+	VehicleDriver,
+	VehiclePassenger,
+	Pilot,
+	AircraftPassenger,
+	GliderPassenger,
+	EAnimVehicleSeatType_MAX,
+};
+
+// Enum TslGame.ETurningDirection
+enum class ETurningDirection : uint8 {
+	None,
+	Right_46,
+	Right_91,
+	Right_136,
+	Right_181,
+	Left_46,
+	Left_91,
+	Left_136,
+	Left_181,
+	ETurningDirection_MAX,
+};
+
+// Enum TslGame.*d29d91c21c
+enum class *d29d91c21c : uint8 {
+	*e42adee0db,
+	*1126be5f62,
+	*75d240ca55,
+	*d8144344f7,
+	*620efe89b4,
+	*14324149ca,
+	*5c69ae7531,
+	*95fffecb86,
+	*194c690d7c,
+	*d29d91c21c_MAX,
+};
+
+// Enum TslGame.EAnimStance
+enum class EAnimStance : uint8 {
+	Stand,
+	Crouch,
+	Prone,
+	Groggy,
+	EAnimStance_MAX,
+};
+
+// Enum TslGame.EAnimWeaponType
+enum class EAnimWeaponType : uint8 {
+	None,
+	Rifle,
+	Launcher,
+	Pistol,
+	Throwable,
+	SpikeTrap,
+	Melee,
+	Shield,
+	Mortar,
+	MAX,
+	EAnimWeaponType_MAX,
+};
+
+// Enum TslGame.*617cb14c44
+enum class *617cb14c44 : uint8 {
+	*3c342c9420,
+	*729c16dfc1,
+	*e23e8c411c,
+	*617cb14c44_MAX,
+};
+
+// Enum TslGame.ECameraViewBehaviour
+enum class ECameraViewBehaviour : uint8 {
+	FpsAndTps,
+	FpsOnly,
+	TpsOnly,
+	ECameraViewBehaviour_MAX,
+};
+
+// Enum TslGame.EPlayerStartType
+enum class EPlayerStartType : uint8 {
+	OnePlace,
+	SeveralPlace,
+	EPlayerStartType_MAX,
+};
+
+// Enum TslGame.EMatchStartType
+enum class EMatchStartType : uint8 {
+	Normal,
+	Airborne,
+	Monster,
+	EMatchStartType_MAX,
+};
+
+// Enum TslGame.EGender
+enum class EGender : uint8 {
+	Male,
+	Female,
+	EGender_MAX,
+};
+
+// Enum TslGame.EThermalItemType
+enum class EThermalItemType : uint8 {
+	Character,
+	Vehicle,
+	Blood,
+	Fire,
+	Ghillie,
+	CountOrNone,
+	EThermalItemType_MAX,
+};
+
+// Enum TslGame.ESpecialEquipmentType
+enum class ESpecialEquipmentType : uint8 {
+	Default,
+	BluezoneBlocker,
+	EmergencyParachute,
+	Toolbox,
+	TacPack,
+	TraumaBag,
+	SoftRole,
+	ESpecialEquipmentType_MAX,
+};
+
+// Enum TslGame.EEquipableItemLevelType
+enum class EEquipableItemLevelType : uint8 {
+	None,
+	Level1,
+	Level2,
+	Level3,
+	Level4,
+	EEquipableItemLevelType_MAX,
+};
+
+// Enum TslGame.EConstraintSlotType
+enum class EConstraintSlotType : uint8 {
+	Block,
+	Hide,
+	Max,
+	EConstraintSlotType_MAX,
+};
+
+// Enum TslGame.*cff03327dd
+enum class *cff03327dd : uint8 {
+	*7b670b6b59,
+	*f85c13ea27,
+	*141266492e,
+	*cff03327dd_MAX,
+};
+
+// Enum TslGame.*6333d4d051
+enum class *6333d4d051 : uint8 {
+	*7bf72589e5,
+	*161b727995,
+	*030507218d,
+	*974205d9b2,
+	*be49a2a56d,
+	*6333d4d051_MAX,
+};
+
+// Enum TslGame.EItemSpotGroupType
+enum class EItemSpotGroupType : uint8 {
+	GroupA,
+	GroupB,
+	GroupC,
+	GroupD,
+	GroupE,
+	GroupF,
+	GroupG,
+	GroupH,
+	GroupI,
+	GroupJ,
+	GroupK,
+	GroupL,
+	GroupM,
+	GroupN,
+	GroupO,
+	GroupP,
+	GroupQ,
+	GroupR,
+	GroupS,
+	GroupT,
+	GroupU,
+	GroupV,
+	GroupW,
+	GroupX,
+	GroupY,
+	GroupZ,
+	MAX,
+	EItemSpotGroupType_MAX,
+};
+
+// Enum TslGame.EItemSpotType
+enum class EItemSpotType : uint8 {
+	TypeA,
+	TypeB,
+	TypeC,
+	TypeD,
+	TypeE,
+	TypeF,
+	TypeG,
+	TypeH,
+	TypeI,
+	TypeJ,
+	TypeK,
+	TypeL,
+	TypeM,
+	TypeN,
+	TypeO,
+	TypeP,
+	TypeQ,
+	TypeR,
+	TypeS,
+	TypeT,
+	TypeU,
+	TypeV,
+	TypeW,
+	TypeX,
+	TypeY,
+	TypeZ,
+	MAX,
+	EItemSpotType_MAX,
+};
+
+// Enum TslGame.EItemOverrideType
+enum class EItemOverrideType : uint8 {
+	NONE,
+	TypeA,
+	TypeB,
+	TypeC,
+	TypeD,
+	TypeE,
+	TypeF,
+	TypeG,
+	TypeH,
+	TypeI,
+	TypeJ,
+	TypeK,
+	TypeL,
+	TypeM,
+	TypeN,
+	EItemOverrideType_MAX,
+};
+
+// Enum TslGame.ECastableItemType
+enum class ECastableItemType : uint8 {
+	None,
+	Bandage,
+	FirstAid,
+	Medkit,
+	EnergyDrink,
+	Painkiller,
+	Adrenaline,
+	GasCan,
+	Battery,
+	Key,
+	EmergencyPickup,
+	SelfRevive,
+	Ascender,
+	RevivalTransmitter,
+	TacticalGear,
+	ECastableItemType_MAX,
+};
+
+// Enum TslGame.ECastLevel
+enum class ECastLevel : uint8 {
+	None,
+	NoRestriction,
+	Restriction,
+	OnlyRotationRestriction,
+	ECastLevel_MAX,
+};
+
+// Enum TslGame.ECastPriority
+enum class ECastPriority : uint8 {
+	None,
+	Low,
+	Normal,
+	High,
+	Max,
+	ECastPriority_MAX,
+};
+
+// Enum TslGame.ELobbyItemPointSellingType
+enum class ELobbyItemPointSellingType : uint8 {
+	Normal,
+	WeeklyDouble,
+	ELobbyItemPointSellingType_MAX,
+};
+
+// Enum TslGame.ELobbyItemPlatform
+enum class ELobbyItemPlatform : uint8 {
+	PC_Steam,
+	PC_NonSteam,
+	Xbox,
+	ELobbyItemPlatform_MAX,
+};
+
+// Enum TslGame.ELobbyItemTier
+enum class ELobbyItemTier : uint8 {
+	Basic,
+	Common,
+	Classic,
+	Special,
+	Rare,
+	Elite,
+	Epic,
+	Legendary,
+	Ultimate,
+	Event,
+	ELobbyItemTier_MAX,
+};
+
+// Enum TslGame.ELobbyItemCategory
+enum class ELobbyItemCategory : uint8 {
+	Belt,
+	Body,
+	Eyes,
+	Feet,
+	Head,
+	Jacket,
+	Legs,
+	Mask,
+	Hands,
+	Box,
+	Key,
+	WeaponSkin,
+	ParachuteSkin,
+	HelmetSkin,
+	BackpackSkin,
+	TorsoArmorSkin,
+	VehicleSkin,
+	Multislot,
+	ELobbyItemCategory_MAX,
+};
+
+// Enum TslGame.EDamageVictimActorType
+enum class EDamageVictimActorType : uint8 {
+	Default,
+	Character,
+	Vehicle,
+	Wheel,
+	DestructibleActor,
+	ExplosiveItem,
+	DummyAI,
+	EDamageVictimActorType_MAX,
+};
+
+// Enum TslGame.EVehicleConvertState
+enum class EVehicleConvertState : uint8 {
+	None,
+	Play,
+	Cancel,
+	Finish,
+	EVehicleConvertState_MAX,
+};
+
+// Enum TslGame.EVehiclePartType
+enum class EVehiclePartType : uint8 {
+	BodyColor,
+	WheelColor,
+	BrakeCaliperColor,
+	BoostEffect,
+	WheelMesh,
+	PinstripeColor,
+	Spoiler,
+	EVehiclePartType_MAX,
+};
+
+// Enum TslGame.*2b95528797
+enum class *2b95528797 : uint8 {
+	*20fa6df084,
+	*0e67d4e0fa,
+	*ae9f2f7abb,
+	*cb8f55c484,
+	*2b95528797_MAX,
+};
+
+// Enum TslGame.*f5fc171882
+enum class *f5fc171882 : uint8 {
+	*b717b47b87,
+	*d1556b0c91,
+	*c4921e1bf4,
+	*e96b0eff6e,
+	*d9f412f2ae,
+	*5ba26deddc,
+	*e6efcd2501,
+	*06d6281005,
+	*857130fcb1,
+	*104c634847,
+	*97070b4157,
+	*55e189c2b5,
+	*dd9a0e9997,
+	*bb93066f48,
+	*8bc2e92ed0,
+	*f9d4177dc6,
+	*49f0f00222,
+	*f2188e5a48,
+	*2f2884eec3,
+	*0e68aedf52,
+	*9eb0f1a590,
+	*85559a91d1,
+	*22399c0d55,
+	*1e67ac28d1,
+	*4d0826a799,
+	*1bf5ba6b7e,
+	*4bd6432bce,
+	*9104902cb4,
+	*03d991d500,
+	*6571fe7c0f,
+	*ec89ede2c1,
+	*7a3ac1acff,
+	*415a697fed,
+	*4e7496eb4b,
+	*3b28e99a92,
+	*cd26390bf5,
+	*5eeb048baa,
+	*c8651a4d4c,
+	*73ab1aa88b,
+	*26f841df21,
+	*a8918d103e,
+	*42407fa594,
+	*69256d238c,
+	*5ed5b3922e,
+	*f2a1463f4f,
+	*7b2a924fec,
+	*d306a568ea,
+	*aee61c54cd,
+	*1a64cc3915,
+	*190b45f39f,
+	*c817535f0d,
+	*5a57bee453,
+	*1f38590745,
+	*4c4616e30a,
+	*2084ffdff1,
+	*f5fc171882_MAX,
+};
+
+// Enum TslGame.*b6cf884945
+enum class *b6cf884945 : uint8 {
+	*32290ca30d,
+	*6340c384e2,
+	*bfb45fa98b,
+	*59f01a1c72,
+	*b6cf884945_MAX,
+};
+
+// Enum TslGame.ERiderType
+enum class ERiderType : uint8 {
+	Driver,
+	Passenger,
+	ERiderType_MAX,
+};
+
+// Enum TslGame.EStatTrakState
+enum class EStatTrakState : uint8 {
+	Run,
+	Locked,
+	Error,
+	EStatTrakState_MAX,
+};
+
+// Enum TslGame.*9f440c6493
+enum class *9f440c6493 : uint8 {
+	*40f76ee989,
+	*f28018845d,
+	*8ee4c00dad,
+	*48e6e74208,
+	*4d28658a1d,
+	*9f440c6493_MAX,
+};
+
+// Enum TslGame.ESkinMeshType
+enum class ESkinMeshType : uint8 {
+	SkeletalMesh,
+	AsyncStaticMesh,
+	StaticMesh,
+	ESkinMeshType_MAX,
+};
+
+// Enum TslGame.EVehicleSkinCategory
+enum class EVehicleSkinCategory : uint8 {
+	None,
+	FourSeaterSUV,
+	FourSeaterSedan,
+	TwoSeaterSportsCar,
+	TwoSeaterMotorbike,
+	EVehicleSkinCategory_MAX,
+};
+
+// Enum TslGame.ESkinCategory
+enum class ESkinCategory : uint8 {
+	Skin_None,
+	Skin_Equipment,
+	Skin_Parachute,
+	Skin_Weapon,
+	Skin_MeleeWeapon,
+	Skin_Vehicle,
+	Skin_Throwable,
+	Skin_MAX,
+};
+
+// Enum TslGame.EBuffOverlapSolveMethod
+enum class EBuffOverlapSolveMethod : uint8 {
+	IgnoreLater,
+	Overwrite,
+	RestartTimer,
+	Stack,
+	EBuffOverlapSolveMethod_MAX,
+};
+
+// Enum TslGame.*9580d72ff7
+enum class *9580d72ff7 : uint8 {
+	*9d0c205767,
+	*a62dac18d6,
+	*476e649e0f,
+	*0d94d432cd,
+	*9580d72ff7_MAX,
+};
+
+// Enum TslGame.EVaultAnimType
+enum class EVaultAnimType : uint8 {
+	VaultNone,
+	Vault200_Stationary,
+	Vault200_Mobile,
+	Vault200_Narrow,
+	Vault160_Stationary,
+	Vault160_Mobile,
+	Vault160_Narrow,
+	Vault120_Stationary,
+	Vault120_Mobile,
+	Vault120_Slide,
+	Vault120_Narrow,
+	Vault90_Stationary,
+	Vault90_Mobile,
+	Vault90_Slide,
+	Vault90_Narrow,
+	Climb200_Stationary,
+	Climb200_Mobile,
+	Climb200_Slide,
+	Climb200_Narrow,
+	Climb160_Stationary,
+	Climb160_Mobile,
+	Climb160_Slide,
+	Climb160_Narrow,
+	Climb120_Stationary,
+	Climb120_Mobile,
+	Climb120_Slide,
+	Climb120_Narrow,
+	Climb90_Stationary,
+	Climb90_Mobile,
+	Climb90_Slide,
+	Climb90_Narrow,
+	Vault90Roll,
+	Vault120Window,
+	Vault60_Stationary,
+	Vault60_Mobile,
+	Vault60_Slide,
+	Vault60_Narrow,
+	Climb60_Stationary,
+	Climb60_Mobile,
+	Climb60_Narrow,
+	LedgeGrab_Up_Climb,
+	LedgeGrab_Up_Climb_Swing,
+	LedgeGrab_Up_Climb_HalfSwing,
+	LedgeGrab_Up_Vault,
+	LedgeGrab_Up_Vault_Swing,
+	LedgeGrab_Up_Vault_HalfSwing,
+	LedgeGrab_High_Climb,
+	LedgeGrab_High_Climb_Swing,
+	LedgeGrab_High_Climb_HalfSwing,
+	LedgeGrab_High_Vault,
+	LedgeGrab_High_Vault_Swing,
+	LedgeGrab_High_Vault_HalfSwing,
+	LedgeGrab_Low_Climb,
+	LedgeGrab_Low_Climb_Swing,
+	LedgeGrab_Low_Climb_HalfSwing,
+	LedgeGrab_Low_Vault,
+	LedgeGrab_Low_Vault_Swing,
+	LedgeGrab_Low_Vault_HalfSwing,
+	LedgeGrab_Low_Vault_Narrow,
+	LedgeGrab_Low_Vault_HalfSwing_Narrow,
+	LedgeGrab_Low_Vault_Swing_Narrow,
+	LedgeGrab_High_Vault_Narrow,
+	LedgeGrab_High_Vault_HalfSwing_Narrow,
+	LedgeGrab_High_Vault_Swing_Narrow,
+	LedgeGrab_Up_Vault_Narrow,
+	LedgeGrab_Up_Vault_HalfSwing_Narrow,
+	LedgeGrab_Up_Vault_Swing_Narrow,
+	EVaultAnimType_MAX,
+};
+
+// Enum TslGame.ECollisionProfileType
+enum class ECollisionProfileType : uint8 {
+	Profiles,
+	DefaultChannelResponses,
+	EditProfiles,
+	ProfileRedirects,
+	CollisionChannelRedirects,
+	ECollisionProfileType_MAX,
+};
+
+// Enum TslGame.EMovingState
+enum class EMovingState : uint8 {
+	Walk,
+	Run,
+	Sprint,
+	EMovingState_MAX,
+};
+
+// Enum TslGame.EPlayerInputType
+enum class EPlayerInputType : uint8 {
+	KeyboardMouse,
+	Gamepad,
+	Mixed,
+	EPlayerInputType_MAX,
+};
+
+// Enum TslGame.EAntiCheatKickType
+enum class EAntiCheatKickType : uint8 {
+	Default,
+	HWID,
+	MouseMacro,
+	InGame,
+	BattleEye,
+	EAntiCheatKickType_MAX,
+};
+
+// Enum TslGame.ECheatType
+enum class ECheatType : uint8 {
+	None,
+	SpeedHack,
+	IgnoreWall_Hit,
+	IgnoreWall_Sight,
+	IgnoreVelocity_Hit,
+	IgnoreVelocity,
+	IgnoreVelocity2,
+	ItemPackage,
+	CarePackageMount,
+	Aimbot,
+	VerifyLagSwitch,
+	InvalidNetConnectionClose,
+	InvalidImpact,
+	InvalidImpactZ,
+	InvalidImpact_Gun_C,
+	InvalidOrigin_Gun,
+	InvalidOrigin_Melee,
+	InvalidOrigin_Punch,
+	InvalidOrigin_Throwable,
+	InvalidOrigin_MeleeThrow,
+	InvalidSimStep_MeleeThrow,
+	InvalidRange,
+	InvalidRange2,
+	InvalidReviving,
+	InvalidKick,
+	InvalidA0,
+	InvalidB1,
+	InvalidB1_2,
+	InvalidH0,
+	InvalidOrigin_Gun_C,
+	InvalidD0,
+	InvalidS0,
+	InvalidH1,
+	InvalidH2,
+	InvalidH3,
+	InvalidC0,
+	InvalidC1,
+	InvalidC2,
+	InvalidC3,
+	InvalidC4,
+	InvalidC5,
+	InvalidC6,
+	InvalidC7,
+	InvalidT0,
+	InvalidT1,
+	InvalidT2,
+	InvalidAimDir,
+	InvalidPelletDir,
+	InvalidAmmoSpeed,
+	InvalidAmmoDir,
+	InvalidCharacterFlag,
+	InvalidCharacterXRay,
+	InvalidPropertyCrc,
+	InvalidWeaponCrc,
+	InvalidWeaponRecoil,
+	InvalidSwayBuffer,
+	InvalidCameraYaw,
+	InvalidWeaponPackageCrc,
+	InvalidWeaponFlag,
+	InvalidHitComponent,
+	InvalidCollisionProfileCrc,
+	InvalidPakListCrc,
+	InvalidCharacterCrc,
+	InvalidHitLocation,
+	InvalidSight,
+	InvalidBackface,
+	InvalidMovementCurveCrc,
+	InvalidDriverFire,
+	InvalidVehicleOverlap,
+	InvalidViewRotation,
+	InvalidPenetration,
+	InvalidPunchSpeed,
+	CHKSUM_PUNCH,
+	CHKSUM_MELEE,
+	CHKSUM_A0,
+	CHKSUM_T0,
+	CHKSUM_S0,
+	CHKSUM_D0,
+	CHKSUM_V0,
+	CHKSUM_W0,
+	CHKSUM_T1,
+	CHKSUM_D1,
+	CHKSUM_CD,
+	CHKSUM_LC,
+	CHKSUM_P0,
+	CHKSUM_BP,
+	CHKSUM_G1,
+	CHKSUM_H2,
+	CHKSUM_H3,
+	CHKSUM_UO,
+	CHKSUM_UF,
+	VHC_RI,
+	VHC_MG_FF,
+	VHC_MG_FC,
+	VHC_MG_SW,
+	VHC_MG_OS,
+	VHC_MG_BC,
+	VHC_MG_TC,
+	VHC_MG_PL,
+	VHC_MG_HL,
+	VHC_MG_SD,
+	VHC_MG_AA,
+	VHC_MG_AV,
+	VHC_MG_AD,
+	VHC_MGB_FF,
+	VHC_MGB_FC,
+	VHC_MGB_OS,
+	VHC_MGB_BC,
+	VHC_MGB_TC,
+	VHC_MGB_PL,
+	VHC_MGB_HL,
+	VHC_MGB_AA,
+	VHC_MGB_AV,
+	VHC_MGB_AD,
+	VHC_MGF_OS,
+	VHC_MGF_TC,
+	VHC_MGF_BC,
+	VHC_MGF_SD,
+	VHC_MGF_AA,
+	VHC_MGF_AV,
+	VHC_KILL,
+	VHC_ED,
+	VHC_SERVERSIMUL,
+	VHC_SIMULATION_ACTIVATE,
+	VHC_SIMULATION_DEACTIVATE,
+	VHC_TRY_BYPASS_SERVERSIMUL,
+	VHC_BYPASSED_SERVERSIMUL,
+	VHC_FORCE_SERVERSIMUL,
+	CK_ACTIVATE,
+	CK_DEACTIVATE,
+	AntiCheatKick_WallHack,
+	AntiCheatKick_ESP,
+	AntiCheatKick_SpeedHack1,
+	AntiCheatKick_SpeedHack2,
+	AntiCheatKick_SpeedHack3,
+	AntiCheatKick_PLFC,
+	AntiCheatKick_TCFC,
+	AntiCheatKick_HL,
+	AntiCheatKick_OS,
+	AntiCheatKick_FC,
+	AntiCheatKick_SV,
+	VehicleSimulation_PLFC,
+	VehicleSimulation_TCFC,
+	VehicleSimulation_HL,
+	VehicleSimulation_OS,
+	VehicleSimulation_FC,
+	CC_ACTIVATE,
+	CC_DEACTIVATE,
+	CC_FORCE_ERROR_CORRECTION,
+	FLC_ACTIVATE,
+	FLC_DEACTIVATE,
+	FallingCorrection,
+	VaultingCorrection,
+	QS_AJ,
+	QS_VZ,
+	KGB_AF,
+	InputLog,
+	FireInputLog,
+	ESPLog,
+	ESPRatioLog,
+	IsEnabledAntiESP,
+	HighLocationVehicle,
+	HighLocationBoat,
+	UnderLandscapeBoat,
+	UnderLandscapeCharacter,
+	InsideMeshCharacter,
+	BC_BoatCorrection,
+	HBR_InvalidDashDistance,
+	UNC_ACTIVATE,
+	UNC_DEACTIVATE,
+	UncAddUserFail,
+	UncSetUserInfoFail,
+	UncDeleteUserFail,
+	UncGetCookieFail,
+	UncCookieVerifyFail,
+	UncCookieNotRespond,
+	DESP_SelfInfo,
+	DESP_SelfInvalidCheckSum,
+	DESP_SelfInvalidCount,
+	DESP_RemoteInfo,
+	DESP_RemoteInvalidCheckSum,
+	HitInSmoke,
+	BoneFocusedShoot,
+	CenterFocusedShoot,
+	Combination_Undefined,
+	Combination_FlyingCar,
+	Combination_InsideMeshAttack,
+	ECheatType_MAX,
+};
+
+// Enum TslGame.ETslCustomMovementMode
+enum class ETslCustomMovementMode : uint8 {
+	Vaulting,
+	Freefalling,
+	Parachuting,
+	UsingAscender,
+	ETslCustomMovementMode_MAX,
+};
+
+// Enum TslGame.*72f4731af1
+enum class *72f4731af1 : uint8 {
+	*786a081fde,
+	*99433ac3f3,
+	*cc5b663e5d,
+	*57c263b37b,
+	*72f4731af1_MAX,
+};
+
+// Enum TslGame.EPreoccupiedTeamType
+enum class EPreoccupiedTeamType : uint8 {
+	NEUTRAL,
+	RED,
+	BLUE,
+	EPreoccupiedTeamType_MAX,
+};
+
+// Enum TslGame.*d30d406859
+enum class *d30d406859 : uint8 {
+	*dceb2a9667,
+	*3db349ddce,
+	*e1e970b907,
+	*ba59030f51,
+	*d30d406859_MAX,
+};
+
+// Enum TslGame.EPopupStyle
+enum class EPopupStyle : uint8 {
+	Ok_Cancel,
+	Ok,
+	Yes_No,
+	Controller_KeyboardMouse,
+	EPopupStyle_MAX,
+};
+
+// Enum TslGame.EKillcamDisplayCode
+enum class EKillcamDisplayCode : uint8 {
+	NotVisible,
+	OptionDisabled,
+	Recording,
+	Playable,
+	Replay,
+	FailToLoad,
+	DemoFailure,
+	DetectedUnusualMovement,
+	EKillcamDisplayCode_MAX,
+};
+
+// Enum TslGame.EWidgetShowType
+enum class EWidgetShowType : uint8 {
+	Show,
+	Hide,
+	Toggle,
+	EWidgetShowType_MAX,
+};
+
+// Enum TslGame.EAIPoseState
+enum class EAIPoseState : uint8 {
+	Stand,
+	Crouch,
+	Prone,
+	Jump,
+	Reload,
+	UnArmed,
+	EAIPoseState_MAX,
+};
+
+// Enum TslGame.ERaycastDirection
+enum class ERaycastDirection : uint8 {
+	Forward,
+	Down_45_Degrees,
+	Down,
+	ERaycastDirection_MAX,
+};
+
+// Enum TslGame.EEmoteMoveType
+enum class EEmoteMoveType : uint8 {
+	None,
+	MoveFoward,
+	EEmoteMoveType_MAX,
+};
+
+// Enum TslGame.EEmotePlayType
+enum class EEmotePlayType : uint8 {
+	None,
+	Normal,
+	TeamMate,
+	Interaction,
+	EEmotePlayType_MAX,
+};
+
+// Enum TslGame.*d20bede27b
+enum class *d20bede27b : uint8 {
+	*e1e1432027,
+	*17b96bf865,
+	*0ee1334d3e,
+	*0b2b2b1f74,
+	*d20bede27b_MAX,
+};
+
+// Enum TslGame.ESpecialZoneAdditionalEffect
+enum class ESpecialZoneAdditionalEffect : uint8 {
+	RemoveFireAndSmoke,
+	DestructDrone,
+	DeactivateBluezoneBlocker,
+	DeactivateSpotterScope,
+	DeactivateBlueChipDetector,
+	DeactivateBlueChipRevival,
+	ESpecialZoneAdditionalEffect_MAX,
+};
+
+// Enum TslGame.ESpecialZoneState
+enum class ESpecialZoneState : uint8 {
+	Disabled,
+	BeforeMatch,
+	WaitingStartDelay,
+	Warning,
+	Activating,
+	ActivationDone,
+	Deactivating,
+	Removed,
+	Finished,
+	ESpecialZoneState_MAX,
+};
+
+// Enum TslGame.ESpecialZoneType
+enum class ESpecialZoneType : uint8 {
+	None,
+	Blizzard,
+	SandStorm,
+	ESpecialZoneType_MAX,
+};
+
+// Enum TslGame.EMovementSpamType
+enum class EMovementSpamType : uint8 {
+	LeanRight,
+	LeanLeft,
+	Crouch,
+	EMovementSpamType_MAX,
+};
+
+// Enum TslGame.EAttackType
+enum class EAttackType : uint8 {
+	None,
+	Weapon,
+	VehicleCrash,
+	VehicleExplosion,
+	Fall,
+	BlueZone,
+	RedZone,
+	BlackZone,
+	EAttackType_MAX,
+};
+
+// Enum TslGame.EPlayerMoveType
+enum class EPlayerMoveType : uint8 {
+	OnFoot,
+	OnSwim,
+	OnVehicle,
+	OnParachute,
+	OnFreefall,
+	EPlayerMoveType_MAX,
+};
+
+// Enum TslGame.EVoiceChannelType
+enum class EVoiceChannelType : uint8 {
+	None,
+	All,
+	GlobalOnly,
+	TeamOnly,
+	EVoiceChannelType_MAX,
+};
+
+// Enum TslGame.EVivoxResponseState
+enum class EVivoxResponseState : uint8 {
+	NotRequested,
+	Requested,
+	Fail,
+	Success,
+	EVivoxResponseState_MAX,
+};
+
+// Enum TslGame.ELandingSoundSwitchState
+enum class ELandingSoundSwitchState : uint8 {
+	None,
+	Light,
+	Heavy,
+	VeryHeavy,
+	ELandingSoundSwitchState_MAX,
+};
+
+// Enum TslGame.*8f7cddd88b
+enum class *8f7cddd88b : uint8 {
+	*228e6276bd,
+	*edf1fa221d,
+	*59dee1a6da,
+	*93e277c5af,
+	*43fec969ea,
+	*8f7cddd88b_MAX,
+};
+
+// Enum TslGame.ECustomGripBlendSpaceType
+enum class ECustomGripBlendSpaceType : uint8 {
+	None,
+	Stand,
+	Crouch,
+	Prone,
+	ProneTransition,
+	ProneLocomotion,
+	ECustomGripBlendSpaceType_MAX,
+};
+
+// Enum TslGame.EMasteryItemType
+enum class EMasteryItemType : uint8 {
+	Charm,
+	Mesh,
+	EMasteryItemType_MAX,
+};
+
+// Enum TslGame.TableType
+enum class TableType : uint8 {
+	Ammo,
+	Attachment,
+	Equipment,
+	Skin,
+	SkinThrowable,
+	Weapon,
+	WeaponThrowable,
+	WeaponShield,
+	Castable,
+	UsedByAction,
+	Event,
+	Craft,
+	VehiclePart,
+	Bluechip,
+	TableType_MAX,
+};
+
+// Enum TslGame.ESoftRoleState
+enum class ESoftRoleState : uint8 {
+	Open,
+	Closed,
+	Inspect,
+	ESoftRoleState_MAX,
+};
+
+// Enum TslGame.*329ef2ca91
+enum class *329ef2ca91 : uint8 {
+	*da31812c52,
+	*14f2c627d5,
+	*9cf6b77c6a,
+	*099f14fb9a,
+	*329ef2ca91_MAX,
+};
+
+// Enum TslGame.ESandboxConsoleGuideKeyType
+enum class ESandboxConsoleGuideKeyType : uint8 {
+	None,
+	ExpandAndClose,
+	SpawnAndBack,
+	AdjustAndClose,
+	ConfirmAndBack,
+	SpawnAndClose,
+	ESandboxConsoleGuideKeyType_MAX,
+};
+
+// Enum TslGame.ESandboxGroypType
+enum class ESandboxGroypType : uint8 {
+	None,
+	Weapon,
+	Attachment,
+	Item,
+	Vehicle,
+	Sensitivity,
+	Power,
+	Special,
+	ESandboxGroypType_MAX,
+};
+
+// Enum TslGame.ESandboxQuantityType
+enum class ESandboxQuantityType : uint8 {
+	None,
+	Item,
+	Vehicle,
+	ESandboxQuantityType_MAX,
+};
+
+// Enum TslGame.ESandboxSpecialButtonType
+enum class ESandboxSpecialButtonType : uint8 {
+	None,
+	EquipLv3,
+	AddAmmo,
+	SettingAPrevious,
+	SettingAGunset,
+	ESandboxSpecialButtonType_MAX,
+};
+
+// Enum TslGame.ESandboxPowerType
+enum class ESandboxPowerType : uint8 {
+	None,
+	Fly,
+	InvulnerableEffect,
+	CarePackage,
+	RedZone,
+	Revive,
+	TeamRevive,
+	GiveItemToEveryone,
+	BlueZone,
+	ESandboxPowerType_MAX,
+};
+
+// Enum TslGame.ESandboxSoundType
+enum class ESandboxSoundType : uint8 {
+	None,
+	ItemSpawnClick,
+	ItemSpawnSuccess,
+	ESandboxSoundType_MAX,
+};
+
+// Enum TslGame.*a7f4041a8b
+enum class *a7f4041a8b : uint8 {
+	*5249c4b9f1,
+	*73566bc036,
+	*195a8a9ad6,
+	*5bc5cd5893,
+	*ddf1a3c76b,
+	*aa760eda3f,
+	*d7d3e31995,
+	*a7f4041a8b_MAX,
+};
+
+// Enum TslGame.ECurrentSoundState
+enum class ECurrentSoundState : uint8 {
+	None,
+	MovingUp,
+	MovingUpSprinting,
+	MovingDown,
+	MovingDownSprinting,
+	Stopping,
+	ECurrentSoundState_MAX,
+};
+
+// Enum TslGame.*ac09473cb6
+enum class *ac09473cb6 : uint8 {
+	*37c2885c43,
+	*a948d553de,
+	*d65a4a971a,
+	*ac09473cb6_MAX,
+};
+
+// Enum TslGame.*56b7d30788
+enum class *56b7d30788 : uint8 {
+	*8c57e2f347,
+	*fb43f76d7b,
+	*afc3fb26d3,
+	*c9abfe6322,
+	*56b7d30788_MAX,
+};
+
+// Enum TslGame.EAscenderDirection
+enum class EAscenderDirection : uint8 {
+	AscenderUp,
+	AscenderDown,
+	Max,
+	EAscenderDirection_MAX,
+};
+
+// Enum TslGame.EAscenderRopeType
+enum class EAscenderRopeType : uint8 {
+	None,
+	AscenderRope,
+	AscenderZipline,
+	EAscenderRopeType_MAX,
+};
+
+// Enum TslGame.EControlType
+enum class EControlType : uint8 {
+	Move,
+	Jump,
+	Fire,
+	Aim,
+	Arm,
+	Unarm,
+	Reload,
+	Interact,
+	Peek,
+	Roll,
+	Crouch,
+	Prone,
+	UseItem,
+	ThrowMelee,
+	CookThrowable,
+	ItemCatch,
+	ItemThrow,
+	InspectWeapon,
+	ToggleFiringMode,
+	ToggleThrowMode,
+	EControlType_MAX,
+};
+
+// Enum TslGame.ECharFlagsNormal
+enum class ECharFlagsNormal : uint8 {
+	IsGroggying,
+	IsActiveRagdollActive,
+	HasShieldEquipped,
+	IsInBluezone,
+	IsBeingHealed,
+	IsSelfHemostasis,
+	ECharFlagsNormal_MAX,
+};
+
+// Enum TslGame.ELandingState
+enum class ELandingState : uint8 {
+	None,
+	Falling,
+	HeavyFalling,
+	ExtremeFalling,
+	FallingRecovery,
+	PostLandingRecovery,
+	ELandingState_MAX,
+};
+
+// Enum TslGame.ECharFlagsSkipOwner
+enum class ECharFlagsSkipOwner : uint8 {
+	WantsToRun,
+	WantsToSprint,
+	WantsToSprintingAuto,
+	WantsToRollingLeft,
+	WantsToRollingRight,
+	AimStateActive,
+	IsThirdPerson,
+	IsReviving,
+	IgnoreRotation,
+	IsWeaponObstructed,
+	IsCoatEquipped,
+	IsThrowHigh,
+	WantsToCancelVault,
+	IsScopingRemote,
+	IsAimingRemote,
+	IsFirstPersonRemote,
+	IsInVehicleRemote,
+	IsPeekLeftRemote,
+	IsPeekRightRemote,
+	IsHoldingAngled,
+	ECharFlagsSkipOwner_MAX,
+};
+
+// Enum TslGame.*d9cd8469d3
+enum class *d9cd8469d3 : uint8 {
+	*b04622b792,
+	*d48ff468e0,
+	*46973df916,
+	*d9cd8469d3_MAX,
+};
+
+// Enum TslGame.EMovementType
+enum class EMovementType : uint8 {
+	M_StandWalk,
+	M_StandRun,
+	M_StandSprint,
+	M_CrouchWalk,
+	M_CrouchRun,
+	M_CrouchSprint,
+	M_ProneWalk,
+	M_ProneRun,
+	M_ProneSprint,
+	M_StandScope,
+	M_CrouchScope,
+	M_ProneScope,
+	M_StandAim,
+	M_CrouchAim,
+	M_ProneAim,
+	M_Swim,
+	M_UnderwaterSwim,
+	M_DBNO,
+	Count,
+	EMovementType_MAX,
+};
+
+// Enum TslGame.EAIPolyType
+enum class EAIPolyType : uint8 {
+	AIPoly_None,
+	AIPoly_Attack,
+	AIPoly_Moving,
+	AIPoly_Moving_Directly,
+	AIPoly_Jump,
+	AIPoly_MovingTargetPos,
+	AIPoly_Max,
+};
+
+// Enum TslGame.*67c9942ec7
+enum class *67c9942ec7 : uint8 {
+	*c682034673,
+	*3ccfd0365a,
+	*09196ecd38,
+	*58ead72d8c,
+	*5a6c8d5090,
+	*67c9942ec7_MAX,
+};
+
+// Enum TslGame.*df6ac64a4f
+enum class *df6ac64a4f : uint8 {
+	*c659c23d0c,
+	*41e2f2d823,
+	*794c81a92d,
+	*df6ac64a4f_MAX,
+};
+
+// Enum TslGame.ESurviveWeaponPropSlot
+enum class ESurviveWeaponPropSlot : uint8 {
+	SWPS_MainShootWeapon1,
+	SWPS_MainShootWeapon2,
+	SWPS_SubShootWeapon,
+	SWPS_MeleeWeapon,
+	SWPS_HandProp,
+	SWPS_Max,
+};
+
+// Enum TslGame.*015c2e7cc8
+enum class *015c2e7cc8 : uint8 {
+	*8fc5374a03,
+	*be2ed255fb,
+	*bcb04d9ea6,
+	*9df0076a42,
+	*531a7dfe98,
+	*51e04e3c12,
+	*08eadcc467,
+	*4ea052784d,
+	*015c2e7cc8_MAX,
+};
+
+// Enum TslGame.*ed4a4e6969
+enum class *ed4a4e6969 : uint8 {
+	*f165005141,
+	*c213d4bbe7,
+	*16985ca2a9,
+	*3cc103d2e7,
+	*1404aeaa79,
+	*ed4a4e6969_MAX,
+};
+
+// Enum TslGame.ExtraPlayerLiveState
+enum class ExtraPlayerLiveState : uint8 {
+	InDefault,
+	InPlane,
+	InParachute,
+	InVehicle,
+	InDying,
+	InDied,
+	Offline,
+	ExtraPlayerLiveState_MAX,
+};
+
+// Enum TslGame.*d3f330096d
+enum class *d3f330096d : uint8 {
+	*35b8829002,
+	*e3b463d0d6,
+	*2250acc3ae,
+	*d3f330096d_MAX,
+};
+
+// Enum TslGame.EAIWeaponShootType
+enum class EAIWeaponShootType : uint8 {
+	SingleShot,
+	Auto,
+	EAIWeaponShootType_MAX,
+};
+
+// Enum TslGame.EAINewFocusPriority
+enum class EAINewFocusPriority : uint8 {
+	Default,
+	Move,
+	Gameplay,
+	EAINewFocusPriority_MAX,
+};
+
+// Enum TslGame.EAIMovePose
+enum class EAIMovePose : uint8 {
+	Walk,
+	Run,
+	CrouchSprint,
+	KeepCurrentPose,
+	EAIMovePose_MAX,
+};
+
+// Enum TslGame.EAITriggerAttrType
+enum class EAITriggerAttrType : uint8 {
+	None,
+	Health,
+	Energy,
+	EAITriggerAttrType_MAX,
+};
+
+// Enum TslGame.EAIAttrCompareType
+enum class EAIAttrCompareType : uint8 {
+	None,
+	Great,
+	Less,
+	EAIAttrCompareType_MAX,
+};
+
+// Enum TslGame.EAIEquipSpawnItemType
+enum class EAIEquipSpawnItemType : uint8 {
+	Shoot_Weap,
+	Backpack,
+	other,
+	EAIEquipSpawnItemType_MAX,
+};
+
+// Enum TslGame.EWeaponReloadMethod
+enum class EWeaponReloadMethod : uint8 {
+	Magazine,
+	OneByOne,
+	OneByOneAndClip,
+	EWeaponReloadMethod_MAX,
+};
+
+// Enum TslGame.ETslRedeployPlayerState
+enum class ETslRedeployPlayerState : uint8 {
+	None,
+	Initialized,
+	RespawnTarget,
+	ReadyToFight,
+	Fighting,
+	Dead,
+	Survived,
+	Redeployed,
+	RevivalTarget,
+	RevivalRegisted,
+	Revived,
+	ETslRedeployPlayerState_MAX,
+};
+
+// Enum TslGame.EDestrucibleSurfaceSourceType
+enum class EDestrucibleSurfaceSourceType : uint8 {
+	Unknown,
+	Projectile,
+	Grenade,
+	Warhead,
+	Slashing,
+	EDestrucibleSurfaceSourceType_MAX,
+};
+
+// Enum TslGame.EAttachParent
+enum class EAttachParent : uint8 {
+	None,
+	Character,
+	WeaponGun,
+	EAttachParent_MAX,
+};
+
+// Enum TslGame.EDoorState
+enum class EDoorState : uint8 {
+	Closed,
+	Closing,
+	Opened,
+	Opening,
+	EDoorState_MAX,
+};
+
+// Enum TslGame.*a0e7276134
+enum class *a0e7276134 : uint8 {
+	*e6b6b61e9d,
+	*8129792be0,
+	*8b98758edb,
+	*22c1416dc7,
+	*79b95da416,
+	*a0e7276134_MAX,
+};
+
+// Enum TslGame.eDESPMode
+enum class eDESPMode : uint8 {
+	None,
+	UniformDivision,
+	RadiusFromCenter,
+	eDESPMode_MAX,
+};
+
+// Enum TslGame.ETdmSpawnKit
+enum class ETdmSpawnKit : uint8 {
+	Shotgun,
+	Smg,
+	Ar,
+	Dmr,
+	Sr,
+	Etc,
+	Max,
+	ETdmSpawnKit_MAX,
+};
+
+// Enum TslGame.EWeaponReloadCancelReason
+enum class EWeaponReloadCancelReason : uint8 {
+	Default,
+	PlayerInterrupted,
+	PlayerMovement,
+	PlayerInteraction,
+	WeaponSwitch,
+	PlayerIncapacitated,
+	VehicleMoving,
+	EWeaponReloadCancelReason_MAX,
+};
+
+// Enum TslGame.EWeaponReloadAnimExec
+enum class EWeaponReloadAnimExec : uint8 {
+	Tactical,
+	Charge,
+	Single,
+	Loop,
+	EWeaponReloadAnimExec_MAX,
+};
+
+// Enum TslGame.EWeaponState
+enum class EWeaponState : uint8 {
+	Idle,
+	Firing,
+	Reloading,
+	EWeaponState_MAX,
+};
+
+// Enum TslGame.EWeaponTransitionState
+enum class EWeaponTransitionState : uint8 {
+	Stable,
+	Arming,
+	UnArming,
+	EWeaponTransitionState_MAX,
+};
+
+// Enum TslGame.EPerceptionType
+enum class EPerceptionType : uint8 {
+	Sight,
+	Disapp,
+	Hearing,
+	Attack,
+	None,
+	EPerceptionType_MAX,
+};
+
+// Enum TslGame.EBombGameJoinType
+enum class EBombGameJoinType : uint8 {
+	Normal,
+	IntrusionStart,
+	IntrusionFinish,
+	EBombGameJoinType_MAX,
+};
+
+// Enum TslGame.EBombGameAreaType
+enum class EBombGameAreaType : uint8 {
+	None,
+	StartArea,
+	PlantedASite,
+	PlantedBSite,
+	NormalArea,
+	EBombGameAreaType_MAX,
+};
+
+// Enum TslGame.EBombItemCategory
+enum class EBombItemCategory : uint8 {
+	None,
+	Pistol,
+	SMG,
+	AR,
+	SG,
+	DMR,
+	SR,
+	Equipment,
+	Throwable,
+	ETC,
+	EBombItemCategory_MAX,
+};
+
+// Enum TslGame.EBombTeamStateInfoType
+enum class EBombTeamStateInfoType : uint8 {
+	MoveASite,
+	MoveBSite,
+	SaveMoney,
+	GiveMoney,
+	Rush,
+	SaveMe,
+	MAX,
+	EBombTeamStateInfoType_MAX,
+};
+
+// Enum TslGame.ECoinTakeType
+enum class ECoinTakeType : uint8 {
+	None,
+	StoreSellItemToCustomer,
+	CustomerSellItemToStore,
+	KillReward,
+	KillAssistReward,
+	BombInstallReward,
+	BombDefuseReward,
+	RoundWin,
+	Donate,
+	Receipt,
+	RoundStartNormal,
+	RoundStartDecisive,
+	RoundDefeat,
+	TeamRoleChange,
+	MinAllowanceCoin,
+	MaxAllowanceCoin,
+	ThriftyDiffSpendCoin,
+	Admin,
+	ECoinTakeType_MAX,
+};
+
+// Enum TslGame.EBombModeSoundType
+enum class EBombModeSoundType : uint8 {
+	Unknown,
+	BombPlanting_Phase1,
+	BombPlanting_Phase2,
+	BombPlanting_Phase3,
+	BombExplosion,
+	BombDefusing,
+	GiveCoin,
+	ReceiveCoin,
+	Purchase,
+	BombTimerStart,
+	BombTimerDismantle,
+	BombTimeStop,
+	RestrictionTimer,
+	EBombModeSoundType_MAX,
+};
+
+// Enum TslGame.ETimeBombPhaseType
+enum class ETimeBombPhaseType : uint8 {
+	Unknown,
+	Planting_Phase1,
+	Planting_Phase2,
+	Planting_Phase3,
+	Explosion,
+	Defusing,
+	ETimeBombPhaseType_MAX,
+};
+
+// Enum TslGame.ETslBombMatchWinType
+enum class ETslBombMatchWinType : uint8 {
+	Draw,
+	ExceedRoundWin,
+	ExceedUseBombKit,
+	ExceedKillCount,
+	EnemyAllLogout,
+	ETslBombMatchWinType_MAX,
+};
+
+// Enum TslGame.*8023d7a9c0
+enum class *8023d7a9c0 : uint8 {
+	*ec847bb333,
+	*1833a3f700,
+	*9751abdc6e,
+	*0053b67b59,
+	*2833cc1c01,
+	*8023d7a9c0_MAX,
+};
+
+// Enum TslGame.ETslBombPlantedState
+enum class ETslBombPlantedState : uint8 {
+	NotSet,
+	Planting,
+	Planted,
+	Defused,
+	Exploded,
+	ETslBombPlantedState_MAX,
+};
+
+// Enum TslGame.ETslBombRoundInProgressState
+enum class ETslBombRoundInProgressState : uint8 {
+	Invalid,
+	TeamDecision,
+	Preparing,
+	Playing,
+	Ending,
+	ETslBombRoundInProgressState_MAX,
+};
+
+// Enum TslGame.EBombKeyNotifyState
+enum class EBombKeyNotifyState : uint8 {
+	None,
+	InStartArea,
+	DefenseTeam,
+	AttackTeam,
+	HoldBombPlantingKit,
+	EBombKeyNotifyState_MAX,
+};
+
+// Enum TslGame.EBombRoundAttribute
+enum class EBombRoundAttribute : uint8 {
+	None,
+	Normal,
+	OverTime,
+	TeamRoleChanged,
+	EBombRoundAttribute_MAX,
+};
+
+// Enum TslGame.EBombRoundResultConditionType
+enum class EBombRoundResultConditionType : uint8 {
+	None,
+	Excellent,
+	Impressive,
+	Overwhelming,
+	Perfect,
+	Thrifty,
+	MAX,
+	EBombRoundResultConditionType_MAX,
+};
+
+// Enum TslGame.ETslBombRoundResultHistoryType
+enum class ETslBombRoundResultHistoryType : uint8 {
+	None,
+	TimeUp,
+	BombExploded,
+	BombDefused,
+	TeamElimination,
+	TeamGameLogout,
+	ETslBombRoundResultHistoryType_MAX,
+};
+
+// Enum TslGame.EBombUITeamStatusType
+enum class EBombUITeamStatusType : uint8 {
+	None,
+	Attack,
+	Defence,
+	MAX,
+	EBombUITeamStatusType_MAX,
+};
+
+// Enum TslGame.EBombScopeInfo
+enum class EBombScopeInfo : uint8 {
+	None,
+	Hologram,
+	Reddot,
+	Scope2x,
+	Scope3x,
+	Scope4x,
+	Scope6x,
+	Scope8x,
+	Scope15x,
+	MAX,
+	EBombScopeInfo_MAX,
+};
+
+// Enum TslGame.ETslBombKDAMType
+enum class ETslBombKDAMType : uint8 {
+	Kill,
+	Death,
+	Assist,
+	MissionInstallBomb,
+	MissionDefuseBomb,
+	ETslBombKDAMType_MAX,
+};
+
+// Enum TslGame.ETslBombTeamRole
+enum class ETslBombTeamRole : uint8 {
+	None,
+	AttackTeam,
+	DefenseTeam,
+	ROLE_MAX,
+	ETslBombTeamRole_MAX,
+};
+
+// Enum TslGame.EHealingItemType
+enum class EHealingItemType : uint8 {
+	HealItem,
+	BoostItem,
+	EHealingItemType_MAX,
+};
+
+// Enum TslGame.EComparisonTarget
+enum class EComparisonTarget : uint8 {
+	Value,
+	BBKey,
+	EComparisonTarget_MAX,
+};
+
+// Enum TslGame.EAIMapName
+enum class EAIMapName : uint8 {
+	Baltic,
+	Desert,
+	Sanhok,
+	DihorOtok,
+	Summerland,
+	Paramo,
+	Tiger,
+	Chimera,
+	Heaven,
+	Kiki,
+	Other,
+	EAIMapName_MAX,
+};
+
+// Enum TslGame.ETeamModeType
+enum class ETeamModeType : uint8 {
+	Solo,
+	Duo,
+	Squad,
+	ETeamModeType_MAX,
+};
+
+// Enum TslGame.*8ef233721e
+enum class *8ef233721e : uint8 {
+	*e1360802be,
+	*1976e770c3,
+	*8408427371,
+	*7041fbab25,
+	*dbd5fc347d,
+	*ddeeb277c2,
+	*8ef233721e_MAX,
+};
+
+// Enum TslGame.EAICommand
+enum class EAICommand : uint8 {
+	None,
+	Moving,
+	Battle,
+	EAICommand_MAX,
+};
+
+// Enum TslGame.EAIActionState
+enum class EAIActionState : uint8 {
+	Idle,
+	Battle,
+	BattleMoving,
+	Healing,
+	Farming,
+	Moving,
+	Swimming,
+	EAIActionState_MAX,
+};
+
+// Enum TslGame.EAIAliveState
+enum class EAIAliveState : uint8 {
+	Alive,
+	Groggy,
+	Dead,
+	EAIAliveState_MAX,
+};
+
+// Enum TslGame.EPickupItemStatus
+enum class EPickupItemStatus : uint8 {
+	NeedWeapon,
+	NeedBaseEquip,
+	NeedOneMoreWeapon,
+	NeedHealItem,
+	NeedBoostItem,
+	NeedThrowableItem,
+	NeedPan,
+	NeedNoItem,
+	EPickupItemStatus_MAX,
+};
+
+// Enum TslGame.EIntoCircleLevel
+enum class EIntoCircleLevel : uint8 {
+	AlreadyInWhite,
+	NearWhite,
+	MiddleWhite,
+	ReachableWhite,
+	UnreachableWhite,
+	EIntoCircleLevel_MAX,
+};
+
+// Enum TslGame.EValueCompareFunc
+enum class EValueCompareFunc : uint8 {
+	MoreThan,
+	MoreThanOrEqual,
+	LessThan,
+	LessThanOrEqual,
+	Equal,
+	NotEqual,
+	EValueCompareFunc_MAX,
+};
+
+// Enum TslGame.EAIParameter
+enum class EAIParameter : uint8 {
+	None,
+	Offensive,
+	PrepareType,
+	EAIParameter_MAX,
+};
+
+// Enum TslGame.EPrepareType
+enum class EPrepareType : uint8 {
+	StopMovement,
+	MoveRandomLoc,
+	ThrowToy,
+	TypeEnd,
+	EPrepareType_MAX,
+};
+
+// Enum TslGame.EAIBehaviors
+enum class EAIBehaviors : uint8 {
+	Normal,
+	Chasing,
+	Runaway,
+	EAIBehaviors_MAX,
+};
+
+// Enum TslGame.ERightMoveDirection
+enum class ERightMoveDirection : uint8 {
+	Left,
+	Right,
+	Stop,
+	ERightMoveDirection_MAX,
+};
+
+// Enum TslGame.EForwardMoveDirection
+enum class EForwardMoveDirection : uint8 {
+	Forward,
+	Backward,
+	Stop,
+	EForwardMoveDirection_MAX,
+};
+
+// Enum TslGame.EUltronWithCircle
+enum class EUltronWithCircle : uint8 {
+	InWhiteCircle,
+	InBlueCircle,
+	OutBlueCircle,
+	MaxNum,
+	EUltronWithCircle_MAX,
+};
+
+// Enum TslGame.EComparisonTargetCircle
+enum class EComparisonTargetCircle : uint8 {
+	WhiteCircle,
+	BlueCircle,
+	EComparisonTargetCircle_MAX,
+};
+
+// Enum TslGame.ETurnDirection
+enum class ETurnDirection : uint8 {
+	Left,
+	Right,
+	Stop,
+	ETurnDirection_MAX,
+};
+
+// Enum TslGame.EPercivedGrenadeType
+enum class EPercivedGrenadeType : uint8 {
+	FragGrenade,
+	StickyBomb,
+	C4,
+	EPercivedGrenadeType_MAX,
+};
+
+// Enum TslGame.EEnemyCompareElement
+enum class EEnemyCompareElement : uint8 {
+	None,
+	HouseId,
+	EEnemyCompareElement_MAX,
+};
+
+// Enum TslGame.EInfoPointWithHouse
+enum class EInfoPointWithHouse : uint8 {
+	All,
+	InHouse,
+	OutHouse,
+	EInfoPointWithHouse_MAX,
+};
+
+// Enum TslGame.ETargetLocation
+enum class ETargetLocation : uint8 {
+	WhiteCircle,
+	OtherLocation,
+	ETargetLocation_MAX,
+};
+
+// Enum TslGame.ETestMoveDirection
+enum class ETestMoveDirection : uint8 {
+	Front,
+	Back,
+	Left,
+	Right,
+	ETestMoveDirection_MAX,
+};
+
+// Enum TslGame.EThownWeapon_AI
+enum class EThownWeapon_AI : uint8 {
+	GRENADE,
+	MOLOTOV,
+	SMOKEBOMB,
+	FLASHBANG,
+	EThownWeapon_MAX,
+};
+
+// Enum TslGame.EThrowablePoseState_AI
+enum class EThrowablePoseState_AI : uint8 {
+	Idle,
+	PinOffStart,
+	Cooking,
+	WaitForThrow,
+	Throwing,
+	EThrowablePoseState_MAX,
+};
+
+// Enum TslGame.*09ddf8050c
+enum class *09ddf8050c : uint8 {
+	*88055d0745,
+	*e320c84f0f,
+	*8418debf21,
+	*09ddf8050c_MAX,
+};
+
+// Enum TslGame.EModifyBlackboardDataValueType
+enum class EModifyBlackboardDataValueType : uint8 {
+	Int,
+	Float,
+	Bool,
+	String,
+	Object,
+	Vector3,
+	EModifyBlackboardDataValueType_MAX,
+};
+
+// Enum TslGame.EAIBattleState
+enum class EAIBattleState : uint8 {
+	None,
+	ReturnToSpawnLocation,
+	Patrol,
+	Battle,
+	EAIBattleState_MAX,
+};
+
+// Enum TslGame.EThownWeapon
+enum class EThownWeapon : uint8 {
+	GRENADE,
+	MOLOTOV,
+	SMOKEBOMB,
+	FLASHBANG,
+	EThownWeapon_MAX,
+};
+
+// Enum TslGame.EThrowablePoseState
+enum class EThrowablePoseState : uint8 {
+	Idle,
+	PinOffStart,
+	Cooking,
+	WaitForThrow,
+	Throwing,
+	EThrowablePoseState_MAX,
+};
+
+// Enum TslGame.EBoosterItem
+enum class EBoosterItem : uint8 {
+	ADRENALINE,
+	PAINKILLER,
+	ENERGYDRINK,
+	EBoosterItem_MAX,
+};
+
+// Enum TslGame.*d2311a8f0d
+enum class *d2311a8f0d : uint8 {
+	*55f712c131,
+	*12844cd830,
+	*5aa09269c2,
+	*e260831dcb,
+	*066dfdcd5e,
+	*d2311a8f0d_MAX,
+};
+
+// Enum TslGame.EFightMovingType
+enum class EFightMovingType : uint8 {
+	FM_Target,
+	FM_TargetPos,
+	FM_RandomPos,
+	FM_Max,
+};
+
+// Enum TslGame.EMonsterPatrol
+enum class EMonsterPatrol : uint8 {
+	Patrol_BackDomain,
+	Patrol_Flee,
+	Patrol_RunawayHouse,
+	Patrol_SpawnSpot,
+	Patrol_Hearing,
+	Patrol_Random,
+	Patrol_Max,
+};
+
+// Enum TslGame.*0c4262a74d
+enum class *0c4262a74d : uint8 {
+	*128746885f,
+	*4bb42d3d83,
+	*45ff65fa4d,
+	*65f6c58342,
+	*83e28e33e4,
+	*0c4262a74d_MAX,
+};
+
+// Enum TslGame.*00fdba2b27
+enum class *00fdba2b27 : uint8 {
+	*ed5e5267bc,
+	*ba32738074,
+	*ae5a548b99,
+	*2c5330f334,
+	*e3acab2465,
+	*00fdba2b27_MAX,
+};
+
+// Enum TslGame.*39b4413889
+enum class *39b4413889 : uint8 {
+	*6a55e540b9,
+	*8172ab2704,
+	*0fce128202,
+	*5ae3394205,
+	*39b4413889_MAX,
+};
+
+// Enum TslGame.EReactionObjectType
+enum class EReactionObjectType : uint8 {
+	Fence,
+	Hay,
+	Camera,
+	EReactionObjectType_MAX,
+};
+
+// Enum TslGame.*d227eecd3f
+enum class *d227eecd3f : uint8 {
+	*c1252f1488,
+	*7622ff1a20,
+	*3ba2173e47,
+	*43c83fc082,
+	*d227eecd3f_MAX,
+};
+
+// Enum TslGame.ECraftResult
+enum class ECraftResult : uint8 {
+	Success,
+	Invalid_Character,
+	Invalid_Inventory,
+	Invalid_Equipment,
+	Invalid_CraftingRuleComponent,
+	Invalid_CraftItemData,
+	Invalid_ReservedCraftItem,
+	Invalid_PlayerState,
+	Not_Enough_Material,
+	Not_Enough_Space,
+	Miss_Matched_RestrictFilter,
+	Restricted_Stance,
+	ECraftResult_MAX,
+};
+
+// Enum TslGame.*490036db2c
+enum class *490036db2c : uint8 {
+	*08e7456c60,
+	*3f7a4b7e01,
+	*71c6a650d9,
+	*58f7ae53ab,
+	*ee102d8cf0,
+	*490036db2c_MAX,
+};
+
+// Enum TslGame.ECustomCarepackageState
+enum class ECustomCarepackageState : uint8 {
+	Transporting,
+	Falling,
+	Landing,
+	ECustomCarepackageState_MAX,
+};
+
+// Enum TslGame.EDecoyFiringState
+enum class EDecoyFiringState : uint8 {
+	Firing,
+	BetweenShots,
+	BetweenSequences,
+	EDecoyFiringState_MAX,
+};
+
+// Enum TslGame.EDecoyState
+enum class EDecoyState : uint8 {
+	Uninitialized,
+	Cooking,
+	DelayedFiring,
+	Firing,
+	Reloading,
+	DelayedEnding,
+	EndOfLife,
+	EDecoyState_MAX,
+};
+
+// Enum TslGame.EWhiteZoneShape
+enum class EWhiteZoneShape : uint8 {
+	None,
+	Circle,
+	EWhiteZoneShape_MAX,
+};
+
+// Enum TslGame.EBluezoneType
+enum class EBluezoneType : uint8 {
+	Normal,
+	Fast,
+	EBluezoneType_MAX,
+};
+
+// Enum TslGame.EVendingMachineType
+enum class EVendingMachineType : uint8 {
+	AMMUNITION,
+	BOOSTING,
+	THROWABLE,
+	WEAPON,
+	HEALING,
+	EVendingMachineType_MAX,
+};
+
+// Enum TslGame.EPatrolSpeed
+enum class EPatrolSpeed : uint8 {
+	Walk,
+	Run,
+	Sprint,
+	EPatrolSpeed_MAX,
+};
+
+// Enum TslGame.EPlayerAuthState
+enum class EPlayerAuthState : uint8 {
+	None,
+	Login,
+	Logout,
+	EPlayerAuthState_MAX,
+};
+
+// Enum TslGame.EBlueChipTowerState
+enum class EBlueChipTowerState : uint8 {
+	IsUnavailable,
+	IsAvailable,
+	IsInUse,
+	IsLaunching,
+	RegisterFinished,
+	NeedToCharge,
+	Cancel,
+	Broken,
+	EBlueChipTowerState_MAX,
+};
+
+// Enum TslGame.EEmPickupAircraftStatus
+enum class EEmPickupAircraftStatus : uint8 {
+	Available,
+	InvalidPhase_Early,
+	InvalidPhase_Late,
+	QueueFull,
+	Disabled,
+	EEmPickupAircraftStatus_MAX,
+};
+
+// Enum TslGame.EItemClientAnimSeqUnload
+enum class EItemClientAnimSeqUnload : uint8 {
+	None,
+	Disable,
+	Enable,
+	EItemClientAnimSeqUnload_MAX,
+};
+
+// Enum TslGame.EFExplosivePropDataType
+enum class EFExplosivePropDataType : uint8 {
+	Default,
+	PropaneTank,
+	SmallTank,
+	RacingExplosive,
+	GasPump,
+	EFExplosivePropDataType_MAX,
+};
+
+// Enum TslGame.*71001a4260
+enum class *71001a4260 : uint8 {
+	*59ad01dbd6,
+	*bc83d0e12e,
+	*28a6136470,
+	*c1aa42aac7,
+	*71001a4260_MAX,
+};
+
+// Enum TslGame.ELoadingScreenType
+enum class ELoadingScreenType : uint8 {
+	NONE,
+	ICE_BRAKE,
+	RULE_SET,
+	WEAPON,
+	ATTACHMENT,
+	EQUIPMENT,
+	ITEM,
+	VEHICLE,
+	SYSTEM,
+	DEFAULT,
+	GAME_MODE,
+	EXPOSE_WITH_HIGHEST_PRIORITY,
+	ELoadingScreenType_MAX,
+};
+
+// Enum TslGame.ETslControllerType
+enum class ETslControllerType : uint8 {
+	Mouse,
+	GamePad,
+	Total,
+	ETslControllerType_MAX,
+};
+
+// Enum TslGame.EVoiceInterfaceType
+enum class EVoiceInterfaceType : uint8 {
+	VIVOX,
+	XIM,
+	GVOICE,
+	EVoiceInterfaceType_MAX,
+};
+
+// Enum TslGame.EVoiceTransmissionType
+enum class EVoiceTransmissionType : uint8 {
+	None,
+	ToAll,
+	ToChannel,
+	EVoiceTransmissionType_MAX,
+};
+
+// Enum TslGame.EVoiceChannelJoinState
+enum class EVoiceChannelJoinState : uint8 {
+	NotJoined,
+	Joining,
+	Leaving,
+	Joined,
+	EVoiceChannelJoinState_MAX,
+};
+
+// Enum TslGame.EVoiceLoginState
+enum class EVoiceLoginState : uint8 {
+	NotLoggedin,
+	Loggingin,
+	Loggedin,
+	EVoiceLoginState_MAX,
+};
+
+// Enum TslGame.EVoiceConnectionState
+enum class EVoiceConnectionState : uint8 {
+	NotConnected,
+	Connecting,
+	Connected,
+	EVoiceConnectionState_MAX,
+};
+
+// Enum TslGame.ETableCheckerHideOption
+enum class ETableCheckerHideOption : uint8 {
+	Hide,
+	Show,
+	ETableCheckerHideOption_MAX,
+};
+
+// Enum TslGame.EKeyHintGradeSettingValue
+enum class EKeyHintGradeSettingValue : uint8 {
+	Basic,
+	Advanced,
+	EKeyHintGradeSettingValue_MAX,
+};
+
+// Enum TslGame.EKeyHintGradeBitmask
+enum class EKeyHintGradeBitmask : uint8 {
+	Basic,
+	Advanced,
+	EKeyHintGradeBitmask_MAX,
+};
+
+// Enum TslGame.ETslWeatherAction
+enum class ETslWeatherAction : uint8 {
+	NotDefined,
+	Initialized,
+	Prolonged,
+	ETslWeatherAction_MAX,
+};
+
+// Enum TslGame.ECharacterInteractBehaviorType
+enum class ECharacterInteractBehaviorType : uint8 {
+	None,
+	ExtraSlotForMode,
+	Revive,
+	BodyCarry,
+	TraumaBag,
+	InstantRevivalKit,
+	TeamEmote,
+	ItemRequest,
+	RepairKit,
+	ECharacterInteractBehaviorType_MAX,
+};
+
+// Enum TslGame.EInteractionPhase
+enum class EInteractionPhase : uint8 {
+	First,
+	Second,
+	EInteractionPhase_MAX,
+};
+
+// Enum TslGame.ETslSLBGeneratorState
+enum class ETslSLBGeneratorState : uint8 {
+	Breakdown,
+	NeedFuel,
+	BeforeActivate,
+	Activate,
+	MAX,
+	ETslSLBGeneratorState_MAX,
+};
+
+// Enum TslGame.ELobbyItemBundleType
+enum class ELobbyItemBundleType : uint8 {
+	Bundle,
+	Generator,
+	ELobbyItemBundleType_MAX,
+};
+
+// Enum TslGame.EItemSpawnType
+enum class EItemSpawnType : uint8 {
+	FixedRatioAndAdjustableTotalNumber,
+	AdjustableRatioAndFixedTotalNumber,
+	AdjustableRatioAndAdjustableTotalNumber,
+	Invalid,
+	EItemSpawnType_MAX,
+};
+
+// Enum TslGame.EThreatType
+enum class EThreatType : uint8 {
+	Damage,
+	Sight,
+	Noise,
+	EThreatType_MAX,
+};
+
+// Enum TslGame.ELocationType
+enum class ELocationType : uint8 {
+	LANDMARK,
+	EXTRA_LANDMARK,
+	CITY,
+	CITY_DETAIL,
+	TOWN,
+	COMPOUNDS,
+	EXTRA,
+	TEST_SHOW_ALL,
+	ELocationType_MAX,
+};
+
+// Enum TslGame.*c0299c4362
+enum class *c0299c4362 : uint8 {
+	*4de7e2c96f,
+	*d048473d9d,
+	*d78be99eb5,
+	*48296ab9f2,
+	*95f578015a,
+	*5ede4953cb,
+	*7812b2358a,
+	*ff542ea21e,
+	*9e2e47557e,
+	*0e901553f6,
+	*8bff6a056b,
+	*f754541ceb,
+	*f27a34b84e,
+	*c0299c4362_MAX,
+};
+
+// Enum TslGame.ELobbyLinkState
+enum class ELobbyLinkState : uint8 {
+	Disconnect,
+	WaitInitialize,
+	WaitStart,
+	Gaming,
+	Finished,
+	ELobbyLinkState_MAX,
+};
+
+// Enum TslGame.ELobbyCharacterAnimationType
+enum class ELobbyCharacterAnimationType : uint8 {
+	Default,
+	Wardrobe,
+	Appearance,
+	ELobbyCharacterAnimationType_MAX,
+};
+
+// Enum TslGame.EParameterLUTChannel
+enum class EParameterLUTChannel : uint8 {
+	R,
+	G,
+	B,
+	A,
+	RGBA,
+	Undefined,
+	EParameterLUTChannel_MAX,
+};
+
+// Enum TslGame.EMaterialParameterType
+enum class EMaterialParameterType : uint8 {
+	Bool,
+	Scalar,
+	Vector,
+	Texture,
+	Undefined,
+	EMaterialParameterType_MAX,
+};
+
+// Enum TslGame.EBlackZoneState
+enum class EBlackZoneState : uint8 {
+	BZ_WaitingForMatchStart,
+	BZ_SelectNewBlackZone,
+	BZ_BeginStrike,
+	BZ_FireMisile,
+	BZ_EndBombing,
+	BZ_MAX,
+};
+
+// Enum TslGame.*c659c7f4b3
+enum class *c659c7f4b3 : uint8 {
+	*f57cbdffa6,
+	*6671359a3d,
+	*c17ba9a5bb,
+	*d382cf564f,
+	*b0a4f96745,
+	*c659c7f4b3_MAX,
+};
+
+// Enum TslGame.*1fd3b18411
+enum class *1fd3b18411 : uint8 {
+	*33d3496933,
+	*0a724d3bf7,
+	*f97c60026f,
+	*2af138996d,
+	*1fd3b18411_MAX,
+};
+
+// Enum TslGame.ENpcDirection
+enum class ENpcDirection : uint8 {
+	Forward,
+	Backward,
+	Left,
+	Right,
+	ForwardRight,
+	BackwardRight,
+	BackwardLeft,
+	ForwardLeft,
+	ENpcDirection_MAX,
+};
+
+// Enum TslGame.ENpcWalkingSpeedType
+enum class ENpcWalkingSpeedType : uint8 {
+	Idle,
+	Walk,
+	Run,
+	Sprint,
+	ENpcWalkingSpeedType_MAX,
+};
+
+// Enum TslGame.ENpcCharacterStateType
+enum class ENpcCharacterStateType : uint8 {
+	Default,
+	Respawn,
+	Fire1,
+	Fire2,
+	Fire3,
+	Knockback,
+	Knockdown,
+	Getup,
+	ThrowPhase1,
+	ThrowPhase2,
+	ThrowPhase3,
+	Blind,
+	Despawn,
+	RunnerScream,
+	ThrowBuff,
+	Scream,
+	Kidnap,
+	Dash,
+	InSafeZone,
+	MeleeAttackWhileKidnapping,
+	DoctorThrowPhase1,
+	DoctorThrowPhase2,
+	DoctorThrowPhase3,
+	ENpcCharacterStateType_MAX,
+};
+
+// Enum TslGame.ERandomType
+enum class ERandomType : uint8 {
+	Random,
+	Shuffle,
+	Ascending,
+	Descending,
+	ERandomType_MAX,
+};
+
+// Enum TslGame.ECustomAnimDataType
+enum class ECustomAnimDataType : uint8 {
+	CustomAnimData,
+	AnimSequence,
+	ECustomAnimDataType_MAX,
+};
+
+// Enum TslGame.ECustomAnimSlotType
+enum class ECustomAnimSlotType : uint8 {
+	FullBody,
+	UpperBody,
+	FullBodyInstance,
+	UpperBodyInstance,
+	LowerBody,
+	ECustomAnimSlotType_MAX,
+};
+
+// Enum TslGame.ERetriggerCounter
+enum class ERetriggerCounter : uint8 {
+	First,
+	Sec,
+	Third,
+	Fourth,
+	ERetriggerCounter_MAX,
+};
+
+// Enum TslGame.EPathDebugType
+enum class EPathDebugType : uint8 {
+	None,
+	Location,
+	SelectNpc,
+	EPathDebugType_MAX,
+};
+
+// Enum TslGame.EOneOnOneRoomState
+enum class EOneOnOneRoomState : uint8 {
+	None,
+	MatchPrepare,
+	MatchStart,
+	MatchEnd,
+	MatchEndResult,
+	RoundStart,
+	RoundPlaying,
+	GiveScore,
+	BreakTime,
+	RoundResult,
+	RoundEnd,
+	EOneOnOneRoomState_MAX,
+};
+
+// Enum TslGame.EOneOnOneStageType
+enum class EOneOnOneStageType : uint8 {
+	None,
+	Arena,
+	Audience,
+	EOneOnOneStageType_MAX,
+};
+
+// Enum TslGame.EOneOnOneTicketState
+enum class EOneOnOneTicketState : uint8 {
+	None,
+	Waiting,
+	CountDown,
+	Playing,
+	EOneOnOneTicketState_MAX,
+};
+
+// Enum TslGame.EOneOnOneSideType
+enum class EOneOnOneSideType : uint8 {
+	None,
+	Home,
+	Away,
+	Audience,
+	EOneOnOneSideType_MAX,
+};
+
+// Enum TslGame.EOneOnOneInvenRecoverType
+enum class EOneOnOneInvenRecoverType : uint8 {
+	None,
+	Empty,
+	Recover,
+	EOneOnOneInvenRecoverType_MAX,
+};
+
+// Enum TslGame.EOneOnOneResultType
+enum class EOneOnOneResultType : uint8 {
+	None,
+	Lose,
+	Win,
+	Draw,
+	Escape,
+	EOneOnOneResultType_MAX,
+};
+
+// Enum TslGame.EOneOnOneMessageType
+enum class EOneOnOneMessageType : uint8 {
+	None,
+	StartSearch_Message,
+	StopSearch_Message_Normal,
+	StopSearch_Message_UseDiffFacility,
+	EnterArena_Message,
+	ExitArena_Message_Normal,
+	ExitArena_Message_FromAudience,
+	CannotSearch_Message_NotInProgress,
+	EOneOnOneMessageType_MAX,
+};
+
+// Enum TslGame.*ab4b24770e
+enum class *ab4b24770e : uint8 {
+	*56d15eaf67,
+	*8d452018cc,
+	*cda70f7034,
+	*72b7a69277,
+	*9051b3fc0c,
+	*ab4b24770e_MAX,
+};
+
+// Enum TslGame.*75df741a9c
+enum class *75df741a9c : uint8 {
+	*2a77151ebb,
+	*3ae4da088f,
+	*4d95ddaa50,
+	*5201f9c92b,
+	*75df741a9c_MAX,
+};
+
+// Enum TslGame.*59f7d9b73d
+enum class *59f7d9b73d : uint8 {
+	*ee9b443f52,
+	*f82676af36,
+	*a3a14a37a5,
+	*c01819cee9,
+	*59f7d9b73d_MAX,
+};
+
+// Enum TslGame.*5a3c5af185
+enum class *5a3c5af185 : uint8 {
+	*074b766fa7,
+	*cb161a189f,
+	*f519c1cfc0,
+	*8962c736b1,
+	*07da1338ec,
+	*5a3c5af185_MAX,
+};
+
+// Enum TslGame.*5fab68bf20
+enum class *5fab68bf20 : uint8 {
+	*a73d803715,
+	*c6e98046b9,
+	*d7d5f6b198,
+	*5fab68bf20_MAX,
+};
+
+// Enum TslGame.ECorrectedSpawnLocationTraceType
+enum class ECorrectedSpawnLocationTraceType : uint8 {
+	Sweep,
+	Trace,
+	ECorrectedSpawnLocationTraceType_MAX,
+};
+
+// Enum TslGame.EThrowableState
+enum class EThrowableState : uint8 {
+	Idle,
+	PinOff,
+	Cooking,
+	Throw,
+	Dropped,
+	EThrowableState_MAX,
+};
+
+// Enum TslGame.EProjectileExplosionStartType
+enum class EProjectileExplosionStartType : uint8 {
+	NotStart,
+	Impact,
+	Delay,
+	ImpactOrDelay,
+	EProjectileExplosionStartType_MAX,
+};
+
+// Enum TslGame.*f34d6ff239
+enum class *f34d6ff239 : uint8 {
+	*1c108264a3,
+	*66611128ec,
+	*64f8e91216,
+	*f49019622f,
+	*f34d6ff239_MAX,
+};
+
+// Enum TslGame.*a4edcd5b70
+enum class *a4edcd5b70 : uint8 {
+	*059241b706,
+	*e616bc6bf8,
+	*76914f13df,
+	*f28e0b254a,
+	*a4edcd5b70_MAX,
+};
+
+// Enum TslGame.*1a40c6d743
+enum class *1a40c6d743 : uint8 {
+	*83ff9827af,
+	*4a68400697,
+	*e9ed8298ca,
+	*7dd5556150,
+	*1a40c6d743_MAX,
+};
+
+// Enum TslGame.ETslSLBAreaBlockActorState
+enum class ETslSLBAreaBlockActorState : uint8 {
+	Close,
+	Open,
+	MAX,
+	ETslSLBAreaBlockActorState_MAX,
+};
+
+// Enum TslGame.ETslSLBExitActorState
+enum class ETslSLBExitActorState : uint8 {
+	Close,
+	Open,
+	MAX,
+	ETslSLBExitActorState_MAX,
+};
+
+// Enum TslGame.ETargetInteractionPurpose
+enum class ETargetInteractionPurpose : uint8 {
+	Move,
+	Reset,
+	ETargetInteractionPurpose_MAX,
+};
+
+// Enum TslGame.ETrainingRoomInteractionType
+enum class ETrainingRoomInteractionType : uint8 {
+	None,
+	Training_Stop,
+	ETrainingRoomInteractionType_MAX,
+};
+
+// Enum TslGame.ESeatDirection
+enum class ESeatDirection : uint8 {
+	Forward,
+	Backward,
+	Left,
+	Right,
+	ESeatDirection_MAX,
+};
+
+// Enum TslGame.ESpareTireProcessState
+enum class ESpareTireProcessState : uint8 {
+	None,
+	PutWorking,
+	PutCancel,
+	PutFinish,
+	TakeWorking,
+	TakeCancel,
+	TakeFinish,
+	ESpareTireProcessState_MAX,
+};
+
+// Enum TslGame.EMapColor
+enum class EMapColor : uint8 {
+	Undefined,
+	Red,
+	Green,
+	Blue,
+	Yellow,
+	EMapColor_MAX,
+};
+
+// Enum TslGame.EVehicleEngineState
+enum class EVehicleEngineState : uint8 {
+	EEngineStateAutoOff,
+	EEngineStateAutoOn,
+	EEngineStateManualOff,
+	EEngineStateManualOn,
+	EVehicleEngineState_MAX,
+};
+
+// Enum TslGame.*f9300603d6
+enum class *f9300603d6 : uint8 {
+	*374d095cfb,
+	*5174cf885a,
+	*10d3bf150a,
+	*cbcc913c18,
+	*e0f56369e5,
+	*f9300603d6_MAX,
+};
+
+// Enum TslGame.EPackageState
+enum class EPackageState : uint8 {
+	Normal,
+	Broken,
+	Empty,
+	EPackageState_MAX,
+};
+
+// Enum TslGame.EThingGroupSpawnType
+enum class EThingGroupSpawnType : uint8 {
+	None,
+	Probability,
+	TotalCount,
+	EThingGroupSpawnType_MAX,
+};
+
+// Enum TslGame.EInteractionErrorType
+enum class EInteractionErrorType : uint8 {
+	None,
+	Success,
+	Fail_SearchingOneOnOne,
+	Fail_PlayingOneOnOne,
+	EInteractionErrorType_MAX,
+};
+
+// Enum TslGame.*844c8857a5
+enum class *844c8857a5 : uint8 {
+	*641d0ce760,
+	*2c030b7e99,
+	*6def9624af,
+	*b7cb0b22b0,
+	*844c8857a5_MAX,
+};
+
+// Enum TslGame.*1a55cd2e3b
+enum class *1a55cd2e3b : uint8 {
+	*913d074c41,
+	*03ebc5fef6,
+	*d7b9d9d5c7,
+	*ade3e4fed2,
+	*1a55cd2e3b_MAX,
+};
+
+// Enum TslGame.EContainerState
+enum class EContainerState : uint8 {
+	Closed,
+	Opening,
+	Opened,
+	EContainerState_MAX,
+};
+
+// Enum TslGame.ESpawnDestroyTiming
+enum class ESpawnDestroyTiming : uint8 {
+	Undefined,
+	SpawnOnMatchStart,
+	DestoryOnMatchStart,
+	ESpawnDestroyTiming_MAX,
+};
+
+// Enum TslGame.ELastMoveTask
+enum class ELastMoveTask : uint8 {
+	MoveTo,
+	MoveDirectlyToward,
+	ELastMoveTask_MAX,
+};
+
+// Enum TslGame.EEjectAllowed
+enum class EEjectAllowed : uint8 {
+	NotAllowed,
+	Waiting,
+	Allowed,
+	EEjectAllowed_MAX,
+};
+
+// Enum TslGame.EUltAutoEquipItemType
+enum class EUltAutoEquipItemType : uint8 {
+	SubParts,
+	Throwable,
+	Boost,
+	Heal,
+	Other,
+	EUltAutoEquipItemType_MAX,
+};
+
+// Enum TslGame.ECompareTeamDist
+enum class ECompareTeamDist : uint8 {
+	CurDest,
+	FinalDest,
+	SafeZone,
+	ECompareTeamDist_MAX,
+};
+
+// Enum TslGame.EHelicopterState
+enum class EHelicopterState : uint8 {
+	Normal,
+	Smoke,
+	Explosion,
+	EHelicopterState_MAX,
+};
+
+// Enum TslGame.EEmergencyAircraftState
+enum class EEmergencyAircraftState : uint8 {
+	None,
+	Flame,
+	Explosion,
+	LastExplosion,
+	Destroy,
+	EEmergencyAircraftState_MAX,
+};
+
+// Enum TslGame.EEmPickup_PathValidationState
+enum class EEmPickup_PathValidationState : uint8 {
+	None,
+	InProgress,
+	Valid,
+	Invalid,
+	EEmPickup_MAX,
+};
+
+// Enum TslGame.*9aeb305ce3
+enum class *9aeb305ce3 : uint8 {
+	*4ee92aaf18,
+	*7a696a2c31,
+	*9aeb305ce3_MAX,
+};
+
+// Enum TslGame.*795e16dffd
+enum class *795e16dffd : uint8 {
+	*a3cdb068fa,
+	*e16bd51108,
+	*8a57e7c2c1,
+	*69077fa51c,
+	*cfbe5c8ba4,
+	*76d512043b,
+	*01793dd361,
+	*b71379ce54,
+	*5cb40a8f09,
+	*3f02d70de8,
+	*5ee10ca6e3,
+	*97aa1c74da,
+	*98d1670611,
+	*795e16dffd_MAX,
+};
+
+// Enum TslGame.*c2bd952fba
+enum class *c2bd952fba : uint8 {
+	*a722b9c9c9,
+	*82f6208566,
+	*88ba11c5e1,
+	*f458ddacc1,
+	*c2bd952fba_MAX,
+};
+
+// Enum TslGame.*ae16788990
+enum class *ae16788990 : uint8 {
+	*a307a55d92,
+	*33f46b71e5,
+	*f719560cb1,
+	*4296946c8c,
+	*8cf96568b3,
+	*c49a220a71,
+	*ae16788990_MAX,
+};
+
+// Enum TslGame.EOPUIBuffLocationType
+enum class EOPUIBuffLocationType : uint8 {
+	None,
+	TPP,
+	FPP,
+	FPPWithMosnterHp,
+	MAX,
+	EOPUIBuffLocationType_MAX,
+};
+
+// Enum TslGame.EClanNoticeUGCLevel
+enum class EClanNoticeUGCLevel : uint8 {
+	Hide,
+	Show,
+	EClanNoticeUGCLevel_MAX,
+};
+
+// Enum TslGame.EClanNameUGCLevel
+enum class EClanNameUGCLevel : uint8 {
+	HideAll,
+	OnlyMine,
+	MineAndOthersTag,
+	ShowAll,
+	EClanNameUGCLevel_MAX,
+};
+
+// Enum TslGame.EPlayerArenaObserverState
+enum class EPlayerArenaObserverState : uint8 {
+	Off,
+	RoundPreview,
+	FinalRoundPreview,
+	WonAlive,
+	WonDead,
+	RoundFinished,
+	RoundFinishedWhileLoot,
+	RoundResultWithObserve,
+	RoundResult,
+	Eliminated,
+	AfterRoundLoadout,
+	EPlayerArenaObserverState_MAX,
+};
+
+// Enum TslGame.EArenaMoneySource
+enum class EArenaMoneySource : uint8 {
+	Initial,
+	Kill,
+	Revive,
+	WinArena,
+	LoseArena,
+	Buy,
+	EArenaMoneySource_MAX,
+};
+
+// Enum TslGame.EArenaScreenOpen
+enum class EArenaScreenOpen : uint8 {
+	Loadout,
+	Leaderboard,
+	EArenaScreenOpen_MAX,
+};
+
+// Enum TslGame.EArenaCameraObserveState
+enum class EArenaCameraObserveState : uint8 {
+	Off,
+	FreeFly,
+	AttachedToPlayer,
+	EArenaCameraObserveState_MAX,
+};
+
+// Enum TslGame.*b8fdc66c24
+enum class *b8fdc66c24 : uint8 {
+	*7c405870c0,
+	*7ceaa9c784,
+	*47d137d9f9,
+	*ef9d1ab986,
+	*056ede8565,
+	*66c280ffd2,
+	*8a60da4435,
+	*b0a5d84bf7,
+	*9c9cc4daae,
+	*b8fdc66c24_MAX,
+};
+
+// Enum TslGame.EStrictSelectObserveTarget
+enum class EStrictSelectObserveTarget : uint8 {
+	None,
+	Arena,
+	Player,
+	EStrictSelectObserveTarget_MAX,
+};
+
+// Enum TslGame.EFutsalSoundType
+enum class EFutsalSoundType : uint8 {
+	Goal,
+	Start,
+	Finish,
+	EFutsalSoundType_MAX,
+};
+
+// Enum TslGame.EHASSurvivorItemLevel
+enum class EHASSurvivorItemLevel : uint8 {
+	None,
+	Lv1,
+	Lv2,
+	EHASSurvivorItemLevel_MAX,
+};
+
+// Enum TslGame.EHASSurvivorItemType
+enum class EHASSurvivorItemType : uint8 {
+	None,
+	Flashbang,
+	Healkit,
+	Toolkit,
+	SmokeBomb,
+	EHASSurvivorItemType_MAX,
+};
+
+// Enum TslGame.EHASSurvivorCorruptPhase
+enum class EHASSurvivorCorruptPhase : uint8 {
+	None,
+	PhaseOne,
+	PhaseTwo,
+	Corrupted,
+	EHASSurvivorCorruptPhase_MAX,
+};
+
+// Enum TslGame.EHASSurvivorBreathState
+enum class EHASSurvivorBreathState : uint8 {
+	None,
+	NormalBreath,
+	FastBreath,
+	Exhausted,
+	EHASSurvivorBreathState_MAX,
+};
+
+// Enum TslGame.EHASSurvivorState
+enum class EHASSurvivorState : uint8 {
+	Normal,
+	Injured,
+	DBNO,
+	BodyCarried,
+	Captured,
+	Dead,
+	Escaped,
+	Sacrificed,
+	EndgameDead,
+	EHASSurvivorState_MAX,
+};
+
+// Enum TslGame.EHASSeekerState
+enum class EHASSeekerState : uint8 {
+	Normal,
+	Stunned,
+	EHASSeekerState_MAX,
+};
+
+// Enum TslGame.EHASPlayerRole
+enum class EHASPlayerRole : uint8 {
+	None,
+	Killer,
+	Survivor,
+	EHASPlayerRole_MAX,
+};
+
+// Enum TslGame.ETslParticleCullType
+enum class ETslParticleCullType : uint8 {
+	None,
+	Distance,
+	Frustum,
+	LastRenderedTime,
+	SameTransform,
+	NearbyTransform,
+	DistAndFrustumAndNear,
+	All,
+	ETslParticleCullType_MAX,
+};
+
+// Enum TslGame.ETslParticleGroupPriority
+enum class ETslParticleGroupPriority : uint8 {
+	High,
+	Low,
+	ETslParticleGroupPriority_MAX,
+};
+
+// Enum TslGame.ETslHASStencilColor
+enum class ETslHASStencilColor : uint8 {
+	None,
+	SpectatedCharacter,
+	SpectatedCharacterTeam,
+	SpectatedCharacterEnemy,
+	WithoutSpectatedCharacter,
+	WithoutSpectatedTeamCharacter,
+	InteractionFocusingColor,
+	SandboxOutline,
+	Invincible,
+	ETslHASStencilColor_MAX,
+};
+
+// Enum TslGame.*a5775e3d1d
+enum class *a5775e3d1d : uint8 {
+	*f5f5ae57aa,
+	*70d2b9614f,
+	*4499145925,
+	*3a8ee66b78,
+	*15f7b5456f,
+	*791b699ecb,
+	*471c5ac26f,
+	*a5775e3d1d_MAX,
+};
+
+// Enum TslGame.ETslHASInteractType
+enum class ETslHASInteractType : uint8 {
+	BlockAllInteractive,
+	InteractionObjectCanPassThrough,
+	ETslHASInteractType_MAX,
+};
+
+// Enum TslGame.ETslHASFixTargetState
+enum class ETslHASFixTargetState : uint8 {
+	PreStart,
+	Normal,
+	StopFixing,
+	Fixing,
+	Explode,
+	Broken,
+	Fixed,
+	ETslHASFixTargetState_MAX,
+};
+
+// Enum TslGame.EHASSoundType
+enum class EHASSoundType : uint8 {
+	Breath,
+	BreathStop,
+	FastBreath,
+	FastBreathStop,
+	HeartBeat,
+	ReadyToFire,
+	Exhausted,
+	ExhaustedStop,
+	Moan,
+	MoanStop,
+	Panic,
+	CabinetPanic,
+	SeekerStun,
+	EHASSoundType_MAX,
+};
+
+// Enum TslGame.ETslHAS_QTEType
+enum class ETslHAS_QTEType : uint8 {
+	Generator,
+	Wiggle,
+	Prison,
+	Healing,
+	None,
+	ETslHAS_MAX,
+};
+
+// Enum TslGame.ETslHASActiveEffet
+enum class ETslHASActiveEffet : uint8 {
+	GeneratorActive,
+	PrisonActive,
+	ExitActive,
+	None,
+	ETslHASActiveEffet_MAX,
+};
+
+// Enum TslGame.*806242109f
+enum class *806242109f : uint8 {
+	*a51507051f,
+	*664c15bcb4,
+	*806242109f_MAX,
+};
+
+// Enum TslGame.EPrivateTrainingRoomPhase
+enum class EPrivateTrainingRoomPhase : uint8 {
+	None,
+	FinishSelect_Practice,
+	StartSelect_Weapon,
+	SetupStart_Practice,
+	CountDownStart_Practice,
+	Start_Practice,
+	Cancel_Practice,
+	Finish_Practice,
+	Restart_Practice,
+	Exit_Practice,
+	EPrivateTrainingRoomPhase_MAX,
+};
+
+// Enum TslGame.EPrivateWaitingRoomPhase
+enum class EPrivateWaitingRoomPhase : uint8 {
+	None,
+	LoadingMap,
+	Ready,
+	StartSelect_Practice,
+	EPrivateWaitingRoomPhase_MAX,
+};
+
+// Enum TslGame.ETrainingScoreType
+enum class ETrainingScoreType : uint8 {
+	None,
+	HeadShot,
+	Kill,
+	SoundCatch,
+	TotalScore,
+	AimAccuracy,
+	ETrainingScoreType_MAX,
+};
+
+// Enum TslGame.ETrainingPracticeType
+enum class ETrainingPracticeType : uint8 {
+	None,
+	Practice_Aim,
+	Practice_Sound,
+	ETrainingPracticeType_MAX,
+};
+
+// Enum TslGame.ETslTrainingTeleportType
+enum class ETslTrainingTeleportType : uint8 {
+	InfoThumnail,
+	MapIconVolume,
+	NONE,
+	ETslTrainingTeleportType_MAX,
+};
+
+// Enum TslGame.EBombUIHUDTimerStatusType
+enum class EBombUIHUDTimerStatusType : uint8 {
+	None,
+	RoundTime,
+	Attack,
+	Defence,
+	MAX,
+	EBombUIHUDTimerStatusType_MAX,
+};
+
+// Enum TslGame.EBombUIMatchResultType
+enum class EBombUIMatchResultType : uint8 {
+	None,
+	Lose,
+	Win,
+	Draw,
+	MAX,
+	EBombUIMatchResultType_MAX,
+};
+
+// Enum TslGame.EBombUIPlayerStatusType
+enum class EBombUIPlayerStatusType : uint8 {
+	None,
+	Alive,
+	DBNO,
+	Die,
+	Disconnected,
+	MAX,
+	EBombUIPlayerStatusType_MAX,
+};
+
+// Enum TslGame.ETslPreloadPriority
+enum class ETslPreloadPriority : uint8 {
+	Static,
+	Dynamic,
+	ETslPreloadPriority_MAX,
+};
+
+// Enum TslGame.BlueChipTowerAnimState
+enum class BlueChipTowerAnimState : uint8 {
+	Wait,
+	IsInUse,
+	Success,
+	BlueChipTowerAnimState_MAX,
+};
+
+// Enum TslGame.EFollowTargetType
+enum class EFollowTargetType : uint8 {
+	Bot,
+	CurrentPlayer,
+	EFollowTargetType_MAX,
+};
+
+// Enum TslGame.*e5b83a2753
+enum class *e5b83a2753 : uint8 {
+	*948ef99c1e,
+	*d6cebda82c,
+	*e5b83a2753_MAX,
+};
+
+// Enum TslGame.EHASGamePhase
+enum class EHASGamePhase : uint8 {
+	NotStarted,
+	Started,
+	GeneratorAllFixed,
+	EndGame,
+	MatchEnded,
+	EHASGamePhase_MAX,
+};
+
+// Enum TslGame.EHASPrisonSoundType
+enum class EHASPrisonSoundType : uint8 {
+	Bluezone,
+	BluezoneStop,
+	Sink,
+	EHASPrisonSoundType_MAX,
+};
+
+// Enum TslGame.ETslHASPrisonState
+enum class ETslHASPrisonState : uint8 {
+	PreStart,
+	Normal,
+	Broken,
+	SurvivorHooked,
+	Sacrificed,
+	Reload,
+	ETslHASPrisonState_MAX,
+};
+
+// Enum TslGame.*8c1cb5c786
+enum class *8c1cb5c786 : uint8 {
+	*48338ae941,
+	*88b9e906ed,
+	*aedd128173,
+	*0da4aa5012,
+	*4d3804b4c4,
+	*709bacf07e,
+	*7f35516767,
+	*71f0153f15,
+	*985e50d527,
+	*8c1cb5c786_MAX,
+};
+
+// Enum TslGame.EHealthDebuffType
+enum class EHealthDebuffType : uint8 {
+	None,
+	Bleed,
+	EHealthDebuffType_MAX,
+};
+
+// Enum TslGame.EControlDebuffType
+enum class EControlDebuffType : uint8 {
+	None,
+	Stun,
+	Trap,
+	Slow,
+	EControlDebuffType_MAX,
+};
+
+// Enum TslGame.EBulletproofShieldDurabilityState
+enum class EBulletproofShieldDurabilityState : uint8 {
+	None,
+	Normal,
+	Damaged,
+	DamagedSeverely,
+	Destroyed,
+	EBulletproofShieldDurabilityState_MAX,
+};
+
+// Enum TslGame.EBulletproofShieldInstallState
+enum class EBulletproofShieldInstallState : uint8 {
+	None,
+	InstallInprogress,
+	InstallComplete,
+	Destroyed,
+	EBulletproofShieldInstallState_MAX,
+};
+
+// Enum TslGame.*fe91f4d413
+enum class *fe91f4d413 : uint8 {
+	*ae51d59083,
+	*5773511a6a,
+	*88aba99dad,
+	*a41a515aa7,
+	*f5347475bd,
+	*f9ff5e7f52,
+	*68365bf893,
+	*47536f62d0,
+	*e1a60d7dce,
+	*fe91f4d413_MAX,
+};
+
+// Enum TslGame.EAITaskState
+enum class EAITaskState : uint8 {
+	Idle,
+	Tasking,
+	Done,
+	InValid,
+	EAITaskState_MAX,
+};
+
+// Enum TslGame.EZombieTargetingType
+enum class EZombieTargetingType : uint8 {
+	Passive,
+	Aggressive,
+	AggresiveRandom,
+	EZombieTargetingType_MAX,
+};
+
+// Enum TslGame.EZombieAttackType
+enum class EZombieAttackType : uint8 {
+	Melee,
+	Throw,
+	EZombieAttackType_MAX,
+};
+
+// Enum TslGame.EDroneOperationalState
+enum class EDroneOperationalState : uint8 {
+	INVALID,
+	ENABLED_ENUM_START,
+	ENABLED,
+	ENABLED_CONTROLLED,
+	ENABLED_RETURNING_TO_OWNER,
+	ENABLED_ENUM_END,
+	DISABLED_ENUM_START,
+	DISABLED,
+	DISABLED_IN_WATER,
+	DISABLED_DESTROYED,
+	DISABLED_ENUM_END,
+	COUNT,
+	EDroneOperationalState_MAX,
+};
+
+// Enum TslGame.EDroneState
+enum class EDroneState : uint8 {
+	INVALID,
+	STOWED,
+	STOWING,
+	PICK_UP,
+	EQUIPPING,
+	EQUIPPED,
+	DEPLOYED,
+	COUNT,
+	EDroneState_MAX,
+};
+
+// Enum TslGame.*58cfbe5f5d
+enum class *58cfbe5f5d : uint8 {
+	*2879860374,
+	*317a5b847b,
+	*325fce44b0,
+	*5be356271f,
+	*58cfbe5f5d_MAX,
+};
+
+// Enum TslGame.*79aefd5503
+enum class *79aefd5503 : uint8 {
+	*cb161a189f,
+	*b11138e9ae,
+	*2156633e6e,
+	*79aefd5503_MAX,
+};
+
+// Enum TslGame.EBodyCarryState
+enum class EBodyCarryState : uint8 {
+	Inactive,
+	Active,
+	PickingUp,
+	Dropping,
+	EBodyCarryState_MAX,
+};
+
+// Enum TslGame.ECountInfoAnimType
+enum class ECountInfoAnimType : uint8 {
+	None,
+	Default,
+	Decreasing,
+	Increasing,
+	Warning,
+	Emerging,
+	Vanishing,
+	ECountInfoAnimType_MAX,
+};
+
+// Enum TslGame.*ff96834d9a
+enum class *ff96834d9a : uint8 {
+	*306f42da0c,
+	*03965f229a,
+	*ff96834d9a_MAX,
+};
+
+// Enum TslGame.ETrainingDashboardRange
+enum class ETrainingDashboardRange : uint8 {
+	None,
+	Range10,
+	Range50,
+	Range100,
+	ETrainingDashboardRange_MAX,
+};
+
+// Enum TslGame.ECustomDamageEventReactionType
+enum class ECustomDamageEventReactionType : uint8 {
+	SpawnActor,
+	StopSpawnedParticles,
+	HideMesh,
+	HideMeshInstance,
+	HideBone,
+	ApplyPhysicalAnimationProfile,
+	SetCollisionEnabled,
+	ECustomDamageEventReactionType_MAX,
+};
+
+// Enum TslGame.*9ba9779ff0
+enum class *9ba9779ff0 : uint8 {
+	*ba12af288b,
+	*024214dafa,
+	*333c403010,
+	*9ba9779ff0_MAX,
+};
+
+// Enum TslGame.EScmCollisionGroup
+enum class EScmCollisionGroup : uint8 {
+	Default,
+	FireField,
+	ExplosiveItem,
+	EScmCollisionGroup_MAX,
+};
+
+// Enum TslGame.EDamageFieldType
+enum class EDamageFieldType : uint8 {
+	Default,
+	DirectTick,
+	EDamageFieldType_MAX,
+};
+
+// Enum TslGame.EOptionTab
+enum class EOptionTab : uint8 {
+	Graphics,
+	Audio,
+	Controls,
+	Gameplay,
+	KeyBindings,
+	EOptionTab_MAX,
+};
+
+// Enum TslGame.ETslGameOptionKeyBindingType
+enum class ETslGameOptionKeyBindingType : uint8 {
+	None,
+	Action,
+	Axis,
+	ETslGameOptionKeyBindingType_MAX,
+};
+
+// Enum TslGame.ETslGameOptionSupplementaryType
+enum class ETslGameOptionSupplementaryType : uint8 {
+	None,
+	KeyboardLayout,
+	PreviewImage,
+	PreviewCrosshair,
+	VolumeUnitMeter,
+	PreviewMaterial,
+	LinkButton,
+	ETslGameOptionSupplementaryType_MAX,
+};
+
+// Enum TslGame.ENaviGamepadInputType
+enum class ENaviGamepadInputType : uint8 {
+	DPad_Pressed,
+	DPad_Released,
+	Axis,
+	Axis_Hold,
+	ENaviGamepadInputType_MAX,
+};
+
+// Enum TslGame.EDynamicWeather
+enum class EDynamicWeather : uint8 {
+	NotInitialized,
+	Initialized,
+	BlendInStarted,
+	Saturated,
+	BlendOutStarted,
+	BlendOutEnded,
+	Finished,
+	EDynamicWeather_MAX,
+};
+
+// Enum TslGame.EEffectSpreadState
+enum class EEffectSpreadState : uint8 {
+	ESS_InitialTrace,
+	ESS_InitialProcess,
+	ESS_Spreading,
+	ESS_SpreadDone,
+	ESS_Ending,
+	ESS_MAX,
+};
+
+// Enum TslGame.*fe3a38da9a
+enum class *fe3a38da9a : uint8 {
+	*60688b41ca,
+	*d61bb58780,
+	*26fd0c5262,
+	*d7a74ac759,
+	*fe3a38da9a_MAX,
+};
+
+// Enum TslGame.ETslFenceSelector
+enum class ETslFenceSelector : uint8 {
+	None,
+	Use_2,
+	Use_3,
+	Use_4,
+	Use_5,
+	ETslFenceSelector_MAX,
+};
+
+// Enum TslGame.EFlowTextState
+enum class EFlowTextState : uint8 {
+	None,
+	Wait,
+	FlowLeftOut,
+	FlowLeftIn,
+	FlowRightOut,
+	FlowRightIn,
+	BlinkAnimation,
+	EFlowTextState_MAX,
+};
+
+// Enum TslGame.*e6028b905e
+enum class *e6028b905e : uint8 {
+	*ca70de9b61,
+	*ab0d605ec4,
+	*d72a808f64,
+	*e2161be65d,
+	*26b18bb179,
+	*f2c7f1cf64,
+	*1e8beaaede,
+	*e6028b905e_MAX,
+};
+
+// Enum TslGame.EBBHolderSelectMethod
+enum class EBBHolderSelectMethod : uint8 {
+	Closest,
+	Random,
+	EBBHolderSelectMethod_MAX,
+};
+
+// Enum TslGame.*5dde2c9cf0
+enum class *5dde2c9cf0 : uint8 {
+	*35535bada3,
+	*73e8d38d83,
+	*12485fd684,
+	*962ec9328d,
+	*5dde2c9cf0_MAX,
+};
+
+// Enum TslGame.ERacingBgmTheme
+enum class ERacingBgmTheme : uint8 {
+	Default,
+	WinterRaicng,
+	ERacingBgmTheme_MAX,
+};
+
+// Enum TslGame.EHungerState
+enum class EHungerState : uint8 {
+	Normal,
+	Hunger,
+	Starvation,
+	Famine,
+	EHungerState_MAX,
+};
+
+// Enum TslGame.EWarModeCarePackageKitType
+enum class EWarModeCarePackageKitType : uint8 {
+	CarepackageKit_Off,
+	CarepackageKit_Basic,
+	CarepackageKit_ARKit,
+	CarepackageKit_SRKit,
+	CarepackageKit_MAX,
+};
+
+// Enum TslGame.*fbdc2d1443
+enum class *fbdc2d1443 : uint8 {
+	*241701b907,
+	*91e7b658a5,
+	*d98d4ed7e0,
+	*fbdc2d1443_MAX,
+};
+
+// Enum TslGame.*c528354d28
+enum class *c528354d28 : uint8 {
+	*1f85093843,
+	*a3a23d1dc7,
+	*ffc55e9426,
+	*c528354d28_MAX,
+};
+
+// Enum TslGame.EVoiceChatChannel
+enum class EVoiceChatChannel : uint8 {
+	All,
+	TeamOnly,
+	None,
+	MAX,
+	EVoiceChatChannel_MAX,
+};
+
+// Enum TslGame.EVoiceInputMode_Console
+enum class EVoiceInputMode_Console : uint8 {
+	OpenMic,
+	Disable,
+	MAX,
+	EVoiceInputMode_MAX,
+};
+
+// Enum TslGame.EVoiceInputMode_PC
+enum class EVoiceInputMode_PC : uint8 {
+	OpenMic,
+	PushToTalk,
+	Toggle,
+	Disable,
+	MAX,
+	EVoiceInputMode_MAX,
+};
+
+// Enum TslGame.ERacingGamePhase
+enum class ERacingGamePhase : uint8 {
+	NotStarted,
+	PrepareState,
+	InProgress,
+	EndPhase,
+	End,
+	ERacingGamePhase_MAX,
+};
+
+// Enum TslGame.EGasPumpState
+enum class EGasPumpState : uint8 {
+	Inactive,
+	StartFueling,
+	StopFueling,
+	StopFuelingFull,
+	EGasPumpState_MAX,
+};
+
+// Enum TslGame.ETslHelperInputActionType
+enum class ETslHelperInputActionType : uint8 {
+	DPad,
+	Shoulder,
+	Face,
+	Keyboard,
+	ETslHelperInputActionType_MAX,
+};
+
+// Enum TslGame.*7cb6dc5951
+enum class *7cb6dc5951 : uint8 {
+	*ed62042d2d,
+	*4f15ade583,
+	*176d9c5b4d,
+	*7cb6dc5951_MAX,
+};
+
+// Enum TslGame.*d1579987e6
+enum class *d1579987e6 : uint8 {
+	*f5f5ae57aa,
+	*4499145925,
+	*f49dce2125,
+	*30ee41e559,
+	*66d65ba7c8,
+	*f50d7d7758,
+	*d1579987e6_MAX,
+};
+
+// Enum TslGame.*bfb3f020fa
+enum class *bfb3f020fa : uint8 {
+	*f5f5ae57aa,
+	*f328afeac9,
+	*4499145925,
+	*23bd7ca885,
+	*bfb3f020fa_MAX,
+};
+
+// Enum TslGame.ETrainingButtonActiveType
+enum class ETrainingButtonActiveType : uint8 {
+	Default,
+	AimTrainingOnly,
+	ETrainingButtonActiveType_MAX,
+};
+
+// Enum TslGame.EVendingMachineState
+enum class EVendingMachineState : uint8 {
+	ACTIVATED,
+	DEACTIVATED_TEMPORARILY_BY_PICK_DELAY,
+	DEACTIVATED_TEMPORARILY_BY_DAMAGE,
+	DEACTIVATED_TEMPORARILY_BY_JACKPOT,
+	DEACTIVATED_PERMANANTLY_BY_EXCEEDED_MAX_PICK_COUNT,
+	EVendingMachineState_MAX,
+};
+
+// Enum TslGame.EOutGameMontageState
+enum class EOutGameMontageState : uint8 {
+	Default,
+	Playing,
+	Interrupted,
+	Finished,
+	EOutGameMontageState_MAX,
+};
+
+// Enum TslGame.EItemRequestType
+enum class EItemRequestType : uint8 {
+	None,
+	Heal,
+	Ammo,
+	EItemRequestType_MAX,
+};
+
+// Enum TslGame.JukeBoxAnimState
+enum class JukeBoxAnimState : uint8 {
+	OPEN,
+	CLOSED,
+	JukeBoxAnimState_MAX,
+};
+
+// Enum TslGame.ELivingThingThreatLevel
+enum class ELivingThingThreatLevel : uint8 {
+	NoChanged,
+	IncrementThreatLevel,
+	DecrementThreatLevel,
+	Calm,
+	Fear,
+	Panic,
+	Dead,
+	MAX,
+	ELivingThingThreatLevel_MAX,
+};
+
+// Enum TslGame.ELivingThingCustomEvent
+enum class ELivingThingCustomEvent : uint8 {
+	HittedByBullet,
+	HittedByExplosion,
+	HittedByCar,
+	HittedByCharacter,
+	HittedByLivingThing,
+	HittedByPhysicsBody,
+	HittedByOthers,
+	Custom1,
+	Custom2,
+	Custom3,
+	Custom4,
+	Custom5,
+	Custom6,
+	Custom7,
+	Custom8,
+	Custom9,
+	Custom10,
+	Custom11,
+	Custom12,
+	Custom13,
+	Custom14,
+	Custom15,
+	Custom16,
+	Custom17,
+	Custom18,
+	Custom19,
+	Custom20,
+	MAX,
+	ELivingThingCustomEvent_MAX,
+};
+
+// Enum TslGame.ETLMeshSelection
+enum class ETLMeshSelection : uint8 {
+	Auto,
+	StaticMesh,
+	SkeletalMesh,
+	None,
+	ETLMeshSelection_MAX,
+};
+
+// Enum TslGame.ELobbyCharacterPosition
+enum class ELobbyCharacterPosition : uint8 {
+	Position1,
+	Position2,
+	Position3,
+	Position4,
+	ELobbyCharacterPosition_MAX,
+};
+
+// Enum TslGame.ELobbyCharacterReadyType
+enum class ELobbyCharacterReadyType : uint8 {
+	Ready,
+	NotReady,
+	ReadyToNotReady,
+	NotReadyToReady,
+	EmoteToReady,
+	EmoteToNotReady,
+	ELobbyCharacterReadyType_MAX,
+};
+
+// Enum TslGame.ETslSLBZombieSpawnType
+enum class ETslSLBZombieSpawnType : uint8 {
+	Instant,
+	Time,
+	ETslSLBZombieSpawnType_MAX,
+};
+
+// Enum TslGame.EObserverPlayerListType
+enum class EObserverPlayerListType : uint8 {
+	Distance,
+	Kill,
+	Survivor,
+	Max,
+	EObserverPlayerListType_MAX,
+};
+
+// Enum TslGame.ECustomDamageZoneType
+enum class ECustomDamageZoneType : uint8 {
+	Head,
+	UpperBody,
+	LowerBody,
+	Arms,
+	Legs,
+	ECustomDamageZoneType_MAX,
+};
+
+// Enum TslGame.ECustomDamageWeaponClass
+enum class ECustomDamageWeaponClass : uint8 {
+	Bullet,
+	Melee,
+	ECustomDamageWeaponClass_MAX,
+};
+
+// Enum TslGame.EArenaStartType
+enum class EArenaStartType : uint8 {
+	Player,
+	AircraftStart,
+	AircraftEnd,
+	EArenaStartType_MAX,
+};
+
+// Enum TslGame.ERacingItemIcon
+enum class ERacingItemIcon : uint8 {
+	Heal,
+	Ammo,
+	Boost,
+	Gun,
+	FlareAmmo,
+	FlashBang,
+	Granade,
+	SmokeBomb,
+	SpikeTrap,
+	StickyBomb,
+	FirstKillBombardItem,
+	FirstKillBombardItem_NotActivate,
+	ERacingItemIcon_MAX,
+};
+
+// Enum TslGame.ERacingGameScoreType
+enum class ERacingGameScoreType : uint8 {
+	CheckPoint,
+	Trick,
+	Kill,
+	ERacingGameScoreType_MAX,
+};
+
+// Enum TslGame.ETslSLBInteractionType
+enum class ETslSLBInteractionType : uint8 {
+	None,
+	Generator,
+	Refueling,
+	ClearDebuff,
+	OpenLastDoor,
+	MAX,
+	ETslSLBInteractionType_MAX,
+};
+
+// Enum TslGame.EPGALOutput
+enum class EPGALOutput : uint8 {
+	Succeeded,
+	Failed,
+	EPGALOutput_MAX,
+};
+
+// Enum TslGame.*50add083ff
+enum class *50add083ff : uint8 {
+	*2d02f89676,
+	*4416f1431c,
+	*1cd546f8f4,
+	*cfed0d7a6f,
+	*e4908eb286,
+	*50add083ff_MAX,
+};
+
+// Enum TslGame.ESpikeDeploymentState
+enum class ESpikeDeploymentState : uint8 {
+	PreDeploy,
+	Deploying,
+	PostDeploy,
+	Popped,
+	Idle,
+	ESpikeDeploymentState_MAX,
+};
+
+// Enum TslGame.E40mmDeployState
+enum class E40mmDeployState : uint8 {
+	None,
+	FuseTriggered,
+	DeployStarted,
+	DeployFinished,
+	DeployFailed,
+	E40mmDeployState_MAX,
+};
+
+// Enum TslGame.*8560fb114b
+enum class *8560fb114b : uint8 {
+	*a779901526,
+	*bb055a992b,
+	*74712368c0,
+	*8560fb114b_MAX,
+};
+
+// Enum TslGame.ETslPubgIdAssetType
+enum class ETslPubgIdAssetType : uint8 {
+	NONE,
+	NAMEPLATE,
+	EMBLEM,
+	EMBLEM_ANIMATED,
+	MEDAL1,
+	MEDAL2,
+	CLANPLATE,
+	CLANPLATE_LOW_DEFINITION,
+	TIER,
+	ETslPubgIdAssetType_MAX,
+};
+
+// Enum TslGame.*a0a02b3312
+enum class *a0a02b3312 : uint8 {
+	*e62b3ddaf9,
+	*25262393d3,
+	*9610b6361a,
+	*a0a02b3312_MAX,
+};
+
+// Enum TslGame.ETslReferenceObjType
+enum class ETslReferenceObjType : uint8 {
+	GameMode,
+	Character,
+	Preload,
+	ETslReferenceObjType_MAX,
+};
+
+// Enum TslGame.*2dc8a600b0
+enum class *2dc8a600b0 : uint8 {
+	*29502280de,
+	*ffdf79e6ff,
+	*ac32a8a093,
+	*a18f87bbd4,
+	*ca323924e7,
+	*2dc8a600b0_MAX,
+};
+
+// Enum TslGame.ESLBTriggerShapeType
+enum class ESLBTriggerShapeType : uint8 {
+	Box,
+	Sphere,
+	ESLBTriggerShapeType_MAX,
+};
+
+// Enum TslGame.ESandStormSoundType
+enum class ESandStormSoundType : uint8 {
+	None,
+	StartSound,
+	LoopSound,
+	InSound,
+	OutSound,
+	ESandStormSoundType_MAX,
+};
+
+// Enum TslGame.EReplayTimelineMode
+enum class EReplayTimelineMode : uint8 {
+	ReplayPlay,
+	ReplayEditor,
+	ReplayRender,
+	EReplayTimelineMode_MAX,
+};
+
+// Enum TslGame.*17697e91c7
+enum class *17697e91c7 : uint8 {
+	*e64470cdca,
+	*c9f6114de3,
+	*8dea45cbec,
+	*4c162196b5,
+	*7792f21c90,
+	*17697e91c7_MAX,
+};
+
+// Enum TslGame.*ad6e027322
+enum class *ad6e027322 : uint8 {
+	*88e7e7aae5,
+	*52486a491d,
+	*0168c9270e,
+	*08661f1255,
+	*a8e50caad7,
+	*94fb4da69f,
+	*6df5d53288,
+	*ede24c1ccd,
+	*7d810368c5,
+	*855714e5e1,
+	*6123f3a211,
+	*f2e5d9990a,
+	*ad6e027322_MAX,
+};
+
+// Enum TslGame.ERideVehicle
+enum class ERideVehicle : uint8 {
+	None,
+	Ride,
+	Leave,
+	ERideVehicle_MAX,
+};
+
+// Enum TslGame.*5351e1a438
+enum class *5351e1a438 : uint8 {
+	*8f83605e90,
+	*47e73771d7,
+	*4461ef4caf,
+	*5351e1a438_MAX,
+};
+
+// Enum TslGame.*2126800de8
+enum class *2126800de8 : uint8 {
+	*26ac17a6cd,
+	*b488d72794,
+	*97a12ffa4b,
+	*2126800de8_MAX,
+};
+
+// Enum TslGame.ERedeployProgressDotType
+enum class ERedeployProgressDotType : uint8 {
+	None,
+	Pass,
+	Start,
+	Recruit,
+	NotOpenYet,
+	PlayingRedeploy,
+	MAX,
+	ERedeployProgressDotType_MAX,
+};
+
+// Enum TslGame.ETslTrainingDashboardRangeUIType
+enum class ETslTrainingDashboardRangeUIType : uint8 {
+	None,
+	Range10,
+	Range50,
+	Range100,
+	ETslTrainingDashboardRangeUIType_MAX,
+};
+
+// Enum TslGame.ETslTrainingDashboardPracticeUIType
+enum class ETslTrainingDashboardPracticeUIType : uint8 {
+	None,
+	Practice_Aim,
+	Practice_Sound,
+	ETslTrainingDashboardPracticeUIType_MAX,
+};
+
+// Enum TslGame.*e75a8f013f
+enum class *e75a8f013f : uint8 {
+	*a4eea8542b,
+	*a91221aed3,
+	*741a270526,
+	*8b3cfcd2a7,
+	*3a68452ed4,
+	*efed33d635,
+	*a9dba6a41c,
+	*e75a8f013f_MAX,
+};
+
+// Enum TslGame.*ce4c0cae01
+enum class *ce4c0cae01 : uint8 {
+	*c21ad85125,
+	*8dc0d34e3d,
+	*16e8b6b7bf,
+	*ce4c0cae01_MAX,
+};
+
+// Enum TslGame.EMeleeThrowState
+enum class EMeleeThrowState : uint8 {
+	Idle,
+	Prepare,
+	Throw,
+	EMeleeThrowState_MAX,
+};
+
+// Enum TslGame.*1687ccc324
+enum class *1687ccc324 : uint8 {
+	*64eb05c81d,
+	*686b2bf97b,
+	*6c0147eaff,
+	*1687ccc324_MAX,
+};
+
+// Enum TslGame.EMinimapFocus
+enum class EMinimapFocus : uint8 {
+	CharacterFocus,
+	NextPlayzoneFocus,
+	None,
+	EMinimapFocus_MAX,
+};
+
+// Enum TslGame.ETslArenaLoadoutItemCategory
+enum class ETslArenaLoadoutItemCategory : uint8 {
+	PistolAndShotgun,
+	Smg,
+	Ar,
+	Dmr,
+	Sr,
+	Equipment,
+	ETslArenaLoadoutItemCategory_MAX,
+};
+
+// Enum TslGame.ETslArenaLoadoutDirections
+enum class ETslArenaLoadoutDirections : uint8 {
+	Up,
+	Right,
+	Down,
+	Left,
+	ETslArenaLoadoutDirections_MAX,
+};
+
+// Enum TslGame.*879c94c867
+enum class *879c94c867 : uint8 {
+	*cc4c65c04b,
+	*7b3ef3c77d,
+	*787bf2f337,
+	*439a290c25,
+	*879c94c867_MAX,
+};
+
+// Enum TslGame.EConditionOfDeath
+enum class EConditionOfDeath : uint8 {
+	HeadShot,
+	DBNO,
+	DBNOByHeadShot,
+	None,
+	EConditionOfDeath_MAX,
+};
+
+// Enum TslGame.ETslTeamInfoIconState
+enum class ETslTeamInfoIconState : uint8 {
+	Default,
+	Vehicle,
+	Parachute,
+	Die,
+	Groggy,
+	Quitter,
+	AirCraft,
+	ItemRequest,
+	EmergencyPickup,
+	BlueBallHolder,
+	Redeploy,
+	RedeployFighting,
+	Revival,
+	SpecificMode,
+	ETslTeamInfoIconState_MAX,
+};
+
+// Enum TslGame.EControllerImageType
+enum class EControllerImageType : uint8 {
+	XboxOne,
+	PS4,
+	Quail,
+	Quail_ThirdParty,
+	None,
+	EControllerImageType_MAX,
+};
+
+// Enum TslGame.EBinaryStepperType
+enum class EBinaryStepperType : uint8 {
+	OFF,
+	ON,
+	EBinaryStepperType_MAX,
+};
+
+// Enum TslGame.EKeyIconCombinationDisplayType
+enum class EKeyIconCombinationDisplayType : uint8 {
+	NotUsed,
+	Empty,
+	Plus,
+	Slash,
+	EKeyIconCombinationDisplayType_MAX,
+};
+
+// Enum TslGame.EGamepadKeyIconDisplayType
+enum class EGamepadKeyIconDisplayType : uint8 {
+	Tap,
+	DoubleTap,
+	ComboHold,
+	TimerHoldCircle,
+	TimerHoldBar,
+	EGamepadKeyIconDisplayType_MAX,
+};
+
+// Enum TslGame.EDirectMessageColorType
+enum class EDirectMessageColorType : uint8 {
+	Alert,
+	System,
+	Chat,
+	Clan,
+	MAX,
+	EDirectMessageColorType_MAX,
+};
+
+// Enum TslGame.*6efb167d15
+enum class *6efb167d15 : uint8 {
+	*3a2bfb332a,
+	*5d8ce58014,
+	*b6e1f571c6,
+	*2d1e83b319,
+	*6efb167d15_MAX,
+};
+
+// Enum TslGame.*b2360360d1
+enum class *b2360360d1 : uint8 {
+	*a9d9834d2c,
+	*7e72755340,
+	*3fb6ae5a33,
+	*b2360360d1_MAX,
+};
+
+// Enum TslGame.EEmotePlayViewType
+enum class EEmotePlayViewType : uint8 {
+	Disable,
+	TeamMate_Enable,
+	Interaction_Enable,
+	EEmotePlayViewType_MAX,
+};
+
+// Enum TslGame.*003195562a
+enum class *003195562a : uint8 {
+	*0350ba9417,
+	*9c52e6b7f1,
+	*8a06d94d3d,
+	*3fb6ae5a33,
+	*003195562a_MAX,
+};
+
+// Enum TslGame.EBluezoneState
+enum class EBluezoneState : uint8 {
+	Wait,
+	Release,
+	NoRestrict,
+	EBluezoneState_MAX,
+};
+
+// Enum TslGame.EStatInfoType
+enum class EStatInfoType : uint8 {
+	Kill,
+	Damage,
+	Assist,
+	EStatInfoType_MAX,
+};
+
+// Enum TslGame.EDisplayPlayerInfoType
+enum class EDisplayPlayerInfoType : uint8 {
+	PlayerList,
+	EngagedEnemies,
+	NearbyPlayers,
+	OtherEngagements,
+	ObserverTeamInfoList,
+	EDisplayPlayerInfoType_MAX,
+};
+
+// Enum TslGame.MatchResultTypeEnum
+enum class MatchResultTypeEnum : uint8 {
+	INVALID,
+	DEFAULT,
+	OBSERVER,
+	ZOMBIE,
+	LEAGUE,
+	TYPE_NUM,
+	MatchResultTypeEnum_MAX,
+};
+
+// Enum TslGame.EMarkStates
+enum class EMarkStates : uint8 {
+	Normal,
+	Groggy,
+	Dead,
+	Vehicle,
+	Parachute,
+	Quitter,
+	Aircraft,
+	ItemRequest,
+	EmergencyPickup,
+	EMarkStates_MAX,
+};
+
+// Enum TslGame.ETeenageInfoType
+enum class ETeenageInfoType : uint8 {
+	Normal,
+	Season,
+	ETeenageInfoType_MAX,
+};
+
+// Enum TslGame.EGuideKeyType
+enum class EGuideKeyType : uint8 {
+	PickUp,
+	Drop,
+	QuickPickUp,
+	QuickDrop,
+	QuickPack,
+	Equip,
+	Unequip,
+	Swap,
+	Detach,
+	Unpack,
+	Use,
+	SwitchSlot,
+	Confirm,
+	Cancel,
+	Apply,
+	Purchase,
+	DetachAll,
+	UnpackAll,
+	PickUpAmount,
+	DropAmount,
+	SwapWeapon,
+	DropWeapon,
+	QuickEquip,
+	QuickEquip_NoHold,
+	MoveToTrunk,
+	DropFromTrunk,
+	VicinityToTrunk,
+	WeaponToTrunk,
+	Pack,
+	Pack_NoHold,
+	None,
+	EGuideKeyType_MAX,
+};
+
+// Enum TslGame.EBlueBlockerStateUIType
+enum class EBlueBlockerStateUIType : uint8 {
+	None,
+	Active,
+	Deactive,
+	Hide,
+	EBlueBlockerStateUIType_MAX,
+};
+
 // ScriptStruct TslGame.*9838798d84
 // Size: 0x40 (Inherited: 0x00)
 struct F*9838798d84 {

@@ -1,3 +1,19 @@
+// Enum ClothingSystemRuntime.EClothingWindMethod
+enum class EClothingWindMethod : uint8 {
+	Legacy,
+	Accurate,
+	EClothingWindMethod_MAX,
+};
+
+// Enum ClothingSystemRuntime.MaskTarget_PhysMesh
+enum class MaskTarget_PhysMesh : uint8 {
+	None,
+	MaxDistance,
+	BackstopDistance,
+	BackstopRadius,
+	MaskTarget_MAX,
+};
+
 // ScriptStruct ClothingSystemRuntime.*3b13593114
 // Size: 0xbc (Inherited: 0x00)
 struct F*3b13593114 {

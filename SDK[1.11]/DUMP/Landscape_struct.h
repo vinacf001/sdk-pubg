@@ -1,3 +1,99 @@
+// Enum Landscape.*6cdc8d67bf
+enum class *6cdc8d67bf : uint8 {
+	*7eac6bd062,
+	*9e0d7658cf,
+	*9a5ec824ce,
+	*d2687dccb2,
+	*6cdc8d67bf_MAX,
+};
+
+// Enum Landscape.EGrassScaling
+enum class EGrassScaling : uint8 {
+	Uniform,
+	Free,
+	LockXY,
+	EGrassScaling_MAX,
+};
+
+// Enum Landscape.ELandscapeLODFalloff
+enum class ELandscapeLODFalloff : uint8 {
+	Linear,
+	SquareRoot,
+	ELandscapeLODFalloff_MAX,
+};
+
+// Enum Landscape.ELandscapeLayerDisplayMode
+enum class ELandscapeLayerDisplayMode : uint8 {
+	Default,
+	Alphabetical,
+	UserSpecific,
+	ELandscapeLayerDisplayMode_MAX,
+};
+
+// Enum Landscape.ELandscapeLayerPaintingRestriction
+enum class ELandscapeLayerPaintingRestriction : uint8 {
+	None,
+	UseMaxLayers,
+	ExistingOnly,
+	UseComponentWhitelist,
+	ELandscapeLayerPaintingRestriction_MAX,
+};
+
+// Enum Landscape.ELandscapeImportAlphamapType
+enum class ELandscapeImportAlphamapType : uint8 {
+	Additive,
+	Layered,
+	ELandscapeImportAlphamapType_MAX,
+};
+
+// Enum Landscape.*3e4663bf34
+enum class *3e4663bf34 : uint8 {
+	*47b07b7700,
+	*638382ff9c,
+	*36728bb7cc,
+	*faca3d9caa,
+	*1474407466,
+	*3e4663bf34_MAX,
+};
+
+// Enum Landscape.*cc0c3ce0d6
+enum class *cc0c3ce0d6 : uint8 {
+	*41ee9168e3,
+	*b7966df174,
+	*bea9220d9f,
+	*cc0c3ce0d6_MAX,
+};
+
+// Enum Landscape.*c04633b5cb
+enum class *c04633b5cb : uint8 {
+	*3ccf0b8786,
+	*883e853e78,
+	*374ea28848,
+	*43dde19a56,
+	*c04633b5cb_MAX,
+};
+
+// Enum Landscape.*7bf82b71dd
+enum class *7bf82b71dd : uint8 {
+	*88cb35079a,
+	*d27dce9b09,
+	*888077a1ca,
+	*566e32f7ff,
+	*5f89a46d87,
+	*36e5f7deb7,
+	*7bf82b71dd_MAX,
+};
+
+// Enum Landscape.*c723cd0bc4
+enum class *c723cd0bc4 : uint8 {
+	*4161d1d742,
+	*570c2c697a,
+	*b16985c735,
+	*6e6dd88763,
+	*fd0c83b6db,
+	*c723cd0bc4_MAX,
+};
+
 // ScriptStruct Landscape.*43cbdd6c74
 // Size: 0x10 (Inherited: 0x00)
 struct F*43cbdd6c74 {

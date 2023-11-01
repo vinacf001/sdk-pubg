@@ -1,3 +1,22 @@
+// Enum AudioMixer.ESubmixEffectDynamicsPeakMode
+enum class ESubmixEffectDynamicsPeakMode : uint8 {
+	MeanSquared,
+	RootMeanSquared,
+	Peak,
+	Count,
+	ESubmixEffectDynamicsPeakMode_MAX,
+};
+
+// Enum AudioMixer.ESubmixEffectDynamicsProcessorType
+enum class ESubmixEffectDynamicsProcessorType : uint8 {
+	Compressor,
+	Limiter,
+	Expander,
+	Gate,
+	Count,
+	ESubmixEffectDynamicsProcessorType_MAX,
+};
+
 // ScriptStruct AudioMixer.*a8e749b2bc
 // Size: 0x28 (Inherited: 0x00)
 struct F*a8e749b2bc {

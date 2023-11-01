@@ -1,3 +1,75 @@
+// Enum Slate.ETextFlowDirection
+enum class ETextFlowDirection : uint8 {
+	Auto,
+	LeftToRight,
+	RightToLeft,
+	ETextFlowDirection_MAX,
+};
+
+// Enum Slate.*091373b171
+enum class *091373b171 : uint8 {
+	*fca007e177,
+	*656e382381,
+	*16a7456ebc,
+	*091373b171_MAX,
+};
+
+// Enum Slate.ETextJustify
+enum class ETextJustify : uint8 {
+	Left,
+	Center,
+	Right,
+	ETextJustify_MAX,
+};
+
+// Enum Slate.ETableViewMode
+enum class ETableViewMode : uint8 {
+	List,
+	Tile,
+	Tree,
+	ETableViewMode_MAX,
+};
+
+// Enum Slate.ESelectionMode
+enum class ESelectionMode : uint8 {
+	None,
+	Single,
+	SingleToggle,
+	Multi,
+	ESelectionMode_MAX,
+};
+
+// Enum Slate.EStretch
+enum class EStretch : uint8 {
+	None,
+	Fill,
+	ScaleToFit,
+	ScaleToFitX,
+	ScaleToFitY,
+	ScaleToFill,
+	ScaleBySafeZone,
+	UserSpecified,
+	EStretch_MAX,
+};
+
+// Enum Slate.EStretchDirection
+enum class EStretchDirection : uint8 {
+	Both,
+	DownOnly,
+	UpOnly,
+	EStretchDirection_MAX,
+};
+
+// Enum Slate.EProgressBarFillType
+enum class EProgressBarFillType : uint8 {
+	LeftToRight,
+	RightToLeft,
+	FillFromCenter,
+	TopToBottom,
+	BottomToTop,
+	EProgressBarFillType_MAX,
+};
+
 // ScriptStruct Slate.*4396e9090b
 // Size: 0x20 (Inherited: 0x00)
 struct F*4396e9090b {

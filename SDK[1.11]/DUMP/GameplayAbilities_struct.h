@@ -1,3 +1,314 @@
+// Enum GameplayAbilities.*67c365c795
+enum class *67c365c795 : uint8 {
+	*4fde6b98fc,
+	*f51261d2e2,
+	*751cf2247d,
+	*ddc65f6b61,
+	*67c365c795_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayEffectAttributeCaptureSource
+enum class EGameplayEffectAttributeCaptureSource : uint8 {
+	Source,
+	Target,
+	EGameplayEffectAttributeCaptureSource_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayAbilityActivationMode
+enum class EGameplayAbilityActivationMode : uint8 {
+	Authority,
+	NonAuthority,
+	Predicting,
+	Confirmed,
+	Rejected,
+	EGameplayAbilityActivationMode_MAX,
+};
+
+// Enum GameplayAbilities.EAbilityGenericReplicatedEvent
+enum class EAbilityGenericReplicatedEvent : uint8 {
+	GenericConfirm,
+	GenericCancel,
+	InputPressed,
+	InputReleased,
+	GenericSignalFromClient,
+	GenericSignalFromServer,
+	GameCustom1,
+	GameCustom2,
+	GameCustom3,
+	GameCustom4,
+	GameCustom5,
+	GameCustom6,
+	MAX,
+	EAbilityGenericReplicatedEvent_MAX,
+};
+
+// Enum GameplayAbilities.*c6aa244793
+enum class *c6aa244793 : uint8 {
+	*f586940d51,
+	*d2caef6bf3,
+	*273961276a,
+	*c6aa244793_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayCueEvent
+enum class EGameplayCueEvent : uint8 {
+	OnActive,
+	WhileActive,
+	Executed,
+	Removed,
+	EGameplayCueEvent_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayEffectStackingType
+enum class EGameplayEffectStackingType : uint8 {
+	None,
+	AggregateBySource,
+	AggregateByTarget,
+	EGameplayEffectStackingType_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayModOp
+enum class EGameplayModOp : uint8 {
+	Additive,
+	Multiplicitive,
+	Division,
+	Override,
+	Max,
+	EGameplayModOp_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayModEvaluationChannel
+enum class EGameplayModEvaluationChannel : uint8 {
+	Channel0,
+	Channel1,
+	Channel2,
+	Channel3,
+	Channel4,
+	Channel5,
+	Channel6,
+	Channel7,
+	Channel8,
+	Channel9,
+	Channel_MAX,
+	EGameplayModEvaluationChannel_MAX,
+};
+
+// Enum GameplayAbilities.*39b08de6da
+enum class *39b08de6da : uint8 {
+	*d9894a3cef,
+	*85112cb41d,
+	*57267d8d8d,
+	*49da2f4b3f,
+	*39b08de6da_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayTargetingConfirmation
+enum class EGameplayTargetingConfirmation : uint8 {
+	Instant,
+	UserConfirmed,
+	Custom,
+	CustomMulti,
+	EGameplayTargetingConfirmation_MAX,
+};
+
+// Enum GameplayAbilities.ERepAnimPositionMethod
+enum class ERepAnimPositionMethod : uint8 {
+	Position,
+	CurrentSectionId,
+	ERepAnimPositionMethod_MAX,
+};
+
+// Enum GameplayAbilities.*48f5775b2d
+enum class *48f5775b2d : uint8 {
+	*9d19104476,
+	*bb0b4611f9,
+	*111c0f5c3e,
+	*a372216c4f,
+	*48f5775b2d_MAX,
+};
+
+// Enum GameplayAbilities.*b6ce87a358
+enum class *b6ce87a358 : uint8 {
+	*61d97c1d1d,
+	*8a99d7a792,
+	*983429d2c2,
+	*b6ce87a358_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayAbilityNetSecurityPolicy
+enum class EGameplayAbilityNetSecurityPolicy : uint8 {
+	ClientOrServer,
+	ServerOnlyExecution,
+	ServerOnlyTermination,
+	ServerOnly,
+	EGameplayAbilityNetSecurityPolicy_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayAbilityNetExecutionPolicy
+enum class EGameplayAbilityNetExecutionPolicy : uint8 {
+	LocalPredicted,
+	LocalOnly,
+	ServerInitiated,
+	ServerOnly,
+	EGameplayAbilityNetExecutionPolicy_MAX,
+};
+
+// Enum GameplayAbilities.*8ae596defb
+enum class *8ae596defb : uint8 {
+	*db415ce03f,
+	*538f8f150a,
+	*fb8a5eff61,
+	*1c5551bad4,
+	*8ae596defb_MAX,
+};
+
+// Enum GameplayAbilities.*4c2df1f49e
+enum class *4c2df1f49e : uint8 {
+	*a66c4dfe68,
+	*ecf96a3176,
+	*f24f8f6fe6,
+	*04dbd7b1e5,
+	*4c2df1f49e_MAX,
+};
+
+// Enum GameplayAbilities.*7883aa26a7
+enum class *7883aa26a7 : uint8 {
+	*1f8f0fc806,
+	*bc962fc08b,
+	*91d57b7354,
+	*2a83555c04,
+	*7883aa26a7_MAX,
+};
+
+// Enum GameplayAbilities.*c283cdea74
+enum class *c283cdea74 : uint8 {
+	*5f592466e0,
+	*c9eef6ec5f,
+	*08578d4955,
+	*0c8dcd956f,
+	*c283cdea74_MAX,
+};
+
+// Enum GameplayAbilities.*fce1089ae9
+enum class *fce1089ae9 : uint8 {
+	*e1ba4e0f50,
+	*1f8f0fc806,
+	*bd1c5c2de3,
+	*fce1089ae9_MAX,
+};
+
+// Enum GameplayAbilities.*03375d8f04
+enum class *03375d8f04 : uint8 {
+	*9bc4f18416,
+	*c34ea9e9ed,
+	*bb44009b71,
+	*03375d8f04_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayEffectDurationType
+enum class EGameplayEffectDurationType : uint8 {
+	Instant,
+	Infinite,
+	HasDuration,
+	EGameplayEffectDurationType_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayEffectScopedModifierAggregatorType
+enum class EGameplayEffectScopedModifierAggregatorType : uint8 {
+	CapturedAttributeBacked,
+	Transient,
+	EGameplayEffectScopedModifierAggregatorType_MAX,
+};
+
+// Enum GameplayAbilities.EAttributeBasedFloatCalculationType
+enum class EAttributeBasedFloatCalculationType : uint8 {
+	AttributeMagnitude,
+	AttributeBaseValue,
+	AttributeBonusMagnitude,
+	AttributeMagnitudeEvaluatedUpToChannel,
+	EAttributeBasedFloatCalculationType_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayEffectMagnitudeCalculation
+enum class EGameplayEffectMagnitudeCalculation : uint8 {
+	ScalableFloat,
+	AttributeBased,
+	CustomCalculationClass,
+	SetByCaller,
+	EGameplayEffectMagnitudeCalculation_MAX,
+};
+
+// Enum GameplayAbilities.EGameplayEffectReplicationMode
+enum class EGameplayEffectReplicationMode : uint8 {
+	Minimal,
+	Mixed,
+	Full,
+	EGameplayEffectReplicationMode_MAX,
+};
+
+// Enum GameplayAbilities.*9693afdc65
+enum class *9693afdc65 : uint8 {
+	*dc4f1d4848,
+	*72ef9e3b03,
+	*d3b000fd31,
+	*7a95e7221e,
+	*9693afdc65_MAX,
+};
+
+// Enum GameplayAbilities.*a6b6e6317f
+enum class *a6b6e6317f : uint8 {
+	*35fa991ad7,
+	*546a49746e,
+	*0051fa5b2e,
+	*21b27b007e,
+	*a6b6e6317f_MAX,
+};
+
+// Enum GameplayAbilities.*92e29a6c2a
+enum class *92e29a6c2a : uint8 {
+	*503c049c1c,
+	*8172e28d01,
+	*8db8538d59,
+	*96f33f25ff,
+	*92e29a6c2a_MAX,
+};
+
+// Enum GameplayAbilities.EWaitAttributeChangeComparison
+enum class EWaitAttributeChangeComparison : uint8 {
+	None,
+	GreaterThan,
+	LessThan,
+	GreaterThanOrEqualTo,
+	LessThanOrEqualTo,
+	NotEqualTo,
+	ExactlyEqualTo,
+	MAX,
+	EWaitAttributeChangeComparison_MAX,
+};
+
+// Enum GameplayAbilities.*7e279f4ad6
+enum class *7e279f4ad6 : uint8 {
+	*235f4c1f77,
+	*cbe1e9a0bd,
+	*529a7309b3,
+	*05436d8da8,
+	*c8f2a9e393,
+	*996ff873a7,
+	*762eb09fdc,
+	*3d9133c164,
+	*a947d5ac30,
+	*9573395652,
+	*7e279f4ad6_MAX,
+};
+
+// Enum GameplayAbilities.*fc8ae6a4df
+enum class *fc8ae6a4df : uint8 {
+	*bc6e1faeb5,
+	*d8a819f91a,
+	*492c7a2304,
+	*fc8ae6a4df_MAX,
+};
+
 // ScriptStruct GameplayAbilities.*be289b2c60
 // Size: 0x40 (Inherited: 0x00)
 struct F*be289b2c60 {

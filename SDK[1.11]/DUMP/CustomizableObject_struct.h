@@ -1,3 +1,49 @@
+// Enum CustomizableObject.ECustomizableObjectProjectorType
+enum class ECustomizableObjectProjectorType : uint8 {
+	Planar,
+	Cylindrical,
+	Wrapping,
+	ECustomizableObjectProjectorType_MAX,
+};
+
+// Enum CustomizableObject.EMutableCompileMeshType
+enum class EMutableCompileMeshType : uint8 {
+	Full,
+	Local,
+	LocalAndChildren,
+	AddWorkingSetNoChildren,
+	AddWorkingSetAndChildren,
+	EMutableCompileMeshType_MAX,
+};
+
+// Enum CustomizableObject.ECustomizableObjectGroupType
+enum class ECustomizableObjectGroupType : uint8 {
+	COGT_TOGGLE,
+	COGT_ALL,
+	COGT_ONE,
+	COGT_ONE_OR_NONE,
+	COGT_MAX,
+};
+
+// Enum CustomizableObject.EMutableParameterType
+enum class EMutableParameterType : uint8 {
+	None,
+	Bool,
+	Int,
+	Float,
+	Color,
+	Projector,
+	Texture,
+	EMutableParameterType_MAX,
+};
+
+// Enum CustomizableObject.ECustomizableObjectRelevancy
+enum class ECustomizableObjectRelevancy : uint8 {
+	All,
+	ClientOnly,
+	ECustomizableObjectRelevancy_MAX,
+};
+
 // ScriptStruct CustomizableObject.*54424d3e0d
 // Size: 0x20 (Inherited: 0x00)
 struct F*54424d3e0d {

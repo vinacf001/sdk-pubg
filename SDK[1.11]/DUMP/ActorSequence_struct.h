@@ -1,3 +1,11 @@
+// Enum ActorSequence.EActorSequenceObjectReferenceType
+enum class EActorSequenceObjectReferenceType : uint8 {
+	ContextActor,
+	ExternalActor,
+	Component,
+	EActorSequenceObjectReferenceType_MAX,
+};
+
 // ScriptStruct ActorSequence.*476b0d3797
 // Size: 0x20 (Inherited: 0x00)
 struct F*476b0d3797 {

@@ -1,3 +1,3943 @@
+// Enum Engine.ETextGender
+enum class ETextGender : uint8 {
+	Masculine,
+	Feminine,
+	Neuter,
+	ETextGender_MAX,
+};
+
+// Enum Engine.EFormatArgumentType
+enum class EFormatArgumentType : uint8 {
+	Int,
+	UInt,
+	Float,
+	Double,
+	Text,
+	Gender,
+	EFormatArgumentType_MAX,
+};
+
+// Enum Engine.EEndPlayReason
+enum class EEndPlayReason : uint8 {
+	Destroyed,
+	LevelTransition,
+	EndPlayInEditor,
+	RemovedFromWorld,
+	Quit,
+	EEndPlayReason_MAX,
+};
+
+// Enum Engine.ENavPathEvent
+enum class ENavPathEvent : uint8 {
+	Cleared,
+	NewPath,
+	UpdatedDueToGoalMoved,
+	UpdatedDueToNavigationChanged,
+	Invalidated,
+	RePathFailed,
+	MetaPathUpdate,
+	Custom,
+	ENavPathEvent_MAX,
+};
+
+// Enum Engine.*5d09199da6
+enum class *5d09199da6 : uint8 {
+	*b556034ce6,
+	*8810f358c2,
+	*465caa54cc,
+	*6fea7cb9bf,
+	*f877e1c876,
+	*5d09199da6_MAX,
+};
+
+// Enum Engine.*e7608c4584
+enum class *e7608c4584 : uint8 {
+	*2cb19c3417,
+	*3da617762f,
+	*bd41791ddd,
+	*e6676a8e9d,
+	*f11e394312,
+	*e7608c4584_MAX,
+};
+
+// Enum Engine.*ecdf1ea38a
+enum class *ecdf1ea38a : uint8 {
+	*70ae98dafa,
+	*7658276b99,
+	*d4a80b2ca1,
+	*8b263ec3ec,
+	*6ede8f3675,
+	*ecdf1ea38a_MAX,
+};
+
+// Enum Engine.ERichCurveExtrapolation
+enum class ERichCurveExtrapolation : uint8 {
+	RCCE_Cycle,
+	RCCE_CycleWithOffset,
+	RCCE_Oscillate,
+	RCCE_Linear,
+	RCCE_Constant,
+	RCCE_None,
+	RCCE_MAX,
+};
+
+// Enum Engine.EAnimLinkMethod
+enum class EAnimLinkMethod : uint8 {
+	Absolute,
+	Relative,
+	Proportional,
+	EAnimLinkMethod_MAX,
+};
+
+// Enum Engine.ENotifyFilterType
+enum class ENotifyFilterType : uint8 {
+	NoFiltering,
+	LOD,
+	ENotifyFilterType_MAX,
+};
+
+// Enum Engine.EMontageNotifyTickType
+enum class EMontageNotifyTickType : uint8 {
+	Queued,
+	BranchingPoint,
+	EMontageNotifyTickType_MAX,
+};
+
+// Enum Engine.EAnimNotifyEventType
+enum class EAnimNotifyEventType : uint8 {
+	Begin,
+	End,
+	EAnimNotifyEventType_MAX,
+};
+
+// Enum Engine.ERootMotionRootLock
+enum class ERootMotionRootLock : uint8 {
+	RefPose,
+	AnimFirstFrame,
+	Zero,
+	ERootMotionRootLock_MAX,
+};
+
+// Enum Engine.EAlphaBlendOption
+enum class EAlphaBlendOption : uint8 {
+	Linear,
+	Cubic,
+	HermiteCubic,
+	Sinusoidal,
+	QuadraticInOut,
+	CubicInOut,
+	QuarticInOut,
+	QuinticInOut,
+	CircularIn,
+	CircularOut,
+	CircularInOut,
+	ExpIn,
+	ExpOut,
+	ExpInOut,
+	Custom,
+	EAlphaBlendOption_MAX,
+};
+
+// Enum Engine.ENetworkFailure
+enum class ENetworkFailure : uint8 {
+	NetDriverAlreadyExists,
+	NetDriverCreateFailure,
+	NetDriverListenFailure,
+	ConnectionLost,
+	ConnectionTimeout,
+	FailureReceived,
+	OutdatedClient,
+	OutdatedServer,
+	PendingConnectionFailure,
+	NetGuidMismatch,
+	NetChecksumMismatch,
+	ENetworkFailure_MAX,
+};
+
+// Enum Engine.ETravelFailure
+enum class ETravelFailure : uint8 {
+	NoLevel,
+	LoadMapFailure,
+	InvalidURL,
+	PackageMissing,
+	PackageVersion,
+	NoDownload,
+	TravelFailure,
+	CheatCommands,
+	PendingNetGameCreateFailure,
+	CloudSaveFailure,
+	ServerTravelFailure,
+	ClientTravelFailure,
+	ETravelFailure_MAX,
+};
+
+// Enum Engine.ETickingGroup
+enum class ETickingGroup : uint8 {
+	TG_PrePhysics,
+	TG_StartPhysics,
+	TG_DuringPhysics,
+	TG_EndPhysics,
+	TG_PostPhysics,
+	TG_PostUpdateWork,
+	TG_LastDemotable,
+	TG_NewlySpawned,
+	TG_MAX,
+};
+
+// Enum Engine.EPendingCreationType
+enum class EPendingCreationType : uint8 {
+	None,
+	IncrementalAndOnDemand,
+	OnDemandOnly,
+	EPendingCreationType_MAX,
+};
+
+// Enum Engine.EComponentCreationMethod
+enum class EComponentCreationMethod : uint8 {
+	Native,
+	SimpleConstructionScript,
+	UserConstructionScript,
+	Instance,
+	EComponentCreationMethod_MAX,
+};
+
+// Enum Engine.EPlaneConstraintAxisSetting
+enum class EPlaneConstraintAxisSetting : uint8 {
+	Custom,
+	X,
+	Y,
+	Z,
+	UseGlobalPhysicsSetting,
+	EPlaneConstraintAxisSetting_MAX,
+};
+
+// Enum Engine.EInterpToBehaviourType
+enum class EInterpToBehaviourType : uint8 {
+	OneShot,
+	OneShot_Reverse,
+	Loop_Reset,
+	PingPong,
+	EInterpToBehaviourType_MAX,
+};
+
+// Enum Engine.*a36c3c9f6e
+enum class *a36c3c9f6e : uint8 {
+	*97b013c4f6,
+	*506f0cbcd0,
+	*17a4e16bda,
+	*c50deced10,
+	*8d46663331,
+	*d204e8b042,
+	*5109295ce2,
+	*a36c3c9f6e_MAX,
+};
+
+// Enum Engine.EMovementMode
+enum class EMovementMode : uint8 {
+	MOVE_None,
+	MOVE_Walking,
+	MOVE_NavWalking,
+	MOVE_Falling,
+	MOVE_Swimming,
+	MOVE_Flying,
+	MOVE_Custom,
+	MOVE_MAX,
+};
+
+// Enum Engine.EScreenOrientation
+enum class EScreenOrientation : uint8 {
+	Unknown,
+	Portrait,
+	PortraitUpsideDown,
+	LandscapeLeft,
+	LandscapeRight,
+	FaceUp,
+	FaceDown,
+	EScreenOrientation_MAX,
+};
+
+// Enum Engine.EDrawDebugTrace
+enum class EDrawDebugTrace : uint8 {
+	None,
+	ForOneFrame,
+	ForDuration,
+	Persistent,
+	EDrawDebugTrace_MAX,
+};
+
+// Enum Engine.EObjectTypeQuery
+enum class EObjectTypeQuery : uint8 {
+	ObjectTypeQuery1,
+	ObjectTypeQuery2,
+	ObjectTypeQuery3,
+	ObjectTypeQuery4,
+	ObjectTypeQuery5,
+	ObjectTypeQuery6,
+	ObjectTypeQuery7,
+	ObjectTypeQuery8,
+	ObjectTypeQuery9,
+	ObjectTypeQuery10,
+	ObjectTypeQuery11,
+	ObjectTypeQuery12,
+	ObjectTypeQuery13,
+	ObjectTypeQuery14,
+	ObjectTypeQuery15,
+	ObjectTypeQuery16,
+	ObjectTypeQuery17,
+	ObjectTypeQuery18,
+	ObjectTypeQuery19,
+	ObjectTypeQuery20,
+	ObjectTypeQuery21,
+	ObjectTypeQuery22,
+	ObjectTypeQuery23,
+	ObjectTypeQuery24,
+	ObjectTypeQuery25,
+	ObjectTypeQuery26,
+	ObjectTypeQuery27,
+	ObjectTypeQuery28,
+	ObjectTypeQuery29,
+	ObjectTypeQuery30,
+	ObjectTypeQuery31,
+	ObjectTypeQuery32,
+	ObjectTypeQuery_MAX,
+	EObjectTypeQuery_MAX,
+};
+
+// Enum Engine.ETraceTypeQuery
+enum class ETraceTypeQuery : uint8 {
+	TraceTypeQuery1,
+	TraceTypeQuery2,
+	TraceTypeQuery3,
+	TraceTypeQuery4,
+	TraceTypeQuery5,
+	TraceTypeQuery6,
+	TraceTypeQuery7,
+	TraceTypeQuery8,
+	TraceTypeQuery9,
+	TraceTypeQuery10,
+	TraceTypeQuery11,
+	TraceTypeQuery12,
+	TraceTypeQuery13,
+	TraceTypeQuery14,
+	TraceTypeQuery15,
+	TraceTypeQuery16,
+	TraceTypeQuery17,
+	TraceTypeQuery18,
+	TraceTypeQuery19,
+	TraceTypeQuery20,
+	TraceTypeQuery21,
+	TraceTypeQuery22,
+	TraceTypeQuery23,
+	TraceTypeQuery24,
+	TraceTypeQuery25,
+	TraceTypeQuery26,
+	TraceTypeQuery27,
+	TraceTypeQuery28,
+	TraceTypeQuery29,
+	TraceTypeQuery30,
+	TraceTypeQuery31,
+	TraceTypeQuery32,
+	TraceTypeQuery_MAX,
+	ETraceTypeQuery_MAX,
+};
+
+// Enum Engine.EMoveComponentAction
+enum class EMoveComponentAction : uint8 {
+	Move,
+	Stop,
+	Return,
+	EMoveComponentAction_MAX,
+};
+
+// Enum Engine.EQuitPreference
+enum class EQuitPreference : uint8 {
+	Quit,
+	Background,
+	EQuitPreference_MAX,
+};
+
+// Enum Engine.*5553c9dea0
+enum class *5553c9dea0 : uint8 {
+	*258e56bde0,
+	*6d204bcd19,
+	*8d20ad80f4,
+	*80492df12e,
+	*6c589c35ea,
+	*13f5c6a0be,
+	*5553c9dea0_MAX,
+};
+
+// Enum Engine.EStanceMode
+enum class EStanceMode : uint8 {
+	STANCE_None,
+	STANCE_Stand,
+	STANCE_Crouch,
+	STANCE_Prone,
+	STANCE_Carry,
+	STANCE_Carried,
+	STANCE_MAX,
+};
+
+// Enum Engine.EAttachLocation
+enum class EAttachLocation : uint8 {
+	KeepRelativeOffset,
+	KeepWorldPosition,
+	SnapToTarget,
+	SnapToTargetIncludingScale,
+	EAttachLocation_MAX,
+};
+
+// Enum Engine.EAttachmentRule
+enum class EAttachmentRule : uint8 {
+	KeepRelative,
+	KeepWorld,
+	SnapToTarget,
+	EAttachmentRule_MAX,
+};
+
+// Enum Engine.*c67378b5c9
+enum class *c67378b5c9 : uint8 {
+	*927485af6b,
+	*0364e54f6f,
+	*8704ee5ed7,
+	*c67378b5c9_MAX,
+};
+
+// Enum Engine.ENetRole
+enum class ENetRole : uint8 {
+	ROLE_None,
+	ROLE_SimulatedProxy,
+	ROLE_AutonomousProxy,
+	ROLE_Authority,
+	ROLE_MAX,
+};
+
+// Enum Engine.ESpawnActorCollisionHandlingMethod
+enum class ESpawnActorCollisionHandlingMethod : uint8 {
+	Undefined,
+	AlwaysSpawn,
+	AdjustIfPossibleButAlwaysSpawn,
+	AdjustIfPossibleButDontSpawnIfColliding,
+	DontSpawnIfColliding,
+	ESpawnActorCollisionHandlingMethod_MAX,
+};
+
+// Enum Engine.*95c5f230f9
+enum class *95c5f230f9 : uint8 {
+	*efc0641559,
+	*b4768e9424,
+	*6c70485f09,
+	*46ce3791e3,
+	*95c5f230f9_MAX,
+};
+
+// Enum Engine.EActorUpdateOverlapsMethod
+enum class EActorUpdateOverlapsMethod : uint8 {
+	UseConfigDefault,
+	AlwaysUpdate,
+	OnlyUpdateMovable,
+	NeverUpdate,
+	EActorUpdateOverlapsMethod_MAX,
+};
+
+// Enum Engine.EAutoReceiveInput
+enum class EAutoReceiveInput : uint8 {
+	Disabled,
+	Player0,
+	Player1,
+	Player2,
+	Player3,
+	Player4,
+	Player5,
+	Player6,
+	Player7,
+	EAutoReceiveInput_MAX,
+};
+
+// Enum Engine.*7dc6b72b4e
+enum class *7dc6b72b4e : uint8 {
+	*60ed2a00f3,
+	*7c64ee7f92,
+	*50a0ac1820,
+	*7dc6b72b4e_MAX,
+};
+
+// Enum Engine.*3545f79891
+enum class *3545f79891 : uint8 {
+	*39147ca3e4,
+	*fd56fdbbab,
+	*850f306971,
+	*7dab3fe960,
+	*3545f79891_MAX,
+};
+
+// Enum Engine.EAutoPossessAI
+enum class EAutoPossessAI : uint8 {
+	Disabled,
+	PlacedInWorld,
+	Spawned,
+	PlacedInWorldOrSpawned,
+	EAutoPossessAI_MAX,
+};
+
+// Enum Engine.*ab22144e19
+enum class *ab22144e19 : uint8 {
+	*3f5bff6d89,
+	*14c4a3c200,
+	*f4befc9a82,
+	*f6f6551811,
+	*9ec9cf6bab,
+	*21fdafb2af,
+	*ab22144e19_MAX,
+};
+
+// Enum Engine.EDecalChannel
+enum class EDecalChannel : uint8 {
+	Channel0,
+	Channel1,
+	Channel2,
+	Channel3,
+	Num,
+	EDecalChannel_MAX,
+};
+
+// Enum Engine.*a6cf5bae1a
+enum class *a6cf5bae1a : uint8 {
+	*c9f8580d25,
+	*617159d198,
+	*dbdc526951,
+	*b0e376aa00,
+	*8834f846a2,
+	*a6cf5bae1a_MAX,
+};
+
+// Enum Engine.EMeshBufferAccess
+enum class EMeshBufferAccess : uint8 {
+	Default,
+	ForceCPUAndGPU,
+	EMeshBufferAccess_MAX,
+};
+
+// Enum Engine.*c0b35c19fa
+enum class *c0b35c19fa : uint8 {
+	*9dbdb8f493,
+	*7e90015bcb,
+	*0ab3e9127a,
+	*c0b35c19fa_MAX,
+};
+
+// Enum Engine.*24096ec337
+enum class *24096ec337 : uint8 {
+	*3d55f2b556,
+	*34a15b7c13,
+	*4a1e5d436f,
+	*5dc7e24b29,
+	*24096ec337_MAX,
+};
+
+// Enum Engine.EComponentSocketType
+enum class EComponentSocketType : uint8 {
+	Invalid,
+	Bone,
+	Socket,
+	EComponentSocketType_MAX,
+};
+
+// Enum Engine.EComponentMobility
+enum class EComponentMobility : uint8 {
+	Static,
+	Stationary,
+	Movable,
+	EComponentMobility_MAX,
+};
+
+// Enum Engine.EPhysicalSurface
+enum class EPhysicalSurface : uint8 {
+	SurfaceType_Default,
+	SurfaceType1,
+	SurfaceType2,
+	SurfaceType3,
+	SurfaceType4,
+	SurfaceType5,
+	SurfaceType6,
+	SurfaceType7,
+	SurfaceType8,
+	SurfaceType9,
+	SurfaceType10,
+	SurfaceType11,
+	SurfaceType12,
+	SurfaceType13,
+	SurfaceType14,
+	SurfaceType15,
+	SurfaceType16,
+	SurfaceType17,
+	SurfaceType18,
+	SurfaceType19,
+	SurfaceType20,
+	SurfaceType21,
+	SurfaceType22,
+	SurfaceType23,
+	SurfaceType24,
+	SurfaceType25,
+	SurfaceType26,
+	SurfaceType27,
+	SurfaceType28,
+	SurfaceType29,
+	SurfaceType30,
+	SurfaceType31,
+	SurfaceType32,
+	SurfaceType33,
+	SurfaceType34,
+	SurfaceType35,
+	SurfaceType36,
+	SurfaceType37,
+	SurfaceType38,
+	SurfaceType39,
+	SurfaceType40,
+	SurfaceType41,
+	SurfaceType42,
+	SurfaceType43,
+	SurfaceType44,
+	SurfaceType45,
+	SurfaceType46,
+	SurfaceType47,
+	SurfaceType48,
+	SurfaceType49,
+	SurfaceType50,
+	SurfaceType51,
+	SurfaceType52,
+	SurfaceType53,
+	SurfaceType54,
+	SurfaceType55,
+	SurfaceType56,
+	SurfaceType57,
+	SurfaceType58,
+	SurfaceType59,
+	SurfaceType60,
+	SurfaceType61,
+	SurfaceType62,
+	SurfaceType_Max,
+	EPhysicalSurface_MAX,
+};
+
+// Enum Engine.*eaa9129fe2
+enum class *eaa9129fe2 : uint8 {
+	*8f770b556a,
+	*bf3b3005b3,
+	*8f1035f6aa,
+	*71e44eed66,
+	*5e4d757f23,
+	*eaa9129fe2_MAX,
+};
+
+// Enum Engine.ENetDormancy
+enum class ENetDormancy : uint8 {
+	DORM_Never,
+	DORM_Awake,
+	DORM_DormantAll,
+	DORM_DormantPartial,
+	DORM_ConnectedDormantPartial,
+	DORM_Initial,
+	DORN_MAX,
+	ENetDormancy_MAX,
+};
+
+// Enum Engine.*e0955236c9
+enum class *e0955236c9 : uint8 {
+	*d955c1b6c8,
+	*d4d78a3307,
+	*e7729e1d73,
+	*07e5abfb70,
+	*1f87ab84d9,
+	*0e2b0b0c0a,
+	*3d40b8279d,
+	*00b7c1857a,
+	*e0955236c9_MAX,
+};
+
+// Enum Engine.*095bed0a1f
+enum class *095bed0a1f : uint8 {
+	*238ef4ad4a,
+	*2abfbbaf60,
+	*1b8ffaec37,
+	*095bed0a1f_MAX,
+};
+
+// Enum Engine.*dfcd2d838b
+enum class *dfcd2d838b : uint8 {
+	*e8a338a810,
+	*e1bdb3a73a,
+	*f1a42686d7,
+	*1959c59609,
+	*dfcd2d838b_MAX,
+};
+
+// Enum Engine.ECollisionEnabled
+enum class ECollisionEnabled : uint8 {
+	NoCollision,
+	QueryOnly,
+	PhysicsOnly,
+	QueryAndPhysics,
+	ECollisionEnabled_MAX,
+};
+
+// Enum Engine.*ca11c8446c
+enum class *ca11c8446c : uint8 {
+	*b7ec397f8b,
+	*2c4a95959d,
+	*cc98c51c3b,
+	*1ad63125b4,
+	*7a1365c537,
+	*d59c7d0cd0,
+	*ca11c8446c_MAX,
+};
+
+// Enum Engine.ESleepFamily
+enum class ESleepFamily : uint8 {
+	Normal,
+	Sensitive,
+	Custom,
+	ESleepFamily_MAX,
+};
+
+// Enum Engine.*0baddcb8e4
+enum class *0baddcb8e4 : uint8 {
+	*ae6cfa97a4,
+	*109bce61d2,
+	*efff6009f5,
+	*0baddcb8e4_MAX,
+};
+
+// Enum Engine.*0757624f19
+enum class *0757624f19 : uint8 {
+	*21857d5a1b,
+	*41f36b2234,
+	*f5c7406a3a,
+	*16353f8e98,
+	*0757624f19_MAX,
+};
+
+// Enum Engine.ECollisionResponse
+enum class ECollisionResponse : uint8 {
+	ECR_Ignore,
+	ECR_Overlap,
+	ECR_Block,
+	ECR_MAX,
+};
+
+// Enum Engine.*f52698a452
+enum class *f52698a452 : uint8 {
+	*729f7c8f02,
+	*15ebab2b96,
+	*7e3ba67ec0,
+	*3888dd56c2,
+	*f52698a452_MAX,
+};
+
+// Enum Engine.*4ae36ca142
+enum class *4ae36ca142 : uint8 {
+	*c1ed5c5fa6,
+	*3c915aed42,
+	*b5393222ce,
+	*6a455f32bb,
+	*4ae36ca142_MAX,
+};
+
+// Enum Engine.ECollisionChannel
+enum class ECollisionChannel : uint8 {
+	ECC_WorldStatic,
+	ECC_WorldDynamic,
+	ECC_Pawn,
+	ECC_Visibility,
+	ECC_Camera,
+	ECC_PhysicsBody,
+	ECC_Vehicle,
+	ECC_Destructible,
+	ECC_EngineTraceChannel1,
+	ECC_EngineTraceChannel2,
+	ECC_EngineTraceChannel3,
+	ECC_EngineTraceChannel4,
+	ECC_EngineTraceChannel5,
+	ECC_EngineTraceChannel6,
+	ECC_GameTraceChannel1,
+	ECC_GameTraceChannel2,
+	ECC_GameTraceChannel3,
+	ECC_GameTraceChannel4,
+	ECC_GameTraceChannel5,
+	ECC_GameTraceChannel6,
+	ECC_GameTraceChannel7,
+	ECC_GameTraceChannel8,
+	ECC_GameTraceChannel9,
+	ECC_GameTraceChannel10,
+	ECC_GameTraceChannel11,
+	ECC_GameTraceChannel12,
+	ECC_GameTraceChannel13,
+	ECC_GameTraceChannel14,
+	ECC_GameTraceChannel15,
+	ECC_GameTraceChannel16,
+	ECC_GameTraceChannel17,
+	ECC_GameTraceChannel18,
+	ECC_OverlapAll_Deprecated,
+	ECC_MAX,
+};
+
+// Enum Engine.ENetworkSmoothingMode
+enum class ENetworkSmoothingMode : uint8 {
+	Disabled,
+	Linear,
+	Exponential,
+	Replay,
+	RotationOnly,
+	ENetworkSmoothingMode_MAX,
+};
+
+// Enum Engine.*3ca147d66f
+enum class *3ca147d66f : uint8 {
+	*40a7cb4647,
+	*2c572ffcf2,
+	*d3ab561260,
+	*414b3def6a,
+	*3ca147d66f_MAX,
+};
+
+// Enum Engine.*f2af7ea666
+enum class *f2af7ea666 : uint8 {
+	*ac2ae9bb04,
+	*d088257cac,
+	*298691f669,
+	*f77bd6b465,
+	*f32e0d015e,
+	*7409c28347,
+	*bed66f953f,
+	*f2af7ea666_MAX,
+};
+
+// Enum Engine.*490d38ab77
+enum class *490d38ab77 : uint8 {
+	*99e9467dbb,
+	*161d91be08,
+	*ef96425619,
+	*b36438c819,
+	*f570339712,
+	*490d38ab77_MAX,
+};
+
+// Enum Engine.EMaterialSamplerType
+enum class EMaterialSamplerType : uint8 {
+	SAMPLERTYPE_Color,
+	SAMPLERTYPE_Grayscale,
+	SAMPLERTYPE_Alpha,
+	SAMPLERTYPE_Normal,
+	SAMPLERTYPE_Masks,
+	SAMPLERTYPE_DistanceFieldFont,
+	SAMPLERTYPE_LinearColor,
+	SAMPLERTYPE_LinearGrayscale,
+	SAMPLERTYPE_MAX,
+};
+
+// Enum Engine.*dfb56dedba
+enum class *dfb56dedba : uint8 {
+	*869a326df6,
+	*d7573ac169,
+	*ef076a49ce,
+	*3c51f0bd44,
+	*dfb56dedba_MAX,
+};
+
+// Enum Engine.EMaterialShadingModel
+enum class EMaterialShadingModel : uint8 {
+	MSM_Unlit,
+	MSM_DefaultLit,
+	MSM_Subsurface,
+	MSM_PreintegratedSkin,
+	MSM_ClearCoat,
+	MSM_SubsurfaceProfile,
+	MSM_TwoSidedFoliage,
+	MSM_Hair,
+	MSM_Cloth,
+	MSM_Eye,
+	MSM_MAX,
+};
+
+// Enum Engine.EParticleCollisionMode
+enum class EParticleCollisionMode : uint8 {
+	SceneDepth,
+	DistanceField,
+	HeightBuffer,
+	EParticleCollisionMode_MAX,
+};
+
+// Enum Engine.*a1588812a5
+enum class *a1588812a5 : uint8 {
+	*b4ce3137cc,
+	*07537f6ddf,
+	*91c5bfd89e,
+	*8f14754c9b,
+	*a1588812a5_MAX,
+};
+
+// Enum Engine.EGBufferFormat
+enum class EGBufferFormat : uint8 {
+	Force8BitsPerChannel,
+	Default,
+	HighPrecisionNormals,
+	Force16BitsPerChannel,
+	EGBufferFormat_MAX,
+};
+
+// Enum Engine.*1749cfde27
+enum class *1749cfde27 : uint8 {
+	*2c88ae967d,
+	*38f27cb31e,
+	*35e6fefd3d,
+	*588197e3b0,
+	*1749cfde27_MAX,
+};
+
+// Enum Engine.*bf5d45bad1
+enum class *bf5d45bad1 : uint8 {
+	*e213bf5270,
+	*d62e193309,
+	*240fd227f5,
+	*b0d25ed4b6,
+	*8c3c502174,
+	*51695e5d65,
+	*14fae4370d,
+	*6dea95bf98,
+	*ac545221a5,
+	*2f6b0dce12,
+	*686f746ac0,
+	*7d37d5d030,
+	*bf5d45bad1_MAX,
+};
+
+// Enum Engine.*e58b828cef
+enum class *e58b828cef : uint8 {
+	*ec8555c21d,
+	*7f51114d44,
+	*232b5543a6,
+	*166065a660,
+	*e58b828cef_MAX,
+};
+
+// Enum Engine.*fe3bf3bf18
+enum class *fe3bf3bf18 : uint8 {
+	*52fb858115,
+	*4beee4c247,
+	*512731c606,
+	*fe3bf3bf18_MAX,
+};
+
+// Enum Engine.ETranslucencyLightingMode
+enum class ETranslucencyLightingMode : uint8 {
+	TLM_VolumetricNonDirectional,
+	TLM_VolumetricDirectional,
+	TLM_VolumetricPerVertexNonDirectional,
+	TLM_VolumetricPerVertexDirectional,
+	TLM_Surface,
+	TLM_SurfaceDirectional,
+	TLM_SurfacePerVertexNonDirectional,
+	TLM_SurfacePerVertexDirectional,
+	TLM_MAX,
+};
+
+// Enum Engine.*d1a7f8979e
+enum class *d1a7f8979e : uint8 {
+	*09d154833b,
+	*91d8afeeae,
+	*528c847324,
+	*ff4077086c,
+	*d1a7f8979e_MAX,
+};
+
+// Enum Engine.EBlendMode
+enum class EBlendMode : uint8 {
+	BLEND_Opaque,
+	BLEND_Masked,
+	BLEND_Translucent,
+	BLEND_Additive,
+	BLEND_Modulate,
+	BLEND_AlphaComposite,
+	BLEND_MAX,
+};
+
+// Enum Engine.*b509d46bab
+enum class *b509d46bab : uint8 {
+	*33f9638cd9,
+	*0b80b53054,
+	*2b413c10fc,
+	*b509d46bab_MAX,
+};
+
+// Enum Engine.*8421afef2f
+enum class *8421afef2f : uint8 {
+	*2c4d002338,
+	*0f199c2580,
+	*4f44489025,
+	*8a1db79f2a,
+	*8421afef2f_MAX,
+};
+
+// Enum Engine.*aa5951ad16
+enum class *aa5951ad16 : uint8 {
+	*0282e0045a,
+	*c4270fd3c1,
+	*138b0c1dca,
+	*aa5951ad16_MAX,
+};
+
+// Enum Engine.*8806655748
+enum class *8806655748 : uint8 {
+	*c101e9645b,
+	*cd86231b1c,
+	*d35e874c4b,
+	*9a83046238,
+	*8806655748_MAX,
+};
+
+// Enum Engine.EAspectRatioAxisConstraint
+enum class EAspectRatioAxisConstraint : uint8 {
+	AspectRatio_MaintainYFOV,
+	AspectRatio_MaintainXFOV,
+	AspectRatio_MajorAxisFOV,
+	AspectRatio_MAX,
+};
+
+// Enum Engine.*c1e893d008
+enum class *c1e893d008 : uint8 {
+	*904c1a1925,
+	*010f196bfa,
+	*569a292231,
+	*975b8953d2,
+	*4e7d9b327b,
+	*1295d60e61,
+	*a8df378ff3,
+	*053fe05baa,
+	*e54976e641,
+	*edf933565f,
+	*6243c45fa9,
+	*1537887988,
+	*e1ed92a9a4,
+	*d473e9059e,
+	*58357da5fb,
+	*e099ce3e5f,
+	*59280052b6,
+	*3ccf5d466d,
+	*ca426e3eca,
+	*4946b511d0,
+	*85293919db,
+	*ade613916a,
+	*6c49f1eb43,
+	*f9b74485cc,
+	*01b95625a5,
+	*f5619289e9,
+	*d5cc8ee0fd,
+	*249e91cdb7,
+	*e6d04ba0be,
+	*ae154b309c,
+	*4c142b5709,
+	*e4cea41300,
+	*c1e893d008_MAX,
+};
+
+// Enum Engine.EDemoFailure
+enum class EDemoFailure : uint8 {
+	None,
+	PlayCommand,
+	PlayNoWorld,
+	PlayPIE,
+	PlayCreateDemoDriver,
+	Connect,
+	ConnectNoWorld,
+	ConnectNoGameInstance,
+	ConnectInitBase,
+	ConnectStreamingReady,
+	ConnectDemoNotFound,
+	ConnectCorrupt,
+	ConnectSpecificCorrupt,
+	ConnectPostNoWorld,
+	ConnectLoadMap,
+	TickDispatchStreamer,
+	TickDispatchFileAr,
+	ConditionallyReadFrame,
+	ConditionallyReadFrameFileAr,
+	ConditionallyReadFrameStreamer,
+	ConditionallyReadFrameTimeChecksum,
+	ConditionallyReadFrameFileAr2,
+	ConditionallyReadFrameExternalData,
+	ConditionallyReadFramePacket,
+	ConditionallyProcessPacket,
+	DownloadHeader,
+	DownloadHeaderDemoNotFound,
+	DownloadHeaderCorrupt,
+	DownloadHeaderSpecificCorrupt,
+	DownloadHeaderLevelNamesAndTimes,
+	CheckpointReady,
+	CheckpointArchiveEmpty,
+	CheckpointReadFrame,
+	CheckpointReadFrameFileAr,
+	CheckpointReadFrameStreamer,
+	CheckpointReadFrameTimeChecksum,
+	CheckpointReadFrameFileAr2,
+	CheckpointReadFrameExternalData,
+	CheckpointReadFramePacket,
+	CheckpointProcessPacket,
+	RecCommand,
+	RecNoReplays,
+	RecNoWorld,
+	RecPIE,
+	RecAlreadyPlay,
+	RecCreateDemoDriver,
+	Listen,
+	ListenInitBase,
+	ListenNoWorldSettings,
+	ListenWriteHeader,
+	ListenStreamingReady,
+	TickFlushStreamer,
+	TickFlushFileAr,
+	SeamlessTravelWriteHeader,
+	EDemoFailure_MAX,
+};
+
+// Enum Engine.*ae68ab384e
+enum class *ae68ab384e : uint8 {
+	*2a2a30d4e7,
+	*ce54baa7d7,
+	*77b23b7ad3,
+	*2137a40ab9,
+	*ae68ab384e_MAX,
+};
+
+// Enum Engine.ENetworkLagState
+enum class ENetworkLagState : uint8 {
+	NotLagging,
+	Lagging,
+	ENetworkLagState_MAX,
+};
+
+// Enum Engine.EMouseLockMode
+enum class EMouseLockMode : uint8 {
+	DoNotLock,
+	LockOnCapture,
+	LockAlways,
+	EMouseLockMode_MAX,
+};
+
+// Enum Engine.EMouseCaptureMode
+enum class EMouseCaptureMode : uint8 {
+	NoCapture,
+	CapturePermanently,
+	CapturePermanently_IncludingInitialMouseDown,
+	CaptureDuringMouseDown,
+	CaptureDuringRightMouseDown,
+	EMouseCaptureMode_MAX,
+};
+
+// Enum Engine.ENodeEnabledState
+enum class ENodeEnabledState : uint8 {
+	Enabled,
+	Disabled,
+	DevelopmentOnly,
+	ENodeEnabledState_MAX,
+};
+
+// Enum Engine.ENodeAdvancedPins
+enum class ENodeAdvancedPins : uint8 {
+	NoPins,
+	Shown,
+	Hidden,
+	ENodeAdvancedPins_MAX,
+};
+
+// Enum Engine.ENodeTitleType
+enum class ENodeTitleType : uint8 {
+	FullTitle,
+	ListView,
+	EditableTitle,
+	MenuTitle,
+	MAX_TitleTypes,
+	ENodeTitleType_MAX,
+};
+
+// Enum Engine.EEdGraphPinDirection
+enum class EEdGraphPinDirection : uint8 {
+	EGPD_Input,
+	EGPD_Output,
+	EGPD_MAX,
+};
+
+// Enum Engine.*ae9e1f5648
+enum class *ae9e1f5648 : uint8 {
+	*5221c8c4e7,
+	*6149868b33,
+	*8c6fb87e21,
+	*ae9e1f5648_MAX,
+};
+
+// Enum Engine.*27cbad6176
+enum class *27cbad6176 : uint8 {
+	*c0dbc47a92,
+	*46b46e8272,
+	*80adc407ea,
+	*ff16d7711c,
+	*2fe37c14e9,
+	*27cbad6176_MAX,
+};
+
+// Enum Engine.*8d98cbd81d
+enum class *8d98cbd81d : uint8 {
+	*84f0f60b0a,
+	*bf3140c79e,
+	*d7d827dba4,
+	*da8eca9228,
+	*8d98cbd81d_MAX,
+};
+
+// Enum Engine.*0317138bd9
+enum class *0317138bd9 : uint8 {
+	*e530703949,
+	*66555a0584,
+	*0a960490c4,
+	*df5029ddbd,
+	*15d2760b17,
+	*8d27172c0a,
+	*2bbb1ef5fa,
+	*5c97a17622,
+	*aa52f0dd82,
+	*56593d217a,
+	*6a472f24e8,
+	*b2b1c7fe2a,
+	*b8085c69f9,
+	*b012643df8,
+	*0317138bd9_MAX,
+};
+
+// Enum Engine.*487695907c
+enum class *487695907c : uint8 {
+	*f55f127dd9,
+	*155326eb14,
+	*5a41ad21d8,
+	*355ad3599c,
+	*c5e2065e6b,
+	*6287445557,
+	*408df1469b,
+	*6c121fcfe5,
+	*9c5bc73993,
+	*487695907c_MAX,
+};
+
+// Enum Engine.ESimplygonColorChannels
+enum class ESimplygonColorChannels : uint8 {
+	RGBA,
+	RGB,
+	L,
+	ESimplygonColorChannels_MAX,
+};
+
+// Enum Engine.ESimplygonTextureSamplingQuality
+enum class ESimplygonTextureSamplingQuality : uint8 {
+	Poor,
+	Low,
+	Medium,
+	High,
+	ESimplygonTextureSamplingQuality_MAX,
+};
+
+// Enum Engine.ESimplygonCasterType
+enum class ESimplygonCasterType : uint8 {
+	None,
+	Color,
+	Normals,
+	Opacity,
+	ESimplygonCasterType_MAX,
+};
+
+// Enum Engine.ESimplygonTextureStrech
+enum class ESimplygonTextureStrech : uint8 {
+	None,
+	VerySmall,
+	Small,
+	Medium,
+	Large,
+	VeryLarge,
+	ESimplygonTextureStrech_MAX,
+};
+
+// Enum Engine.EMaterialLODType
+enum class EMaterialLODType : uint8 {
+	Off,
+	BakeTexture,
+	BakeVertexColor,
+	Replace,
+	EMaterialLODType_MAX,
+};
+
+// Enum Engine.ESimplygonLODType
+enum class ESimplygonLODType : uint8 {
+	Reduction,
+	Remeshing,
+	ESimplygonLODType_MAX,
+};
+
+// Enum Engine.EOptimizationMetric
+enum class EOptimizationMetric : uint8 {
+	TrianglePercentage,
+	OnScreenSize,
+	MaxDeviation,
+	EOptimizationMetric_MAX,
+};
+
+// Enum Engine.EMaterialProxySmaplingQuality
+enum class EMaterialProxySmaplingQuality : uint8 {
+	Poor,
+	Low,
+	Medium,
+	High,
+	EMaterialProxySmaplingQuality_MAX,
+};
+
+// Enum Engine.EUVStrech
+enum class EUVStrech : uint8 {
+	Small,
+	Medium,
+	Large,
+	VeryLarge,
+	EUVStrech_MAX,
+};
+
+// Enum Engine.EMaterialMergeType
+enum class EMaterialMergeType : uint8 {
+	MaterialMergeType_Default,
+	MaterialMergeType_Simplygon,
+	MaterialMergeType_MAX,
+};
+
+// Enum Engine.ETextureSizingType
+enum class ETextureSizingType : uint8 {
+	TextureSizingType_UseSingleTextureSize,
+	TextureSizingType_UseAutomaticBiasedSizes,
+	TextureSizingType_UseManualOverrideTextureSize,
+	TextureSizingType_UseSimplygonAutomaticSizing,
+	TextureSizingType_MAX,
+};
+
+// Enum Engine.*48454f8142
+enum class *48454f8142 : uint8 {
+	*68574c8787,
+	*26e5b63012,
+	*62985978de,
+	*48454f8142_MAX,
+};
+
+// Enum Engine.EMeshLODSelectionType
+enum class EMeshLODSelectionType : uint8 {
+	AllLODs,
+	SpecificLOD,
+	CalculateLOD,
+	LowestDetailLOD,
+	EMeshLODSelectionType_MAX,
+};
+
+// Enum Engine.*65c47359c7
+enum class *65c47359c7 : uint8 {
+	*7e489502b7,
+	*43ab7c378b,
+	*a6f955cfc6,
+	*ff9a1d3cd0,
+	*65c47359c7_MAX,
+};
+
+// Enum Engine.ELandscapeCullingPrecision
+enum class ELandscapeCullingPrecision : uint8 {
+	High,
+	Medium,
+	Low,
+	ELandscapeCullingPrecision_MAX,
+};
+
+// Enum Engine.EPhysXAggregationMode
+enum class EPhysXAggregationMode : uint8 {
+	NoCollision,
+	BlockAllWithComplexAsSimple,
+	EPhysXAggregationMode_MAX,
+};
+
+// Enum Engine.EChartAggregationMode
+enum class EChartAggregationMode : uint8 {
+	TextureSize,
+	SurfaceArea,
+	PixelDensity,
+	UVSize,
+	EChartAggregationMode_MAX,
+};
+
+// Enum Engine.EStaticMeshReductionTerimationCriterion
+enum class EStaticMeshReductionTerimationCriterion : uint8 {
+	Triangles,
+	Vertices,
+	Any,
+	EStaticMeshReductionTerimationCriterion_MAX,
+};
+
+// Enum Engine.EImposterCaptureType
+enum class EImposterCaptureType : uint8 {
+	No,
+	Quarter,
+	Half,
+	Full,
+	EImposterCaptureType_MAX,
+};
+
+// Enum Engine.EMeshFeatureImportance
+enum class EMeshFeatureImportance : uint8 {
+	Off,
+	Lowest,
+	Low,
+	Normal,
+	High,
+	Highest,
+	EMeshFeatureImportance_MAX,
+};
+
+// Enum Engine.EAutoBenchPathType
+enum class EAutoBenchPathType : uint8 {
+	SnakeCurve,
+	HilbertCurve,
+	EAutoBenchPathType_MAX,
+};
+
+// Enum Engine.EAutoBenchViewMode
+enum class EAutoBenchViewMode : uint8 {
+	Default,
+	Top,
+	EAutoBenchViewMode_MAX,
+};
+
+// Enum Engine.EMaterialProperty
+enum class EMaterialProperty : uint8 {
+	MP_EmissiveColor,
+	MP_Opacity,
+	MP_OpacityMask,
+	MP_DiffuseColor,
+	MP_SpecularColor,
+	MP_BaseColor,
+	MP_Metallic,
+	MP_Specular,
+	MP_Roughness,
+	MP_Normal,
+	MP_WorldPositionOffset,
+	MP_WorldDisplacement,
+	MP_TessellationMultiplier,
+	MP_SubsurfaceColor,
+	MP_SubsurfaceProfile,
+	MP_CustomData0,
+	MP_CustomData1,
+	MP_AmbientOcclusion,
+	MP_Refraction,
+	MP_CustomizedUVs0,
+	MP_CustomizedUVs1,
+	MP_CustomizedUVs2,
+	MP_CustomizedUVs3,
+	MP_CustomizedUVs4,
+	MP_CustomizedUVs5,
+	MP_CustomizedUVs6,
+	MP_CustomizedUVs7,
+	MP_PixelDepthOffset,
+	MP_Temperature,
+	MP_TemperatureAlpha,
+	MP_MaterialAttributes,
+	MP_CustomOutput,
+	MP_MAX,
+};
+
+// Enum Engine.EDOFMode
+enum class EDOFMode : uint8 {
+	Default,
+	SixDOF,
+	YZPlane,
+	XZPlane,
+	XYPlane,
+	CustomPlane,
+	None,
+	EDOFMode_MAX,
+};
+
+// Enum Engine.ENavigationQueryResult
+enum class ENavigationQueryResult : uint8 {
+	Invalid,
+	Error,
+	Fail,
+	Success,
+	ENavigationQueryResult_MAX,
+};
+
+// Enum Engine.ENavDataGatheringModeConfig
+enum class ENavDataGatheringModeConfig : uint8 {
+	Invalid,
+	Instant,
+	Lazy,
+	ENavDataGatheringModeConfig_MAX,
+};
+
+// Enum Engine.ENavDataGatheringMode
+enum class ENavDataGatheringMode : uint8 {
+	Default,
+	Instant,
+	Lazy,
+	ENavDataGatheringMode_MAX,
+};
+
+// Enum Engine.ENavigationOptionFlag
+enum class ENavigationOptionFlag : uint8 {
+	Default,
+	Enable,
+	Disable,
+	MAX,
+	ENavigationOptionFlag_MAX,
+};
+
+// Enum Engine.*dc75936d4b
+enum class *dc75936d4b : uint8 {
+	*ea13d229cc,
+	*b61e73e75f,
+	*5c7131c38c,
+	*767ab06938,
+	*fc5177836a,
+	*577bc3e177,
+	*a56120274c,
+	*a6d3ee1b5f,
+	*6604345c99,
+	*037cc5ebfb,
+	*f6aac50848,
+	*dc75936d4b_MAX,
+};
+
+// Enum Engine.EHasCustomNavigableGeometry
+enum class EHasCustomNavigableGeometry : uint8 {
+	No,
+	Yes,
+	EvenIfNotCollidable,
+	DontExport,
+	EHasCustomNavigableGeometry_MAX,
+};
+
+// Enum Engine.*2cf50fcfdf
+enum class *2cf50fcfdf : uint8 {
+	*f4a52cf6a2,
+	*34d5eefa61,
+	*43e8e11967,
+	*80f31cef0d,
+	*2cf50fcfdf_MAX,
+};
+
+// Enum Engine.EStaticMeshLODType
+enum class EStaticMeshLODType : uint8 {
+	Reduction,
+	Proxy,
+	EStaticMeshLODType_MAX,
+};
+
+// Enum Engine.*e3d2c2c424
+enum class *e3d2c2c424 : uint8 {
+	*f332160935,
+	*db35f11ce8,
+	*054185cb01,
+	*e3d2c2c424_MAX,
+};
+
+// Enum Engine.*1588ee0d08
+enum class *1588ee0d08 : uint8 {
+	*e326ce5652,
+	*24dd858e2e,
+	*da1f0496a4,
+	*7573891bcb,
+	*939822cdc2,
+	*59440a9ee2,
+	*84570ddef2,
+	*c8bf1108b4,
+	*1588ee0d08_MAX,
+};
+
+// Enum Engine.*9f09ca6c1e
+enum class *9f09ca6c1e : uint8 {
+	*ecd2363187,
+	*e52b384490,
+	*f5ae628662,
+	*e9f2e870c3,
+	*a1eac3297d,
+	*4a43b88e86,
+	*9f09ca6c1e_MAX,
+};
+
+// Enum Engine.*98ccb57006
+enum class *98ccb57006 : uint8 {
+	*2662f61462,
+	*a878f8ed53,
+	*d5131eb2d6,
+	*36ee348d82,
+	*98ccb57006_MAX,
+};
+
+// Enum Engine.*3752c549eb
+enum class *3752c549eb : uint8 {
+	*944dd8360b,
+	*98ef38fbca,
+	*a31254a732,
+	*61c61d2116,
+	*a83822af8e,
+	*dc94d00a56,
+	*9de0a8685f,
+	*3752c549eb_MAX,
+};
+
+// Enum Engine.*05333b5a89
+enum class *05333b5a89 : uint8 {
+	*2c0cbf55a8,
+	*32f15ceb33,
+	*a3e1e69e6b,
+	*03097bc881,
+	*a89fcd6c75,
+	*d6cccda36b,
+	*75ae4d8123,
+	*580dcb10a8,
+	*c151f3e954,
+	*d1522aee57,
+	*84da88c492,
+	*e0600b485c,
+	*cb67c7f763,
+	*34823349ff,
+	*57181023bd,
+	*c7ebd3550c,
+	*9ad43b9c43,
+	*844de5c210,
+	*f5b08362ba,
+	*779973a19c,
+	*ef0174b86d,
+	*cd2b86a2a6,
+	*0e092bb2bd,
+	*76bb1633b6,
+	*05333b5a89_MAX,
+};
+
+// Enum Engine.*8d2645b9ee
+enum class *8d2645b9ee : uint8 {
+	*6d2a569a08,
+	*4e093b4bd2,
+	*ee8ee31036,
+	*39a5ec5fde,
+	*cb496aeae4,
+	*761e66b742,
+	*8d2645b9ee_MAX,
+};
+
+// Enum Engine.*d4a8eb9d2e
+enum class *d4a8eb9d2e : uint8 {
+	*031d5412a1,
+	*cdf2252b9c,
+	*44c7ed3d29,
+	*5cb14c6c1f,
+	*4904d401b2,
+	*d4a8eb9d2e_MAX,
+};
+
+// Enum Engine.EHBAOBlurRadius
+enum class EHBAOBlurRadius : uint8 {
+	AOBR_BlurRadius0,
+	AOBR_BlurRadius2,
+	AOBR_BlurRadius4,
+	AOBR_MAX,
+};
+
+// Enum Engine.*3d433ad022
+enum class *3d433ad022 : uint8 {
+	*d7e5869712,
+	*d5103fa6e5,
+	*023a0d3d6f,
+	*3d433ad022_MAX,
+};
+
+// Enum Engine.EAutoExposureMethod
+enum class EAutoExposureMethod : uint8 {
+	AEM_Histogram,
+	AEM_Basic,
+	AEM_MAX,
+};
+
+// Enum Engine.*277c9e52b8
+enum class *277c9e52b8 : uint8 {
+	*4b118804db,
+	*b358ab3ca2,
+	*1750393be3,
+	*a5a2c6815c,
+	*1f96156842,
+	*277c9e52b8_MAX,
+};
+
+// Enum Engine.EDepthOfFieldMethod
+enum class EDepthOfFieldMethod : uint8 {
+	DOFM_BokehDOF,
+	DOFM_Gaussian,
+	DOFM_CircleDOF,
+	DOFM_MAX,
+};
+
+// Enum Engine.ECameraAnimPlaySpace
+enum class ECameraAnimPlaySpace : uint8 {
+	CameraLocal,
+	World,
+	UserDefined,
+	ECameraAnimPlaySpace_MAX,
+};
+
+// Enum Engine.ECameraProjectionMode
+enum class ECameraProjectionMode : uint8 {
+	Perspective,
+	Orthographic,
+	ECameraProjectionMode_MAX,
+};
+
+// Enum Engine.*904dd505da
+enum class *904dd505da : uint8 {
+	*700c58da81,
+	*ef620e8b88,
+	*3f6368612c,
+	*904dd505da_MAX,
+};
+
+// Enum Engine.*36b6c769f4
+enum class *36b6c769f4 : uint8 {
+	*c877ef5d02,
+	*2a1f8a910d,
+	*27b1a11ab5,
+	*36b6c769f4_MAX,
+};
+
+// Enum Engine.EDynamicForceFeedbackAction
+enum class EDynamicForceFeedbackAction : uint8 {
+	Start,
+	Update,
+	Stop,
+	EDynamicForceFeedbackAction_MAX,
+};
+
+// Enum Engine.*7d46ece45e
+enum class *7d46ece45e : uint8 {
+	*fdc79fbd2b,
+	*97cac6caab,
+	*268d4b2315,
+	*2a9579955b,
+	*7d46ece45e_MAX,
+};
+
+// Enum Engine.*eec63e9e4c
+enum class *eec63e9e4c : uint8 {
+	*256680606f,
+	*958bfcce47,
+	*38c22023ff,
+	*3b49f4dfb3,
+	*eec63e9e4c_MAX,
+};
+
+// Enum Engine.*2c04465ccd
+enum class *2c04465ccd : uint8 {
+	*75e7add936,
+	*01a0beb239,
+	*d2eadea059,
+	*c1a9009d8d,
+	*fd6ff58e45,
+	*2c04465ccd_MAX,
+};
+
+// Enum Engine.EMaterialDomain
+enum class EMaterialDomain : uint8 {
+	MD_Surface,
+	MD_DeferredDecal,
+	MD_LightFunction,
+	MD_Volume,
+	MD_PostProcess,
+	MD_UI,
+	MD_MAX,
+};
+
+// Enum Engine.ERuntimeGenerationType
+enum class ERuntimeGenerationType : uint8 {
+	Static,
+	DynamicModifiersOnly,
+	Dynamic,
+	LegacyGeneration,
+	ERuntimeGenerationType_MAX,
+};
+
+// Enum Engine.ERecastPartitioning
+enum class ERecastPartitioning : uint8 {
+	Monotone,
+	Watershed,
+	ChunkyMonotone,
+	ERecastPartitioning_MAX,
+};
+
+// Enum Engine.*f76d87cbca
+enum class *f76d87cbca : uint8 {
+	*c254da47cc,
+	*08c1087518,
+	*991a2834de,
+	*35c824cd3a,
+	*f76d87cbca_MAX,
+};
+
+// Enum Engine.ENavLinkDirection
+enum class ENavLinkDirection : uint8 {
+	BothWays,
+	LeftToRight,
+	RightToLeft,
+	ENavLinkDirection_MAX,
+};
+
+// Enum Engine.*fecf2ec050
+enum class *fecf2ec050 : uint8 {
+	*8b451835ee,
+	*8e068151ed,
+	*7572a25241,
+	*c562aa537e,
+	*fecf2ec050_MAX,
+};
+
+// Enum Engine.*4460aee05d
+enum class *4460aee05d : uint8 {
+	*0240e7b569,
+	*d329f2d079,
+	*3f6890508c,
+	*cda5f96c84,
+	*4460aee05d_MAX,
+};
+
+// Enum Engine.*1a3d53a2a5
+enum class *1a3d53a2a5 : uint8 {
+	*2b710e1dd2,
+	*456a88c3a0,
+	*f8ff961379,
+	*1a3d53a2a5_MAX,
+};
+
+// Enum Engine.EParticleEventType
+enum class EParticleEventType : uint8 {
+	EPET_Any,
+	EPET_Spawn,
+	EPET_Death,
+	EPET_Collision,
+	EPET_Burst,
+	EPET_Blueprint,
+	EPET_MAX,
+};
+
+// Enum Engine.*4a39d4b848
+enum class *4a39d4b848 : uint8 {
+	*597d3afc6f,
+	*28aff9d613,
+	*19b3cfcc64,
+	*3e1ca76d40,
+	*4a39d4b848_MAX,
+};
+
+// Enum Engine.*730c5e523e
+enum class *730c5e523e : uint8 {
+	*62e885581d,
+	*63b2305d07,
+	*5776b539e1,
+	*355bd5495d,
+	*50905c19a2,
+	*e9b57300d3,
+	*cd81c8f244,
+	*32513686c8,
+	*014bf8a2c9,
+	*730c5e523e_MAX,
+};
+
+// Enum Engine.EAxisOption
+enum class EAxisOption : uint8 {
+	X,
+	Y,
+	Z,
+	X_Neg,
+	Y_Neg,
+	Z_Neg,
+	Custom,
+	EAxisOption_MAX,
+};
+
+// Enum Engine.EAnimInterpolationType
+enum class EAnimInterpolationType : uint8 {
+	Linear,
+	Step,
+	EAnimInterpolationType_MAX,
+};
+
+// Enum Engine.*a20ad39f46
+enum class *a20ad39f46 : uint8 {
+	*2e00f6af3f,
+	*bbd80ced04,
+	*d0bf017593,
+	*9d0fb0dd70,
+	*a20ad39f46_MAX,
+};
+
+// Enum Engine.EAdditiveAnimationType
+enum class EAdditiveAnimationType : uint8 {
+	AAT_None,
+	AAT_LocalSpaceBase,
+	AAT_RotationOffsetMeshSpace,
+	AAT_MAX,
+};
+
+// Enum Engine.*f8da038c2b
+enum class *f8da038c2b : uint8 {
+	*8bc5b8d294,
+	*1b9aea520d,
+	*02d97c2661,
+	*5273462c05,
+	*f8da038c2b_MAX,
+};
+
+// Enum Engine.*8056b80e80
+enum class *8056b80e80 : uint8 {
+	*f68174ea48,
+	*5ef69095ba,
+	*57b8f01e00,
+	*974dfc722e,
+	*fc64815bbc,
+	*8056b80e80_MAX,
+};
+
+// Enum Engine.EBoneAxis
+enum class EBoneAxis : uint8 {
+	BA_X,
+	BA_Y,
+	BA_Z,
+	BA_MAX,
+};
+
+// Enum Engine.ESkeletalMeshLODType
+enum class ESkeletalMeshLODType : uint8 {
+	Reduction,
+	Proxy,
+	ESkeletalMeshLODType_MAX,
+};
+
+// Enum Engine.SkeletalMeshOptimizationType
+enum class SkeletalMeshOptimizationType : uint8 {
+	SMOT_NumOfTriangles,
+	SMOT_MaxDeviation,
+	SMOT_ScreenSize,
+	SMOT_MAX,
+};
+
+// Enum Engine.*1557736a5e
+enum class *1557736a5e : uint8 {
+	*ef4fb37bd5,
+	*e9a6d3447d,
+	*7bdcb03553,
+	*08d8a02d81,
+	*b846585593,
+	*b6cb3c58de,
+	*e421195eaa,
+	*1557736a5e_MAX,
+};
+
+// Enum Engine.*15bbf202ad
+enum class *15bbf202ad : uint8 {
+	*9bca5155cc,
+	*081d1e9fc1,
+	*d7adb25858,
+	*b6cf64d876,
+	*0c3a68b3fa,
+	*2e2c3e280b,
+	*5418cc6bcb,
+	*15bbf202ad_MAX,
+};
+
+// Enum Engine.AnimationCompressionFormat
+enum class AnimationCompressionFormat : uint8 {
+	ACF_None,
+	ACF_Float96NoW,
+	ACF_Fixed48NoW,
+	ACF_IntervalFixed32NoW,
+	ACF_Fixed32NoW,
+	ACF_Float32NoW,
+	ACF_Identity,
+	ACF_MAX,
+};
+
+// Enum Engine.*eea974b4e5
+enum class *eea974b4e5 : uint8 {
+	*d8587c8ca5,
+	*bb3ef85b58,
+	*901f784a1e,
+	*62c5a31ee9,
+	*62b1e147d4,
+	*eea974b4e5_MAX,
+};
+
+// Enum Engine.*f710213dc1
+enum class *f710213dc1 : uint8 {
+	*1dc9a0a48c,
+	*89da2140e7,
+	*27e2d45223,
+	*a4d121d11f,
+	*a89ae5af97,
+	*f710213dc1_MAX,
+};
+
+// Enum Engine.*c20d8612ea
+enum class *c20d8612ea : uint8 {
+	*524834a87c,
+	*9c82ca1ce7,
+	*895480d8ed,
+	*a5ad2773b7,
+	*8dcf10126e,
+	*c20d8612ea_MAX,
+};
+
+// Enum Engine.*30be4da0fa
+enum class *30be4da0fa : uint8 {
+	*1ed8fb82f0,
+	*c68400c430,
+	*07f8c8a300,
+	*d1c2c5671a,
+	*30be4da0fa_MAX,
+};
+
+// Enum Engine.*a0645cc49a
+enum class *a0645cc49a : uint8 {
+	*f1aaab78f8,
+	*ce72e9db91,
+	*61bd8c6f88,
+	*e658b98b69,
+	*a0645cc49a_MAX,
+};
+
+// Enum Engine.ERootMotionSourceStatusFlags
+enum class ERootMotionSourceStatusFlags : uint8 {
+	Prepared,
+	Finished,
+	MarkedForRemoval,
+	ERootMotionSourceStatusFlags_MAX,
+};
+
+// Enum Engine.ERootMotionAccumulateMode
+enum class ERootMotionAccumulateMode : uint8 {
+	Override,
+	Additive,
+	ERootMotionAccumulateMode_MAX,
+};
+
+// Enum Engine.EBoneTranslationRetargetingMode
+enum class EBoneTranslationRetargetingMode : uint8 {
+	Animation,
+	Skeleton,
+	AnimationScaled,
+	AnimationRelative,
+	EBoneTranslationRetargetingMode_MAX,
+};
+
+// Enum Engine.*cff767e2d1
+enum class *cff767e2d1 : uint8 {
+	*3e082a29c4,
+	*7de8f9d449,
+	*4e7a10d7c0,
+	*0024796a32,
+	*cff767e2d1_MAX,
+};
+
+// Enum Engine.*9137e393c7
+enum class *9137e393c7 : uint8 {
+	*9ba76542ca,
+	*f3e0c10119,
+	*8e4c730fcc,
+	*be7356f58e,
+	*ab758dab15,
+	*d9543bca07,
+	*852331c83c,
+	*d369dab6fe,
+	*9137e393c7_MAX,
+};
+
+// Enum Engine.*86e606a4f5
+enum class *86e606a4f5 : uint8 {
+	*7dbae38290,
+	*bebe227c94,
+	*cc631c43fb,
+	*9bea6b09fd,
+	*86e606a4f5_MAX,
+};
+
+// Enum Engine.*57312135a8
+enum class *57312135a8 : uint8 {
+	*5d31fd9735,
+	*46fa23449e,
+	*6617c40679,
+	*6a953f47df,
+	*57312135a8_MAX,
+};
+
+// Enum Engine.EAngularDriveMode
+enum class EAngularDriveMode : uint8 {
+	SLERP,
+	TwistAndSwing,
+	EAngularDriveMode_MAX,
+};
+
+// Enum Engine.EAttenuationShape
+enum class EAttenuationShape : uint8 {
+	Sphere,
+	Capsule,
+	Box,
+	Cone,
+	EAttenuationShape_MAX,
+};
+
+// Enum Engine.EAttenuationDistanceModel
+enum class EAttenuationDistanceModel : uint8 {
+	Linear,
+	Logarithmic,
+	Inverse,
+	LogReverse,
+	NaturalSound,
+	Custom,
+	EAttenuationDistanceModel_MAX,
+};
+
+// Enum Engine.*5ef7d23080
+enum class *5ef7d23080 : uint8 {
+	*5b01ec0cf7,
+	*89a42992a6,
+	*ab65d14d8a,
+	*5ef7d23080_MAX,
+};
+
+// Enum Engine.*67aa325fc5
+enum class *67aa325fc5 : uint8 {
+	*1bc7e98b8e,
+	*64d7a38442,
+	*ff056a3d9a,
+	*21803caf16,
+	*e8e941e596,
+	*67aa325fc5_MAX,
+};
+
+// Enum Engine.EPreviewIndexType
+enum class EPreviewIndexType : uint8 {
+	RandomSeed,
+	VariantIndex,
+	PermutationIndex,
+	EPreviewIndexType_MAX,
+};
+
+// Enum Engine.ESpawnPointRollType
+enum class ESpawnPointRollType : uint8 {
+	Probability,
+	LocalRatio,
+	GlobalRatio,
+	ESpawnPointRollType_MAX,
+};
+
+// Enum Engine.*b8c75a7ff8
+enum class *b8c75a7ff8 : uint8 {
+	*893b55226b,
+	*1902cc9019,
+	*f2e5d9990a,
+	*b8c75a7ff8_MAX,
+};
+
+// Enum Engine.EBoneSpaces
+enum class EBoneSpaces : uint8 {
+	WorldSpace,
+	ComponentSpace,
+	EBoneSpaces_MAX,
+};
+
+// Enum Engine.EMeshComponentUpdateFlag
+enum class EMeshComponentUpdateFlag : uint8 {
+	AlwaysTickPoseAndRefreshBones,
+	AlwaysTickPose,
+	OnlyTickPoseWhenRendered,
+	EMeshComponentUpdateFlag_MAX,
+};
+
+// Enum Engine.*a843b4c86f
+enum class *a843b4c86f : uint8 {
+	*99f611c606,
+	*3334887fdc,
+	*21fa7fddf8,
+	*a843b4c86f_MAX,
+};
+
+// Enum Engine.*531e99c795
+enum class *531e99c795 : uint8 {
+	*4fd327e2ea,
+	*ade517463f,
+	*54cc7fee3b,
+	*c587e632c0,
+	*531e99c795_MAX,
+};
+
+// Enum Engine.*6b7dd1323d
+enum class *6b7dd1323d : uint8 {
+	*74e7317d23,
+	*f4ffc6e00a,
+	*d07ff8ea7d,
+	*6b7dd1323d_MAX,
+};
+
+// Enum Engine.EAnimationMode
+enum class EAnimationMode : uint8 {
+	AnimationBlueprint,
+	AnimationSingleNode,
+	AnimationCustomMode,
+	EAnimationMode_MAX,
+};
+
+// Enum Engine.EKinematicBonesUpdateToPhysics
+enum class EKinematicBonesUpdateToPhysics : uint8 {
+	SkipSimulatingBones,
+	SkipAllBones,
+	EKinematicBonesUpdateToPhysics_MAX,
+};
+
+// Enum Engine.ESplineMeshAxis
+enum class ESplineMeshAxis : uint8 {
+	X,
+	Y,
+	Z,
+	ESplineMeshAxis_MAX,
+};
+
+// Enum Engine.ETextureDownscaleOptions
+enum class ETextureDownscaleOptions : uint8 {
+	Default,
+	Unfiltered,
+	SimpleAverage,
+	Sharpen0,
+	Sharpen1,
+	Sharpen2,
+	Sharpen3,
+	Sharpen4,
+	Sharpen5,
+	Sharpen6,
+	Sharpen7,
+	Sharpen8,
+	Sharpen9,
+	Sharpen10,
+	ETextureDownscaleOptions_MAX,
+};
+
+// Enum Engine.ETextureSamplerFilter
+enum class ETextureSamplerFilter : uint8 {
+	Point,
+	Bilinear,
+	Trilinear,
+	AnisotropicPoint,
+	AnisotropicLinear,
+	ETextureSamplerFilter_MAX,
+};
+
+// Enum Engine.ETexturePowerOfTwoSetting
+enum class ETexturePowerOfTwoSetting : uint8 {
+	None,
+	PadToPowerOfTwo,
+	PadToSquarePowerOfTwo,
+	ETexturePowerOfTwoSetting_MAX,
+};
+
+// Enum Engine.TextureMipGenSettings
+enum class TextureMipGenSettings : uint8 {
+	TMGS_FromTextureGroup,
+	TMGS_SimpleAverage,
+	TMGS_Sharpen0,
+	TMGS_Sharpen1,
+	TMGS_Sharpen2,
+	TMGS_Sharpen3,
+	TMGS_Sharpen4,
+	TMGS_Sharpen5,
+	TMGS_Sharpen6,
+	TMGS_Sharpen7,
+	TMGS_Sharpen8,
+	TMGS_Sharpen9,
+	TMGS_Sharpen10,
+	TMGS_NoMipmaps,
+	TMGS_LeaveExistingMips,
+	TMGS_Blur1,
+	TMGS_Blur2,
+	TMGS_Blur3,
+	TMGS_Blur4,
+	TMGS_Blur5,
+	TMGS_MAX,
+};
+
+// Enum Engine.TextureGroup
+enum class TextureGroup : uint8 {
+	TEXTUREGROUP_World,
+	TEXTUREGROUP_WorldNormalMap,
+	TEXTUREGROUP_WorldSpecular,
+	TEXTUREGROUP_Character,
+	TEXTUREGROUP_CharacterNormalMap,
+	TEXTUREGROUP_CharacterSpecular,
+	TEXTUREGROUP_Weapon,
+	TEXTUREGROUP_WeaponNormalMap,
+	TEXTUREGROUP_WeaponSpecular,
+	TEXTUREGROUP_Vehicle,
+	TEXTUREGROUP_VehicleNormalMap,
+	TEXTUREGROUP_VehicleSpecular,
+	TEXTUREGROUP_Landscape,
+	TEXTUREGROUP_LandscapeNormalMap,
+	TEXTUREGROUP_LandscapeSpecular,
+	TEXTUREGROUP_Cinematic,
+	TEXTUREGROUP_Effects,
+	TEXTUREGROUP_EffectsNotFiltered,
+	TEXTUREGROUP_Skybox,
+	TEXTUREGROUP_UI,
+	TEXTUREGROUP_Lightmap,
+	TEXTUREGROUP_RenderTarget,
+	TEXTUREGROUP_MobileFlattened,
+	TEXTUREGROUP_ProcBuilding_Face,
+	TEXTUREGROUP_ProcBuilding_LightMap,
+	TEXTUREGROUP_Shadowmap,
+	TEXTUREGROUP_ColorLookupTable,
+	TEXTUREGROUP_Terrain_Heightmap,
+	TEXTUREGROUP_Terrain_Weightmap,
+	TEXTUREGROUP_Bokeh,
+	TEXTUREGROUP_IESLightProfile,
+	TEXTUREGROUP_Pixels2D,
+	TEXTUREGROUP_HierarchicalLOD,
+	TEXTUREGROUP_MAX,
+};
+
+// Enum Engine.*0ad02e172e
+enum class *0ad02e172e : uint8 {
+	*37fb9d1af1,
+	*d9a6a53e27,
+	*ab8c4fa11e,
+	*c08941a786,
+	*32a6b6733a,
+	*5496aac94b,
+	*c2312f7a48,
+	*49e78f2e40,
+	*0726e9d703,
+	*b16b1d1809,
+	*8c0c5d3528,
+	*0ad02e172e_MAX,
+};
+
+// Enum Engine.*102fe8c276
+enum class *102fe8c276 : uint8 {
+	*82a0069acf,
+	*978ea771f3,
+	*b93cd4a05a,
+	*e452fb0194,
+	*102fe8c276_MAX,
+};
+
+// Enum Engine.*988516a7f1
+enum class *988516a7f1 : uint8 {
+	*1d80e8bf1c,
+	*d0cba11cf5,
+	*e8239f8309,
+	*8e0fea3210,
+	*988516a7f1_MAX,
+};
+
+// Enum Engine.*eeb38caaa8
+enum class *eeb38caaa8 : uint8 {
+	*da7e8f4140,
+	*bf349ed5be,
+	*ba9a3987fd,
+	*9aa8d22427,
+	*708ab65250,
+	*4daa383ec7,
+	*eeb38caaa8_MAX,
+};
+
+// Enum Engine.*8e17248832
+enum class *8e17248832 : uint8 {
+	*d82bef9f9b,
+	*e1fb417c6e,
+	*3254729aff,
+	*dd067158db,
+	*8e17248832_MAX,
+};
+
+// Enum Engine.TextureFilter
+enum class TextureFilter : uint8 {
+	TF_Nearest,
+	TF_Bilinear,
+	TF_Trilinear,
+	TF_Default,
+	TF_MAX,
+};
+
+// Enum Engine.TextureCompressionSettings
+enum class TextureCompressionSettings : uint8 {
+	TC_Default,
+	TC_Normalmap,
+	TC_Masks,
+	TC_Grayscale,
+	TC_Displacementmap,
+	TC_VectorDisplacementmap,
+	TC_HDR,
+	TC_EditorIcon,
+	TC_Alpha,
+	TC_DistanceFieldFont,
+	TC_HDR_Compressed,
+	TC_BC7,
+	TC_MAX,
+};
+
+// Enum Engine.ESplineCoordinateSpace
+enum class ESplineCoordinateSpace : uint8 {
+	Local,
+	World,
+	ESplineCoordinateSpace_MAX,
+};
+
+// Enum Engine.ESplinePointType
+enum class ESplinePointType : uint8 {
+	Linear,
+	Curve,
+	Constant,
+	CurveClamped,
+	CurveCustomTangent,
+	ESplinePointType_MAX,
+};
+
+// Enum Engine.*2b9299c64b
+enum class *2b9299c64b : uint8 {
+	*0c964238b4,
+	*42f171401b,
+	*dcf467ea89,
+	*18d2490f38,
+	*d76468ca23,
+	*2b9299c64b_MAX,
+};
+
+// Enum Engine.*0bf9d95cc1
+enum class *0bf9d95cc1 : uint8 {
+	*288b4361fd,
+	*d0886f3b43,
+	*37e36692be,
+	*1c3c16866c,
+	*0bf9d95cc1_MAX,
+};
+
+// Enum Engine.*d945ee9e5d
+enum class *d945ee9e5d : uint8 {
+	*62515ba9a4,
+	*448c415377,
+	*755f5d519f,
+	*d945ee9e5d_MAX,
+};
+
+// Enum Engine.*2e63c9ae86
+enum class *2e63c9ae86 : uint8 {
+	*7e06bf44f8,
+	*339cbec98a,
+	*b6b2396c65,
+	*5b75248754,
+	*2e63c9ae86_MAX,
+};
+
+// Enum Engine.EStereoLayerType
+enum class EStereoLayerType : uint8 {
+	SLT_WorldLocked,
+	SLT_TrackerLocked,
+	SLT_FaceLocked,
+	SLT_MAX,
+};
+
+// Enum Engine.EWindSourceType
+enum class EWindSourceType : uint8 {
+	Directional,
+	Point,
+	EWindSourceType_MAX,
+};
+
+// Enum Engine.ETimelineDirection
+enum class ETimelineDirection : uint8 {
+	Forward,
+	Backward,
+	ETimelineDirection_MAX,
+};
+
+// Enum Engine.*f197db0fc1
+enum class *f197db0fc1 : uint8 {
+	*75a5ce605a,
+	*cf5b7943e3,
+	*ee7f11eac5,
+	*f197db0fc1_MAX,
+};
+
+// Enum Engine.AnimationKeyFormat
+enum class AnimationKeyFormat : uint8 {
+	AKF_ConstantKeyLerp,
+	AKF_VariableKeyLerp,
+	AKF_PerTrackCompression,
+	AKF_MAX,
+};
+
+// Enum Engine.ENotifyTriggerMode
+enum class ENotifyTriggerMode : uint8 {
+	AllAnimations,
+	HighestWeightedAnimation,
+	None,
+	ENotifyTriggerMode_MAX,
+};
+
+// Enum Engine.*87c6b2e60b
+enum class *87c6b2e60b : uint8 {
+	*0438fa0a63,
+	*e575dc1f3d,
+	*000a7af29e,
+	*3beb4dd5ca,
+	*87c6b2e60b_MAX,
+};
+
+// Enum Engine.*c207665492
+enum class *c207665492 : uint8 {
+	*1e665e08e5,
+	*ae138a4e8e,
+	*223805ecb8,
+	*c207665492_MAX,
+};
+
+// Enum Engine.*c9ce3f8dde
+enum class *c9ce3f8dde : uint8 {
+	*c6f3b037d1,
+	*9966941b32,
+	*3869c1dbb6,
+	*c9ce3f8dde_MAX,
+};
+
+// Enum Engine.EMontagePlayReturnType
+enum class EMontagePlayReturnType : uint8 {
+	MontageLength,
+	Duration,
+	EMontagePlayReturnType_MAX,
+};
+
+// Enum Engine.*142e33efb7
+enum class *142e33efb7 : uint8 {
+	*071c57984a,
+	*ea66335d3c,
+	*37cdb83540,
+	*bd6a7e2513,
+	*9c238acec5,
+	*142e33efb7_MAX,
+};
+
+// Enum Engine.EPrimaryAssetCookRule
+enum class EPrimaryAssetCookRule : uint8 {
+	Unknown,
+	NeverCook,
+	DevelopmentCook,
+	AlwaysCook,
+	EPrimaryAssetCookRule_MAX,
+};
+
+// Enum Engine.EBlueprintNativizationFlag
+enum class EBlueprintNativizationFlag : uint8 {
+	Disabled,
+	Dependency,
+	ExplicitlyEnabled,
+	EBlueprintNativizationFlag_MAX,
+};
+
+// Enum Engine.EBlueprintCompileMode
+enum class EBlueprintCompileMode : uint8 {
+	Default,
+	Development,
+	FinalRelease,
+	EBlueprintCompileMode_MAX,
+};
+
+// Enum Engine.EBlueprintType
+enum class EBlueprintType : uint8 {
+	BPTYPE_Normal,
+	BPTYPE_Const,
+	BPTYPE_MacroLibrary,
+	BPTYPE_Interface,
+	BPTYPE_LevelScript,
+	BPTYPE_FunctionLibrary,
+	BPTYPE_MAX,
+};
+
+// Enum Engine.*09ac2cc0aa
+enum class *09ac2cc0aa : uint8 {
+	*8f93568c07,
+	*939f2e7139,
+	*77eebb580f,
+	*9bfd2cc929,
+	*20f916034a,
+	*ac199945ac,
+	*03e0116296,
+	*09ac2cc0aa_MAX,
+};
+
+// Enum Engine.EEvaluateCurveTableResult
+enum class EEvaluateCurveTableResult : uint8 {
+	RowFound,
+	RowNotFound,
+	EEvaluateCurveTableResult_MAX,
+};
+
+// Enum Engine.EGrammaticalNumber
+enum class EGrammaticalNumber : uint8 {
+	Singular,
+	Plural,
+	EGrammaticalNumber_MAX,
+};
+
+// Enum Engine.EGrammaticalGender
+enum class EGrammaticalGender : uint8 {
+	Neuter,
+	Masculine,
+	Feminine,
+	Mixed,
+	EGrammaticalGender_MAX,
+};
+
+// Enum Engine.ESuggestProjVelocityTraceOption
+enum class ESuggestProjVelocityTraceOption : uint8 {
+	DoNotTrace,
+	TraceFullPath,
+	OnlyTraceWhileAscending,
+	ESuggestProjVelocityTraceOption_MAX,
+};
+
+// Enum Engine.EHMDWornState
+enum class EHMDWornState : uint8 {
+	Unknown,
+	Worn,
+	NotWorn,
+	EHMDWornState_MAX,
+};
+
+// Enum Engine.EHMDTrackingOrigin
+enum class EHMDTrackingOrigin : uint8 {
+	Floor,
+	Eye,
+	EHMDTrackingOrigin_MAX,
+};
+
+// Enum Engine.EOrientPositionSelector
+enum class EOrientPositionSelector : uint8 {
+	Orientation,
+	Position,
+	OrientationAndPosition,
+	EOrientPositionSelector_MAX,
+};
+
+// Enum Engine.*b60e8a0645
+enum class *b60e8a0645 : uint8 {
+	*8cdc2583a4,
+	*ee56f347f5,
+	*d79065f82c,
+	*cfdf9485f7,
+	*b60e8a0645_MAX,
+};
+
+// Enum Engine.EEasingFunc
+enum class EEasingFunc : uint8 {
+	Linear,
+	Step,
+	SinusoidalIn,
+	SinusoidalOut,
+	SinusoidalInOut,
+	EaseIn,
+	EaseOut,
+	EaseInOut,
+	ExpoIn,
+	ExpoOut,
+	ExpoInOut,
+	CircularIn,
+	CircularOut,
+	CircularInOut,
+	EEasingFunc_MAX,
+};
+
+// Enum Engine.ERoundingMode
+enum class ERoundingMode : uint8 {
+	HalfToEven,
+	HalfFromZero,
+	HalfToZero,
+	FromZero,
+	ToZero,
+	ToNegativeInfinity,
+	ToPositiveInfinity,
+	ERoundingMode_MAX,
+};
+
+// Enum Engine.FNavigationSystemRunMode
+enum class FNavigationSystemRunMode : uint8 {
+	InvalidMode,
+	GameMode,
+	EditorMode,
+	SimulationMode,
+	PIEMode,
+	FNavigationSystemRunMode_MAX,
+};
+
+// Enum Engine.*764a82876a
+enum class *764a82876a : uint8 {
+	*b1cdc393d4,
+	*54f9dcb2dd,
+	*5255bff4d1,
+	*764a82876a_MAX,
+};
+
+// Enum Engine.EPhysicsType
+enum class EPhysicsType : uint8 {
+	PhysType_Default,
+	PhysType_Kinematic,
+	PhysType_Simulated,
+	PhysType_MAX,
+};
+
+// Enum Engine.ECollisionTraceFlag
+enum class ECollisionTraceFlag : uint8 {
+	CTF_UseDefault,
+	CTF_UseSimpleAndComplex,
+	CTF_UseSimpleAsComplex,
+	CTF_UseComplexAsSimple,
+	CTF_MAX,
+};
+
+// Enum Engine.*88cfda13be
+enum class *88cfda13be : uint8 {
+	*357685986e,
+	*bcb86a5ac7,
+	*c177a24c7f,
+	*88cfda13be_MAX,
+};
+
+// Enum Engine.*a483700a66
+enum class *a483700a66 : uint8 {
+	*1b3831ffe8,
+	*2ab2f48208,
+	*f182e51ef4,
+	*85302e334c,
+	*5a1fbc845d,
+	*29f1c41c86,
+	*8b62ac467e,
+	*1933d07b7d,
+	*a483700a66_MAX,
+};
+
+// Enum Engine.*570c79a6fc
+enum class *570c79a6fc : uint8 {
+	*1052cd7444,
+	*cef1b103a2,
+	*ce17cdce7a,
+	*c6e1d1d5da,
+	*9e148c9f8c,
+	*c8b93da5f4,
+	*570c79a6fc_MAX,
+};
+
+// Enum Engine.EFrictionCombineMode
+enum class EFrictionCombineMode : uint8 {
+	Average,
+	Min,
+	Multiply,
+	Max,
+	EFrictionCombineMode_MAX,
+};
+
+// Enum Engine.ESettingsLockedAxis
+enum class ESettingsLockedAxis : uint8 {
+	None,
+	X,
+	Y,
+	Z,
+	Invalid,
+	ESettingsLockedAxis_MAX,
+};
+
+// Enum Engine.ESettingsDOF
+enum class ESettingsDOF : uint8 {
+	Full3D,
+	YZPlane,
+	XZPlane,
+	XYPlane,
+	ESettingsDOF_MAX,
+};
+
+// Enum Engine.EAutoExposureMethodUI
+enum class EAutoExposureMethodUI : uint8 {
+	AEM_Histogram,
+	AEM_Basic,
+	AEM_MAX,
+};
+
+// Enum Engine.EEarlyZPass
+enum class EEarlyZPass : uint8 {
+	None,
+	OpaqueOnly,
+	OpaqueAndMasked,
+	Auto,
+	EEarlyZPass_MAX,
+};
+
+// Enum Engine.ECustomDepthStencil
+enum class ECustomDepthStencil : uint8 {
+	Disabled,
+	Enabled,
+	EnabledOnDemand,
+	EnabledWithStencil,
+	ECustomDepthStencil_MAX,
+};
+
+// Enum Engine.EMobileMSAASampleCount
+enum class EMobileMSAASampleCount : uint8 {
+	One,
+	Two,
+	Four,
+	Eight,
+	EMobileMSAASampleCount_MAX,
+};
+
+// Enum Engine.ECompositingSampleCount
+enum class ECompositingSampleCount : uint8 {
+	One,
+	Two,
+	Four,
+	Eight,
+	ECompositingSampleCount_MAX,
+};
+
+// Enum Engine.EClearSceneOptions
+enum class EClearSceneOptions : uint8 {
+	NoClear,
+	HardwareClear,
+	QuadAtMaxZ,
+	EClearSceneOptions_MAX,
+};
+
+// Enum Engine.EUIScalingRule
+enum class EUIScalingRule : uint8 {
+	ShortestSide,
+	LongestSide,
+	Horizontal,
+	Vertical,
+	Custom,
+	EUIScalingRule_MAX,
+};
+
+// Enum Engine.ERenderFocusRule
+enum class ERenderFocusRule : uint8 {
+	Always,
+	NonPointer,
+	NavigationOnly,
+	Never,
+	ERenderFocusRule_MAX,
+};
+
+// Enum Engine.*41d1961a55
+enum class *41d1961a55 : uint8 {
+	*95f99a4955,
+	*c5b7418aef,
+	*570d5ff38b,
+	*17a40bb10e,
+	*41d1961a55_MAX,
+};
+
+// Enum Engine.*8f01089b5d
+enum class *8f01089b5d : uint8 {
+	*ae76942a73,
+	*50fd37b91f,
+	*39e6c83c40,
+	*e7f3099338,
+	*8f01089b5d_MAX,
+};
+
+// Enum Engine.*5dc8d87af2
+enum class *5dc8d87af2 : uint8 {
+	*9834a15d7f,
+	*420c5bda43,
+	*2f86465992,
+	*86e88c18c8,
+	*e84e21cbcc,
+	*991d922139,
+	*5dc8d87af2_MAX,
+};
+
+// Enum Engine.*15b60ca3d5
+enum class *15b60ca3d5 : uint8 {
+	*f3b01169da,
+	*476dd1f546,
+	*6b12af5d3b,
+	*79ee2ca50c,
+	*dc87d747d5,
+	*e46ad5d78e,
+	*fece430ced,
+	*15b60ca3d5_MAX,
+};
+
+// Enum Engine.*dc6c447ea2
+enum class *dc6c447ea2 : uint8 {
+	*fa2d86a571,
+	*7ab2e4b7f6,
+	*589f4986af,
+	*a8ec5bbc5b,
+	*9f79fdbd25,
+	*30fec869f9,
+	*dc6c447ea2_MAX,
+};
+
+// Enum Engine.*4e621568f3
+enum class *4e621568f3 : uint8 {
+	*dab5ea405b,
+	*a0a39ab3c4,
+	*c3747d00dc,
+	*cc9c5f4877,
+	*4e621568f3_MAX,
+};
+
+// Enum Engine.EFontCacheType
+enum class EFontCacheType : uint8 {
+	Offline,
+	Runtime,
+	EFontCacheType_MAX,
+};
+
+// Enum Engine.EGraphicsAPIType
+enum class EGraphicsAPIType : uint8 {
+	DX11,
+	DX11_Enhanced,
+	DX12,
+	EGraphicsAPIType_MAX,
+};
+
+// Enum Engine.EWindowMode
+enum class EWindowMode : uint8 {
+	Fullscreen,
+	WindowedFullscreen,
+	Windowed,
+	EWindowMode_MAX,
+};
+
+// Enum Engine.*3e2ef26363
+enum class *3e2ef26363 : uint8 {
+	*d4f4945d7b,
+	*f4783bc6c4,
+	*84484e5dd2,
+	*7e50ab4fdb,
+	*3e2ef26363_MAX,
+};
+
+// Enum Engine.*e75cac550a
+enum class *e75cac550a : uint8 {
+	*a8461497c6,
+	*a4adbf38fb,
+	*b336f3d89d,
+	*5b083946e3,
+	*e75cac550a_MAX,
+};
+
+// Enum Engine.*9061b3b7f2
+enum class *9061b3b7f2 : uint8 {
+	*9bbc159c5d,
+	*4ba93b5b53,
+	*e1e8520b5b,
+	*4d56c037ff,
+	*36fe418549,
+	*7c7ba7520a,
+	*7c6a0151eb,
+	*9061b3b7f2_MAX,
+};
+
+// Enum Engine.*43105497d2
+enum class *43105497d2 : uint8 {
+	*c1629ab823,
+	*cbd15c1c69,
+	*e0aeb5b3f0,
+	*972ccccc63,
+	*a3fef9bc3d,
+	*43105497d2_MAX,
+};
+
+// Enum Engine.*daf0cacf0d
+enum class *daf0cacf0d : uint8 {
+	*1b0d87156c,
+	*b751bec6ad,
+	*a64d3f2759,
+	*84b2965e6c,
+	*daf0cacf0d_MAX,
+};
+
+// Enum Engine.*b780822e05
+enum class *b780822e05 : uint8 {
+	*3b89a78d21,
+	*555423950f,
+	*218a348623,
+	*c5c8164f5d,
+	*b780822e05_MAX,
+};
+
+// Enum Engine.EMaterialAttributeBlend
+enum class EMaterialAttributeBlend : uint8 {
+	Blend,
+	UseA,
+	UseB,
+	EMaterialAttributeBlend_MAX,
+};
+
+// Enum Engine.*753b669887
+enum class *753b669887 : uint8 {
+	*fdfec491aa,
+	*2afcacce63,
+	*9b38f23ce1,
+	*4538e8fe77,
+	*753b669887_MAX,
+};
+
+// Enum Engine.*12d2d93b2c
+enum class *12d2d93b2c : uint8 {
+	*e50f7efd59,
+	*90091a5daf,
+	*4dfcda7a79,
+	*77ed96a069,
+	*ab5f2dc260,
+	*12d2d93b2c_MAX,
+};
+
+// Enum Engine.*c867eee3e0
+enum class *c867eee3e0 : uint8 {
+	*a3304dfc6b,
+	*9197a0d75f,
+	*6e145fbfff,
+	*c696b4a52c,
+	*94da49894c,
+	*c867eee3e0_MAX,
+};
+
+// Enum Engine.*cc3ae7f082
+enum class *cc3ae7f082 : uint8 {
+	*5a44f42e55,
+	*4866c440bb,
+	*fb48dc6cac,
+	*1e3435bdbe,
+	*331772efe7,
+	*1eccf9438a,
+	*4d19036dfc,
+	*324f30ef83,
+	*23176e8a04,
+	*0f2b5f83dc,
+	*cc3ae7f082_MAX,
+};
+
+// Enum Engine.ENoiseFunction
+enum class ENoiseFunction : uint8 {
+	NOISEFUNCTION_SimplexTex,
+	NOISEFUNCTION_GradientTex,
+	NOISEFUNCTION_GradientTex3D,
+	NOISEFUNCTION_GradientALU,
+	NOISEFUNCTION_ValueALU,
+	NOISEFUNCTION_VoronoiALU,
+	NOISEFUNCTION_MAX,
+};
+
+// Enum Engine.*751784816f
+enum class *751784816f : uint8 {
+	*946d49e202,
+	*9c611df49b,
+	*22719e2469,
+	*751784816f_MAX,
+};
+
+// Enum Engine.EMaterialSceneAttributeInputMode
+enum class EMaterialSceneAttributeInputMode : uint8 {
+	Coordinates,
+	OffsetFraction,
+	EMaterialSceneAttributeInputMode_MAX,
+};
+
+// Enum Engine.ESceneTextureId
+enum class ESceneTextureId : uint8 {
+	PPI_SceneColor,
+	PPI_SceneDepth,
+	PPI_DiffuseColor,
+	PPI_SpecularColor,
+	PPI_SubsurfaceColor,
+	PPI_BaseColor,
+	PPI_Specular,
+	PPI_Metallic,
+	PPI_WorldNormal,
+	PPI_SeparateTranslucency,
+	PPI_Opacity,
+	PPI_Roughness,
+	PPI_MaterialAO,
+	PPI_CustomDepth,
+	PPI_PostProcessInput0,
+	PPI_PostProcessInput1,
+	PPI_PostProcessInput2,
+	PPI_PostProcessInput3,
+	PPI_PostProcessInput4,
+	PPI_PostProcessInput5,
+	PPI_PostProcessInput6,
+	PPI_DecalMask,
+	PPI_ShadingModel,
+	PPI_AmbientOcclusion,
+	PPI_CustomStencil,
+	PPI_StoredBaseColor,
+	PPI_StoredSpecular,
+	PPI_ScreenCopy,
+	PPI_SceneStencil,
+	PPI_IndoorMask,
+	PPI_GIVolumes,
+	PPI_Thermal,
+	PPI_MAX,
+};
+
+// Enum Engine.*49cd946d8c
+enum class *49cd946d8c : uint8 {
+	*5fd7cb8e4d,
+	*e1c9259055,
+	*a2f8a431e1,
+	*649ed63238,
+	*49cd946d8c_MAX,
+};
+
+// Enum Engine.*3fe163e133
+enum class *3fe163e133 : uint8 {
+	*75baedf17b,
+	*6ba1e2045b,
+	*c4b869c229,
+	*3fe163e133_MAX,
+};
+
+// Enum Engine.*5f1bac80e6
+enum class *5f1bac80e6 : uint8 {
+	*820d2cf9cc,
+	*c9d6012237,
+	*4eeab5a77e,
+	*404f1f4c32,
+	*667e3db0ef,
+	*e6c4aebcf6,
+	*d0693f4347,
+	*b3685c1341,
+	*5f1bac80e6_MAX,
+};
+
+// Enum Engine.*ff2e99f4be
+enum class *ff2e99f4be : uint8 {
+	*60a35fdf6e,
+	*ce7028d790,
+	*0109235bb2,
+	*9538bd93fd,
+	*5ee2f7e476,
+	*227beef94c,
+	*ff2e99f4be_MAX,
+};
+
+// Enum Engine.ETextureChannel
+enum class ETextureChannel : uint8 {
+	R,
+	G,
+	B,
+	A,
+	ETextureChannel_MAX,
+};
+
+// Enum Engine.*646c5d88a8
+enum class *646c5d88a8 : uint8 {
+	*41efc177a5,
+	*2ed3cb24e4,
+	*5c444972b2,
+	*013d739e98,
+	*32109711eb,
+	*646c5d88a8_MAX,
+};
+
+// Enum Engine.*a9591e27e3
+enum class *a9591e27e3 : uint8 {
+	*9b18c36e97,
+	*337b96a1d8,
+	*d350a1879a,
+	*d5404e3707,
+	*bb56c388d2,
+	*a9591e27e3_MAX,
+};
+
+// Enum Engine.EMaterialExposedTextureProperty
+enum class EMaterialExposedTextureProperty : uint8 {
+	TMTM_TextureSize,
+	TMTM_TexelSize,
+	TMTM_MAX,
+};
+
+// Enum Engine.EMaterialVectorCoordTransform
+enum class EMaterialVectorCoordTransform : uint8 {
+	TRANSFORM_Tangent,
+	TRANSFORM_Local,
+	TRANSFORM_World,
+	TRANSFORM_View,
+	TRANSFORM_Camera,
+	TRANSFORM_ParticleWorld,
+	TRANSFORM_MAX,
+};
+
+// Enum Engine.EMaterialVectorCoordTransformSource
+enum class EMaterialVectorCoordTransformSource : uint8 {
+	TRANSFORMSOURCE_Tangent,
+	TRANSFORMSOURCE_Local,
+	TRANSFORMSOURCE_World,
+	TRANSFORMSOURCE_View,
+	TRANSFORMSOURCE_Camera,
+	TRANSFORMSOURCE_ParticleWorld,
+	TRANSFORMSOURCE_MAX,
+};
+
+// Enum Engine.EMaterialPositionTransformSource
+enum class EMaterialPositionTransformSource : uint8 {
+	TRANSFORMPOSSOURCE_Local,
+	TRANSFORMPOSSOURCE_World,
+	TRANSFORMPOSSOURCE_TranslatedWorld,
+	TRANSFORMPOSSOURCE_View,
+	TRANSFORMPOSSOURCE_Camera,
+	TRANSFORMPOSSOURCE_Particle,
+	TRANSFORMPOSSOURCE_MAX,
+};
+
+// Enum Engine.*e2cad6ab46
+enum class *e2cad6ab46 : uint8 {
+	*ded3e5f2d1,
+	*028a193bcd,
+	*edf54c283c,
+	*9871b90e4b,
+	*2321f3faf1,
+	*28e8d40a2e,
+	*e2cad6ab46_MAX,
+};
+
+// Enum Engine.EMaterialExposedViewProperty
+enum class EMaterialExposedViewProperty : uint8 {
+	MEVP_BufferSize,
+	MEVP_FieldOfView,
+	MEVP_TanHalfFieldOfView,
+	MEVP_ViewSize,
+	MEVP_WorldSpaceViewPosition,
+	MEVP_WorldSpaceCameraPosition,
+	MEVP_ViewportOffset,
+	MEVP_MAX,
+};
+
+// Enum Engine.*03a10c8b8b
+enum class *03a10c8b8b : uint8 {
+	*68c32de777,
+	*16d08ee12c,
+	*e762703f73,
+	*435026a8b5,
+	*db093ddfca,
+	*3582dfc86f,
+	*e40f818740,
+	*03a10c8b8b_MAX,
+};
+
+// Enum Engine.*5f04f12a95
+enum class *5f04f12a95 : uint8 {
+	*c4cf02aab8,
+	*2b185bf715,
+	*60d39ec044,
+	*5397e24b41,
+	*2fbbf2c606,
+	*f30fd6c3a9,
+	*5c9c371d32,
+	*6d698b9fe5,
+	*a72c30df63,
+	*5f04f12a95_MAX,
+};
+
+// Enum Engine.*5c32b121c5
+enum class *5c32b121c5 : uint8 {
+	*65d47f2857,
+	*76cf1fd2af,
+	*49dab914b0,
+	*02c5bba2df,
+	*341a5c7e62,
+	*0cd3ebe084,
+	*3fc1147f2b,
+	*b08d421a9c,
+	*9cad8a47d9,
+	*6adc3b8959,
+	*6916727d7a,
+	*a22b089b81,
+	*95808c2150,
+	*5c32b121c5_MAX,
+};
+
+// Enum Engine.*a2a9703ae6
+enum class *a2a9703ae6 : uint8 {
+	*858ef3b86d,
+	*067320136c,
+	*973f2a0fa8,
+	*febbd0c191,
+	*faad1a4e15,
+	*534624d8e9,
+	*a2a9703ae6_MAX,
+};
+
+// Enum Engine.EParticleSubUVInterpMethod
+enum class EParticleSubUVInterpMethod : uint8 {
+	PSUVIM_None,
+	PSUVIM_Linear,
+	PSUVIM_Linear_Blend,
+	PSUVIM_Random,
+	PSUVIM_Random_Blend,
+	PSUVIM_MAX,
+};
+
+// Enum Engine.*7d8e2c3b6b
+enum class *7d8e2c3b6b : uint8 {
+	*175945d1f8,
+	*01bf4a5e99,
+	*3db70d5536,
+	*7d8e2c3b6b_MAX,
+};
+
+// Enum Engine.*3e769a71ff
+enum class *3e769a71ff : uint8 {
+	*17d62c9a1b,
+	*ec52db12eb,
+	*db0d84f440,
+	*7fb70eddc7,
+	*9f21d28a4c,
+	*01052251bc,
+	*e29d759cc0,
+	*2540b31272,
+	*3e769a71ff_MAX,
+};
+
+// Enum Engine.EParticleSystemInsignificanceReaction
+enum class EParticleSystemInsignificanceReaction : uint8 {
+	Auto,
+	Complete,
+	DisableTick,
+	DisableTickAndKill,
+	Num,
+	EParticleSystemInsignificanceReaction_MAX,
+};
+
+// Enum Engine.EParticleSignificanceLevel
+enum class EParticleSignificanceLevel : uint8 {
+	Low,
+	Medium,
+	High,
+	Critical,
+	Num,
+	EParticleSignificanceLevel_MAX,
+};
+
+// Enum Engine.*eb772079e1
+enum class *eb772079e1 : uint8 {
+	*144c9eaa2c,
+	*733745ba67,
+	*e88aeeddcb,
+	*eb772079e1_MAX,
+};
+
+// Enum Engine.*1b600835a3
+enum class *1b600835a3 : uint8 {
+	*4e0beecde0,
+	*f2ad9f4357,
+	*9b5cf84ca4,
+	*a76c8df702,
+	*be9360791d,
+	*de8f52b2cd,
+	*ec5d5e6d50,
+	*7596147c90,
+	*b198ed1e59,
+	*481c41d57f,
+	*1b600835a3_MAX,
+};
+
+// Enum Engine.*b03a41ca16
+enum class *b03a41ca16 : uint8 {
+	*0bf507215a,
+	*f43b43649b,
+	*1542ca4e6e,
+	*b03a41ca16_MAX,
+};
+
+// Enum Engine.*cf7840b2a1
+enum class *cf7840b2a1 : uint8 {
+	*432a62bb9b,
+	*753ee1e800,
+	*c4365713bc,
+	*93a7095fe4,
+	*4910798e09,
+	*cf7840b2a1_MAX,
+};
+
+// Enum Engine.*522518234f
+enum class *522518234f : uint8 {
+	*e112920ec7,
+	*0a16549bf8,
+	*cc6e8dd900,
+	*3a9bc07009,
+	*2820071f8c,
+	*0a9591053c,
+	*522518234f_MAX,
+};
+
+// Enum Engine.*3993b6d145
+enum class *3993b6d145 : uint8 {
+	*256f363432,
+	*0ad870d12e,
+	*e9efff1de3,
+	*3993b6d145_MAX,
+};
+
+// Enum Engine.*95fb392733
+enum class *95fb392733 : uint8 {
+	*3ec6458607,
+	*da88bbc6a8,
+	*346dafaa18,
+	*885b098dce,
+	*95fb392733_MAX,
+};
+
+// Enum Engine.*0aea19a5c2
+enum class *0aea19a5c2 : uint8 {
+	*1b2ed4364e,
+	*a1fa067c88,
+	*6b440696dc,
+	*e4aeca9b48,
+	*7c85a7f74f,
+	*84cdce5e03,
+	*3cb9ebe6a3,
+	*0aea19a5c2_MAX,
+};
+
+// Enum Engine.EParticleCollisionResponse
+enum class EParticleCollisionResponse : uint8 {
+	Bounce,
+	Stop,
+	Kill,
+	EParticleCollisionResponse_MAX,
+};
+
+// Enum Engine.*866f576d23
+enum class *866f576d23 : uint8 {
+	*d3478e78c4,
+	*eb18569544,
+	*930d74b0ce,
+	*866f576d23_MAX,
+};
+
+// Enum Engine.*f16a7c5a2e
+enum class *f16a7c5a2e : uint8 {
+	*3905bd1a0e,
+	*1291223222,
+	*9b544e6feb,
+	*f16a7c5a2e_MAX,
+};
+
+// Enum Engine.*a4e31c534c
+enum class *a4e31c534c : uint8 {
+	*31d7f0ff40,
+	*e5e05e4f74,
+	*468fb292ff,
+	*a4e31c534c_MAX,
+};
+
+// Enum Engine.*64254ef5b7
+enum class *64254ef5b7 : uint8 {
+	*c8c57b5a19,
+	*b9e4c7927d,
+	*83afe1cb0b,
+	*4e9ae6a004,
+	*64254ef5b7_MAX,
+};
+
+// Enum Engine.*3f8ea1db26
+enum class *3f8ea1db26 : uint8 {
+	*1dc8d92f70,
+	*e0b0223649,
+	*80366b7c9e,
+	*3f8ea1db26_MAX,
+};
+
+// Enum Engine.*5dd05bde88
+enum class *5dd05bde88 : uint8 {
+	*00f80b419e,
+	*10919b514a,
+	*7685ef4868,
+	*73a3304a12,
+	*5dd05bde88_MAX,
+};
+
+// Enum Engine.*3f95a333e8
+enum class *3f95a333e8 : uint8 {
+	*6efdb184e8,
+	*a08a8c4b03,
+	*ec3ff99c1a,
+	*c0a269e28c,
+	*e69831edc8,
+	*da9f5c387e,
+	*73f897f04c,
+	*a1a259efb8,
+	*323d309dee,
+	*449f4a373c,
+	*dbc3f2950b,
+	*3f95a333e8_MAX,
+};
+
+// Enum Engine.*f425f3d965
+enum class *f425f3d965 : uint8 {
+	*cc0c943e26,
+	*a5c60f7ea0,
+	*7608114e18,
+	*eeb506708d,
+	*3f985a6770,
+	*0f4c98d665,
+	*7c976fca10,
+	*f425f3d965_MAX,
+};
+
+// Enum Engine.*319e761216
+enum class *319e761216 : uint8 {
+	*5eaffe4b0b,
+	*e52a0e0250,
+	*63208b1626,
+	*041d60bb40,
+	*2fd4bb9170,
+	*584ac6acc8,
+	*319e761216_MAX,
+};
+
+// Enum Engine.*cf1018a8a2
+enum class *cf1018a8a2 : uint8 {
+	*0ab48466eb,
+	*a858983e1c,
+	*52c7386e1f,
+	*cf1018a8a2_MAX,
+};
+
+// Enum Engine.*b9013e80e9
+enum class *b9013e80e9 : uint8 {
+	*1aa922d17a,
+	*e1b2d3f377,
+	*9f049881f1,
+	*8eb7eb8ccf,
+	*b9013e80e9_MAX,
+};
+
+// Enum Engine.*0eaf69bf66
+enum class *0eaf69bf66 : uint8 {
+	*84cd243643,
+	*1c8e15bbce,
+	*4569f306a6,
+	*bbda6ba5c3,
+	*022ab4d47c,
+	*8f236c97bf,
+	*0eaf69bf66_MAX,
+};
+
+// Enum Engine.EParticleUVFlipMode
+enum class EParticleUVFlipMode : uint8 {
+	None,
+	FlipUV,
+	FlipUOnly,
+	FlipVOnly,
+	RandomFlipUV,
+	RandomFlipUOnly,
+	RandomFlipVOnly,
+	RandomFlipUVIndependent,
+	EParticleUVFlipMode_MAX,
+};
+
+// Enum Engine.*742a09a89c
+enum class *742a09a89c : uint8 {
+	*1944411e0c,
+	*bdda9d1676,
+	*9fa6173769,
+	*0f823c6d84,
+	*742a09a89c_MAX,
+};
+
+// Enum Engine.*faaf57805f
+enum class *faaf57805f : uint8 {
+	*26678da62f,
+	*91097b3efa,
+	*a2ba0031f4,
+	*2f3b069c72,
+	*faaf57805f_MAX,
+};
+
+// Enum Engine.*4ca547df87
+enum class *4ca547df87 : uint8 {
+	*4ba66a8cfa,
+	*9b96ce384e,
+	*250cd2575a,
+	*2b6578b8ae,
+	*4ca547df87_MAX,
+};
+
+// Enum Engine.*ac57f9f0c5
+enum class *ac57f9f0c5 : uint8 {
+	*5a4a20ad59,
+	*90a0248bde,
+	*9846ba5527,
+	*c0a6246e0f,
+	*b3543901bc,
+	*0f9ab406e7,
+	*ee67b78f5a,
+	*68424d79f0,
+	*3a2ef4e3d5,
+	*a20cab732a,
+	*8790b72577,
+	*1d03d318b3,
+	*00c60da108,
+	*660f825817,
+	*ac57f9f0c5_MAX,
+};
+
+// Enum Engine.*845843f638
+enum class *845843f638 : uint8 {
+	*4ebb3d7383,
+	*c5a54982ac,
+	*38d2ffb455,
+	*c4f9aee7df,
+	*f79201cc58,
+	*9355500770,
+	*845843f638_MAX,
+};
+
+// Enum Engine.*6dfead649b
+enum class *6dfead649b : uint8 {
+	*f08db4f7a7,
+	*c6c85ca735,
+	*ea0e6c7c6b,
+	*5208db5573,
+	*6dfead649b_MAX,
+};
+
+// Enum Engine.*dd3c7d43ec
+enum class *dd3c7d43ec : uint8 {
+	*4c18871210,
+	*7c54951883,
+	*5a4910a7da,
+	*717d91d735,
+	*dd3c7d43ec_MAX,
+};
+
+// Enum Engine.*ab4fb8b75d
+enum class *ab4fb8b75d : uint8 {
+	*521f152d82,
+	*512ff226d6,
+	*9707f7636a,
+	*583af4f853,
+	*8f8b1dbc99,
+	*47fdc18239,
+	*10f0a97cfe,
+	*6ec0c5b7e5,
+	*ab4fb8b75d_MAX,
+};
+
+// Enum Engine.*d7a225615f
+enum class *d7a225615f : uint8 {
+	*968fa90081,
+	*9e1ed8b446,
+	*76ad23f1d2,
+	*d7a225615f_MAX,
+};
+
+// Enum Engine.*71fbac6e22
+enum class *71fbac6e22 : uint8 {
+	*cf1885c477,
+	*dd885a833e,
+	*7b376e12bd,
+	*d87ab9d47b,
+	*3ece9603e2,
+	*71fbac6e22_MAX,
+};
+
+// Enum Engine.*18e9c49f03
+enum class *18e9c49f03 : uint8 {
+	*12e4094369,
+	*2062d3570f,
+	*d1bea62f93,
+	*18e9c49f03_MAX,
+};
+
+// Enum Engine.*7d47650d67
+enum class *7d47650d67 : uint8 {
+	*a20cfb8bb5,
+	*1e4b724be9,
+	*ef32c5d3fe,
+	*dba670ed06,
+	*7d47650d67_MAX,
+};
+
+// Enum Engine.*1adf87ed91
+enum class *1adf87ed91 : uint8 {
+	*2804dc0538,
+	*97a82ec0ab,
+	*ad675296e1,
+	*fcdf695bac,
+	*1adf87ed91_MAX,
+};
+
+// Enum Engine.EReporterLineStyle
+enum class EReporterLineStyle : uint8 {
+	Line,
+	Dash,
+	EReporterLineStyle_MAX,
+};
+
+// Enum Engine.ELegendPosition
+enum class ELegendPosition : uint8 {
+	Outside,
+	Inside,
+	ELegendPosition_MAX,
+};
+
+// Enum Engine.EGraphDataStyle
+enum class EGraphDataStyle : uint8 {
+	Lines,
+	Filled,
+	EGraphDataStyle_MAX,
+};
+
+// Enum Engine.EGraphAxisStyle
+enum class EGraphAxisStyle : uint8 {
+	Lines,
+	Notches,
+	Grid,
+	EGraphAxisStyle_MAX,
+};
+
+// Enum Engine.EConstraintTransform
+enum class EConstraintTransform : uint8 {
+	Absolute,
+	Relative,
+	EConstraintTransform_MAX,
+};
+
+// Enum Engine.EControlConstraint
+enum class EControlConstraint : uint8 {
+	Orientation,
+	Translation,
+	Max,
+	EControlConstraint_MAX,
+};
+
+// Enum Engine.*56c0b0b6fe
+enum class *56c0b0b6fe : uint8 {
+	*54c9d22616,
+	*c3be18b95f,
+	*2d87dd3d5a,
+	*eeab952eff,
+	*56c0b0b6fe_MAX,
+};
+
+// Enum Engine.EMaxConcurrentResolutionRule
+enum class EMaxConcurrentResolutionRule : uint8 {
+	PreventNew,
+	StopOldest,
+	StopFarthestThenPreventNew,
+	StopFarthestThenOldest,
+	StopLowestPriority,
+	StopQuietest,
+	StopLowestPriorityThenPreventNew,
+	EMaxConcurrentResolutionRule_MAX,
+};
+
+// Enum Engine.ESoundGroup
+enum class ESoundGroup : uint8 {
+	SOUNDGROUP_Default,
+	SOUNDGROUP_Effects,
+	SOUNDGROUP_UI,
+	SOUNDGROUP_Music,
+	SOUNDGROUP_Voice,
+	SOUNDGROUP_GameSoundGroup1,
+	SOUNDGROUP_GameSoundGroup2,
+	SOUNDGROUP_GameSoundGroup3,
+	SOUNDGROUP_GameSoundGroup4,
+	SOUNDGROUP_GameSoundGroup5,
+	SOUNDGROUP_GameSoundGroup6,
+	SOUNDGROUP_GameSoundGroup7,
+	SOUNDGROUP_GameSoundGroup8,
+	SOUNDGROUP_GameSoundGroup9,
+	SOUNDGROUP_GameSoundGroup10,
+	SOUNDGROUP_GameSoundGroup11,
+	SOUNDGROUP_GameSoundGroup12,
+	SOUNDGROUP_GameSoundGroup13,
+	SOUNDGROUP_GameSoundGroup14,
+	SOUNDGROUP_GameSoundGroup15,
+	SOUNDGROUP_GameSoundGroup16,
+	SOUNDGROUP_GameSoundGroup17,
+	SOUNDGROUP_GameSoundGroup18,
+	SOUNDGROUP_GameSoundGroup19,
+	SOUNDGROUP_GameSoundGroup20,
+	SOUNDGROUP_MAX,
+};
+
+// Enum Engine.*feb94a3676
+enum class *feb94a3676 : uint8 {
+	*5ef5b3cb4e,
+	*0f410a2c0a,
+	*f98046dfc1,
+	*3823f52953,
+	*6d6ed2224c,
+	*f7853f5c49,
+	*e9b27a7990,
+	*5ec4d88407,
+	*16be5f7383,
+	*feb94a3676_MAX,
+};
+
+// Enum Engine.EAudioOutputTarget
+enum class EAudioOutputTarget : uint8 {
+	Speaker,
+	Controller,
+	ControllerFallbackToSpeaker,
+	EAudioOutputTarget_MAX,
+};
+
+// Enum Engine.*7d34940ef1
+enum class *7d34940ef1 : uint8 {
+	*52886b026a,
+	*86441ee3b6,
+	*18b09a138f,
+	*c2afae63c0,
+	*7d34940ef1_MAX,
+};
+
+// Enum Engine.*b2688e7dd5
+enum class *b2688e7dd5 : uint8 {
+	*3c0c6790a7,
+	*964bb518b8,
+	*3f5ee902e5,
+	*3b0d7bf551,
+	*e1baed673f,
+	*b2688e7dd5_MAX,
+};
+
+// Enum Engine.*0d201c810b
+enum class *0d201c810b : uint8 {
+	*7e5354f598,
+	*81af162e21,
+	*ab0c588e08,
+	*0d201c810b_MAX,
+};
+
+// Enum Engine.EVolumetricDataFormat
+enum class EVolumetricDataFormat : uint8 {
+	R8,
+	RG8,
+	RGBA8,
+	R16,
+	RG16,
+	R16_Float,
+	RG16_Float,
+	RGBA16_Float,
+	R32_Float,
+	RG32_Float,
+	RGBA32_Float,
+	EVolumetricDataFormat_MAX,
+};
+
+// Enum Engine.EPostCopyOperation
+enum class EPostCopyOperation : uint8 {
+	None,
+	LogicalNegateBool,
+	Dereference,
+	EPostCopyOperation_MAX,
+};
+
+// Enum Engine.EPinHidingMode
+enum class EPinHidingMode : uint8 {
+	NeverAsPin,
+	PinHiddenByDefault,
+	PinShownByDefault,
+	AlwaysAsPin,
+	EPinHidingMode_MAX,
+};
+
+// Enum Engine.EAnimAlphaInputType
+enum class EAnimAlphaInputType : uint8 {
+	Float,
+	Bool,
+	Curve,
+	EAnimAlphaInputType_MAX,
+};
+
+// Enum Engine.*9bec988457
+enum class *9bec988457 : uint8 {
+	*81c1bf0878,
+	*2bcb8a8c3f,
+	*15b25025fd,
+	*80093f0433,
+	*9bec988457_MAX,
+};
+
+// Enum Engine.*f21e534b2e
+enum class *f21e534b2e : uint8 {
+	*2f81c501f7,
+	*ed01aaba40,
+	*4f1ddc0c11,
+	*f21e534b2e_MAX,
+};
+
+// Enum Engine.*b76b41da1d
+enum class *b76b41da1d : uint8 {
+	*240a93b9c8,
+	*9eaafedb72,
+	*09f3a677ac,
+	*b76b41da1d_MAX,
+};
+
+// Enum Engine.EVertexPaintAxis
+enum class EVertexPaintAxis : uint8 {
+	X,
+	Y,
+	Z,
+	EVertexPaintAxis_MAX,
+};
+
+// Enum Engine.EDrawDebugItemType
+enum class EDrawDebugItemType : uint8 {
+	DirectionalArrow,
+	Sphere,
+	Line,
+	OnScreenMessage,
+	CoordinateSystem,
+	EDrawDebugItemType_MAX,
+};
+
+// Enum Engine.AnimPhysCollisionType
+enum class AnimPhysCollisionType : uint8 {
+	CoM,
+	CustomSphere,
+	InnerSphere,
+	OuterSphere,
+	AnimPhysCollisionType_MAX,
+};
+
+// Enum Engine.AnimPhysTwistAxis
+enum class AnimPhysTwistAxis : uint8 {
+	AxisX,
+	AxisY,
+	AxisZ,
+	AnimPhysTwistAxis_MAX,
+};
+
+// Enum Engine.EWindowTitleBarMode
+enum class EWindowTitleBarMode : uint8 {
+	Overlay,
+	VerticalBox,
+	EWindowTitleBarMode_MAX,
+};
+
 // ScriptStruct Engine.DistributionLookupTable
 // Size: 0x28 (Inherited: 0x00)
 struct FDistributionLookupTable {

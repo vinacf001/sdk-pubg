@@ -1,3 +1,115 @@
+// Enum Niagara.ENiagaraNumericOutputTypeSelectionMode
+enum class ENiagaraNumericOutputTypeSelectionMode : uint8 {
+	None,
+	Largest,
+	Smallest,
+	Scalar,
+	ENiagaraNumericOutputTypeSelectionMode_MAX,
+};
+
+// Enum Niagara.*5ee90183e9
+enum class *5ee90183e9 : uint8 {
+	*d857254250,
+	*973bdecd6e,
+	*977bf5f46e,
+	*7f697d1766,
+	*125270645c,
+	*ea42840a78,
+	*ad90f11dd5,
+	*5ee90183e9_MAX,
+};
+
+// Enum Niagara.ENiagaraInputNodeUsage
+enum class ENiagaraInputNodeUsage : uint8 {
+	Undefined,
+	Parameter,
+	Attribute,
+	SystemConstant,
+	ENiagaraInputNodeUsage_MAX,
+};
+
+// Enum Niagara.ENiagaraDataSetType
+enum class ENiagaraDataSetType : uint8 {
+	ParticleData,
+	Shared,
+	Event,
+	ENiagaraDataSetType_MAX,
+};
+
+// Enum Niagara.*a7877e9466
+enum class *a7877e9466 : uint8 {
+	*640a13b0ee,
+	*483bb8fb0a,
+	*eae47bd1a1,
+	*cf8de96f0f,
+	*a7877e9466_MAX,
+};
+
+// Enum Niagara.*5a504164b8
+enum class *5a504164b8 : uint8 {
+	*9c9d4b6bda,
+	*9222863699,
+	*4d46429eab,
+	*4c42242dd6,
+	*5a504164b8_MAX,
+};
+
+// Enum Niagara.*a16f5a29c1
+enum class *a16f5a29c1 : uint8 {
+	*a1da14e3d9,
+	*30e437dbf6,
+	*cecc9dda17,
+	*514494e829,
+	*a16f5a29c1_MAX,
+};
+
+// Enum Niagara.ENiagaraScriptUsage
+enum class ENiagaraScriptUsage : uint8 {
+	Function,
+	Module,
+	SpawnScript,
+	SpawnScriptInterpolated,
+	UpdateScript,
+	EffectScript,
+	ENiagaraScriptUsage_MAX,
+};
+
+// Enum Niagara.EUnusedAttributeBehaviour
+enum class EUnusedAttributeBehaviour : uint8 {
+	Copy,
+	Zero,
+	None,
+	MarkInvalid,
+	PassThrough,
+	EUnusedAttributeBehaviour_MAX,
+};
+
+// Enum Niagara.ENiagaraCollisionMode
+enum class ENiagaraCollisionMode : uint8 {
+	None,
+	SceneGeometry,
+	DepthBuffer,
+	DistanceField,
+	ENiagaraCollisionMode_MAX,
+};
+
+// Enum Niagara.EScriptCompileIndices
+enum class EScriptCompileIndices : uint8 {
+	SpawnScript,
+	UpdateScript,
+	EventScript,
+	EScriptCompileIndices_MAX,
+};
+
+// Enum Niagara.*b9494b70e6
+enum class *b9494b70e6 : uint8 {
+	*49b7231639,
+	*75ff54a676,
+	*071c5befb9,
+	*49e5517356,
+	*b9494b70e6_MAX,
+};
+
 // ScriptStruct Niagara.*831ef3e2b5
 // Size: 0x30 (Inherited: 0x00)
 struct F*831ef3e2b5 {

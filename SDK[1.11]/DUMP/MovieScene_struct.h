@@ -1,3 +1,51 @@
+// Enum MovieScene.ESpawnOwnership
+enum class ESpawnOwnership : uint8 {
+	InnerSequence,
+	MasterSequence,
+	External,
+	ESpawnOwnership_MAX,
+};
+
+// Enum MovieScene.EMovieSceneObjectBindingSpace
+enum class EMovieSceneObjectBindingSpace : uint8 {
+	Local,
+	Root,
+	EMovieSceneObjectBindingSpace_MAX,
+};
+
+// Enum MovieScene.EMovieSceneKeyInterpolation
+enum class EMovieSceneKeyInterpolation : uint8 {
+	Auto,
+	User,
+	Break,
+	Linear,
+	Constant,
+	EMovieSceneKeyInterpolation_MAX,
+};
+
+// Enum MovieScene.*8ae17a7bb4
+enum class *8ae17a7bb4 : uint8 {
+	*3c81c350c6,
+	*ccbd1444e4,
+	*c54e4b347b,
+	*8ae17a7bb4_MAX,
+};
+
+// Enum MovieScene.ESectionEvaluationFlags
+enum class ESectionEvaluationFlags : uint8 {
+	None,
+	PreRoll,
+	PostRoll,
+	ESectionEvaluationFlags_MAX,
+};
+
+// Enum MovieScene.EEvaluationMethod
+enum class EEvaluationMethod : uint8 {
+	Static,
+	Swept,
+	EEvaluationMethod_MAX,
+};
+
 // ScriptStruct MovieScene.MovieSceneSpawnable
 // Size: 0x40 (Inherited: 0x00)
 struct FMovieSceneSpawnable {

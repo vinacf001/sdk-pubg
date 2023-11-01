@@ -1,3 +1,18 @@
+// Enum EngineSettings.*5cfaeea139
+enum class *5cfaeea139 : uint8 {
+	*0348eb3bd3,
+	*79c371f946,
+	*0186a37376,
+	*5cfaeea139_MAX,
+};
+
+// Enum EngineSettings.ETwoPlayerSplitScreenType
+enum class ETwoPlayerSplitScreenType : uint8 {
+	Horizontal,
+	Vertical,
+	ETwoPlayerSplitScreenType_MAX,
+};
+
 // ScriptStruct EngineSettings.*d52791d8ba
 // Size: 0x28 (Inherited: 0x00)
 struct F*d52791d8ba {

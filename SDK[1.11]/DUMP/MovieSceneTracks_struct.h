@@ -1,3 +1,47 @@
+// Enum MovieSceneTracks.MovieScene3DPathSection_Axis
+enum class MovieScene3DPathSection_Axis : uint8 {
+	X,
+	Y,
+	Z,
+	NEG_X,
+	NEG_Y,
+	NEG_Z,
+	MovieScene3DPathSection_MAX,
+};
+
+// Enum MovieSceneTracks.*621d29c366
+enum class *621d29c366 : uint8 {
+	*e8825d1ba9,
+	*20f8aceb53,
+	*286c537a1c,
+	*3e181930ce,
+	*621d29c366_MAX,
+};
+
+// Enum MovieSceneTracks.*da81803555
+enum class *da81803555 : uint8 {
+	*cee19f2dd4,
+	*7c3a56cc26,
+	*7caadd0ce3,
+	*78f50a802f,
+	*da81803555_MAX,
+};
+
+// Enum MovieSceneTracks.ELevelVisibility
+enum class ELevelVisibility : uint8 {
+	Visible,
+	Hidden,
+	ELevelVisibility_MAX,
+};
+
+// Enum MovieSceneTracks.EParticleKey
+enum class EParticleKey : uint8 {
+	Activate,
+	Deactivate,
+	Trigger,
+	EParticleKey_MAX,
+};
+
 // ScriptStruct MovieSceneTracks.*d110d9446a
 // Size: 0x78 (Inherited: 0x08)
 struct F*d110d9446a : F*59993d0e65 {

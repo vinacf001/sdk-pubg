@@ -1,3 +1,259 @@
+// Enum SlateCore.ESlateBrushImageType
+enum class ESlateBrushImageType : uint8 {
+	NoImage,
+	FullColor,
+	Linear,
+	ESlateBrushImageType_MAX,
+};
+
+// Enum SlateCore.ESlateBrushMirrorType
+enum class ESlateBrushMirrorType : uint8 {
+	NoMirror,
+	Horizontal,
+	Vertical,
+	Both,
+	ESlateBrushMirrorType_MAX,
+};
+
+// Enum SlateCore.ESlateBrushTileType
+enum class ESlateBrushTileType : uint8 {
+	NoTile,
+	Horizontal,
+	Vertical,
+	Both,
+	ESlateBrushTileType_MAX,
+};
+
+// Enum SlateCore.ESlateColorStylingMode
+enum class ESlateColorStylingMode : uint8 {
+	UseColor_Specified,
+	UseColor_Specified_Link,
+	UseColor_Foreground,
+	UseColor_Foreground_Subdued,
+	UseColor_MAX,
+};
+
+// Enum SlateCore.ESlateBrushDrawType
+enum class ESlateBrushDrawType : uint8 {
+	NoDrawType,
+	Box,
+	Border,
+	Image,
+	ESlateBrushDrawType_MAX,
+};
+
+// Enum SlateCore.EUINavigationRule
+enum class EUINavigationRule : uint8 {
+	Escape,
+	Explicit,
+	Wrap,
+	Stop,
+	Custom,
+	Invalid,
+	EUINavigationRule_MAX,
+};
+
+// Enum SlateCore.ECheckBoxState
+enum class ECheckBoxState : uint8 {
+	Unchecked,
+	Checked,
+	Undetermined,
+	ECheckBoxState_MAX,
+};
+
+// Enum SlateCore.EUINavigation
+enum class EUINavigation : uint8 {
+	Left,
+	Right,
+	Up,
+	Down,
+	Next,
+	Previous,
+	Num,
+	Invalid,
+	EUINavigation_MAX,
+};
+
+// Enum SlateCore.ESelectInfo
+enum class ESelectInfo : uint8 {
+	OnKeyPress,
+	OnNavigation,
+	OnMouseClick,
+	Direct,
+	ESelectInfo_MAX,
+};
+
+// Enum SlateCore.EConsumeMouseWheel
+enum class EConsumeMouseWheel : uint8 {
+	WhenScrollingPossible,
+	Always,
+	Never,
+	EConsumeMouseWheel_MAX,
+};
+
+// Enum SlateCore.EFontHinting
+enum class EFontHinting : uint8 {
+	Default,
+	Auto,
+	AutoLight,
+	Monochrome,
+	None,
+	EFontHinting_MAX,
+};
+
+// Enum SlateCore.ETextCommit
+enum class ETextCommit : uint8 {
+	Default,
+	OnEnter,
+	OnUserMovedFocus,
+	OnCleared,
+	ETextCommit_MAX,
+};
+
+// Enum SlateCore.ETextShapingMethod
+enum class ETextShapingMethod : uint8 {
+	Auto,
+	KerningOnly,
+	FullShaping,
+	ETextShapingMethod_MAX,
+};
+
+// Enum SlateCore.EFontLayoutMethod
+enum class EFontLayoutMethod : uint8 {
+	Metrics,
+	BoundingBox,
+	EFontLayoutMethod_MAX,
+};
+
+// Enum SlateCore.EFontLoadingPolicy
+enum class EFontLoadingPolicy : uint8 {
+	LazyLoad,
+	Stream,
+	Inline,
+	EFontLoadingPolicy_MAX,
+};
+
+// Enum SlateCore.*9cd7c3eb50
+enum class *9cd7c3eb50 : uint8 {
+	*7bf82f2d8f,
+	*abc7e2329f,
+	*e3700fb3fa,
+	*c1d7e28ee6,
+	*9cd7c3eb50_MAX,
+};
+
+// Enum SlateCore.*380052437c
+enum class *380052437c : uint8 {
+	*b190296fe8,
+	*f96ed80525,
+	*4d74f4dd0a,
+	*380052437c_MAX,
+};
+
+// Enum SlateCore.EOrientation
+enum class EOrientation : uint8 {
+	Orient_Horizontal,
+	Orient_Vertical,
+	Orient_MAX,
+};
+
+// Enum SlateCore.*0bc71ad42c
+enum class *0bc71ad42c : uint8 {
+	*ed92d37069,
+	*1ed6a05ec6,
+	*4dfae374e5,
+	*c2e7233369,
+	*aee5bbbe27,
+	*c3ba48291d,
+	*166d7e7b06,
+	*3003cab62f,
+	*7dc5d14031,
+	*3bcb278a54,
+	*359e7e7cc3,
+	*0efbdb1913,
+	*6896ce77ab,
+	*0bc71ad42c_MAX,
+};
+
+// Enum SlateCore.EVerticalAlignment
+enum class EVerticalAlignment : uint8 {
+	VAlign_Fill,
+	VAlign_Top,
+	VAlign_Center,
+	VAlign_Bottom,
+	VAlign_MAX,
+};
+
+// Enum SlateCore.EHorizontalAlignment
+enum class EHorizontalAlignment : uint8 {
+	HAlign_Fill,
+	HAlign_Left,
+	HAlign_Center,
+	HAlign_Right,
+	HAlign_MAX,
+};
+
+// Enum SlateCore.ENavigationGenesis
+enum class ENavigationGenesis : uint8 {
+	Keyboard,
+	Controller,
+	User,
+	ENavigationGenesis_MAX,
+};
+
+// Enum SlateCore.*ea1de78d62
+enum class *ea1de78d62 : uint8 {
+	*1a41bcf06c,
+	*70d8089c85,
+	*d77c268982,
+	*ea1de78d62_MAX,
+};
+
+// Enum SlateCore.*41c6fa5845
+enum class *41c6fa5845 : uint8 {
+	*82735073dd,
+	*0bf5bad3e3,
+	*3b0452f07e,
+	*4b88c10822,
+	*41c6fa5845_MAX,
+};
+
+// Enum SlateCore.*3270985d6b
+enum class *3270985d6b : uint8 {
+	*82735073dd,
+	*340df5e602,
+	*2bdcdf3534,
+	*3270985d6b_MAX,
+};
+
+// Enum SlateCore.*b8a8b7551d
+enum class *b8a8b7551d : uint8 {
+	*82735073dd,
+	*163c55113f,
+	*a7ea9fee87,
+	*3160c089b8,
+	*557edbbcb0,
+	*b8a8b7551d_MAX,
+};
+
+// Enum SlateCore.ESlateCheckBoxType
+enum class ESlateCheckBoxType : uint8 {
+	CheckBox,
+	ToggleButton,
+	ESlateCheckBoxType_MAX,
+};
+
+// Enum SlateCore.EFocusCause
+enum class EFocusCause : uint8 {
+	Mouse,
+	Navigation,
+	SetDirectly,
+	Cleared,
+	OtherWidgetLostFocus,
+	WindowActivate,
+	EFocusCause_MAX,
+};
+
 // ScriptStruct SlateCore.SlateBrush
 // Size: 0x90 (Inherited: 0x00)
 struct FSlateBrush {
