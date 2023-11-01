@@ -44,11 +44,7 @@ uint32_t NameIsROR = 0x1;
  // Decrypt Class
 uint32_t Offset = 0x10;
 uint64_t NameClassXor1 = 0xd6e9368b9d0a4c3;
-<<<<<<< HEAD
 uint32_t NameClassOne = 0xc;
-=======
-uint32_t NameClassOne = 0xC;
->>>>>>> ee77262544a15e741e7ecebf2d1d37aa27bcb8e5
 uint32_t NameClassTwo = 0x20;
 uint64_t NameClassXor2 = 0xdd5f9d45d36902b4;
 uint32_t NameIsROR = 0x0;
