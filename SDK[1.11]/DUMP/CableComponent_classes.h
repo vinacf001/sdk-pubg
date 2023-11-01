@@ -1,0 +1,44 @@
+// Class CableComponent.CableActor
+// Size: 0x3f0 (Inherited: 0x3e8)
+struct ACableActor : AActor {
+	struct UCableComponent* CableComponent[0x08]; // 0x3e8(0x08)
+};
+
+// Class CableComponent.CableComponent
+// Size: 0xba0 (Inherited: 0xb00)
+struct UCableComponent : UMeshComponent {
+	bool bAttachStart; // 0xb00(0x01)
+	bool bAttachEnd; // 0xb01(0x01)
+	bool bUseLocalSpace; // 0xb02(0x01)
+	char pad_B03[0x5]; // 0xb03(0x05)
+	struct F*e6c2ea7bad *5322c3e86e[0x18]; // 0xb08(0x18)
+	struct FName *3167e96d80[0x08]; // 0xb20(0x08)
+	struct FName *30da14ab82[0x08]; // 0xb28(0x08)
+	struct FVector EndLocation[0x0c]; // 0xb30(0x0c)
+	float CableLength[0x04]; // 0xb3c(0x04)
+	int32 NumSegments[0x04]; // 0xb40(0x04)
+	float SubstepTime[0x04]; // 0xb44(0x04)
+	int32 SolverIterations[0x04]; // 0xb48(0x04)
+	bool bEnableStiffness; // 0xb4c(0x01)
+	bool bUseSubstepping; // 0xb4d(0x01)
+	bool bSkipCableUpdateWhenNotVisible; // 0xb4e(0x01)
+	bool bSkipCableUpdateWhenNotOwnerRecentlyRendered; // 0xb4f(0x01)
+	bool bEnableCollision; // 0xb50(0x01)
+	char pad_B51[0x3]; // 0xb51(0x03)
+	float CollisionFriction[0x04]; // 0xb54(0x04)
+	float LinearDrag[0x04]; // 0xb58(0x04)
+	struct FVector CableForce[0x0c]; // 0xb5c(0x0c)
+	struct TArray<struct F*74dda64bfe> CustomSocketList[0x10]; // 0xb68(0x10)
+	float CableGravityScale[0x04]; // 0xb78(0x04)
+	float CableWidth[0x04]; // 0xb7c(0x04)
+	float ExtendBounds[0x04]; // 0xb80(0x04)
+	int32 NumSides[0x04]; // 0xb84(0x04)
+	float TileMaterial[0x04]; // 0xb88(0x04)
+	char pad_B8C[0x14]; // 0xb8c(0x14)
+
+	void *b9efb1a0e4(); // Function CableComponent.CableComponent.*b9efb1a0e4 // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x68f7170
+	void *2a029da51f(struct AActor** Actor); // Function CableComponent.CableComponent.*2a029da51f // Final|Native|Public|BlueprintCallable // @ game+0x68f7288
+	void *8b674a10cf(); // Function CableComponent.CableComponent.*8b674a10cf // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x68f7188
+	void *931cab8e25(); // Function CableComponent.CableComponent.*931cab8e25 // Final|Native|Public|HasOutParms|BlueprintCallable|BlueprintPure|Const // @ game+0x68f71c0
+};
+
