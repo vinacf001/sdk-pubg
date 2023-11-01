@@ -38,7 +38,7 @@ uint64_t NameIndexNumberXor1 = 0x649bb46f;
 uint32_t NameIndexNumberOne = 0x4;
 uint32_t NameIndexNumberTwo = 0x10;
 uint64_t NameIndexNumberXor2 = 0x653909cb;
-uint32_t NameIsROR = 0x1;
+uint32_t NameIsROR = 0x0;
 
  // Decrypt Class
 uint32_t Offset = 0x18;
