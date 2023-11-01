@@ -2,15 +2,15 @@
 // Size: 0x3d0 (Inherited: 0x128)
 struct U*9f227672ef : UWidget {
 	char pad_128[0x18]; // 0x128(0x18)
-	struct AActor* Owner[0x08]; // 0x140(0x08)
-	struct FMulticastDelegate ReadyForBindings[0x10]; // 0x148(0x10)
-	struct FMulticastDelegate BindingsReleased[0x10]; // 0x158(0x10)
-	struct FMulticastDelegate FinishLoad[0x10]; // 0x168(0x10)
-	struct FMulticastDelegate FailLoad[0x10]; // 0x178(0x10)
-	struct FMulticastDelegate StartLoading[0x10]; // 0x188(0x10)
-	struct FMulticastDelegate NavigateTo[0x10]; // 0x198(0x10)
-	struct FMulticastDelegate JavaScriptEvent[0x10]; // 0x1a8(0x10)
-	struct FMulticastDelegate UIGTScriptingReady[0x10]; // 0x1b8(0x10)
+	struct AActor* Owner; // 0x140(0x08)
+	struct FMulticastDelegate ReadyForBindings; // 0x148(0x10)
+	struct FMulticastDelegate BindingsReleased; // 0x158(0x10)
+	struct FMulticastDelegate FinishLoad; // 0x168(0x10)
+	struct FMulticastDelegate FailLoad; // 0x178(0x10)
+	struct FMulticastDelegate StartLoading; // 0x188(0x10)
+	struct FMulticastDelegate NavigateTo; // 0x198(0x10)
+	struct FMulticastDelegate JavaScriptEvent; // 0x1a8(0x10)
+	struct FMulticastDelegate UIGTScriptingReady; // 0x1b8(0x10)
 	char pad_1C8[0x78]; // 0x1c8(0x78)
 	enum class TextureFilter Filter; // 0x240(0x01)
 	bool bReceiveInput; // 0x241(0x01)
@@ -18,22 +18,22 @@ struct U*9f227672ef : UWidget {
 	bool bReceiveInputWhenTransparent; // 0x243(0x01)
 	bool bGammaCorrectedMaterial; // 0x244(0x01)
 	char pad_245[0x3]; // 0x245(0x03)
-	float TickPeriodInMinimizedGame[0x04]; // 0x248(0x04)
+	float TickPeriodInMinimizedGame; // 0x248(0x04)
 	bool AllowPerformanceWarnings; // 0x24c(0x01)
 	char pad_24D[0x3]; // 0x24d(0x03)
-	float ExecuteJSTimersThresholdMs[0x04]; // 0x250(0x04)
-	float UpdateStylesAndLayoutThresholdMs[0x04]; // 0x254(0x04)
-	float RecordRenderingCommandsThresholdMs[0x04]; // 0x258(0x04)
-	float PaintWarningThresholdMs[0x04]; // 0x25c(0x04)
-	int32 LayersCountThreshold[0x04]; // 0x260(0x04)
-	int32 LayerWidthThreshold[0x04]; // 0x264(0x04)
-	int32 LayerHeightThreshold[0x04]; // 0x268(0x04)
+	float ExecuteJSTimersThresholdMs; // 0x250(0x04)
+	float UpdateStylesAndLayoutThresholdMs; // 0x254(0x04)
+	float RecordRenderingCommandsThresholdMs; // 0x258(0x04)
+	float PaintWarningThresholdMs; // 0x25c(0x04)
+	int32 LayersCountThreshold; // 0x260(0x04)
+	int32 LayerWidthThreshold; // 0x264(0x04)
+	int32 LayerHeightThreshold; // 0x268(0x04)
 	bool bEnableAdditionalDefaultStyles; // 0x26c(0x01)
 	char pad_26D[0xc3]; // 0x26d(0xc3)
-	struct U*176a3b13f2* *6f65c42198[0x08]; // 0x330(0x08)
+	struct U*176a3b13f2* *6f65c42198; // 0x330(0x08)
 	char pad_338[0x80]; // 0x338(0x80)
-	struct FString URL[0x10]; // 0x3b8(0x10)
-	float ClickThroughAlphaThreshold[0x04]; // 0x3c8(0x04)
+	struct FString URL; // 0x3b8(0x10)
+	float ClickThroughAlphaThreshold; // 0x3c8(0x04)
 	bool Transparent; // 0x3cc(0x01)
 	char pad_3CD[0x3]; // 0x3cd(0x03)
 
@@ -71,8 +71,8 @@ struct U*4220734824 : UObject {
 // Class CoherentUIGTPlugin.*176a3b13f2
 // Size: 0x1b8 (Inherited: 0x28)
 struct U*176a3b13f2 : UObject {
-	struct UObject* Owner[0x08]; // 0x28(0x08)
-	struct TMap<int32, struct F*6c47452db8> Sounds[0x50]; // 0x30(0x50)
+	struct UObject* Owner; // 0x28(0x08)
+	struct TMap<int32, struct F*6c47452db8> Sounds; // 0x30(0x50)
 	char pad_80[0x138]; // 0x80(0x138)
 };
 
@@ -86,7 +86,7 @@ struct ACoherentUIGTSystem : AActor {
 // Size: 0xb8 (Inherited: 0x28)
 struct U*264dc76dcf : UObject {
 	char pad_28[0x80]; // 0x28(0x80)
-	struct TArray<struct UStruct*> *bb8498c070[0x10]; // 0xa8(0x10)
+	struct TArray<struct UStruct*> *bb8498c070; // 0xa8(0x10)
 
 	void *0e8a6830ec(); // Function CoherentUIGTPlugin.*264dc76dcf.*0e8a6830ec // Final|Native|Public|BlueprintCallable // @ game+0x68fb174
 	void *2d2795e19c(); // Function CoherentUIGTPlugin.*264dc76dcf.*2d2795e19c // Final|Native|Public|BlueprintCallable // @ game+0x68fb37c
@@ -103,14 +103,14 @@ struct U*264dc76dcf : UObject {
 // Class CoherentUIGTPlugin.*c34ce542ca
 // Size: 0x40 (Inherited: 0x28)
 struct U*c34ce542ca : UObject {
-	struct FString EventName[0x10]; // 0x28(0x10)
+	struct FString EventName; // 0x28(0x10)
 	char pad_38[0x8]; // 0x38(0x08)
 
-	void *b1bd9bb87b(int32* Index); // Function CoherentUIGTPlugin.*c34ce542ca.*b1bd9bb87b // Final|RequiredAPI|Native|Public|BlueprintCallable // @ game+0x68fc27c
+	void *b1bd9bb87b(int32 Index); // Function CoherentUIGTPlugin.*c34ce542ca.*b1bd9bb87b // Final|RequiredAPI|Native|Public|BlueprintCallable // @ game+0x68fc27c
 	void GetString(); // Function CoherentUIGTPlugin.*c34ce542ca.GetString // Final|RequiredAPI|Native|Public|BlueprintCallable // @ game+0x68fc51c
 	int32 *aef636ceca(); // Function CoherentUIGTPlugin.*c34ce542ca.*aef636ceca // Final|Native|Public|BlueprintCallable // @ game+0x68fccc8
 	int32 *87922de353(); // Function CoherentUIGTPlugin.*c34ce542ca.*87922de353 // Final|RequiredAPI|Native|Public|BlueprintCallable // @ game+0x68fc454
-	void *745677527b(int32* Index); // Function CoherentUIGTPlugin.*c34ce542ca.*745677527b // Final|RequiredAPI|Native|Public|BlueprintCallable // @ game+0x68fc3b4
+	void *745677527b(int32 Index); // Function CoherentUIGTPlugin.*c34ce542ca.*745677527b // Final|RequiredAPI|Native|Public|BlueprintCallable // @ game+0x68fc3b4
 };
 
 // Class CoherentUIGTPlugin.*585f91e20a
@@ -121,35 +121,35 @@ struct U*585f91e20a : UObject {
 // Class CoherentUIGTPlugin.*4326b9727b
 // Size: 0x460 (Inherited: 0x1f0)
 struct U*4326b9727b : UActorComponent {
-	struct FMulticastDelegate ReadyForBindings[0x10]; // 0x1f0(0x10)
-	struct FMulticastDelegate BindingsReleased[0x10]; // 0x200(0x10)
-	struct FMulticastDelegate FinishLoad[0x10]; // 0x210(0x10)
-	struct FMulticastDelegate FailLoad[0x10]; // 0x220(0x10)
-	struct FMulticastDelegate StartLoading[0x10]; // 0x230(0x10)
-	struct FMulticastDelegate NavigateTo[0x10]; // 0x240(0x10)
-	struct FMulticastDelegate JavaScriptEvent[0x10]; // 0x250(0x10)
-	struct FMulticastDelegate UIGTScriptingReady[0x10]; // 0x260(0x10)
-	DelegateProperty *f8ba301675[0x10]; // 0x270(0x10)
+	struct FMulticastDelegate ReadyForBindings; // 0x1f0(0x10)
+	struct FMulticastDelegate BindingsReleased; // 0x200(0x10)
+	struct FMulticastDelegate FinishLoad; // 0x210(0x10)
+	struct FMulticastDelegate FailLoad; // 0x220(0x10)
+	struct FMulticastDelegate StartLoading; // 0x230(0x10)
+	struct FMulticastDelegate NavigateTo; // 0x240(0x10)
+	struct FMulticastDelegate JavaScriptEvent; // 0x250(0x10)
+	struct FMulticastDelegate UIGTScriptingReady; // 0x260(0x10)
+	DelegateProperty *f8ba301675; // 0x270(0x10)
 	char pad_280[0x70]; // 0x280(0x70)
-	struct UTextureRenderTarget2D* Texture[0x08]; // 0x2f0(0x08)
+	struct UTextureRenderTarget2D* Texture; // 0x2f0(0x08)
 	enum class TextureFilter Filter; // 0x2f8(0x01)
 	bool bReceiveInput; // 0x2f9(0x01)
 	bool bReceiveInputWhenTransparent; // 0x2fa(0x01)
 	bool AllowPerformanceWarnings; // 0x2fb(0x01)
-	float ExecuteJSTimersThresholdMs[0x04]; // 0x2fc(0x04)
-	float UpdateStylesAndLayoutThresholdMs[0x04]; // 0x300(0x04)
-	float RecordRenderingCommandsThresholdMs[0x04]; // 0x304(0x04)
-	float PaintWarningThresholdMs[0x04]; // 0x308(0x04)
-	int32 LayersCountThreshold[0x04]; // 0x30c(0x04)
-	int32 LayerWidthThreshold[0x04]; // 0x310(0x04)
-	int32 LayerHeightThreshold[0x04]; // 0x314(0x04)
+	float ExecuteJSTimersThresholdMs; // 0x2fc(0x04)
+	float UpdateStylesAndLayoutThresholdMs; // 0x300(0x04)
+	float RecordRenderingCommandsThresholdMs; // 0x304(0x04)
+	float PaintWarningThresholdMs; // 0x308(0x04)
+	int32 LayersCountThreshold; // 0x30c(0x04)
+	int32 LayerWidthThreshold; // 0x310(0x04)
+	int32 LayerHeightThreshold; // 0x314(0x04)
 	bool bEnableAdditionalDefaultStyles; // 0x318(0x01)
 	bool bDelayedUpdate; // 0x319(0x01)
 	char pad_31A[0x106]; // 0x31a(0x106)
-	struct U*176a3b13f2* *6f65c42198[0x08]; // 0x420(0x08)
+	struct U*176a3b13f2* *6f65c42198; // 0x420(0x08)
 	char pad_428[0x38]; // 0x428(0x38)
 
-	void *e172f194e7(struct FString* Name); // Function CoherentUIGTPlugin.*4326b9727b.*e172f194e7 // Final|Native|Public|BlueprintCallable|Const // @ game+0x68fd868
+	void *e172f194e7(struct FString Name); // Function CoherentUIGTPlugin.*4326b9727b.*e172f194e7 // Final|Native|Public|BlueprintCallable|Const // @ game+0x68fd868
 	void Load(); // Function CoherentUIGTPlugin.*4326b9727b.Load // Final|Native|Public|BlueprintCallable // @ game+0x68fc9b4
 	void *35a999de31(); // Function CoherentUIGTPlugin.*4326b9727b.*35a999de31 // Final|Native|Public|BlueprintCallable|Const // @ game+0x68fcda4
 	void *24dc84325a(); // Function CoherentUIGTPlugin.*4326b9727b.*24dc84325a // Final|Native|Public|BlueprintCallable // @ game+0x68fd684
@@ -177,11 +177,11 @@ struct U*4326b9727b : UActorComponent {
 // Class CoherentUIGTPlugin.*239d634b0d
 // Size: 0x490 (Inherited: 0x460)
 struct U*239d634b0d : U*4326b9727b {
-	struct FString URL[0x10]; // 0x458(0x10)
-	int32 Width[0x04]; // 0x468(0x04)
-	int32 Height[0x04]; // 0x46c(0x04)
+	struct FString URL; // 0x458(0x10)
+	int32 Width; // 0x468(0x04)
+	int32 Height; // 0x46c(0x04)
 	bool ManualTexture; // 0x470(0x01)
-	float ClickThroughAlphaThreshold[0x04]; // 0x474(0x04)
+	float ClickThroughAlphaThreshold; // 0x474(0x04)
 	bool Transparent; // 0x478(0x01)
 	char pad_47E[0x12]; // 0x47e(0x12)
 };
@@ -189,9 +189,9 @@ struct U*239d634b0d : U*4326b9727b {
 // Class CoherentUIGTPlugin.CoherentUIGTHUD
 // Size: 0x480 (Inherited: 0x460)
 struct UCoherentUIGTHUD : U*4326b9727b {
-	struct FStringAssetReference *48c5d80417[0x10]; // 0x458(0x10)
-	struct UMaterial* *5b53c5310c[0x08]; // 0x468(0x08)
-	struct UMaterialInstanceDynamic* *173bf95bc7[0x08]; // 0x470(0x08)
+	struct FStringAssetReference *48c5d80417; // 0x458(0x10)
+	struct UMaterial* *5b53c5310c; // 0x468(0x08)
+	struct UMaterialInstanceDynamic* *173bf95bc7; // 0x470(0x08)
 };
 
 // Class CoherentUIGTPlugin.*8829c78329
@@ -202,20 +202,20 @@ struct U*8829c78329 : UBlueprintFunctionLibrary {
 	void *aad3120f57(); // Function CoherentUIGTPlugin.*8829c78329.*aad3120f57 // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fb40c
 	void *2d2795e19c(); // Function CoherentUIGTPlugin.*8829c78329.*2d2795e19c // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fb2a4
 	struct TArray<int32> *9d1f12c095(); // Function CoherentUIGTPlugin.*8829c78329.*9d1f12c095 // Final|Native|Static|Public|HasOutParms|BlueprintCallable // @ game+0x68fa7e8
-	void AddFloat(struct U*264dc76dcf** JSEvent); // Function CoherentUIGTPlugin.*8829c78329.AddFloat // Final|Native|Static|Public|BlueprintCallable // @ game+0x68faf2c
-	void *ef225e6d40(struct UObject** WorldContextObject); // Function CoherentUIGTPlugin.*8829c78329.*ef225e6d40 // Final|Native|Static|Public|HasOutParms|BlueprintCallable // @ game+0x68fd350
+	void AddFloat(struct U*264dc76dcf* JSEvent); // Function CoherentUIGTPlugin.*8829c78329.AddFloat // Final|Native|Static|Public|BlueprintCallable // @ game+0x68faf2c
+	void *ef225e6d40(struct UObject* WorldContextObject); // Function CoherentUIGTPlugin.*8829c78329.*ef225e6d40 // Final|Native|Static|Public|HasOutParms|BlueprintCallable // @ game+0x68fd350
 	struct U*264dc76dcf* *53c21c4348(); // Function CoherentUIGTPlugin.*8829c78329.*53c21c4348 // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fb5d8
 	struct U*264dc76dcf* *0e8a6830ec(); // Function CoherentUIGTPlugin.*8829c78329.*0e8a6830ec // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fb0a0
-	void *f564abeb7e(struct U*264dc76dcf** JSEvent); // Function CoherentUIGTPlugin.*8829c78329.*f564abeb7e // Final|Native|Static|Public|HasOutParms|BlueprintCallable // @ game+0x68faa64
+	void *f564abeb7e(struct U*264dc76dcf* JSEvent); // Function CoherentUIGTPlugin.*8829c78329.*f564abeb7e // Final|Native|Static|Public|HasOutParms|BlueprintCallable // @ game+0x68faa64
 	void *e3150bfc3c(); // Function CoherentUIGTPlugin.*8829c78329.*e3150bfc3c // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fac54
 	struct UObject* *dcd3283e65(); // Function CoherentUIGTPlugin.*8829c78329.*dcd3283e65 // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fc080
-	struct U*4326b9727b* *e172f194e7(struct FString* EventName); // Function CoherentUIGTPlugin.*8829c78329.*e172f194e7 // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fd984
+	struct U*4326b9727b* *e172f194e7(struct FString EventName); // Function CoherentUIGTPlugin.*8829c78329.*e172f194e7 // Final|Native|Static|Public|BlueprintCallable // @ game+0x68fd984
 };
 
 // Class CoherentUIGTPlugin.CoherentUIGTGameHUD
 // Size: 0x568 (Inherited: 0x4d0)
 struct ACoherentUIGTGameHUD : AHUD {
-	struct UCoherentUIGTHUD* CoherentUIGTHUD[0x08]; // 0x4d0(0x08)
+	struct UCoherentUIGTHUD* CoherentUIGTHUD; // 0x4d0(0x08)
 	char pad_4D8[0x90]; // 0x4d8(0x90)
 
 	void *c308216d93(); // Function CoherentUIGTPlugin.CoherentUIGTGameHUD.*c308216d93 // Final|RequiredAPI|Native|Public|BlueprintCallable // @ game+0x68fc65c
@@ -225,10 +225,10 @@ struct ACoherentUIGTGameHUD : AHUD {
 // Class CoherentUIGTPlugin.CoherentUIGTInputActor
 // Size: 0x440 (Inherited: 0x3e8)
 struct ACoherentUIGTInputActor : AActor {
-	struct FMulticastDelegate OnCoherentUIGTInputActorMouseButtonDown[0x10]; // 0x3e8(0x10)
-	struct FMulticastDelegate OnCoherentUIGTInputActorMouseButtonUp[0x10]; // 0x3f8(0x10)
-	struct FMulticastDelegate OnCoherentUIGTInputActorKeyDown[0x10]; // 0x408(0x10)
-	struct FMulticastDelegate OnCoherentUIGTInputActorKeyUp[0x10]; // 0x418(0x10)
+	struct FMulticastDelegate OnCoherentUIGTInputActorMouseButtonDown; // 0x3e8(0x10)
+	struct FMulticastDelegate OnCoherentUIGTInputActorMouseButtonUp; // 0x3f8(0x10)
+	struct FMulticastDelegate OnCoherentUIGTInputActorKeyDown; // 0x408(0x10)
+	struct FMulticastDelegate OnCoherentUIGTInputActorKeyUp; // 0x418(0x10)
 	char pad_428[0x18]; // 0x428(0x18)
 
 	void *93fb9d0b85(); // Function CoherentUIGTPlugin.CoherentUIGTInputActor.*93fb9d0b85 // Final|Native|Public|BlueprintCallable // @ game+0x68fd0fc
@@ -247,11 +247,11 @@ struct ACoherentUIGTInputActor : AActor {
 // Class CoherentUIGTPlugin.*43f25e873c
 // Size: 0x220 (Inherited: 0x1f0)
 struct U*43f25e873c : UActorComponent {
-	struct FString LinkName[0x10]; // 0x1f0(0x10)
-	struct UTextureRenderTarget2D* Texture[0x08]; // 0x200(0x08)
+	struct FString LinkName; // 0x1f0(0x10)
+	struct UTextureRenderTarget2D* Texture; // 0x200(0x08)
 	char pad_208[0x18]; // 0x208(0x18)
 
-	struct U*4326b9727b* *18e6de14d6(struct FString* Name); // Function CoherentUIGTPlugin.*43f25e873c.*18e6de14d6 // Final|Native|Public|HasOutParms|BlueprintCallable // @ game+0x68fcb34
+	struct U*4326b9727b* *18e6de14d6(struct FString Name); // Function CoherentUIGTPlugin.*43f25e873c.*18e6de14d6 // Final|Native|Public|HasOutParms|BlueprintCallable // @ game+0x68fcb34
 };
 
 // Class CoherentUIGTPlugin.CoherentUIGTSettings
@@ -259,8 +259,8 @@ struct U*43f25e873c : UActorComponent {
 struct UCoherentUIGTSettings : UObject {
 	bool EnableLiveReload; // 0x28(0x01)
 	char pad_29[0x3]; // 0x29(0x03)
-	int32 InspectorPort[0x04]; // 0x2c(0x04)
-	int32 WebdriverPort[0x04]; // 0x30(0x04)
+	int32 InspectorPort; // 0x2c(0x04)
+	int32 WebdriverPort; // 0x30(0x04)
 	bool EnableWebSecurity; // 0x34(0x01)
 	bool EnableLocalization; // 0x35(0x01)
 	bool RunAsynchronous; // 0x36(0x01)
@@ -271,8 +271,8 @@ struct UCoherentUIGTSettings : UObject {
 	bool bRespectTitleSafeZone; // 0x3b(0x01)
 	bool bRespectLetterboxing; // 0x3c(0x01)
 	char pad_3D[0x3]; // 0x3d(0x03)
-	struct FString HUDMaterialName[0x10]; // 0x40(0x10)
-	struct FString CoUIResourcesRoot[0x10]; // 0x50(0x10)
+	struct FString HUDMaterialName; // 0x40(0x10)
+	struct FString CoUIResourcesRoot; // 0x50(0x10)
 	bool TickWhileGameIsPaused; // 0x60(0x01)
 	bool bUseLowerCaseNamesForAutoExposedProperties; // 0x61(0x01)
 	enum class *55ff64bc4c MSAA; // 0x62(0x01)

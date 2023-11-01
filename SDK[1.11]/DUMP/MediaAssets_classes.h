@@ -3,33 +3,33 @@
 struct U*657ac4f625 : UObject {
 	char pad_28[0x88]; // 0x28(0x88)
 
-	void *e669850b8c(struct TArray<struct F*2f842ff0f7>* OutTexts); // Function MediaAssets.*657ac4f625.*e669850b8c // Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure|Const // @ game+0x6661a7c
+	void *e669850b8c(struct TArray<struct F*2f842ff0f7> OutTexts); // Function MediaAssets.*657ac4f625.*e669850b8c // Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure|Const // @ game+0x6661a7c
 	struct TArray<struct F*2f842ff0f7> *6d9791edae(); // Function MediaAssets.*657ac4f625.*6d9791edae // Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure|Const // @ game+0x6661960
-	void *a64686ba97(struct TArray<struct F*2f842ff0f7>* OutCaptions); // Function MediaAssets.*657ac4f625.*a64686ba97 // Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure|Const // @ game+0x66611a8
+	void *a64686ba97(struct TArray<struct F*2f842ff0f7> OutCaptions); // Function MediaAssets.*657ac4f625.*a64686ba97 // Final|Native|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintPure|Const // @ game+0x66611a8
 };
 
 // Class MediaAssets.MediaPlayer
 // Size: 0x160 (Inherited: 0x28)
 struct UMediaPlayer : UObject {
 	char pad_28[0x18]; // 0x28(0x18)
-	struct FMulticastDelegate OnEndReached[0x10]; // 0x40(0x10)
-	struct FMulticastDelegate OnMediaClosed[0x10]; // 0x50(0x10)
-	struct FMulticastDelegate OnMediaOpened[0x10]; // 0x60(0x10)
-	struct FMulticastDelegate OnMediaOpenFailed[0x10]; // 0x70(0x10)
-	struct FMulticastDelegate OnPlaybackResumed[0x10]; // 0x80(0x10)
-	struct FMulticastDelegate OnPlaybackSuspended[0x10]; // 0x90(0x10)
+	struct FMulticastDelegate OnEndReached; // 0x40(0x10)
+	struct FMulticastDelegate OnMediaClosed; // 0x50(0x10)
+	struct FMulticastDelegate OnMediaOpened; // 0x60(0x10)
+	struct FMulticastDelegate OnMediaOpenFailed; // 0x70(0x10)
+	struct FMulticastDelegate OnPlaybackResumed; // 0x80(0x10)
+	struct FMulticastDelegate OnPlaybackSuspended; // 0x90(0x10)
 	bool *183e237120; // 0xa0(0x01)
 	char pad_A1[0x3]; // 0xa1(0x03)
 	char Shuffle : 1; // 0xa4(0x01)
 	char Loop : 1; // 0xa4(0x01)
 	char pad_A4_2 : 6; // 0xa4(0x01)
 	char pad_A5[0x3]; // 0xa5(0x03)
-	struct U*657ac4f625* Overlays[0x08]; // 0xa8(0x08)
-	struct U*533c566bc8* PlayList[0x08]; // 0xb0(0x08)
-	int32 PlaylistIndex[0x04]; // 0xb8(0x04)
+	struct U*657ac4f625* Overlays; // 0xa8(0x08)
+	struct U*533c566bc8* PlayList; // 0xb0(0x08)
+	int32 PlaylistIndex; // 0xb8(0x04)
 	char pad_BC[0x4]; // 0xbc(0x04)
-	struct UMediaSoundWave* SoundWave[0x08]; // 0xc0(0x08)
-	struct UMediaTexture* VideoTexture[0x08]; // 0xc8(0x08)
+	struct UMediaSoundWave* SoundWave; // 0xc0(0x08)
+	struct UMediaTexture* VideoTexture; // 0xc8(0x08)
 	char pad_D0[0x90]; // 0xd0(0x90)
 
 	void *723396ae1f(); // Function MediaAssets.MediaPlayer.*723396ae1f // Final|Native|Public|BlueprintCallable // @ game+0x6662c60
@@ -44,10 +44,10 @@ struct UMediaPlayer : UObject {
 	void IsPlaying(); // Function MediaAssets.MediaPlayer.IsPlaying // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x66620c0
 	void Reopen(); // Function MediaAssets.MediaPlayer.Reopen // Final|Native|Public|BlueprintCallable // @ game+0x66627cc
 	bool *04dbc16dd2(); // Function MediaAssets.MediaPlayer.*04dbc16dd2 // Final|Native|Public|BlueprintCallable // @ game+0x6661328
-	void *a80e41f9f7(struct U*e5589784b8** MediaSource); // Function MediaAssets.MediaPlayer.*a80e41f9f7 // Final|Native|Public|BlueprintCallable // @ game+0x6660f38
+	void *a80e41f9f7(struct U*e5589784b8* MediaSource); // Function MediaAssets.MediaPlayer.*a80e41f9f7 // Final|Native|Public|BlueprintCallable // @ game+0x6660f38
 	bool *6822b393a3(); // Function MediaAssets.MediaPlayer.*6822b393a3 // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x6662eb8
 	void IsReady(); // Function MediaAssets.MediaPlayer.IsReady // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x6662160
-	void *85c391bf75(struct U*533c566bc8** InPlaylist); // Function MediaAssets.MediaPlayer.*85c391bf75 // Final|Native|Public|BlueprintCallable // @ game+0x66622ec
+	void *85c391bf75(struct U*533c566bc8* InPlaylist); // Function MediaAssets.MediaPlayer.*85c391bf75 // Final|Native|Public|BlueprintCallable // @ game+0x66622ec
 	void *78b9872e61(); // Function MediaAssets.MediaPlayer.*78b9872e61 // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x66612c0
 	int32 *dfabf72562(); // Function MediaAssets.MediaPlayer.*dfabf72562 // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x6661d18
 	bool *11606936ca(); // Function MediaAssets.MediaPlayer.*11606936ca // Final|Native|Public|BlueprintCallable // @ game+0x66617f0
@@ -80,16 +80,16 @@ struct UMediaPlayer : UObject {
 // Class MediaAssets.*533c566bc8
 // Size: 0x38 (Inherited: 0x28)
 struct U*533c566bc8 : UObject {
-	struct TArray<struct U*e5589784b8*> Items[0x10]; // 0x28(0x10)
+	struct TArray<struct U*e5589784b8*> Items; // 0x28(0x10)
 
-	void Get(int32* Index); // Function MediaAssets.*533c566bc8.Get // Final|Native|Public|BlueprintCallable // @ game+0x66610e0
+	void Get(int32 Index); // Function MediaAssets.*533c566bc8.Get // Final|Native|Public|BlueprintCallable // @ game+0x66610e0
 	void RemoveAt(); // Function MediaAssets.*533c566bc8.RemoveAt // Final|Native|Public|BlueprintCallable // @ game+0x6662704
 	struct U*e5589784b8* Insert(); // Function MediaAssets.*533c566bc8.Insert // Final|Native|Public|BlueprintCallable // @ game+0x6661f08
 	void GetNext(); // Function MediaAssets.*533c566bc8.GetNext // Final|Native|Public|HasOutParms|BlueprintCallable // @ game+0x666146c
 	void *64da510b05(); // Function MediaAssets.*533c566bc8.*64da510b05 // Final|Native|Public|HasOutParms|BlueprintCallable // @ game+0x6661700
 	void Num(); // Function MediaAssets.*533c566bc8.Num // Final|Native|Public|BlueprintCallable // @ game+0x666220c
 	void Add(); // Function MediaAssets.*533c566bc8.Add // Final|Native|Public|BlueprintCallable // @ game+0x6660e38
-	void *0d5419696a(int32* InOutIndex); // Function MediaAssets.*533c566bc8.*0d5419696a // Final|Native|Public|HasOutParms|BlueprintCallable // @ game+0x6661628
+	void *0d5419696a(int32 InOutIndex); // Function MediaAssets.*533c566bc8.*0d5419696a // Final|Native|Public|HasOutParms|BlueprintCallable // @ game+0x6661628
 	void Remove(); // Function MediaAssets.*533c566bc8.Remove // Final|Native|Public|BlueprintCallable // @ game+0x666266c
 };
 
@@ -97,9 +97,9 @@ struct U*533c566bc8 : UObject {
 // Size: 0x360 (Inherited: 0x288)
 struct UMediaSoundWave : USoundWave {
 	char pad_288[0x8]; // 0x288(0x08)
-	int32 AudioTrackIndex[0x04]; // 0x290(0x04)
+	int32 AudioTrackIndex; // 0x290(0x04)
 	char pad_294[0x4]; // 0x294(0x04)
-	struct UMediaPlayer* MediaPlayer[0x08]; // 0x298(0x08)
+	struct UMediaPlayer* MediaPlayer; // 0x298(0x08)
 	char pad_2A0[0xc0]; // 0x2a0(0xc0)
 };
 
@@ -112,13 +112,13 @@ struct U*e5589784b8 : UObject {
 // Class MediaAssets.*14c98f9f2c
 // Size: 0x38 (Inherited: 0x30)
 struct U*14c98f9f2c : U*e5589784b8 {
-	struct FName PlayerName[0x08]; // 0x30(0x08)
+	struct FName PlayerName; // 0x30(0x08)
 };
 
 // Class MediaAssets.FileMediaSource
 // Size: 0x50 (Inherited: 0x38)
 struct UFileMediaSource : U*14c98f9f2c {
-	struct FString FilePath[0x10]; // 0x38(0x10)
+	struct FString FilePath; // 0x38(0x10)
 	bool PrecacheFile; // 0x48(0x01)
 	char pad_49[0x7]; // 0x49(0x07)
 
@@ -128,13 +128,13 @@ struct UFileMediaSource : U*14c98f9f2c {
 // Class MediaAssets.StreamMediaSource
 // Size: 0x48 (Inherited: 0x38)
 struct UStreamMediaSource : U*14c98f9f2c {
-	struct FString StreamUrl[0x10]; // 0x38(0x10)
+	struct FString StreamUrl; // 0x38(0x10)
 };
 
 // Class MediaAssets.PlatformMediaSource
 // Size: 0x38 (Inherited: 0x30)
 struct UPlatformMediaSource : U*e5589784b8 {
-	struct U*e5589784b8* *e5589784b8[0x08]; // 0x30(0x08)
+	struct U*e5589784b8* *e5589784b8; // 0x30(0x08)
 };
 
 // Class MediaAssets.MediaTexture
@@ -144,11 +144,11 @@ struct UMediaTexture : UTexture {
 	enum class *8e17248832 AddressX; // 0x178(0x01)
 	enum class *8e17248832 AddressY; // 0x179(0x01)
 	char pad_17A[0x2]; // 0x17a(0x02)
-	struct FLinearColor ClearColor[0x10]; // 0x17c(0x10)
+	struct FLinearColor ClearColor; // 0x17c(0x10)
 	bool bDelayedInitialization; // 0x18c(0x01)
 	char pad_18D[0x3]; // 0x18d(0x03)
-	struct UMediaPlayer* MediaPlayer[0x08]; // 0x190(0x08)
-	int32 VideoTrackIndex[0x04]; // 0x198(0x04)
+	struct UMediaPlayer* MediaPlayer; // 0x190(0x08)
+	int32 VideoTrackIndex; // 0x198(0x04)
 	char pad_19C[0xb4]; // 0x19c(0xb4)
 
 	void *c0fd9307f1(); // Function MediaAssets.MediaTexture.*c0fd9307f1 // Final|Native|Public|BlueprintCallable|BlueprintPure|Const // @ game+0x6661e80

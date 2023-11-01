@@ -1,7 +1,7 @@
 // ScriptStruct Slate.*4396e9090b
 // Size: 0x20 (Inherited: 0x00)
 struct F*4396e9090b {
-	struct FKey Key[0x18]; // 0x00(0x18)
+	struct FKey Key; // 0x00(0x18)
 	char bShift : 1; // 0x18(0x01)
 	char bCtrl : 1; // 0x18(0x01)
 	char bAlt : 1; // 0x18(0x01)
@@ -13,7 +13,7 @@ struct F*4396e9090b {
 // ScriptStruct Slate.Anchors
 // Size: 0x10 (Inherited: 0x00)
 struct FAnchors {
-	struct FVector2D Minimum[0x08]; // 0x00(0x08)
-	struct FVector2D Maximum[0x08]; // 0x08(0x08)
+	struct FVector2D Minimum; // 0x00(0x08)
+	struct FVector2D Maximum; // 0x08(0x08)
 };
 

@@ -1,7 +1,7 @@
 // BlueprintGeneratedClass AudioTestActor.AudioTestActor_C
 // Size: 0x3f0 (Inherited: 0x3e8)
 struct AAudioTestActor_C : AActor {
-	struct USceneComponent* DefaultSceneRoot[0x08]; // 0x3e8(0x08)
+	struct USceneComponent* DefaultSceneRoot; // 0x3e8(0x08)
 
 	void PrintDistance(); // Function AudioTestActor.AudioTestActor_C.PrintDistance // Public|BlueprintCallable|BlueprintEvent // @ game+0x2cd4ac
 	void Destroy(); // Function AudioTestActor.AudioTestActor_C.Destroy // Public|BlueprintCallable|BlueprintEvent // @ game+0x2cd4ac

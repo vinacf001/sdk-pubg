@@ -33,6 +33,6 @@ struct U*4961d63031 : UInterface {
 // Class SlateCore.SlateWidgetStyleAsset
 // Size: 0x30 (Inherited: 0x28)
 struct USlateWidgetStyleAsset : UObject {
-	struct USlateWidgetStyleContainerBase* *ce1cabe9b2[0x08]; // 0x28(0x08)
+	struct USlateWidgetStyleContainerBase* *ce1cabe9b2; // 0x28(0x08)
 };
 

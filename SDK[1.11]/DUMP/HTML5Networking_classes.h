@@ -7,7 +7,7 @@ struct UWebSocketConnection : UNetConnection {
 // Class HTML5Networking.WebSocketNetDriver
 // Size: 0x4d0 (Inherited: 0x4c0)
 struct UWebSocketNetDriver : UNetDriver {
-	int32 WebSocketPort[0x04]; // 0x4c0(0x04)
+	int32 WebSocketPort; // 0x4c0(0x04)
 	char pad_4C4[0xc]; // 0x4c4(0x0c)
 };
 

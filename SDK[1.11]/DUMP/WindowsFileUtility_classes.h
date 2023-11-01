@@ -4,7 +4,7 @@ struct U*97d645f62c : UInterface {
 
 	struct TArray<struct FString> OnListDone(); // Function WindowsFileUtility.*97d645f62c.OnListDone // Native|Event|Public|HasOutParms|BlueprintEvent // @ game+0x672228c
 	struct FString OnListDirectoryFound(); // Function WindowsFileUtility.*97d645f62c.OnListDirectoryFound // Native|Event|Public|BlueprintEvent // @ game+0x6722144
-	void OnListFileFound(int32* ByteCount); // Function WindowsFileUtility.*97d645f62c.OnListFileFound // Native|Event|Public|BlueprintEvent // @ game+0x6722444
+	void OnListFileFound(int32 ByteCount); // Function WindowsFileUtility.*97d645f62c.OnListFileFound // Native|Event|Public|BlueprintEvent // @ game+0x6722444
 };
 
 // Class WindowsFileUtility.*da90a5f466
@@ -36,8 +36,8 @@ struct U*981a580844 : UBlueprintFunctionLibrary {
 	void *be4e70325d(); // Function WindowsFileUtility.*981a580844.*be4e70325d // Final|Native|Static|Public|BlueprintCallable // @ game+0x67226e4
 	void *30def009de(); // Function WindowsFileUtility.*981a580844.*30def009de // Final|Native|Static|Public|BlueprintCallable // @ game+0x6721bd0
 	struct FString *1157a53d99(); // Function WindowsFileUtility.*981a580844.*1157a53d99 // Final|Native|Static|Public|BlueprintCallable // @ game+0x6721ca0
-	void *9603cc7c6f(struct FString* FullPath); // Function WindowsFileUtility.*981a580844.*9603cc7c6f // Final|Native|Static|Public|BlueprintCallable // @ game+0x6721a2c
-	void *5b40aae030(struct FString* FullPath); // Function WindowsFileUtility.*981a580844.*5b40aae030 // Final|Native|Static|Public|BlueprintCallable // @ game+0x67225d8
+	void *9603cc7c6f(struct FString FullPath); // Function WindowsFileUtility.*981a580844.*9603cc7c6f // Final|Native|Static|Public|BlueprintCallable // @ game+0x6721a2c
+	void *5b40aae030(struct FString FullPath); // Function WindowsFileUtility.*981a580844.*5b40aae030 // Final|Native|Static|Public|BlueprintCallable // @ game+0x67225d8
 	struct FString *09bbf4195d(); // Function WindowsFileUtility.*981a580844.*09bbf4195d // Final|Native|Static|Public|BlueprintCallable // @ game+0x6721b00
 };
 
