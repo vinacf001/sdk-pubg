@@ -1,5 +1,6 @@
 ## Info
 Offsets - folder SDK_Dump-class
+
 SDK - folder SDK
 
 ## Support
