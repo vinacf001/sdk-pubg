@@ -1,3 +1,4 @@
+If you see bad offsets let me know : https://www.unknowncheats.me/forum/playerunknown-s-battlegrounds/214976-pubg-reversal-structs-offsets-815.html
 
  // Struct 
 uint32_t UStruct_SuperStruct = 0x30;
