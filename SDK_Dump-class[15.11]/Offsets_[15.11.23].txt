@@ -77,8 +77,8 @@ uint32_t HealthMax = 0x88c;
 uint32_t GroggyHealth = 0x1284;
 uint32_t GroggyHealthMax = 0x22ac;
 uint32_t LastTeamNum = 0xea0;
-uint32_t CharacterName = 
-uint32_t SpectatedCount = 
+uint32_t CharacterName = 0xeF8
+uint32_t SpectatedCount = 0x22a0
 uint32_t LastRenderTime = 0x738;
 uint32_t LastRenderTimeOnScreen = 0x740;
 
