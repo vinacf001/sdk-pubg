@@ -1,21 +1,9 @@
-
- // Struct 
-uint32_t UStruct_SuperStruct = 0x38;
-uint32_t UStruct_Children = 0x80;
-uint32_t UStruct_PropertiesSize = 0xf0;
-uint32_t UEnum_Names = 0x48;
-uint32_t UFunction_FunctionFlags = 0xe8;
-uint32_t UFunction_Func = 0x200;
-
  // Main
 uint64_t UWorld = 0x9af4b08;
 uint64_t Decrypt = 0x83da228;
 uint64_t GNames = 0x9ce9ba8;
 uint32_t ElementsPerChunk = 0x415c;
 uint64_t GObjects = 0x9ab3cc0;
-uint64_t Bucksack status = 0x9b08c40;
-uint64_t Bucksack status = 0x9d1f075;
-uint64_t Judgment Hall = 0x98f57b8;
 uint64_t LocalPlayersPTR = 0x9c37c60;
 uint64_t LineTraceSingle = 0x64df8ac;
 
@@ -89,8 +77,8 @@ uint32_t HealthMax = 0x88c;
 uint32_t GroggyHealth = 0x1284;
 uint32_t GroggyHealthMax = 0x22ac;
 uint32_t LastTeamNum = 0xea0;
-uint32_t CharacterName = 0x1c20;
-uint32_t SpectatedCount = 0x1400;
+uint32_t CharacterName = 
+uint32_t SpectatedCount = 
 uint32_t LastRenderTime = 0x738;
 uint32_t LastRenderTimeOnScreen = 0x740;
 
