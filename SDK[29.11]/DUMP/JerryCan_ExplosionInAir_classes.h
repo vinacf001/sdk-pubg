@@ -1,0 +1,7 @@
+// BlueprintGeneratedClass JerryCan_ExplosionInAir.JerryCan_ExplosionInAir_C
+// Size: 0x1100 (Inherited: 0x1100)
+struct AJerryCan_ExplosionInAir_C : ATslExplosionEffect {
+
+	bool UserConstructionScript(); // Function JerryCan_ExplosionInAir.JerryCan_ExplosionInAir_C.UserConstructionScript // Event|Public|BlueprintCallable|BlueprintEvent // @ game+0x1dcd78
+};
+
