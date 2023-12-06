@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass LootTruckItemSpawnProcessor_Savage_UniqueGunBag.LootTruckItemSpawnProcessor_Savage_UniqueGunBag_C
+// Size: 0x138 (Inherited: 0x138)
+struct ULootTruckItemSpawnProcessor_Savage_UniqueGunBag_C : U*8704212cff {
+	struct FString PresetSpawnTableKey; // 0x128(0x10)
+};
+

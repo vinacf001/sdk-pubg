@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass BP_TslBaseLobbySceneTravel_Teleport.BP_TslBaseLobbySceneTravel_Teleport_C
+// Size: 0x4a8 (Inherited: 0x4a0)
+struct ABP_TslBaseLobbySceneTravel_Teleport_C : ATslLobbySceneTravel_Teleport {
+	struct USceneComponent* DefaultSceneRoot; // 0x4a0(0x08)
+};
+
