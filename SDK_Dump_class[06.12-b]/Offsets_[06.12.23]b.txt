@@ -1,5 +1,4 @@
-
- // Main
+// Main
 uint64_t UWorld = 0x9bdb918;
 uint64_t Decrypt = 0x8460f28;
 uint64_t GNames = 0x9de7b78;
@@ -77,8 +76,8 @@ uint32_t Health = 0x9b8;
 uint32_t HealthMax = 0x9bc;
 uint32_t GroggyHealth = 0x3460;
 uint32_t GroggyHealthMax = 0x12b8;
-uint32_t LastTeamNum = 0x1b20; // idk
-uint32_t CharacterName = 0xfb0; // idk
+uint32_t LastTeamNum = 0x1b20; 
+uint32_t CharacterName = 0xdc0; 
 uint32_t SpectatedCount = 0x1310; // idk
 uint32_t LastRenderTime = 0x758;
 uint32_t LastRenderTimeOnScreen = 0x760;
