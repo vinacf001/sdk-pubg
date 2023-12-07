@@ -78,7 +78,7 @@ uint32_t GroggyHealth = 0x3460;
 uint32_t GroggyHealthMax = 0x12b8;
 uint32_t LastTeamNum = 0x1b20; 
 uint32_t CharacterName = 0xdc0; 
-uint32_t SpectatedCount = 0x1310; // idk
+uint32_t SpectatedCount = 0x1310;
 uint32_t LastRenderTime = 0x758;
 uint32_t LastRenderTimeOnScreen = 0x760;
 
@@ -86,7 +86,7 @@ uint32_t LastRenderTimeOnScreen = 0x760;
 uint32_t ItemID = 0x268;
 uint32_t ItemTable = 0xb0;
 uint32_t DroppedItem = 0x440;
-uint32_t DroppedItemGroup = 0x110; // idk
+uint32_t DroppedItemGroup = 0x390
 uint32_t DroppedItemGroup_UItem = 0x728;
 uint32_t ItemPackage_Items = 0x588;
 
