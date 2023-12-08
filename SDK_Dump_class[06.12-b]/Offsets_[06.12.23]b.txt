@@ -72,7 +72,7 @@ uint32_t CameraRot = 0x1664;
 uint32_t CameraPos = 0x1644;
 
  // Character
-uint32_t Health = 0x990
+uint32_t Health = 0x990; 
 uint32_t HealthMax = 0x9bc;
 uint32_t GroggyHealth = 0x3460;
 uint32_t GroggyHealthMax = 0x12b8;
@@ -86,7 +86,7 @@ uint32_t LastRenderTimeOnScreen = 0x760;
 uint32_t ItemID = 0x268;
 uint32_t ItemTable = 0xb0;
 uint32_t DroppedItem = 0x440;
-uint32_t DroppedItemGroup = 0x390
+uint32_t DroppedItemGroup = 0x390;
 uint32_t DroppedItemGroup_UItem = 0x728;
 uint32_t ItemPackage_Items = 0x588;
 
