@@ -87,7 +87,7 @@ uint32_t LastRenderTimeOnScreen = 0x750;
 uint32_t ItemID = 0x268;
 uint32_t ItemTable = 0xb0;
 uint32_t DroppedItem = 0x438;
-uint32_t DroppedItemGroup = 0x380; // or 0x388
+uint32_t DroppedItemGroup = 0x370; // fixed
 uint32_t DroppedItemGroup_UItem = 0x718;
 uint32_t ItemPackage_Items = 0x580;
 
