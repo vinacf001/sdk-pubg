@@ -1,0 +1,13 @@
+// Class ORCA.ORCAManager
+// Size: 0x460 (Inherited: 0x3e8)
+struct AORCAManager : AActor {
+	char pad_3E8[0x50]; // 0x3e8(0x50)
+	struct FString *d310644a75; // 0x438(0x10)
+	float NeighborDist; // 0x448(0x04)
+	int32 MaxNeighbors; // 0x44c(0x04)
+	float TimeHorizon; // 0x450(0x04)
+	float Radius; // 0x454(0x04)
+	float MaxSpeed; // 0x458(0x04)
+	char pad_45C[0x4]; // 0x45c(0x04)
+};
+
