@@ -79,7 +79,7 @@ uint32_t CameraRot = 0x16e8;
 uint32_t CameraPos = 0x1700;
 
  // Character
-uint32_t Health = 0x9b0;
+uint32_t Health = 0x980;
 uint32_t HealthMax = 0x9b4;
 uint32_t GroggyHealth = 0xf60;
 uint32_t GroggyHealthMax = 0x1314;
@@ -93,7 +93,7 @@ uint32_t LastRenderTimeOnScreen = 0x750;
 uint32_t ItemID = 0x268;
 uint32_t ItemTable = 0xb0;
 uint32_t DroppedItem = 0x430;
-uint32_t DroppedItemGroup = 0x3f0; // need check ida is to slow
+uint32_t DroppedItemGroup = 0x248;// or check 0x3f0
 uint32_t DroppedItemGroup_UItem = 0x718;
 uint32_t ItemPackage_Items = 0x578;
 
